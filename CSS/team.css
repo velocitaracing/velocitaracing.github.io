@@ -1,0 +1,69 @@
+#team{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+    top: 0;
+    background-image: url(../IMAGES/BACKGROUD/team.png);
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+}
+.team-heading{
+    font-size: 30px;
+    font-weight: 700;
+    margin: 100px 10px 10px 10px;
+    padding: 10px;
+    border-bottom: 1px solid pink;
+
+}
+
+.team-box{
+    display: flex;
+    margin-top: 50px;
+    padding: 10px;
+    flex-wrap: wrap; 
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+}
+
+.team-box .member-card{
+    height: 300px;
+    width: 200px;
+    margin: 20px 20px;
+    box-shadow: 0 4px 8px 0 rgba(0,0,0,0.2);
+    background-color: white;
+
+}
+
+.team-box .member-card .card-side1{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+    height: 50%;
+}
+
+.team-box .member-card .card-side1 img{
+    height: 100px;
+}
+
+.team-box .member-card .card-side2{
+    margin-top: 0px;
+    font-size: 13px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+}
+
+.team-box .member-card .card-side2 h5{
+    padding: 5px;
+}
+
+.team-box .member-card .card-side2 p{
+    padding: 5px;
+}

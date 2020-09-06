@@ -1,0 +1,24 @@
+#VRF2{
+    height: 620px;
+   
+    background-repeat: no-repeat;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+}
+
+#VRF2 p{
+
+    font-size: 40px;
+    line-height: 1.5em;
+}
+
+
+@media screen and (max-width:450px){
+    #VRF2 p{
+        display: none;
+    }
+    
+}
