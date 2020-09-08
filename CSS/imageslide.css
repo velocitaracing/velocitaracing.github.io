@@ -47,6 +47,13 @@
     animation-name: fade;
     animation-duration: 1.5s;
   }
+
+  .mySlides img{
+    height: 100px;
+  }
+
+
+
   
   @-webkit-keyframes fade {
     from {opacity: .4} 

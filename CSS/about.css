@@ -117,3 +117,12 @@
         
     }
 }
+
+
+@media screen and (max-width:450px){
+    .about-box2 .slideshow-container img{
+        height: 150px;
+       
+        
+    }
+}
