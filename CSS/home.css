@@ -12,6 +12,8 @@
 
 
 }
+
+/*
 #myVideo {
     position: absolute;
     right: 0;
@@ -52,7 +54,7 @@
 }
 
 */
-.home-box .box-2{
+/*.home-box .box-2{
     font-size: 35px;
     line-height: 2em;
   z-index: 3;
@@ -66,12 +68,18 @@
   text-align: center;
   color: black;
 }
-
+*/
 .head{
     height: 100vh;
 }
-
-
+.box-1{
+    left: 50px;
+    top: 100px;
+    position: absolute;
+    z-index: 10;
+    font-weight: 700;
+    
+}
 
 @media screen and (max-width: 550px){
     #home{
