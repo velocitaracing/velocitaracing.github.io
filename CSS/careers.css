@@ -42,10 +42,12 @@
     box-shadow: 0 4px 8px 0 rgba(0,0,0,0.2);
     overflow: hidden;
     background-color: white;
-    /*background-image: url(../IMAGES/doodle-background.png); 
-
-    background-size: cover;*/
+    background-image: url(../IMAGES/CAREERS/backgroundCareers.png); 
+    
+    background-size: cover;
 }
+
+   
 
 .dept-card .card-side1{
     display: flex;

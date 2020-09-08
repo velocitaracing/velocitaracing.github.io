@@ -48,7 +48,7 @@
 
 .sponsor-buttons button{
     margin: 0 10px;
-  
+    outline:none;
     font-size: 16px;
     border: none;
     border-radius: 10px;
@@ -59,6 +59,7 @@
 
 .sponsor-buttons button:hover{
     color: white;
+    
     background-color: rgb(3, 44, 46);
 }
 
