@@ -1,0 +1,271 @@
+#cars{
+   
+    background-repeat: no-repeat;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+}
+
+
+.cars-heading{
+    font-size: 35px;
+    padding: 10px;
+    margin-top: 100px;
+    border-bottom: 1px solid pink;
+}
+
+.cars-box{
+    margin: 60px 0;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 100%;
+    flex-wrap: wrap;
+}
+
+.cars-box .car{
+   
+    margin: 20px 0px 20px 0;
+    width: 45%;
+}
+.year{
+    text-align: center;
+}
+.car-info {
+    width: 280px;
+    background-color: rgb(243, 227, 10);
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.car-info p{
+
+}
+.side-1{
+    background-color: rgb(255, 255, 255);
+}
+
+.cars-box .car1{
+    text-align: left;
+    display: flex;
+    flex-direction: row;
+    align-content: center;
+    justify-content: space-evenly;
+    
+    
+}
+
+.cars-box .car2{
+    text-align: right;
+    display: flex;
+    flex-direction: row-reverse;
+    align-content: center;
+    justify-content: space-evenly;
+    
+
+}
+
+.cars-box .car3{
+    text-align: left;
+    display: flex;
+    flex-direction: row;
+    align-content: center;
+    justify-content: space-evenly;
+    
+}
+
+.cars-box .car4{
+    text-align: right;
+    display: flex;
+    flex-direction: row-reverse;
+    align-content: center;
+    justify-content: space-evenly;
+   
+}
+
+.car img{
+    height: 190px;
+    padding: 10px;
+}
+
+.car p{
+    padding: 5px;
+    font-weight: 600;
+}
+
+.car .car-info{
+    padding: 10px;
+    font-size: 14px;
+    line-height: 1.7em;
+    font-weight: 400;
+}
+
+.car .car-info p{
+    font-weight: 400;
+}
+
+.cars-box .car1{
+    display: flex;
+    flex-direction: row;
+
+}
+
+
+.car1 .side-1, .car3 .side-1{
+    z-index: 1;
+    transition: 0.5s ease-in-out 0s;
+    transform: translateX(50%);
+}
+
+.car1 .car-info,  .car3 .car-info{
+    transition: 0.5s ease-in-out 0s;
+    transform: translateX(-50%);
+    opacity: 0;
+}
+
+.car2 .side-1, .car4 .side-1{
+    z-index: 1;
+    transition: 0.5s ease-in-out 0s;
+    transform: translateX(-50%);
+}
+
+.car2 .car-info,  .car4 .car-info{
+    transition: 0.5s ease-in-out 0s;
+    transform: translateX(50%);
+    opacity: 0;
+}
+
+
+
+.car:hover .side-1 {
+    transform: translateX(0%);
+}
+
+.car:hover .car-info{
+    opacity: unset;
+    transform: translateX(0%);
+}
+@media screen and (max-width:1200px){
+    .cars-box .car{
+        display: flex;
+        flex-direction: row;
+        margin: 35px 0px;
+        width: 90%;
+    }
+
+    .cars-box .car1{
+        display: flex;
+        flex-direction: row;
+        align-content: center;
+        justify-content: space-evenly;
+      
+        
+        
+    }
+    
+    .cars-box .car2{
+        display: flex;
+        flex-direction: row-reverse;
+        align-content: center;
+        justify-content: space-evenly;
+        
+    
+    }
+    
+    .cars-box .car3{
+        display: flex;
+        flex-direction: row;
+        align-content: center;
+        justify-content: space-evenly;
+        
+    }
+    
+    .cars-box .car4{
+        display: flex;
+        flex-direction: row-reverse;
+        align-content: center;
+        justify-content: space-evenly;
+       
+    }
+
+    .car1 .side-1, .car3 .side-1{
+        z-index: 1;
+        transition: 0.5s ease-in-out 0s;
+        transform: translateX(0%);
+    }
+    
+    .car1 .car-info,  .car3 .car-info{
+       
+        transition: 0.5s ease-in-out 0s;
+        transform: translateX(0%);
+        opacity: unset;
+    }
+    .car2 .side-1, .car4 .side-1{
+        z-index: 1;
+        transition: 0.5s ease-in-out 0s;
+        transform: translateX(0%);
+    }
+    
+    .car2 .car-info,  .car4 .car-info{
+        transition: 0.5s ease-in-out 0s;
+        transform: translateX(0%);
+        opacity: unset;
+    }
+
+}
+
+@media screen and (max-width:768px){
+
+    .cars-box{
+        
+        margin: 60px 0;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
+        width: 90%;
+        flex-wrap: wrap;
+    }
+    .cars-box .car{
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
+        margin: 35px 0px;
+        width: 90%;
+    }
+    .car1 .side-1, .car3 .side-1{
+        z-index: 1;
+        transition: 0.5s ease-in-out 0s;
+        transform: translateX(0%);
+    }
+    
+    .car1 .car-info,  .car3 .car-info{
+        text-align: center;
+        transition: 0.5s ease-in-out 0s;
+        transform: translateX(0%);
+        opacity: unset;
+    }
+    .car2 .side-1, .car4 .side-1{
+        z-index: 1;
+        transition: 0.5s ease-in-out 0s;
+        transform: translateX(0%);
+    }
+    
+    .car2 .car-info,  .car4 .car-info{
+        text-align: center;
+        transition: 0.5s ease-in-out 0s;
+        transform: translateX(0%);
+        opacity: unset;
+    }
+
+    .car-info{
+        width: 90%;
+        margin: 5px 0;
+        padding: 10px 5px;
+    }
+    
+}
