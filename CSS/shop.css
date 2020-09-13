@@ -1,0 +1,368 @@
+#shop{
+    margin: 50px 0;
+    height: 100vh;
+    background-image: url(../IMAGES/HOME/Shop\ v6.png);
+    background-size: cover;
+    width: 100%;
+ 
+    background-repeat: no-repeat;
+}
+
+
+
+
+
+#shop button:hover {
+    animation: border-flicker 2s linear forwards;
+  }
+  
+  #shop button {
+    margin-top: 72vh;
+    margin-left: 65%;
+  top: 50%;
+  left: 50%;
+  text-align: center;
+  border-radius: 8px;
+  border: 3px solid rgb(0, 40, 70);
+  cursor: pointer;
+  outline:none;
+   
+    font-weight: 300;
+    font-size: 20px;
+    background-color: black;
+    padding: 15px 20px;
+    color: rgba(120, 0, 50, .5);
+  }
+  
+  #shop button:hover h1 {
+    animation: text-flicker 2s linear forwards;
+  }
+  
+  #shop button:hover .first {
+    animation: letter-flicker 3s linear infinite;
+  }
+  
+  @keyframes text-flicker {
+    2% { 
+      color: rgb(230, 0, 120);
+      text-shadow: 0 0 15px rgb(230, 0, 120);
+    }
+    3% {
+      color: rgba(120, 0, 50, .5);
+      text-shadow: none;
+    }
+    6% {
+      color: rgb(230, 0, 120);
+      text-shadow: 0 0 15px rgb(230, 0, 120);
+    }
+    9% {
+      color: rgba(120, 0, 50, .5);
+      text-shadow: none;
+    }
+    11% {
+      color: rgb(230, 0, 120);
+      text-shadow: 0 0 15px rgb(230, 0, 120);
+    }
+    14% {
+      color: rgba(120, 0, 50, .5);
+      text-shadow: none;
+    }
+    18% {
+      color: rgb(230, 0, 120);
+      text-shadow: 0 0 15px rgb(230, 0, 120);
+    }
+    32% {
+      color: rgb(230, 0, 120);
+      text-shadow: 0 0 15px rgb(230, 0, 120);
+    }
+    33% {
+      color: rgba(120, 0, 50, .5);
+      text-shadow: none;
+    }
+    37% {
+      color: rgb(230, 0, 120);
+      text-shadow: 0 0 15px rgb(230, 0, 120);
+    }
+    39% {
+      color: rgba(120, 0, 50, .5);
+      text-shadow: none;
+    }
+    43% {
+      color: rgb(230, 0, 120);
+      text-shadow: 0 0 15px rgb(230, 0, 120);
+    }
+    46% {
+      color: rgba(120, 0, 50, .5);
+      text-shadow: none;
+    }
+    47% {
+      color: rgb(230, 0, 120);
+      text-shadow: 0 0 15px rgb(230, 0, 120);
+    }
+    100% {
+      color: rgb(230, 0, 120);
+      text-shadow: 0 0 15px rgb(230, 0, 120);
+    }
+  }
+  
+  @keyframes letter-flicker {
+      2% { 
+      color: rgb(230, 0, 120);
+      text-shadow: 0 0 15px rgb(230, 0, 120);
+    }
+    3% {
+      color: rgba(120, 0, 50, .5);
+      text-shadow: none;
+    }
+    6% {
+      color: rgb(230, 0, 120);
+      text-shadow: 0 0 15px rgb(230, 0, 120);
+    }
+    9% {
+      color: rgba(120, 0, 50, .5);
+      text-shadow: none;
+    }
+    11% {
+      color: rgb(230, 0, 120);
+      text-shadow: 0 0 15px rgb(230, 0, 120);
+    }
+    14% {
+      color: rgba(120, 0, 50, .5);
+      text-shadow: none;
+    }
+    18% {
+      color: rgb(230, 0, 120);
+      text-shadow: 0 0 15px rgb(230, 0, 120);
+    }
+    32% {
+      color: rgb(230, 0, 120);
+      text-shadow: 0 0 15px rgb(230, 0, 120);
+    }
+    33% {
+      color: rgba(120, 0, 50, .5);
+      text-shadow: none;
+    }
+    37% {
+      color: rgb(230, 0, 120);
+      text-shadow: 0 0 15px rgb(230, 0, 120);
+    }
+    39% {
+      color: rgba(120, 0, 50, .5);
+      text-shadow: none;
+    }
+    40% {
+      color: rgb(230, 0, 120);
+      text-shadow: 0 0 15px rgb(230, 0, 120);
+    }
+    100% {
+      color: rgb(230, 0, 120);
+      text-shadow: 0 0 15px rgb(230, 0, 120);
+    }
+  }
+  
+  @keyframes border-flicker {
+    2% {
+      border: 3px solid rgb(0, 180, 230);
+      box-shadow: 0 0 15px -1px rgb(0, 180, 230), 
+      0 0 12px -1px rgb(0, 180, 230) inset;
+    }
+    3% {
+      border: 3px solid rgb(0, 40, 70);
+      box-shadow: none;
+    }
+    5% {
+      border: 3px solid rgb(0, 180, 230);
+      box-shadow: 0 0 15px -1px rgb(0, 180, 230), 
+      0 0 12px -1px rgb(0, 180, 230) inset;
+    }
+    6% {
+      border: 3px solid rgb(0, 40, 70);
+      box-shadow: none;
+    }
+    7% {
+      border: 3px solid rgb(0, 180, 230);
+      box-shadow: 0 0 15px -1px rgb(0, 180, 230), 
+      0 0 12px -1px rgb(0, 180, 230) inset;
+    }
+    9% {
+      border: 3px solid rgb(0, 40, 70);
+      box-shadow: none;
+    }
+    13% {
+      border: 3px solid rgb(0, 180, 230);
+      box-shadow: 0 0 15px -1px rgb(0, 180, 230), 
+      0 0 12px -1px rgb(0, 180, 230) inset;
+    }
+    16% {
+      border: 3px solid rgb(0, 40, 70);
+      box-shadow: none;
+    }
+    18% {
+      border: 3px solid rgb(0, 180, 230);
+      box-shadow: 0 0 15px -1px rgb(0, 180, 230), 
+      0 0 12px -1px rgb(0, 180, 230) inset;
+    }
+    22% {
+      border: 3px solid rgb(0, 40, 70);
+      box-shadow: none;
+    }
+    34% {
+      border: 3px solid rgb(0, 180, 230);
+      box-shadow: 0 0 15px -1px rgb(0, 180, 230), 
+      0 0 12px -1px rgb(0, 180, 230) inset;
+    }
+    36% {
+      border: 3px solid rgb(0, 40, 70);
+      box-shadow: none;
+    }
+    54% {
+      border: 3px solid rgb(0, 180, 230);
+      box-shadow: 0 0 15px -1px rgb(0, 180, 230), 
+      0 0 12px -1px rgb(0, 180, 230) inset;
+    }
+    100% {
+      border: 3px solid rgb(0, 180, 230);
+      box-shadow: 0 0 15px -1px rgb(0, 180, 230), 
+      0 0 12px -1px rgb(0, 180, 230) inset;
+    }
+  }
+
+
+
+
+
+  @import url('https://fonts.googleapis.com/css2?family=Raleway:wght@400;700&display=swap');
+ 
+
+.neon {
+    position: absolute;
+    margin-top: 60vh;
+    margin-left: 150px;
+}
+
+  #btn{
+      width: 240px;
+    background: #000000;
+    font-family: 'Raleway', sans-serif;
+    font-weight: bold;
+ 
+      display: inline-block;
+      padding: 25px 30px;
+     
+      color: #efefef;
+      text-decoration: none;
+      text-transform: uppercase;
+      transition: 0.5s;
+      letter-spacing: 4px;
+      overflow: hidden;
+ 
+
+  }
+  #btn:hover{
+      background: #efefef;
+      color: #050801;
+      box-shadow: 0 0 5px #efefef,
+                  0 0 25px #efefef,
+                  0 0 50px #efefef,
+                  0 0 200px #efefef;
+       -webkit-box-reflect:below 1px linear-gradient(transparent, #0005);
+  }
+  #btn:nth-child(1){
+      filter: hue-rotate(270deg);
+  }
+  #btn:nth-child(2){
+      filter: hue-rotate(110deg);
+  }
+  #btn span{
+      position: absolute;
+      display: block;
+  }
+  #btn span:nth-child(1){
+      top: 0;
+      left: 0;
+      width: 100%;
+      height: 2px;
+      background: linear-gradient(90deg,transparent,#efefef);
+      animation: animate1 1s linear infinite;
+  }
+  @keyframes animate1{
+      0%{
+          left: -100%;
+      }
+      50%,100%{
+          left: 100%;
+      }
+  }
+  #btn span:nth-child(2){
+      top: -100%;
+      right: 0;
+      width: 2px;
+      height: 100%;
+      background: linear-gradient(180deg,transparent,#efefef);
+      animation: animate2 1s linear infinite;
+      animation-delay: 0.25s;
+  }
+  @keyframes animate2{
+      0%{
+          top: -100%;
+      }
+      50%,100%{
+          top: 100%;
+      }
+  }
+  #btn span:nth-child(3){
+      bottom: 0;
+      right: 0;
+      width: 100%;
+      height: 2px;
+      background: linear-gradient(270deg,transparent,#efefef);
+      animation: animate3 1s linear infinite;
+      animation-delay: 0.50s;
+  }
+  @keyframes animate3{
+      0%{
+          right: -100%;
+      }
+      50%,100%{
+          right: 100%;
+      }
+  }
+  
+  
+  #btn span:nth-child(4){
+      bottom: -100%;
+      left: 0;
+      width: 2px;
+      height: 100%;
+      background: linear-gradient(360deg,transparent,#efefef);
+      animation: animate4 1s linear infinite;
+      animation-delay: 0.75s;
+  }
+  @keyframes animate4{
+      0%{
+          bottom: -100%;
+      }
+      50%,100%{
+          bottom: 100%;
+      }
+  }
+
+
+
+
+
+
+
+  
+
+
+
+
+@media screen and (max-width:450px){
+    #shop{
+        background-image: url(../IMAGES/HOME/Shop\ Mob.png);
+        background-repeat: no-repeat;
+        background-size: cover;
+
+    }
+}

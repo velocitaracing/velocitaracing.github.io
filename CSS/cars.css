@@ -34,6 +34,8 @@
     text-align: center;
 }
 .car-info {
+    box-shadow: 0 10px 20px 0 rgba(0,0,0,0.3);
+
     width: 280px;
     background-color: rgb(243, 227, 10);
     display: flex;
@@ -42,8 +44,8 @@
 }
 
 .car-info p{
-
 }
+
 .side-1{
     background-color: rgb(255, 255, 255);
 }
@@ -87,6 +89,7 @@
 }
 
 .car img{
+    box-shadow: 0 10px 20px 0 rgba(0,0,0,0.6);
     height: 190px;
     padding: 10px;
 }
@@ -219,6 +222,13 @@
 
 @media screen and (max-width:768px){
 
+    .cars-heading{
+        font-size: 25px;
+        padding: 10px;
+        font-weight: 600;
+        margin-top: 100px;
+        border-bottom: 1px solid pink;
+    }
     .cars-box{
         
         margin: 60px 0;
@@ -236,6 +246,11 @@
         justify-content: center;
         margin: 35px 0px;
         width: 90%;
+    }
+
+    .cars-box p{
+  
+        padding: 10px;
     }
     .car1 .side-1, .car3 .side-1{
         z-index: 1;

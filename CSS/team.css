@@ -39,7 +39,8 @@
     margin: 20px 20px;
     box-shadow: 0 4px 8px 0 rgba(0,0,0,0.2);
     background-color: white;
-   /* background-image: url(../IMAGES/TEAM/backgroundTeam.png);*/
+    background-image: url(../IMAGES/HOME/Gears.svg);
+    background-repeat: no-repeat;
     transition: 0.3s ease-in-out 0s;
 
 }
