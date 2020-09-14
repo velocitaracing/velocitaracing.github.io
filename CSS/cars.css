@@ -35,9 +35,9 @@
 }
 .car-info {
     box-shadow: 0 10px 20px 0 rgba(0,0,0,0.3);
-
+    color: white;
     width: 280px;
-    background-color: rgb(243, 227, 10);
+    background-color: rgb(9, 134, 206);
     display: flex;
     align-items: center;
     justify-content: center;
