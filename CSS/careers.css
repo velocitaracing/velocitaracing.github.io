@@ -71,7 +71,7 @@
 
 
 .dept-card .card-side2{
-    padding: 15px 5px;
+    padding: 10px 10px;
     height: 0%;
     text-align: center;
     transition: 0.5s ease-in-out 0s;
@@ -85,6 +85,20 @@
     height: 40%;
 }
 
+
+.dept-card .card-side2 p{
+    font-weight: 600;
+    padding: 5px;
+    font-size: 14px;
+   
+  
+
+}
+
+
+.paragraph{
+    font-size: 12px;
+}
 
 
 
@@ -122,6 +136,18 @@
     .dept-card:hover .card-side1{
         height: 40%;
     }
+
+    .dept-card .card-side2 p{
+        font-size: 12px;
+        padding: 5px;
+      
+    
+    }
+    
+    
+    .paragraph{
+        font-size: 10px;
+    }
 }
 
 @media screen and (max-width:370px){
@@ -156,6 +182,19 @@
     .dept-card .card-side2{
         font-size: 13px;
     }
+    .dept-card .card-side2 p{
+        padding: 0px;
+        font-size: 12px;
+       
+      
+    
+    }
+    
+    
+    .paragraph{
+        font-size: 10px;
+    }
+    
     
     
 }
@@ -187,6 +226,19 @@
 
     .dept-card .card-side2{
         font-size: 13px;
+    }
+     .dept-card .card-side2 p{
+        font-size: 14px;
+        padding: 10px;
+       
+      
+    
+    }
+    
+    
+    .paragraph{
+        font-size: 12px;
+        padding: 10px;
     }
     
 }

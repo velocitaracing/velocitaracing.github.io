@@ -429,7 +429,7 @@ margin: 0 auto;
        /* background-image: url(../IMAGES/HOME/Shop\ Mob.png);
         background-repeat: no-repeat;
         background-size: cover;
-*/  height: 720px;
+*/  height: 100vh;
     }
 
     .shop-content{
