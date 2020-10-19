@@ -30,7 +30,10 @@
     <link rel="stylesheet" href="CSS/cars.css">
 </head>
 <body>
-    
+
+    <div id="preloader">
+        <div id="status">&nbsp;</div>
+    </div>
     
     <div class="navbar">
         <div class="logo"><a class="logo-txt" href="#home"><img class="black-logo-VR" src="IMAGES/HOME/VL logo.png" alt="logo"><img class="white-logo-VR" src="IMAGES/HOME/VL white.png" alt="white"><p>VELOCITA RACING</p></a></div>
@@ -185,7 +188,7 @@
 
                 <div class="car car4">
                     <div class="side-1">
-                        <img src="IMAGES/CARS/VRF-2.JPG" alt="VRF-2">
+                        <img src="IMAGES/CARS/VRF-2.png" alt="VRF-2">
                         <p class="year">VRF2 - 2020</p>
                     </div>
                     <div class="car-info">
@@ -227,22 +230,26 @@
                     </div>
                 </div>
 
+
+                
                 <div class="member-card">
                     <div class="card-side1">
-                        <img src="IMAGES/TEAM/hemanth.png" alt="hemanth">
+                        <img src="IMAGES/TEAM/niranjan.png" alt="niranjan">
                         
                     </div>
                     <div class="card-side2">
-                        <h3>Hemanth Shetty</h3>
-                        <h5>Fabricating Engineer</h5>
-                        <p>Making engineering awesome!</p> 
+                        <h3>Niranjan Bharadwaj</h3>
+                        <h5>Vice Captain</h5>
+                        <p>It all began with a thought.</p> 
                         <div class="team-social">
-                            <a href="https://www.instagram.com/psychshetty/" target="_blank"><img src="IMAGES/SOCIAL/ig.png" alt="ig"></a>
-                            <a href="https://www.linkedin.com/in/hemanthmshetty439" target="_blank"><img src="IMAGES/SOCIAL/li.png" alt="li"></a>
+                            <a href="https://www.instagram.com/olle_huduga_niranjan/" target="_blank"><img src="IMAGES/SOCIAL/ig.png" alt="ig"></a>
+                            <a href="https://www.linkedin.com/in/niranjan-bharadwaj-2339021a5/?originalSubdomain=in" target="_blank"><img src="IMAGES/SOCIAL/li.png" alt="li"></a>
                         </div>   
                     </div>
                 </div>
 
+
+                
                 <div class="member-card">
                     <div class="card-side1">
                         <img src="IMAGES/TEAM/bharat.png" alt="bharat">
@@ -260,22 +267,24 @@
                     
                 </div>
 
-               
+
                 <div class="member-card">
                     <div class="card-side1">
-                        <img src="IMAGES/TEAM/niranjan.png" alt="niranjan">
+                        <img src="IMAGES/TEAM/hemanth.png" alt="hemanth">
                         
                     </div>
                     <div class="card-side2">
-                        <h3>Niranjan Bharadwaj</h3>
-                        <h5>Vice Captain</h5>
-                        <p>It all began with a thought.</p> 
+                        <h3>Hemanth Shetty</h3>
+                        <h5>Fabricating Engineer</h5>
+                        <p>Making engineering awesome!</p> 
                         <div class="team-social">
-                            <a href="https://www.instagram.com/olle_huduga_niranjan/" target="_blank"><img src="IMAGES/SOCIAL/ig.png" alt="ig"></a>
-                            <a href="https://www.linkedin.com/in/niranjan-bharadwaj-2339021a5/?originalSubdomain=in" target="_blank"><img src="IMAGES/SOCIAL/li.png" alt="li"></a>
+                            <a href="https://www.instagram.com/psychshetty/" target="_blank"><img src="IMAGES/SOCIAL/ig.png" alt="ig"></a>
+                            <a href="https://www.linkedin.com/in/hemanthmshetty439" target="_blank"><img src="IMAGES/SOCIAL/li.png" alt="li"></a>
                         </div>   
                     </div>
                 </div>
+
+               
 
                 
 
@@ -582,7 +591,15 @@
 
 
 
-
+    <script type="text/javascript">
+        //<![CDATA[
+            $(window).on('load', function() { // makes sure the whole site is loaded 
+                $('#status').fadeOut(); // will first fade out the loading animation 
+                $('#preloader').delay().fadeOut('slow'); // will fade out the white DIV that covers the website. 
+                $('body').delay(400).css({'overflow':'visible'});
+              })
+        //]]>
+    </script>
 
     <script src="JS/refresh.js"></script>
     <script src="JS/mobnav.js"></script>
@@ -591,5 +608,4 @@
     <script src="JS/navcolorchange.js"></script>
     <script src="JS/logo.js"></script>
 </body>
-
 </html>

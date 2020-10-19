@@ -106,7 +106,7 @@
 
 @media screen and (max-width:450px){
     #team{
-        background-image: url(../IMAGES/BACKGROUD/track.png);
+    background-image: unset;
     background-repeat: no-repeat;
     background-attachment: fixed;
     background-position-y: center;
