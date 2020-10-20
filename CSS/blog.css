@@ -1,0 +1,23 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+#blog{
+    height: 100vh;
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    /* background-image: url(../IMAGES/2472848.svg); 
+    background-repeat: no-repeat;
+    background-size: cover; */
+}
+
+p{
+    text-align: center;
+    font-size: 40px;
+    width: 60%;
+}
