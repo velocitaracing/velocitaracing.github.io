@@ -21,6 +21,20 @@
     line-height: 1.5em;
 }
 
+.career-button{
+    margin: 0 10px;
+    padding: 10px 20px;
+    outline:none;
+    font-size: 16px;
+    border: none;
+    border-radius: 25px;
+    border: 1px solid rgb(26, 26, 26);
+   
+    background-color: rgb(196, 196, 196);
+    cursor: pointer;
+    transition: .3s ease-in-out 0s;
+}
+
 .dept-box{
     margin: 10px;
     flex-wrap: wrap;

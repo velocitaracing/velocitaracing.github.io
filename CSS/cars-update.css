@@ -9,7 +9,9 @@
     height: 350px;
 }
 
-
+#extra{
+    text-align: left;
+}
 
 .car-one .car-info{
     display: flex;
