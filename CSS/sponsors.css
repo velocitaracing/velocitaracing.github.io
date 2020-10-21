@@ -59,11 +59,11 @@
     transition: .3s ease-in-out 0s;
 }
 
-.sponsor-buttons button:hover{
+/* .sponsor-buttons button:hover{
     color: white;
     
     background-color: rgb(68, 68, 68);
-}
+} */
 
 .sponsor-buttons .btn1{
     padding: 15px 10px;

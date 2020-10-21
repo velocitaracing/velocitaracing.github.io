@@ -21,8 +21,16 @@
     line-height: 1.5em;
 }
 
+.recruit{
+    display: flex;
+    width: 100%;
+    align-items: center;
+    justify-content: center;
+    flex-wrap: wrap;
+}
+
 .career-button{
-    margin: 0 10px;
+    margin: 10px 10px;
     padding: 10px 20px;
     outline:none;
     font-size: 16px;

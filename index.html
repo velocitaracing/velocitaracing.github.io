@@ -29,6 +29,7 @@
     <link rel="stylesheet" href="CSS/imageslide.css">
     <link rel="stylesheet" href="CSS/cars.css">
     <link rel="stylesheet" href="CSS/cars-update.css">
+    <link rel="stylesheet" href="CSS/modal.css">
 </head>
 <body>
 
@@ -477,7 +478,13 @@
             </div>   
             <div class="careers-content">
                 <p class="intro">Velocita Racing provides a wide range of expericene and opportunity to express your skills and talent. We cover both technical and non technical aspects of Learning. Stay tuned for our recruitment drive.<br>We got something for everyone, happy racing!<br><br></p>    
-                <button class="career-button">Apply Now</button>
+                    
+                    <div class="recruit">
+                        <p>We will be recruiting soon, stay tuned !</p>
+                        <button class="career-button modal-btn-one">Apply Now</button>
+                        <button class="career-button modal-btn-two">FAQs</button>
+                    </div>
+
                 <div class="dept-box">
                     <div class="dept-card">
                         <div class="card-side1">
@@ -700,8 +707,8 @@
                 Velocita Racing will be greatful for your support!</p>
             </div>
             <div class="sponsor-buttons">
-                <button class="btn1">Become a sponsor</button>
-                <button class="btn2">FAQs</button>
+                <button class="btn1 modal-btn-three">Become a sponsor</button>
+                <button class="btn2 modal-btn-four">FAQs</button>
             </div>
         </section>
 
@@ -772,6 +779,30 @@
 
 
 
+
+
+
+    
+    <div class="modal-bg modal-bg-one">
+        <div class="modal modal-one">
+            <h3>We haven't started recruiting yet, we'll start soon!</h3>
+            <span class="modal-close modal-close-one">x</span>
+        </div>
+    </div>
+
+    <div class="modal-bg modal-bg-two">
+        <div class="modal modal-two">
+            <h3>We are trying to fix this as soon as possible.</h3>
+            <span class="modal-close modal-close-two">x</span>
+        </div>
+    </div>
+
+
+
+
+
+
+
     <script type="text/javascript">
         //<![CDATA[
             $(window).on('load', function() { // makes sure the whole site is loaded 
@@ -790,5 +821,6 @@
     <script src="JS/logo.js"></script>
     <script src="JS/scrollslide.js"></script>
     <script src="JS/cars.js"></script>
+    <script src="JS/modal.js"></script>
 </body>
 </html>
