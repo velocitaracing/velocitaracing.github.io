@@ -1,5 +1,5 @@
 #cars{
-   
+    min-height: 100vh;
     background-repeat: no-repeat;
     display: flex;
     flex-direction: column;
@@ -10,7 +10,8 @@
 
 
 .cars-heading{
-    font-size: 35px;
+    font-size: 30px;
+    font-weight: 700;
     padding: 10px;
     margin-top: 100px;
     border-bottom: 1px solid pink;
@@ -24,7 +25,7 @@
     width: 100%;
     flex-wrap: wrap;
 }
-
+/* 
 .cars-box .car{
    
     margin: 20px 0px 20px 0;
@@ -283,4 +284,4 @@
         padding: 10px 5px;
     }
     
-}
+} */

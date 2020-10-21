@@ -37,3 +37,27 @@ body{
     background-position:center;
     margin:-100px 0 0 -100px;
 }
+
+
+
+
+
+
+@keyframes fade-in-left {
+    0%      { transform: translate(-25%,0); opacity:0; }
+    100%    { transform: translate(0,0);   opacity:1; }
+  }
+  .transitionSlideIn {
+    opacity: 1;
+    animation: fade-in-left 1s 1;
+  }
+
+
+  @keyframes fade-in-right {
+    0%      { transform: translate(25%,0); opacity:0; }
+    100%    { transform: translate(0,0);   opacity:1; }
+  }
+  .transitionSlideInright {
+    opacity: 1;
+    animation: fade-in-right 1s 1;
+  }

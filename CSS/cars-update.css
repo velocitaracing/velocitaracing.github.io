@@ -1,0 +1,341 @@
+.car-one .car-image{
+    width: 70%;
+    display: flex;
+    align-items: center;
+    justify-content: flex-start;
+}
+
+.car-one .car-image img{
+    height: 350px;
+}
+
+
+
+.car-one .car-info{
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    justify-items: center;
+    width: 30%;
+}
+
+.car-one .car-name{
+    font-size: 25px;
+    padding: 20px;
+}
+
+.car-one .car-info .info {
+    display: flex;
+    align-items: center;
+    justify-self: center;
+    padding: 10px 0;
+}
+
+.car-one .car-info .info p{
+    font-size: 16px;
+}
+
+.car-one .car-info .info img{
+    height: 40px;
+    padding: 0 15px;
+}
+
+.car-one{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    /* transition: .5s ease-in-out 0s; */
+}
+
+
+
+
+.car-two .car-image{
+    width: 70%;
+    display: flex;
+    align-items: center;
+    justify-content: flex-end;
+}
+
+.car-two .car-image img{
+    height: 300px;
+}
+
+
+
+.car-two .car-info{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-items: center;
+    width: 30%;
+}
+
+.car-two .car-name{
+    font-size: 25px;
+    padding: 20px;
+}
+
+.car-two .car-info .info {
+    display: flex;
+    align-items: center;
+    justify-self: center;
+    padding: 10px 0;
+}
+
+.car-two .car-info .info p{
+    font-size: 16px;
+}
+
+.car-two .car-info .info img{
+    height: 40px;
+    padding: 0 15px;
+}
+
+.car-two{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    /* transition: .5s ease-in-out 0s; */
+}
+
+
+
+
+
+
+
+
+/* ///////////////////////////////////////////////////////// */
+
+
+/* Slideshow container */
+.slideshow-container-new {
+    height: 450px;
+    position: relative;
+    background: #fff;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 95%;
+  }
+  
+  /* Slides */
+  .mySlides-new {
+    width: 90%;
+    display: none;
+    padding: 80px;
+    text-align: center;
+  }
+  
+  /* Next & previous buttons */
+  .prev-new, .next-new {
+    cursor: pointer;
+    position: absolute;
+    top: 50%;
+    width: auto;
+    margin-top: -30px;
+    padding: 16px;
+    color: #888;
+    font-weight: bold;
+    font-size: 20px;
+    border-radius: 0 3px 3px 0;
+    user-select: none;
+  }
+  
+  /* Position the "next button" to the right */
+  .next-new {
+    position: absolute;
+    right: 0;
+    border-radius: 3px 0 0 3px;
+  }
+
+  .prev-new {
+    position: absolute;
+    left: 0;
+    border-radius: 3px 0 0 3px;
+  }
+  
+  /* On hover, add a black background color with a little bit see-through */
+  .prev-new:hover, .next-new:hover {
+    background-color: rgba(0,0,0,0.8);
+    color: white;
+  }
+  
+  /* The dot/bullet/indicator container */
+  .dot-container-new {
+    text-align: center;
+    padding: 20px;
+    background: #fff;
+  }
+  
+  /* The dots/bullets/indicators */
+  .dot-new {
+    cursor: pointer;
+    height: 15px;
+    width: 15px;
+    margin: 0 2px;
+    background-color: #bbb;
+    border-radius: 50%;
+    display: inline-block;
+    transition: background-color 0.6s ease;
+  }
+  
+  /* Add a background color to the active dot/circle */
+  .active-new, .dot-new:hover {
+    background-color: #717171;
+  }
+  
+  /* Add an italic font style to all quotes */
+  q {font-style: italic;}
+  
+  /* Add a blue color to the author */
+  .author-new {color: cornflowerblue;}
+
+
+
+@media screen and (max-width:768px){
+
+    .slideshow-container-new{
+        height: unset;
+        width: 100%;
+    }
+
+    .mySlides-new{
+        width: 100%;
+        margin-top: 50px;
+        padding: 10px;
+    }
+
+    .car-one .car-image{
+        width: 95%;
+        display: flex;
+        align-items: center;
+        justify-content: center
+    }
+    
+    .car-one .car-image img{
+        height: 200px;
+    }
+    
+    
+    
+    .car-one .car-info{
+        display: flex;
+        flex-direction: column;
+        /* flex-wrap: wrap; */
+        align-items: center;
+        justify-items: center;
+        width: 90%;
+    }
+    
+    .car-one .wrapper{
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        flex-wrap: wrap;
+    }
+    .car-one .car-name{
+        font-size: 25px;
+        padding: 20px;
+    }
+    
+    .car-one .car-info .info {
+        display: flex;
+        align-items: center;
+        justify-content: flex-start;
+        padding: 10px 0;
+        width: 50%;
+    }
+    
+    .car-one .car-info .info p{
+        font-size: 16px;
+    }
+    
+    .car-one .car-info .info img{
+        height: 30px;
+        padding: 0 15px;
+    }
+    
+    .car-one{
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
+        /* transition: .5s ease-in-out 0s; */
+    }
+
+
+
+
+
+
+
+
+
+    .car-two .car-image{
+        width: 95%;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+    }
+    
+    .car-two .car-image img{
+        height: 150px;
+    }
+    
+    
+    
+    .car-two .car-info{
+        display: flex;
+        flex-direction: column;
+        /* flex-wrap: wrap; */
+        align-items: center;
+        justify-items: center;
+        width: 90%;
+    }
+    
+    .car-two .wrapper{
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        flex-wrap: wrap;
+    }
+    .car-two .car-name{
+        font-size: 25px;
+        padding: 20px;
+    }
+    
+    .car-two .car-info .info {
+        display: flex;
+        align-items: center;
+        justify-content: flex-start;
+        padding: 10px 0;
+        width: 50%;
+    }
+    
+    .car-two .car-info .info p{
+        font-size: 13px;
+    }
+    
+    .car-two .car-info .info img{
+        height: 30px;
+        padding: 0 15px;
+    }
+    
+    .car-two{
+        display: flex;
+
+        flex-direction: column-reverse;
+        align-items: center;
+        justify-content: center;
+        /* transition: .5s ease-in-out 0s; */
+    }
+
+
+
+
+
+
+
+}

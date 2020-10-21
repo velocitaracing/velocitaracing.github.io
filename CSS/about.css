@@ -5,7 +5,7 @@
     justify-content: center;
     text-align: center;
     top: 0;
-    background-image: url(../IMAGES/BACKGROUD/about.png);
+    /* background-image: url(../IMAGES/BACKGROUD/about.png); */
     background-repeat: no-repeat;
     background-attachment: fixed;
     height: 700px;

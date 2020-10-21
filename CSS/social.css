@@ -3,6 +3,18 @@
     justify-content: center;
 }
 
+.socialbox ul li {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.socialbox ul li a{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
 .socialbox ul li a img{
     height: 45px;
     margin: auto auto;
