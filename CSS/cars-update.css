@@ -249,7 +249,7 @@
     }
     
     .car-one .car-info .info p{
-        font-size: 16px;
+        font-size: 13px;
     }
     
     .car-one .car-info .info img{
@@ -284,6 +284,9 @@
         height: 150px;
     }
     
+    #extra{
+        padding:0 5px;
+    }
     
     
     .car-two .car-info{
