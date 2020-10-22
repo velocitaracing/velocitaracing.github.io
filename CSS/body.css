@@ -62,3 +62,13 @@ body{
     opacity: 1;
     animation: fade-in-right 1s 1;
   }
+
+  @keyframes fade-in-bottom {
+    0%      { transform: translate(0,25%); opacity:0; }
+    100%    { transform: translate(0,0);   opacity:1; }
+  }
+  .transitionSlideInbottom {
+    opacity: 1;
+    animation: fade-in-bottom 1s 1;
+  }
+

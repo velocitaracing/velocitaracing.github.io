@@ -19,6 +19,10 @@
 
 }
 
+.navbar-active{
+    color: yellow!important;
+}
+
 
 .dropdown-content {
     display: none;
@@ -123,7 +127,9 @@
 .navbar ul li{
     padding: 10px;
     margin: 5px;
+   
 }
+
 
 .navbar ul li a{
     text-decoration: none;
