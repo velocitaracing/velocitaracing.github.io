@@ -107,6 +107,9 @@
 
 @media screen and (max-width:450px){
 
+    #team{
+        background-image: unset;
+    }
       
 .team-box .member-card{
     height: 250px;
@@ -135,7 +138,7 @@
 
 
 .team-box .member-card .card-side1 img{
-    height: 70px;
+    height: 80px;
 }
 
 .team-box .member-card .card-side2{
@@ -183,7 +186,7 @@
 
 .team-box .member-card .card-side2 p{
     padding: 5px;
-    font-size: 10px;
+    font-size: 11px;
 }
 
 
