@@ -104,11 +104,260 @@
 }
 
 
+
 @media screen and (max-width:450px){
+
+      
+.team-box .member-card{
+    height: 250px;
+    width: 175px;
+    margin: 10px 10px;
+    box-shadow: 0 4px 8px 0 rgba(0,0,0,0.2);
+    background-color: white;
+    background-image: url(../IMAGES/HOME/Gears.svg);
+    background-repeat: no-repeat;
+    transition: 0.3s ease-in-out 0s;
+
+}
+
+.team-box .member-card .card-side1{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+    height: 40%;
+}
+
+.member-card:hover{
+    box-shadow: 0 8px 16px 0 rgba(0,0,0,0.2);
+}
+
+
+.team-box .member-card .card-side1 img{
+    height: 70px;
+}
+
+.team-box .member-card .card-side2{
+    margin-top: 0px;
+    font-size: 13px;
+    padding: 10px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+}
+
+.team-box .member-card .card-side2 h3{
+    font-size: 14px;
+}
+
+
+.team-box .member-card .card-side2 h5{
+    padding: 5px;
+    font-size: 10px;
+   
+}
+
+.team-social{
+    display: flex;
+}
+
+.team-social img{
+    height: 30px;
+    transition: .2s ease-in-out 0s;  
+}
+.team-social a{
+    margin: 10px;
+    
+}
+
+.team-social a:hover img{
+    height: 35px;
+  
+}
+
+
+
+
+.team-box .member-card .card-side2 p{
+    padding: 5px;
+    font-size: 10px;
+}
+
+
+}
+
+
+
+
+@media screen and (max-width:380px){
     #team{
     background-image: unset;
     background-repeat: no-repeat;
     background-attachment: fixed;
     background-position-y: center;
     }
+
+    
+.team-box .member-card{
+    height: 250px;
+    width: 150px;
+    margin: 10px 10px;
+    box-shadow: 0 4px 8px 0 rgba(0,0,0,0.2);
+    background-color: white;
+    background-image: url(../IMAGES/HOME/Gears.svg);
+    background-repeat: no-repeat;
+    transition: 0.3s ease-in-out 0s;
+
+}
+
+.team-box .member-card .card-side1{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+    height: 40%;
+}
+
+.member-card:hover{
+    box-shadow: 0 8px 16px 0 rgba(0,0,0,0.2);
+}
+
+
+.team-box .member-card .card-side1 img{
+    height: 70px;
+}
+
+.team-box .member-card .card-side2{
+    margin-top: 0px;
+    font-size: 13px;
+    padding: 10px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+}
+
+.team-box .member-card .card-side2 h3{
+    font-size: 12px;
+}
+
+
+.team-box .member-card .card-side2 h5{
+    padding: 5px;
+    font-size: 9px;
+   
+}
+
+.team-social{
+    display: flex;
+}
+
+.team-social img{
+    height: 30px;
+    transition: .2s ease-in-out 0s;  
+}
+.team-social a{
+    margin: 10px;
+    
+}
+
+.team-social a:hover img{
+    height: 35px;
+  
+}
+
+
+
+
+.team-box .member-card .card-side2 p{
+    padding: 5px;
+    font-size: 10px;
+}
+
+
+}
+
+
+
+
+@media screen and (max-width:330px){
+    
+.team-box .member-card{
+    height: 300px;
+    width: 200px;
+    margin: 20px 20px;
+    box-shadow: 0 4px 8px 0 rgba(0,0,0,0.2);
+    background-color: white;
+    background-image: url(../IMAGES/HOME/Gears.svg);
+    background-repeat: no-repeat;
+    transition: 0.3s ease-in-out 0s;
+
+}
+
+.team-box .member-card .card-side1{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+    height: 50%;
+}
+
+.member-card:hover{
+    box-shadow: 0 8px 16px 0 rgba(0,0,0,0.2);
+}
+
+.team-box .member-card .card-side2 h3{
+    font-size: unset;
+}
+
+.team-box .member-card .card-side1 img{
+    height: 100px;
+}
+
+.team-box .member-card .card-side2{
+    margin-top: 0px;
+    font-size: 13px;
+    padding: 10px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+}
+
+.team-box .member-card .card-side2 h5{
+    padding: 5px;
+}
+
+.team-social{
+    display: flex;
+}
+
+.team-social img{
+    height: 30px;
+    transition: .2s ease-in-out 0s;  
+}
+.team-social a{
+    margin: 10px;
+    
+}
+
+.team-social a:hover img{
+    height: 35px;
+  
+}
+
+
+
+
+.team-box .member-card .card-side2 p{
+    padding: 5px;
+}
+
 }
