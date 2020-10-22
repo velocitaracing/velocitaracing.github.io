@@ -113,7 +113,7 @@
 
 /* Slideshow container */
 .slideshow-container-new {
-    height: 450px;
+    /* height: 450px; */
     position: relative;
     background: #fff;
     display: flex;
@@ -124,6 +124,7 @@
   
   /* Slides */
   .mySlides-new {
+    height: 400px;
     width: 90%;
     display: none;
     padding: 80px;
