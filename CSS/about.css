@@ -5,9 +5,10 @@
     justify-content: center;
     text-align: center;
     top: 0;
-    /* background-image: url(../IMAGES/BACKGROUD/about.png); */
+    background-image: url(../IMAGES/aboutback.svg); 
+    background-size: cover;
     background-repeat: no-repeat;
-    background-attachment: fixed;
+    /* background-attachment: fixed; */
     height: 700px;
 }
 
@@ -69,6 +70,9 @@
 
     #about{
         height: 880px;
+        background-image: url(../IMAGES/aboutback-mob.svg);
+        background-size: cover;
+        background-repeat: no-repeat;
     }
     .about-box{
         width: 100%;
@@ -123,6 +127,24 @@
     .about-box2 .slideshow-container img{
         height: 150px;
        
+        
+    }
+}
+
+
+@media screen and (max-width:340px){
+
+    #about{
+        height: auto;
+    }
+    .about .about-heading {
+        font-size: 20px;
+        font-weight: 700;
+        margin: 150px auto 25px auto;
+        padding: 10px;
+        border-bottom: 1px solid pink;
+        width: 60%;
+        text-align: center;
         
     }
 }

@@ -1,0 +1,132 @@
+#team{
+    
+    /* display: flex;
+    align-items: center;
+    justify-content: center;
+    text-align: center; */
+    top: 0;
+    background-image: url(../IMAGES//team-back.svg);
+    background-size: cover;
+    background-repeat: no-repeat;
+    /* background-attachment: fixed; */
+}
+
+.team-heading-box{
+    min-height: 100vh;
+    display: flex;
+    width: 100%;
+    height: 100%;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+}
+
+.team-heading-box .team-heading{
+    width: 50%;
+
+}
+
+.team-heading-box .team-heading p{
+    font-size: 40px;
+    color: rgb(23, 63, 53);
+    font-weight: 600;
+}
+
+.team-heading-box .team-heading .info-team p{
+    margin-top: 30px;
+    font-weight: 400;
+    font-size: 20px;
+    margin-left: 50px;
+    text-align: left;
+}
+
+.team-heading-box .team-image{
+    width: 50%;
+}
+
+.team-heading-box .team-image img{
+    margin-top: 200px;
+    height: 400px;
+}
+
+
+@media screen and (max-width:768px){
+
+    #team{
+    
+        /* display: flex;
+        align-items: center;
+        justify-content: center;
+        text-align: center; */
+        top: 0;
+        background-image: url(../IMAGES//team-back-mob.svg);
+        background-size: cover;
+        background-repeat: no-repeat;
+        /* background-attachment: fixed; */
+    }
+    
+    .team-heading-box{
+        min-height: 100vh;
+        display: flex;
+        flex-direction: column;
+        width: 100%;
+        height: 100%;
+        align-items: center;
+        justify-content: center;
+        text-align: center;
+    }
+
+    .team-heading-box .team-heading{
+        width: 95%;
+    
+    }
+    
+    .team-heading-box .team-heading p{
+        font-size: 30px;
+        color: rgb(23, 63, 53);
+        font-weight: 600;
+    }
+    
+    .team-heading-box .team-heading .info-team p{
+        margin-top: 30px;
+        font-weight: 400;
+        font-size: 18px;
+        margin-left: 50px;
+        text-align: left;
+    }
+    
+    .team-heading-box .team-image{
+        width: 95%;
+    }
+    
+    .team-heading-box .team-image img{
+        margin-top: 50px;
+        height: 250px;
+    }
+    
+    
+}
+
+@media screen and (max-width:340px){
+
+    #team{
+    
+        /* display: flex;
+        align-items: center;
+        justify-content: center;
+        text-align: center; */
+        top: 0;
+        background-image: url(../IMAGES//team-back-mob-s5.svg);
+        background-size: cover;
+        background-repeat: no-repeat;
+        /* background-attachment: fixed; */
+    }
+
+    .team-heading-box{
+        margin-top: 50px;
+    }
+
+    .team-heading-box .team-heading{
+        margin-top: 100px;
+    }
+}

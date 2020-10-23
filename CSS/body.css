@@ -4,11 +4,13 @@
     padding: 0;
     margin: 0;
     box-sizing: border-box;
+    
 }
 
 body{
     font-family: 'Montserrat', sans-serif; 
-}
+    /* overflow-x: hidden!important; */
+  }
 
 .container{
     max-width: 1920px;
@@ -72,3 +74,53 @@ body{
     animation: fade-in-bottom 1s 1;
   }
 
+
+  @keyframes ripple { 
+    from { 
+        opacity: 1; 
+        transform: scale(0); 
+    } 
+
+    to { 
+        opacity: 0; 
+        transform: scale(10); 
+    } 
+} 
+/* 
+.ripple-btn span { 
+  position: absolute; 
+  border-radius: 50%; 
+ 
+  background-color: rgba(0, 0, 0, 0.3); 
+
+  width: 100px; 
+  height: 100px; 
+  margin-top: -50px; 
+  
+  margin-left: -50px; 
+
+  animation: ripple 1s; 
+  opacity: 0; 
+}  */
+
+
+
+.ripple {
+  width: 0;
+  height: 0;
+  border-radius: 50%;
+  background: rgba(255, 255, 255, 0.4);
+  transform: scale(0);
+  position: absolute;
+  opacity: 1;
+}
+.rippleEffect {
+    animation: rippleDrop .6s linear;
+}
+
+@keyframes rippleDrop {
+  100% {
+    transform: scale(2);
+    opacity: 0;
+  }
+}

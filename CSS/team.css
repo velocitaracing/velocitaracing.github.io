@@ -1,4 +1,4 @@
-#team{
+/* #team{
     display: flex;
     flex-direction: column;
     align-items: center;
@@ -10,21 +10,22 @@
     background-attachment: fixed;
     background-position-y: center;
     background-position-x: right;
-    
-}
-.team-heading{
+     */
+/* } */
+/* .team-heading{
     font-size: 30px;
     font-weight: 700;
     margin: 100px 10px 10px 10px;
     padding: 10px;
     border-bottom: 1px solid pink;
 
-}
+} */
 
 .team-box{
+    /* width: 100%; */
     display: flex;
     margin-top: 50px;
-    padding: 10px;
+    padding: 10px 10px 50px 0;
     flex-wrap: wrap; 
     align-items: center;
     justify-content: center;
@@ -36,6 +37,7 @@
 .team-box .member-card{
     height: 300px;
     width: 200px;
+    border-radius: 10px;
     margin: 20px 20px;
     box-shadow: 0 4px 8px 0 rgba(0,0,0,0.2);
     background-color: white;
@@ -107,9 +109,9 @@
 
 @media screen and (max-width:450px){
 
-    #team{
+    /* #team{
         background-image: unset;
-    }
+    } */
       
 .team-box .member-card{
     height: 250px;
@@ -196,12 +198,12 @@
 
 
 @media screen and (max-width:380px){
-    #team{
+    /* #team{
     background-image: unset;
     background-repeat: no-repeat;
     background-attachment: fixed;
     background-position-y: center;
-    }
+    } */
 
     
 .team-box .member-card{
@@ -364,3 +366,6 @@
 }
 
 }
+
+
+

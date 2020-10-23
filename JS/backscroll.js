@@ -28,16 +28,32 @@ $('#home').each(function() {
   
 
 
-  //  function update3(){ 
-  //   var pos = $(window).scrollTop(); 
-  //   $('#team').each(function() { 
-  //       var $element = $(this);
-  //       // subtract some from the height b/c of the padding
-  //       var height = 0;
-  //       $(this).css('backgroundPosition', '50% ' + Math.round((height - pos) * velocity) +  'px'); 
-  //      }); 
-  //      };
+   function update3(){ 
+    var pos = $(window).scrollTop(); 
+    $('#about').each(function() { 
+        var $element = $(this);
+        // subtract some from the height b/c of the padding
+        var height = 0;
+        $(this).css('backgroundPosition', '50% ' + Math.round((height - pos) * velocity) +  'px'); 
+       }); 
+       };
     
-  //    $(window).bind('scroll', update3);
+     $(window).bind('scroll', update3);
+
+
+function update4(){ 
+  var pos = $(window).scrollTop(); 
+  $('#team').each(function() { 
+    var $element = $(this);
+    // subtract some from the height b/c of the padding
+    var height = 0;
+    $(this).css('backgroundPosition', '50% ' + Math.round((height - pos) * velocity) +  'px'); 
+    }); 
+  };
     
-  
+  $(window).bind('scroll', update4);    
+ 
+     
+
+     
+

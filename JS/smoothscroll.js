@@ -1,5 +1,5 @@
 $('.navbar ul li a').on('click', function(e) {
-      console.log(this);
+      // console.log(this);
   
     if(this.hash !== '') {
         e.preventDefault();
@@ -21,7 +21,7 @@ $('.navbar ul li a').on('click', function(e) {
 
 
   $('.logo a').on('click', function(e) {
-    console.log(this);
+    // console.log(this);
 
   if(this.hash !== '') {
       e.preventDefault();
@@ -38,3 +38,11 @@ $('.navbar ul li a').on('click', function(e) {
     }
 
 });
+
+
+
+
+
+
+
+

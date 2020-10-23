@@ -1,0 +1,124 @@
+
+.career-joinus-heading-box{
+    min-height: 100vh;
+    display: flex;
+    width: 100%;
+    height: 100%;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+    overflow-x: hidden;
+
+}
+
+.career-joinus-heading-box .career-joinus-heading{
+    width: 50%;
+    margin-left: 50px;
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    justify-content: center;
+
+}
+
+.career-joinus-heading-box .career-joinus-heading p{
+    font-size: 40px;
+    text-align: left;
+    color: rgb(23, 63, 53);
+    font-weight: 600;
+    margin-left: 50px;
+}
+
+.career-joinus-heading-box .career-joinus-heading .info-career-joinus-button{
+    /* margin-top: 30px;
+    margin-left: 50px; */
+    font-size: 16px;
+    margin: 30px auto;
+}
+
+.career-joinus-heading-box .career-joinus-heading .info-career-joinus-button button{
+    padding: 15px 20px;
+    font-size: 16px;
+}
+
+.career-joinus-heading-box .career-joinus-heading .info-career-joinus p{
+    margin-top: 30px;
+    font-weight: 400;
+    font-size: 20px;
+   
+    text-align: left;
+}
+
+.career-joinus-heading-box .career-joinus-image{
+    width: 50%;
+
+}
+
+.career-joinus-heading-box .career-joinus-image img{
+    margin-top: 100px;
+    height: 600px;
+}
+
+
+@media screen and (max-width:768px){
+
+     /* #career-joinus{
+    
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        text-align: center; 
+        top: 0;
+        background-image: url(../IMAGES//career-joinus-back-mob.svg); 
+        background-size: cover;
+        background-repeat: no-repeat;
+         background-attachment: fixed; 
+    } 
+     */
+    .career-joinus-heading-box{
+        min-height: 100vh;
+        display: flex;
+        flex-direction: column-reverse;
+        width: 100%;
+        height: 100%;
+        align-items: center;
+        justify-content: center;
+        text-align: center;
+    }
+
+    .career-joinus-heading-box .career-joinus-heading{
+        width: 95%;
+        margin: 0 0;
+    
+    }
+    
+    .career-joinus-heading-box .career-joinus-heading p{
+        font-size: 25px;
+        margin: 0 auto;
+        text-align: center;
+        color: rgb(23, 63, 53);
+        font-weight: 600;
+    }
+    
+    .career-joinus-heading-box .career-joinus-heading .info-career-joinus p{
+        /* margin-top: 18px; */
+        font-weight: 400;
+        font-size: 18px;
+        margin-left: unset;
+        width: 80%;
+        margin: 20px auto 10px auto;
+        text-align: left;
+    }
+    
+    .career-joinus-heading-box .career-joinus-image{
+        width: 95%;
+        
+    }
+    
+    .career-joinus-heading-box .career-joinus-image img{
+        margin-top: 50px;
+        height: 300px;
+    }
+    
+    
+}
