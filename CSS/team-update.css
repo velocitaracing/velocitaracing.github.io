@@ -41,12 +41,14 @@
 }
 
 .team-heading-box .team-image{
+    overflow-x: hidden;
     width: 50%;
 }
 
 .team-heading-box .team-image img{
     margin-top: 200px;
     height: 400px;
+    overflow-x: hidden;
 }
 
 
