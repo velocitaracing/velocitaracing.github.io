@@ -49,6 +49,7 @@
 
 .career-heading-box .career-image{
     width: 50%;
+    overflow-x: hidden;
 }
 
 .career-heading-box .career-image img{

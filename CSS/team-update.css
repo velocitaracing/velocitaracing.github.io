@@ -97,6 +97,7 @@
     
     .team-heading-box .team-image{
         width: 95%;
+        overflow-x: hidden;
     }
     
     .team-heading-box .team-image img{
