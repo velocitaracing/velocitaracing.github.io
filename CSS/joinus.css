@@ -27,6 +27,7 @@
     color: rgb(23, 63, 53);
     font-weight: 600;
     margin-left: 50px;
+    margin-top: 50px;
 }
 
 .career-joinus-heading-box .career-joinus-heading .info-career-joinus-button{
@@ -50,6 +51,9 @@
 }
 
 .career-joinus-heading-box .career-joinus-image{
+    /* display: flex;
+    align-items: center;
+    justify-content: center; */
     width: 50%;
 
 }

@@ -1,0 +1,161 @@
+
+.sponsor-heading-box{
+    min-height: 100vh;
+    display: flex;
+    width: 100%;
+    height: 100%;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+    overflow-x: hidden;
+}
+
+.sponsor-heading-box .sponsor-heading{
+    width: 50%;
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    justify-content: center;
+
+}
+
+.sponsor-heading-box .sponsor-heading p{
+    font-size: 35px;
+    text-align: left;
+    color: rgb(23, 63, 53);
+    font-weight: 600;
+}
+
+.sponsor-heading-box .sponsor-heading .info-sponsor p{
+    margin-top: 30px;
+    font-weight: 400;
+    font-size: 20px;
+    margin-right: 30px;
+    text-align: left;
+}
+
+.sponsor-heading-box .sponsor-image{
+    width: 50%;
+    overflow-x: hidden;
+}
+
+.sponsor-heading-box .sponsor-image img{
+    margin-top: 100px;
+    height: 500px;
+}
+
+                                                            /* button */
+
+
+/* .sponsor-toggle{          
+    margin: 20px 10px;
+    padding: 15px 20px;
+    outline:none;
+    font-size: 16px;
+    border: none;
+    border-radius: 25px;
+    border: 1px solid rgb(26, 26, 26);
+    background-color: rgb(196, 196, 196);
+    cursor: pointer;
+    transition: .3s ease-in-out 0s;
+   
+} */
+
+/* .sponsor-toggle:hover{
+    background-color: rgb(153, 153, 153);
+} */
+
+/* .sponsor-toggle:active{
+    background-color: rgb(26, 25, 25)
+} */
+
+
+
+.sponsor-button { 
+    margin: 40px 15px 0 0;
+    padding: 15px 20px; 
+    border: none; 
+    border-radius: 5px; 
+    background-color: #1abc9c; 
+    color: #fff; 
+    font-size: 18px; 
+    outline: none; 
+    cursor: pointer; 
+
+    /* We need this to position 
+        span inside button */ 
+    position: relative; 
+    overflow: hidden; 
+    box-shadow: 6px 7px 40px -4px  
+             rgba(0, 0, 0, 0.2); 
+} 
+
+@media screen and (max-width:768px){
+
+
+    
+    .sponsor-heading-box{
+        min-height: 100vh;
+        display: flex;
+        flex-direction: column;
+        width: 100%;
+        height: 100%;
+        align-items: center;
+        justify-content: center;
+        text-align: center;
+    }
+
+    .sponsor-heading-box .sponsor-heading{
+        width: 95%;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+    
+    }
+    
+    .sponsor-heading-box .sponsor-heading p{
+        font-size: 25px;
+        text-align: center;
+        color: rgb(23, 63, 53);
+        font-weight: 600;
+    }
+    
+    .sponsor-heading-box .sponsor-heading .info-sponsor p{
+        margin-top: 20px;
+        font-weight: 400;
+        font-size: 18px;
+        margin-left: 30px;
+        text-align: left;
+    }
+    
+    .sponsor-heading-box .sponsor-image{
+        width: 95%;
+    }
+    
+    .sponsor-heading-box .sponsor-image img{
+        margin-top: 100px;
+        height: 250px;
+    }
+    
+.sponsor-button{
+    margin: 40px 10px 0 0;
+    padding: 15px 20px; 
+    border: none; 
+    border-radius: 5px; 
+    background-color: #1abc9c; 
+    color: #fff; 
+    font-size: 18px; 
+    outline: none; 
+    cursor: pointer; 
+
+
+    /* We need this to position 
+        span inside button */ 
+    position: relative; 
+    overflow: hidden; 
+    box-shadow: 6px 7px 40px -4px  
+             rgba(0, 0, 0, 0.2); 
+}
+    
+    
+}
