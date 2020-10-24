@@ -5,7 +5,7 @@
     justify-content: center;
     text-align: center;
     top: 0;
-    background-image: url(../IMAGES/aboutback.svg); 
+    /* background-image: url(../IMAGES/aboutback.svg);  */
     background-size: cover;
     background-repeat: no-repeat;
     /* background-attachment: fixed; */
@@ -70,7 +70,7 @@
 
     #about{
         height: 880px;
-        background-image: url(../IMAGES/aboutback-mob.svg);
+        /* background-image: url(../IMAGES/aboutback-mob.svg); */
         background-size: cover;
         background-repeat: no-repeat;
     }

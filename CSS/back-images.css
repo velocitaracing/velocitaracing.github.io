@@ -1,0 +1,65 @@
+.back-image-one{
+    height: 400px;
+    /* background-image: url(../IMAGES/back-image-one.JPG);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-attachment: fixed; */
+}
+
+
+
+
+
+.progressbar {
+    display: inline-block;
+    width: 100px;
+    margin: 25px;
+}
+.circle {
+    width: 180px;
+    height: 180px;
+    margin: 0 auto;
+    margin-top: 10px;
+    display: inline-block;
+    position: relative;
+    text-align: center;
+}
+.circle:after {
+    width: 120px;
+    height: 120px;
+    content: "";
+    border: 2px solid #fb4f14;
+    border-radius: 50%;
+    display: block;
+    position: absolute;
+    top: 30px;
+    left: 30px;
+}
+
+.circle canvas {
+    vertical-align: middle;
+    border: 2px solid #fb4f14;
+    border-radius: 50%;
+}
+
+.circle div {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    margin: -20px 0 0 -86px;
+    width: 100%;
+    text-align: center;
+    line-height: 40px;
+    font-size: 31px;
+    
+}
+.circle strong i {
+    font-style: normal;
+    font-size: 0.6em;
+    font-weight: normal;
+}
+.circle span {
+    display: block;
+    color: white;
+    margin-top: 12px;
+}

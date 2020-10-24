@@ -21,77 +21,81 @@
 	<g>
 		<g>
 			<g>
-				<defs>
-					<rect id="SVGID_1_" x="110" y="432" width="532.4" height="430"/>
-				</defs>
-				<clipPath id="SVGID_2_">
-					<use xlink:href="#SVGID_1_"  style="overflow:visible;"/>
-				</clipPath>
-				<path class="st0" d="M420,408.1c0,0,72.2,24.1,18.6,67.6s-85.4,74.3-56.8,107.5c28.7,33.4-98.2,99.3-105.3,150.2
-					c-7.2,50.9,10.5,35.2,24.4,62.4c13.9,27.1-26.7,80.7-26.7,80.7h376.3v-456L420,408.1z"/>
+				<g>
+					<defs>
+						<rect id="SVGID_1_" x="110" y="432" width="532.4" height="430"/>
+					</defs>
+					<clipPath id="SVGID_2_">
+						<use xlink:href="#SVGID_1_"  style="overflow:visible;"/>
+					</clipPath>
+					<path class="st0" d="M420,408.1c0,0,72.2,24.1,18.6,67.6s-85.4,74.3-56.8,107.5c28.7,33.4-98.2,99.3-105.3,150.2
+						c-7.2,50.9,10.5,35.2,24.4,62.4c13.9,27.1-26.7,80.7-26.7,80.7h376.3v-456L420,408.1z"/>
+				</g>
 			</g>
 		</g>
 	</g>
 	<g>
 		<g>
 			<g>
-				<defs>
-					<rect id="SVGID_3_" x="110" y="432" width="532.4" height="430"/>
-				</defs>
-				<clipPath id="SVGID_4_">
-					<use xlink:href="#SVGID_3_"  style="overflow:visible;"/>
-				</clipPath>
-				<g class="st1">
-					<g>
-						<rect x="596.4" y="570.1" class="st2" width="59.9" height="208.9"/>
-					</g>
-					<g>
-						<rect x="600.1" y="574.6" class="st3" width="52.6" height="198.7"/>
-					</g>
-					<g>
-						<rect x="613" y="586.5" class="st2" width="26.7" height="2.3"/>
-					</g>
-					<g>
-						<rect x="613" y="593.6" class="st2" width="26.7" height="2.3"/>
-					</g>
-					<g>
-						<rect x="613" y="600.7" class="st2" width="26.7" height="2.3"/>
-					</g>
-					<g>
-						<rect x="613" y="608" class="st2" width="26.7" height="2.3"/>
-					</g>
-					<g>
-						<rect x="613" y="615.3" class="st2" width="26.7" height="2.3"/>
-					</g>
-					<g>
-						<rect x="613" y="622.4" class="st2" width="26.7" height="2.3"/>
-					</g>
-					<g>
-						<rect x="613" y="629.7" class="st2" width="26.7" height="2.3"/>
-					</g>
-					<g>
-						<rect x="613" y="710.1" class="st2" width="26.7" height="2.3"/>
-					</g>
-					<g>
-						<rect x="613" y="717.3" class="st2" width="26.7" height="2.3"/>
-					</g>
-					<g>
-						<rect x="613" y="724.5" class="st2" width="26.7" height="2.3"/>
-					</g>
-					<g>
-						<rect x="613" y="731.8" class="st2" width="26.7" height="2.3"/>
-					</g>
-					<g>
-						<rect x="613" y="738.8" class="st2" width="26.7" height="2.3"/>
-					</g>
-					<g>
-						<rect x="613" y="746.1" class="st2" width="26.7" height="2.3"/>
-					</g>
-					<g>
-						<rect x="613" y="753.3" class="st2" width="26.7" height="2.3"/>
-					</g>
-					<g>
-						<ellipse class="st2" cx="644.3" cy="665.6" rx="3.2" ry="4.4"/>
+				<g>
+					<defs>
+						<rect id="SVGID_3_" x="110" y="432" width="532.4" height="430"/>
+					</defs>
+					<clipPath id="SVGID_4_">
+						<use xlink:href="#SVGID_3_"  style="overflow:visible;"/>
+					</clipPath>
+					<g class="st1">
+						<g>
+							<rect x="596.4" y="570.1" class="st2" width="59.9" height="208.9"/>
+						</g>
+						<g>
+							<rect x="600.1" y="574.6" class="st3" width="52.6" height="198.7"/>
+						</g>
+						<g>
+							<rect x="613" y="586.5" class="st2" width="26.7" height="2.3"/>
+						</g>
+						<g>
+							<rect x="613" y="593.6" class="st2" width="26.7" height="2.3"/>
+						</g>
+						<g>
+							<rect x="613" y="600.7" class="st2" width="26.7" height="2.3"/>
+						</g>
+						<g>
+							<rect x="613" y="608" class="st2" width="26.7" height="2.3"/>
+						</g>
+						<g>
+							<rect x="613" y="615.3" class="st2" width="26.7" height="2.3"/>
+						</g>
+						<g>
+							<rect x="613" y="622.4" class="st2" width="26.7" height="2.3"/>
+						</g>
+						<g>
+							<rect x="613" y="629.7" class="st2" width="26.7" height="2.3"/>
+						</g>
+						<g>
+							<rect x="613" y="710.1" class="st2" width="26.7" height="2.3"/>
+						</g>
+						<g>
+							<rect x="613" y="717.3" class="st2" width="26.7" height="2.3"/>
+						</g>
+						<g>
+							<rect x="613" y="724.5" class="st2" width="26.7" height="2.3"/>
+						</g>
+						<g>
+							<rect x="613" y="731.8" class="st2" width="26.7" height="2.3"/>
+						</g>
+						<g>
+							<rect x="613" y="738.8" class="st2" width="26.7" height="2.3"/>
+						</g>
+						<g>
+							<rect x="613" y="746.1" class="st2" width="26.7" height="2.3"/>
+						</g>
+						<g>
+							<rect x="613" y="753.3" class="st2" width="26.7" height="2.3"/>
+						</g>
+						<g>
+							<ellipse class="st2" cx="644.3" cy="665.6" rx="3.2" ry="4.4"/>
+						</g>
 					</g>
 				</g>
 			</g>
@@ -100,30 +104,32 @@
 	<g>
 		<g>
 			<g>
-				<defs>
-					<rect id="SVGID_5_" x="110" y="432" width="532.4" height="430"/>
-				</defs>
-				<clipPath id="SVGID_6_">
-					<use xlink:href="#SVGID_5_"  style="overflow:visible;"/>
-				</clipPath>
-				<g class="st4">
-					<g>
-						<rect x="493.1" y="422.4" class="st5" width="1.6" height="91.4"/>
-					</g>
-					<g>
-						<path class="st6" d="M508.9,522.7c-1.6-9.3-7.7-16.1-15-16.1s-13.4,7-15,16.1H508.9z"/>
-					</g>
-					<g>
-						<rect x="534.5" y="422.4" class="st5" width="1.6" height="91.4"/>
-					</g>
-					<g>
-						<path class="st6" d="M550.4,522.7c-1.6-9.3-7.7-16.1-15-16.1s-13.4,7-15,16.1H550.4z"/>
-					</g>
-					<g>
-						<rect x="576" y="422.4" class="st5" width="1.6" height="91.4"/>
-					</g>
-					<g>
-						<path class="st6" d="M591.9,522.7c-1.6-9.3-7.7-16.1-15-16.1s-13.4,7-15,16.1H591.9z"/>
+				<g>
+					<defs>
+						<rect id="SVGID_5_" x="110" y="432" width="532.4" height="430"/>
+					</defs>
+					<clipPath id="SVGID_6_">
+						<use xlink:href="#SVGID_5_"  style="overflow:visible;"/>
+					</clipPath>
+					<g class="st4">
+						<g>
+							<rect x="493.1" y="422.4" class="st5" width="1.6" height="91.4"/>
+						</g>
+						<g>
+							<path class="st6" d="M508.9,522.7c-1.6-9.3-7.7-16.1-15-16.1s-13.4,7-15,16.1H508.9z"/>
+						</g>
+						<g>
+							<rect x="534.5" y="422.4" class="st5" width="1.6" height="91.4"/>
+						</g>
+						<g>
+							<path class="st6" d="M550.4,522.7c-1.6-9.3-7.7-16.1-15-16.1s-13.4,7-15,16.1H550.4z"/>
+						</g>
+						<g>
+							<rect x="576" y="422.4" class="st5" width="1.6" height="91.4"/>
+						</g>
+						<g>
+							<path class="st6" d="M591.9,522.7c-1.6-9.3-7.7-16.1-15-16.1s-13.4,7-15,16.1H591.9z"/>
+						</g>
 					</g>
 				</g>
 			</g>
@@ -132,29 +138,23 @@
 	<g>
 		<g>
 			<g>
-				<defs>
-					<rect id="SVGID_7_" x="119" y="432" width="532.4" height="722"/>
-				</defs>
-				<clipPath id="SVGID_8_">
-					<use xlink:href="#SVGID_7_"  style="overflow:visible;"/>
-				</clipPath>
-				<path class="st7" d="M642.4,668.2c0,0-226.8,0-277.4,0s-38.3,38.4-35.3,61.8c3,23.4-47.8,7.2-74.1,37.1
-					C229.4,797,237,862,237,862h405.4V668.2z"/>
-			</g>
-			<g>
-				<defs>
-					<rect id="SVGID_9_" x="119" y="432" width="532.4" height="722"/>
-				</defs>
-				<clipPath id="SVGID_10_">
-					<use xlink:href="#SVGID_9_"  style="overflow:visible;"/>
-				</clipPath>
+				<g>
+					<defs>
+						<rect id="SVGID_7_" x="119" y="432" width="532.4" height="722"/>
+					</defs>
+					<clipPath id="SVGID_8_">
+						<use xlink:href="#SVGID_7_"  style="overflow:visible;"/>
+					</clipPath>
+					<path class="st7" d="M642.4,668.2c0,0-226.8,0-277.4,0s-38.3,38.4-35.3,61.8c3,23.4-47.8,7.2-74.1,37.1
+						C229.4,797,237,862,237,862h405.4V668.2z"/>
+				</g>
 			</g>
 		</g>
 	</g>
 </g>
-<circle class="st8" cx="0" cy="939.3" r="46.3"/>
-<ellipse transform="matrix(1.063647e-02 -0.9999 0.9999 1.063647e-02 -962.8475 1065.2561)" class="st9" cx="56.9" cy="1019.2" rx="28.9" ry="28.9"/>
-<circle class="st10" cx="213.2" cy="1094.7" r="58.5"/>
-<ellipse transform="matrix(0.9941 -0.1083 0.1083 0.9941 -120.1919 11.9136)" class="st11" cx="49.6" cy="1112.5" rx="44.4" ry="39.6"/>
+<ellipse class="st8" cx="31.9" cy="970.8" rx="14.4" ry="14.8"/>
+<ellipse transform="matrix(2.127220e-02 -0.9998 0.9998 2.127220e-02 -963.3255 1054.3647)" class="st9" cx="56.9" cy="1019.2" rx="28.9" ry="28.9"/>
+<ellipse class="st10" cx="119" cy="1074.1" rx="14.4" ry="15.1"/>
+<ellipse transform="matrix(0.9865 -0.1638 0.1638 0.9865 -185.6349 28.6582)" class="st11" cx="81" cy="1140.1" rx="13" ry="12"/>
 <circle class="st12" cx="28" cy="826.5" r="10.5"/>
 </svg>

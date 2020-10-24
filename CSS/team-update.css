@@ -27,7 +27,7 @@
 }
 
 .team-heading-box .team-heading p{
-    font-size: 40px;
+    font-size: 35px;
     color: rgb(23, 63, 53);
     font-weight: 600;
 }
@@ -46,7 +46,7 @@
 }
 
 .team-heading-box .team-image img{
-    margin-top: 200px;
+    margin-top: 100px;
     height: 400px;
     overflow-x: hidden;
 }
