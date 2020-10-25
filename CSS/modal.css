@@ -129,6 +129,14 @@
 
 }
 
+
+@media screen and (max-width:450px){
+    .modal{
+        width: 100%;
+        height: 70%;
+    }
+}
+
 @media screen and (max-width:340px){
     
     .modal-form{
