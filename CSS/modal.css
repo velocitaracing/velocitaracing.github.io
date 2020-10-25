@@ -94,16 +94,74 @@
         align-items: center;
         justify-content: center;
         padding: 10px;
+        margin: 10px 0;
     }
     .modal-form{
         height:70%;
-        width: 70%;
+        width: 100%;
     }
     .laptop{
         display: none;
     }
     .mobile{
         display: block;
+    }
+
+    .proceed-btn{
+        margin: 20px 0px 0 0;
+        padding: 15px 20px; 
+        border: none; 
+        border-radius: 5px; 
+        background-color: #1abc9c; 
+        color: #fff; 
+        font-size: 18px; 
+        outline: none; 
+        cursor: pointer; 
+    
+    
+        /* We need this to position 
+            span inside button */ 
+        position: relative; 
+        overflow: hidden; 
+        box-shadow: 6px 7px 40px -4px  
+                 rgba(0, 0, 0, 0.2); 
+    }
+
+}
+
+@media screen and (max-width:340px){
+    
+    .modal-form{
+        height: 75%;
+        width: 100%;
+    }
+    .proceed-btn{
+        margin: 5px 0px 0 0;
+        padding: 10px 15px; 
+        border: none; 
+        border-radius: 5px; 
+        background-color: #1abc9c; 
+        color: #fff; 
+        font-size: 18px; 
+        outline: none; 
+        cursor: pointer; 
+    
+    
+        /* We need this to position 
+            span inside button */ 
+        position: relative; 
+        overflow: hidden; 
+        box-shadow: 6px 7px 40px -4px  
+                 rgba(0, 0, 0, 0.2); 
+    }
+
+    .apply-now{
+        font-size: 12px;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        padding: 5px;
+        margin: 5px 0;
     }
 
 }
