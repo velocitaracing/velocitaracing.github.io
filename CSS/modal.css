@@ -24,10 +24,15 @@
     width: 70%;
     height: 60%;
     display: flex;
-    justify-content: space-around;
+    justify-content: center;
     align-items: center;
     flex-direction: column;
 }
+
+.modal-form{
+    height: 75%;
+}
+
 
 .modal-close{
     position: absolute;
@@ -36,7 +41,42 @@
     font-weight: bold;
     cursor: pointer;
 }
+.modal h3{
+   margin-bottom: 20px;
+}
+.apply-now{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding: 10px;
+}
 
+.proceed-btn{
+    margin: 10px 0px 0 0;
+    padding: 15px 20px; 
+    border: none; 
+    border-radius: 5px; 
+    background-color: #1abc9c; 
+    color: #fff; 
+    font-size: 18px; 
+    outline: none; 
+    cursor: pointer; 
+
+
+    /* We need this to position 
+        span inside button */ 
+    position: relative; 
+    overflow: hidden; 
+    box-shadow: 6px 7px 40px -4px  
+             rgba(0, 0, 0, 0.2); 
+}
+
+.laptop{
+    display: block;
+}
+.mobile{
+    display: none;
+}
 
 @media screen and (max-width:768px){
     .modal{
@@ -48,4 +88,22 @@
         width: 90%;
         text-align: center;
     }
+    .apply-now{
+        font-size: 12px;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        padding: 10px;
+    }
+    .modal-form{
+        height:70%;
+        width: 70%;
+    }
+    .laptop{
+        display: none;
+    }
+    .mobile{
+        display: block;
+    }
+
 }
