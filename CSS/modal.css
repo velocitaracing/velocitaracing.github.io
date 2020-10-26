@@ -33,6 +33,10 @@
     height: 75%;
 }
 
+.modal-product{
+    height: 75%;
+}
+
 
 .modal-close{
     position: absolute;
@@ -99,6 +103,10 @@
         justify-content: center;
         padding: 10px;
         margin: 10px 0;
+    }
+    .modal-product{
+        height:70%;
+        width: 100%;
     }
     .modal-form{
         height:70%;

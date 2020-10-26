@@ -103,5 +103,48 @@ sponsorExit.addEventListener('click', function(){
 });
 
 
+var shopFaq = document.querySelector('.modal-btn-five');
+var shopBgFaq = document.querySelector('.modal-bg-product');
+var shopClose = document.querySelector('.modal-close-product');
+var shopExit = document.querySelector('.faq-close-product');
+
+shopFaq.addEventListener('click', function(){
+    shopBgFaq.classList.add('bg-active');
+    document.querySelector("body").style.overflow = 'hidden';
+});
+
+shopClose.addEventListener('click', function(){
+    shopBgFaq.classList.remove('bg-active');
+    document.querySelector("body").style.overflow = 'visible';
+});
+
+shopExit.addEventListener('click', function(){
+    shopBgFaq.classList.remove('bg-active');
+    document.querySelector("body").style.overflow = 'visible';
+});
+
+
+var shopFaq = document.querySelector('.modal-btn-six');
+var shopBgFaq = document.querySelector('.modal-bg-product');
+var shopClose = document.querySelector('.modal-close-product');
+var shopExit = document.querySelector('.faq-close-product');
+
+shopFaq.addEventListener('click', function(){
+    shopBgFaq.classList.add('bg-active');
+    document.querySelector("body").style.overflow = 'hidden';
+});
+
+shopClose.addEventListener('click', function(){
+    shopBgFaq.classList.remove('bg-active');
+    document.querySelector("body").style.overflow = 'visible';
+});
+
+shopExit.addEventListener('click', function(){
+    shopBgFaq.classList.remove('bg-active');
+    document.querySelector("body").style.overflow = 'visible';
+});
+
+
+
 
 

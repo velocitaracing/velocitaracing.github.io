@@ -17,3 +17,30 @@ function showSlides() {
   dots[slideIndex-1].className += " active";
   setTimeout(showSlides, 5000); // Change image every 2 seconds
 }
+
+
+
+
+var slideIndexShop = 0;
+showSlidesShop();
+
+function showSlidesShop() {
+  var i;
+  var slideShop = document.getElementsByClassName("mySlides-shop");
+  var dotSlide = document.getElementsByClassName("dot-shop");
+  for (i = 0; i < slideShop.length; i++) {
+    slideShop[i].style.display = "none";  
+  }
+  slideIndexShop++;
+  if (slideIndexShop > slideShop.length) {slideIndexShop = 1}    
+  for (i = 0; i < dotSlide.length; i++) {
+    dotSlide[i].className = dotSlide[i].className.replace(" active", "");
+  }
+  slideShop[slideIndexShop-1].style.display = "block";  
+  dotSlide[slideIndexShop-1].className += " active";
+  setTimeout(showSlidesShop, 5000); // Change image every 2 seconds
+}
+
+
+
+
