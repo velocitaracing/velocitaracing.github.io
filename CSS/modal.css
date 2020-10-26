@@ -79,9 +79,12 @@
 }
 
 @media screen and (max-width:768px){
+    .modal-bg{
+        z-index: 9999;
+    }
     .modal{
-        width: 70%;
-        height: 70%;
+        width: 80%;
+        height: 85%;
     }
 
     .modal h3{
@@ -89,6 +92,7 @@
         text-align: center;
     }
     .apply-now{
+        width: 100%;
         font-size: 12px;
         display: flex;
         align-items: center;
@@ -130,7 +134,7 @@
 }
 
 
-@media screen and (max-width:450px){
+@media screen and (max-width:550px){
     .modal-bg{
         z-index: 9999;
     }
