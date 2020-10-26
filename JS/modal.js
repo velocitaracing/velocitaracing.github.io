@@ -8,26 +8,32 @@ var closeForm = document.querySelector('.form-close-btn');
 var sponsorcloseForm = document.querySelector('.sponsor-form-close-btn');
 modalButton.addEventListener('click', function(){
     modalBg.classList.add('bg-active');
+    document.querySelector("body").style.overflow = 'hidden';
 });
 
 modalClose.addEventListener('click', function(){
     modalBg.classList.remove('bg-active');
+    document.querySelector("body").style.overflow = 'visible';
 });
 
 buttonclose.addEventListener('click' ,function(){
     modalBg.classList.remove('bg-active');
+    document.querySelector("body").style.overflow = 'visible';
 });
 
 buttonclose.addEventListener('click', function(){
     formBg.classList.add('bg-active');
+    document.querySelector("body").style.overflow = 'hidden';
 });
 
 formClose.addEventListener('click', function(){
     formBg.classList.remove('bg-active');
+    document.querySelector("body").style.overflow = 'visible';
 });
 
 closeForm.addEventListener('click', function(){
     formBg.classList.remove('bg-active');
+    document.querySelector("body").style.overflow = 'visible';
 });
 
 
@@ -39,15 +45,19 @@ var faqClose = document.querySelector('.faq-close-button');
 
 modalButtonfaq.addEventListener('click', function(){
     modalBgfaq.classList.add('bg-active');
+    document.querySelector("body").style.overflow = 'hidden';
 });
 
 modalClosefaq.addEventListener('click', function(){
     modalBgfaq.classList.remove('bg-active');
+    document.querySelector("body").style.overflow = 'visible';
 });
 
 faqClose.addEventListener('click', function(){
     modalBgfaq.classList.remove('bg-active');
+    document.querySelector("body").style.overflow = 'visible';
 });
+
 
 
 
@@ -58,14 +68,17 @@ var modalClosetwo = document.querySelector('.modal-close-two');
 
 modalButtontwo.addEventListener('click', function(){
     modalBgtwo.classList.add('bg-active');
+    document.querySelector("body").style.overflow = 'hidden';
 });
 
 modalClosetwo.addEventListener('click', function(){
     modalBgtwo.classList.remove('bg-active');
+    document.querySelector("body").style.overflow = 'visible';
 });
 
 sponsorcloseForm.addEventListener('click', function(){
     modalBgtwo.classList.remove('bg-active');
+    document.querySelector("body").style.overflow = 'visible';
 })
 
 
@@ -76,14 +89,17 @@ var sponsorExit = document.querySelector('.sponsor-faq-close-button');
 
 sponsorFaq.addEventListener('click', function(){
     sponsorBgFaq.classList.add('bg-active');
+    document.querySelector("body").style.overflow = 'hidden';
 });
 
 sponsorClose.addEventListener('click', function(){
     sponsorBgFaq.classList.remove('bg-active');
+    document.querySelector("body").style.overflow = 'visible';
 });
 
 sponsorExit.addEventListener('click', function(){
     sponsorBgFaq.classList.remove('bg-active');
+    document.querySelector("body").style.overflow = 'visible';
 });
 
 
