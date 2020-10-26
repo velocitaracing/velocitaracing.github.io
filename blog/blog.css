@@ -103,17 +103,22 @@ p{
 }
 
 .button{
-    margin: 20px 0;
-    height: 40px;
-    width: 150px;
+    margin: 40px 0px 0 0;
+    padding: 15px 20px; 
+    border: none; 
+    border-radius: 5px; 
+    background-color: #1abc9c; 
+    color: #fff; 
+    font-size: 18px; 
+    outline: none; 
+    cursor: pointer; 
 
-    outline:none;
-    font-size: 16px;
-    border: none;
-    border-radius: 25px;
-    background-color: rgb(189, 189, 189);
-    cursor: pointer;
-    transition: .3s ease-in-out 0s;
+    /* We need this to position 
+        span inside button */ 
+    position: relative; 
+    overflow: hidden; 
+    box-shadow: 6px 7px 40px -4px  
+             rgba(0, 0, 0, 0.2); 
 }
 
 
