@@ -76,7 +76,7 @@
 @media screen and (max-width:594px){
    
     #contact{
-        height: auto;
+        height: 100vh;
     }
 
     .contact-heading{
