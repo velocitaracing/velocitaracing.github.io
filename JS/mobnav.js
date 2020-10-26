@@ -41,6 +41,38 @@ const navSlide = () =>{
 
 
 
-
 navSlide();
 
+
+
+const navbar = document.querySelector('.nav-links');
+const burgersec = document.querySelector('.burger');
+
+
+// $(window).click(function() {
+//     //Hide the menus if visible
+//     navbar.classList.remove('nav-active');
+//     burgersec.classList.remove('toggle');
+//     });
+    
+//     // $('.burger').click(function(event){
+//     //     event.stopPropagation();
+//     // });
+
+    // $('.toggle').click(function(event){
+    //     event.stopPropagation();
+    // });
+  
+
+
+    // window.addEventListener('click', function(e){   
+    //     if (document.querySelector('.navbar').contains(e.target)){
+    //       // Clicked in box
+    //       navbar.classList.add('nav-active');
+    //       burgersec.classList.add('toggle');
+    //     } else{
+    //         navbar.classList.remove('nav-active');
+    //          burgersec.classList.remove('toggle');
+    //       // Clicked outside the box
+    //     }
+    //   });
