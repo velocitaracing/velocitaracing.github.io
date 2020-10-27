@@ -149,9 +149,21 @@
     transition: all 0.3s ease;
 }
 
-
-
 @media screen and (max-width:1196px){
+    .navbar ul li a{
+        
+    font-size: 14px;
+    }
+    .navbar ul li{
+        padding: 10px 5;
+        margin: 5px 0;
+       
+    }
+    
+}
+
+
+@media screen and (max-width:980px){
     body{
         overflow-x: hidden;
     }
@@ -222,6 +234,18 @@
         transform: translateX(0px)
     }
 }
+
+@keyframes navLinkFade2{
+    from{
+        opacity: 1;
+        transform: translateX(0px);
+    }
+    to{
+        opacity: 0;
+        transform: translateX(50px)
+    }
+}
+
 
 .toggle .line1{
     transform: rotate(-45deg) translate(-5px,6px);

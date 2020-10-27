@@ -10,6 +10,7 @@
     background-repeat: no-repeat;
     /* background-attachment: fixed; */
     height: 700px;
+    overflow-x: hidden;
 }
 
 .about-box{

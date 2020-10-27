@@ -10,7 +10,7 @@
     background-repeat: no-repeat;
     /* background-attachment: fixed; */
     min-height: 100vh;
-    overflow-y: hidden;
+  overflow-x: hidden;
 }
 
 .shop-box{
@@ -74,6 +74,7 @@
   max-width: 1000px;
   position: relative;
   margin: auto;
+  overflow-x: hidden;
 }
 
 /* Caption text */
