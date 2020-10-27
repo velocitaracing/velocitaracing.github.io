@@ -29,6 +29,7 @@
   margin-top: 40px;
 }
 
+
 .shop{
   width: 50%;
 }
@@ -74,7 +75,7 @@
   max-width: 1000px;
   position: relative;
   margin: auto;
-  overflow-x: hidden;
+  
 }
 
 /* Caption text */

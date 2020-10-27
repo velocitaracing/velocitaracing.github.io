@@ -124,9 +124,14 @@
   
   /* Slides */
   .mySlides-new {
-    height: 400px;
+    height: auto;
     width: 90%;
     display: none;
+    /* flex-wrap: wrap; */
+    /* display: flex; */
+    /* align-items: center;
+    justify-content: center;
+    flex-wrap: wrap; */
     padding: 80px;
     text-align: center;
   }
@@ -195,7 +200,7 @@
   /* Add a blue color to the author */
   .author-new {color: cornflowerblue;}
 
-
+ 
 
 @media screen and (max-width:768px){
 
