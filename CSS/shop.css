@@ -10,6 +10,7 @@
     background-repeat: no-repeat;
     /* background-attachment: fixed; */
     min-height: 100vh;
+    overflow-y: hidden;
 }
 
 .shop-box{
@@ -202,6 +203,10 @@
       text-align: justify;
       margin: 10px 10px;
       line-height: 1.5em;
+  }
+
+  .shop-content p{
+    font-size: 18px;
   }
   .shop-box2{
       height: 70%;
