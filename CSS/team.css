@@ -113,7 +113,11 @@
     /* #team{
         background-image: unset;
     } */
-      
+    
+.team-box{
+    margin-top: 20px;
+}
+    
 .team-box .member-card{
     height: 250px;
     width: 175px;

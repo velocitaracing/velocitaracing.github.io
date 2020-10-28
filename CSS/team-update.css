@@ -62,7 +62,7 @@
         justify-content: center;
         text-align: center; */
         top: 0;
-        /* background-image: url(../IMAGES//team-back-mob.svg); */
+        background-image: unset;
         background-size: cover;
         background-repeat: no-repeat;
         margin-bottom: 100px;
@@ -121,7 +121,7 @@
         justify-content: center;
         text-align: center; */
         top: 0;
-        /* background-image: url(../IMAGES//team-back-mob-s5.svg); */
+        background-image: unset;
         background-size: cover;
         background-repeat: no-repeat;
         margin-bottom: 60px;
@@ -134,5 +134,9 @@
 
     .team-heading-box .team-heading{
         margin-top: 100px;
+    }
+    .team-heading-box .team-image img{
+        margin-top: 50px;
+        height: 200px;
     }
 }
