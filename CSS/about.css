@@ -9,7 +9,7 @@
     background-size: cover;
     background-repeat: no-repeat;
     /* background-attachment: fixed; */
-    height: 700px;
+    min-height: 700px;
     overflow-x: hidden;
 }
 
@@ -70,14 +70,14 @@
 @media screen and (max-width:768px){
 
     #about{
-        height: 880px;
+        min-height: 800px;
         /* background-image: url(../IMAGES/aboutback-mob.svg); */
         background-size: cover;
         background-repeat: no-repeat;
     }
     .about-box{
         width: 100%;
-        margin: 110px 40px 0 40px;
+        margin: 70px 40px 0 40px;
         padding: 20px;
         display: flex;
         justify-content: center;
@@ -141,7 +141,7 @@
     .about .about-heading {
         font-size: 20px;
         font-weight: 700;
-        margin: 150px auto 25px auto;
+        margin: 0px auto 25px auto;
         padding: 10px;
         border-bottom: 1px solid pink;
         width: 60%;
