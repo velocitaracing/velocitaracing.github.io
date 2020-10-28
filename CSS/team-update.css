@@ -62,7 +62,7 @@
         justify-content: center;
         text-align: center; */
         top: 0;
-        background-image: url(../IMAGES//team-back-mob.svg);
+        /* background-image: url(../IMAGES//team-back-mob.svg); */
         background-size: cover;
         background-repeat: no-repeat;
         margin-bottom: 100px;
@@ -121,7 +121,7 @@
         justify-content: center;
         text-align: center; */
         top: 0;
-        background-image: url(../IMAGES//team-back-mob-s5.svg);
+        /* background-image: url(../IMAGES//team-back-mob-s5.svg); */
         background-size: cover;
         background-repeat: no-repeat;
         margin-bottom: 60px;
