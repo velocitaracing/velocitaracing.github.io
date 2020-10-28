@@ -115,7 +115,8 @@
     } */
     
 .team-box{
-    margin-top: 20px;
+    margin-top: 0px;
+    padding: 0px 0px 0px 0;
 }
     
 .team-box .member-card{

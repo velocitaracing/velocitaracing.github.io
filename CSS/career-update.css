@@ -198,6 +198,7 @@
         /* background-image: url(../IMAGES//career-back-mob.svg); */
         background-size: cover;
         background-repeat: no-repeat;
+        height: auto;
         /* background-attachment: fixed; */
     }
     
@@ -237,10 +238,11 @@
     
     .career-heading-box .career-image{
         width: 95%;
+        margin-top: 60px;
     }
     
     .career-heading-box .career-image img{
-        margin-top: 60px;
+        margin-top: 0px;
         height: 250px;
     }
     

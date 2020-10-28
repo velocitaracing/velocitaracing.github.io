@@ -113,6 +113,9 @@
 }
 
 @media screen and (max-width:450px){
+    #team{
+        margin-bottom: 0px;
+    }
     .team-heading-box{
         margin-top: 50px;
     }
@@ -130,7 +133,7 @@
         background-image: unset;
         background-size: cover;
         background-repeat: no-repeat;
-        margin-bottom: 60px;
+        margin-bottom: 0px;
         /* background-attachment: fixed; */
     }
 
