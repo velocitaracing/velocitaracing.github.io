@@ -21,7 +21,7 @@
     align-items: center;
     justify-content: center;
     text-align: center;
-    overflow-x: hidden;
+    /* overflow-x: hidden; */
 }
 
 .career-heading-box .career-heading{
