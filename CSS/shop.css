@@ -46,6 +46,10 @@
   
 }
 
+.shop-now{
+  margin-right: 10px;
+}
+
 .shop .shop-content{
   padding: 15px;
   font-size: 20px;
@@ -125,10 +129,6 @@
   height: 100px;
 }
 
-.shop-now{
-  /* margin-top: 20px!important; */
-  margin: 0 10px!important;
-}
 
 .mob-button{
   display: none;
@@ -224,6 +224,7 @@
       height: 140px;
       
   }
+  
 }
 
 
