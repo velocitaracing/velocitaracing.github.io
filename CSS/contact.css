@@ -120,7 +120,7 @@
     }
     .footer{
         font-size: 10px;
-        margin: 25px auto 15px auto;
+        margin: 0px auto 15px auto;
         padding: 10px;
     
     }
@@ -129,6 +129,6 @@
 
 @media screen and (max-width:340px){
     .footer{
-        margin-top: 80px;
+        margin: 0px auto 15px auto;
     }
 }

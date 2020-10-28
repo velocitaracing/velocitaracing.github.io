@@ -112,6 +112,12 @@
     
 }
 
+@media screen and (max-width:450px){
+    .team-heading-box{
+        margin-top: 50px;
+    }
+}
+
 @media screen and (max-width:340px){
 
     #team{
@@ -128,12 +134,10 @@
         /* background-attachment: fixed; */
     }
 
-    .team-heading-box{
-        margin-top: 50px;
-    }
+    
 
     .team-heading-box .team-heading{
-        margin-top: 100px;
+        margin-top: 50px;
     }
     .team-heading-box .team-image img{
         margin-top: 50px;
