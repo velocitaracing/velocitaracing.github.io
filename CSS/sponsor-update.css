@@ -72,7 +72,7 @@
 
 
 .sponsor-button { 
-    margin: 40px 15px 0 0;
+    margin: 40px 25px 0 0;
     padding: 15px 20px; 
     border: none; 
     border-radius: 5px; 
@@ -141,7 +141,7 @@
         height: 300px;
     }
     
-.sponsor-button{
+.sponsor-button, .career-button{
     margin: 40px 20px 0 0;
     padding: 15px 20px; 
     border: none; 
