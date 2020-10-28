@@ -1,9 +1,5 @@
 /*
 
-Vanilla Template
-
-https://templatemo.com/tm-526-vanilla
-
 */
 
 p {
@@ -24,6 +20,28 @@ body {
 a { color: #3CC; }
 
 a:hover { color: #FF0; }
+
+
+.ripple {
+  width: 0;
+  height: 0;
+  border-radius: 50%;
+  background: rgba(255, 255, 255, 0.4);
+  transform: scale(0);
+  position: absolute;
+  opacity: 1;
+}
+.rippleEffect {
+    animation: rippleDrop .6s linear;
+}
+
+@keyframes rippleDrop {
+  100% {
+    transform: scale(2);
+    opacity: 0;
+  }
+}
+
 
 /*----------
   NAV
@@ -146,12 +164,12 @@ a:hover { color: #FF0; }
 .baner-content {
   padding-top: 30vh;
   text-align: center;
-  background-image: url(../img/1st-section.jpg);
+  background-image: url(../../IMAGES/cnc-laser-cutting-sacramento-1200a.jpg);
 }
 
 .baner-content h1 {
   margin-top: 0px;
-  font-size: 128px;
+  font-size: 95px;
   color: #fff;
   font-weight: 900;
   text-transform: uppercase;
