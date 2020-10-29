@@ -1,78 +1,82 @@
 .modal-bg{
-    position: fixed;
-    width: 100%;
-    height: 100vh;
-    left: 0;
-    top: 0;
-    background-color: rgba(0, 0, 0, 0.5);
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    visibility: hidden;
-    opacity: 0;
-    transition: visibility 0s, opacity 0.5s;
+    position: fixed!important;
+    width: 100%!important;
+    height: 100vh!important;
+    left: 0!important;
+    top: 0!important;
+    background-color: rgba(0, 0, 0, 0.5)!important;
+    display: flex!important;
+    justify-content: center!important;
+    align-items: center!important;
+    visibility: hidden!important;
+    opacity: 0!important;
+    transition: visibility 0s, opacity 0.5s!important;
+    z-index: 999999999!important;
 }
+    
 
 .bg-active{
-    visibility: visible;
-    opacity: 1;
+    visibility: visible!important;
+    opacity: 1!important;
+    z-index: 999999999!important;
 }
 
 .modal{
-    position: relative;
-    background-color: white;
-    width: 70%;
-    height: 70%;
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    flex-direction: column;
+    position: relative!important;
+    background-color: white!important;
+    width: 70%!important;
+    height: 70%!important;
+    display: flex!important;
+    justify-content: center!important;
+    align-items: center!important;
+    flex-direction: column!important;
+    z-index: 999999999!important;
 }
 
 .modal p{
-    width: 70%;
+    width: 70%!important;
    
-    text-align: justify;
-  
+    text-align: justify!important;
+  color: #000!important;
 }
 
 .modal img{
-    height: 200px;
+    height: 200px!important;
 }
 
 .modal-close{
-    position: absolute;
-    top: 10px;
-    right: 10px;
-    font-weight: bold;
-    cursor: pointer;
+    position: absolute!important;
+    top: 10px!important;
+    right: 10px!important;
+    font-weight: bold!important;
+    cursor: pointer!important;
 }
 
 
 .exit-button{
-    margin: 10px 0px 0 0;
-    padding: 10px 20px; 
-    border: none; 
-    border-radius: 5px; 
-    background-color: #1abc9c; 
-    color: #fff; 
-    font-size: 18px; 
-    outline: none; 
-    cursor: pointer; 
+    margin: 10px 0px 0 0!important;
+    padding: 10px 20px!important; 
+    border: none!important; 
+    border-radius: 5px!important; 
+    background-color: #1abc9c!important; 
+    color: #fff!important; 
+    font-size: 18px!important; 
+    outline: none!important; 
+    cursor: pointer!important; 
 
 
     /* We need this to position 
         span inside button */ 
-    position: relative; 
-    overflow: hidden; 
+    position: relative!important; 
+    overflow: hidden!important; 
     box-shadow: 6px 7px 40px -4px  
-             rgba(0, 0, 0, 0.2); 
+             rgba(0, 0, 0, 0.2)!important; 
 }
 
 @media screen and (max-width:768px){
     .modal{
     
-        width: 100%;
+        width: 100%!important;
      
        
     }
