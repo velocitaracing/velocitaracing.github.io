@@ -818,6 +818,21 @@ body.lb-disable-scrolling {
 }
 
 
+@media screen and (max-width:450px){
+  .tabs-content {
+    padding-left: 15px;
+    padding-right: 15px;
+    padding-top: 8vh;
+    padding-bottom: 8vh;
+    background-image: url(../../IMAGES/633da2548acdcc3625a51e5b6ce6bf1d.jpg);
+    background-attachment: fixed;
+    min-height: unset;
+    height: auto;
+    background-size: cover;
+    background-position: center center;
+  }
+}
+
 
 @media screen and (max-width:340px){
   .product-heading p{
