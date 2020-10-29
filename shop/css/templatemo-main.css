@@ -1,6 +1,22 @@
-/*
+.product-close{
+  border: none;
+  border-radius: 20px;
+  padding: 10px 15px;
+  border-radius: 5px; 
+  background-color: #1abc9c; 
+  color: #fff; 
+  font-size: 18px; 
+  outline: none; 
+  cursor: pointer; 
 
-*/
+  /* We need this to position 
+      span inside button */ 
+  position: relative; 
+  overflow: hidden; 
+  box-shadow: 6px 7px 40px -4px  
+           rgba(0, 0, 0, 0.2); 
+  
+}
 
 p {
   font-size: 15px;
@@ -20,28 +36,6 @@ body {
 a { color: #3CC; }
 
 a:hover { color: #FF0; }
-
-
-.ripple {
-  width: 0;
-  height: 0;
-  border-radius: 50%;
-  background: rgba(255, 255, 255, 0.4);
-  transform: scale(0);
-  position: absolute;
-  opacity: 1;
-}
-.rippleEffect {
-    animation: rippleDrop .6s linear;
-}
-
-@keyframes rippleDrop {
-  100% {
-    transform: scale(2);
-    opacity: 0;
-  }
-}
-
 
 /*----------
   NAV
@@ -157,24 +151,40 @@ a:hover { color: #FF0; }
 .parallax-content {
   width: 100%;
   min-height: 100vh;
+
   background-size: cover;
 }
+
+.product-heading{
+ 
+}
+
+.product-heading p{
+  font-size: 3em;
+  color: #fff;
+  margin: 0px auto 40px auto;
+  text-align: center;
+  z-index: 1;
+}
+
 
 
 .baner-content {
   padding-top: 30vh;
   text-align: center;
-  background-image: url(../../IMAGES/cnc-laser-cutting-sacramento-1200a.jpg);
+  background-image: url(../../IMAGES/Racetrack1-1.jpg);
 }
 
 .baner-content h1 {
   margin-top: 0px;
-  font-size: 95px;
+  font-size: 92px;
   color: #fff;
   font-weight: 900;
   text-transform: uppercase;
   margin-bottom: 0px;
 }
+
+
 
 .baner-content em {
   color: #ff7d27;
@@ -200,7 +210,7 @@ a:hover { color: #FF0; }
   padding-left: 15px;
   padding-right: 15px;
   padding-top: 15vh;
-  background-image: url(../img/2nd-section.jpg);
+  background-image: url(../../IMAGES/1467931279-sonoma-gettyimages-485785918.jpg);
   background-attachment: fixed;
   min-height: 100vh;
   background-size: cover;
@@ -245,7 +255,7 @@ h4, .h4 {
 }
 
 .service-content .service-item {
-  background-color: rgba(0, 0, 0, 0.5);
+  background-color: rgba(0, 0, 0, 0.8);
   padding: 25px 30px;
   text-align: center;
   color: #fff;
@@ -263,7 +273,8 @@ h4, .h4 {
 
 .projects-content {
   padding-top: 20vh;
-  background-image: url(../img/3rd-section.jpg);
+  background-image: url(../../IMAGES/633da2548acdcc3625a51e5b6ce6bf1d.jpg);
+  /* background-color: rgb(214, 214, 214); */
 }
 
 .projects-content .item img {
@@ -284,10 +295,41 @@ h4, .h4 {
   margin-top: 0px;
   font-size: 19px;
   font-weight: 600;
-  color: #000;
 }
 
 .projects-content .item .text-content span {
+  font-style: normal;
+  font-size: 17px;
+  font-weight: 700;
+  color: #ff7d27;
+}
+
+.projects-content-two {
+  padding-top: 20vh;
+  background-image: url(../../IMAGES/night-925414_1280.jpg);
+}
+
+.projects-content-two .item img {
+  width: 100%;
+}
+
+.projects-content-two .item {
+  margin: 15px;
+}
+
+.projects-content-two .item .text-content {
+  background-color: #fff;
+  text-align: center;
+  padding: 20px;
+}
+
+.projects-content-two .item .text-content h4 {
+  margin-top: 0px;
+  font-size: 19px;
+  font-weight: 600;
+}
+
+.projects-content-two .item .text-content span {
   font-style: normal;
   font-size: 17px;
   font-weight: 700;
@@ -318,7 +360,7 @@ h4, .h4 {
   padding-left: 15px;
   padding-right: 15px;
   padding-top: 8vh;
-  background-image: url(../img/4th-section.jpg);
+  background-image: url(../../IMAGES/633da2548acdcc3625a51e5b6ce6bf1d.jpg);
   background-attachment: fixed;
   min-height: 100vh;
   background-size: cover;
@@ -387,7 +429,8 @@ section {
   padding-left: 15px;
   padding-right: 15px;
   padding-top: 16vh;
-  background-image: url(../img/5th-section.jpg);
+  background-image: url(../../IMAGES/Image960x550\ \(1\).jpg);
+
 }
 
 .contact-form {
@@ -772,4 +815,18 @@ body.lb-disable-scrolling {
   cursor: pointer;
   filter: progid:DXImageTransform.Microsoft.Alpha(Opacity=100);
   opacity: 1;
+}
+
+
+
+@media screen and (max-width:340px){
+  .product-heading p{
+    font-size: 2em;
+    margin: 0px auto 40px auto;
+    text-align: center;
+    z-index: 1;
+  }
+  .baner-content h1 {
+    font-size: 50px;
+  }
 }

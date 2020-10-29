@@ -28,44 +28,6 @@ img {
   max-width: 100%;
 }
 
-.product{
-  display: flex;
-  align-items: center;
-  justify-content: space-evenly;
-  margin-top: 15px;
-}
-
-
-
-.product .primary-button-buy{
-  display: inline-block!important;
-  background-color: #ff7d27!important;
-  padding: 10px 20px!important;
-  border-radius: 3px!important;
-  text-transform: uppercase!important;
-  font-size: 11px!important;
-  color: #fff!important;
-  font-weight: 700!important;
-  text-decoration: none!important;
-  letter-spacing: 0.5px!important;
-}
-
-.product .primary-button-buy a{
-  text-decoration: none!important;
-  color: unset!important;
-}
-.product .primary-button-buy a:hover{
-  color: unset!important;
-}
-
-.prod span{
-  color: #000;
-  font-size: 18px;
-  font-weight: 500;
-}
-
-
-
 /* -------------------------------- 
 
 Main Components 
