@@ -71,19 +71,6 @@
 
 @media screen and (max-width:768px){
 
-     /* #career-joinus{
-    
-        display: flex;
-        align-items: center;
-        justify-content: center;
-        text-align: center; 
-        top: 0;
-        background-image: url(../IMAGES//career-joinus-back-mob.svg); 
-        background-size: cover;
-        background-repeat: no-repeat;
-         background-attachment: fixed; 
-    } 
-     */
     .career-joinus-heading-box{
         min-height: 100vh;
         display: flex;

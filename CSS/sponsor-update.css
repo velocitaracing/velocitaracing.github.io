@@ -44,32 +44,6 @@
     height: 500px;
 }
 
-                                                            /* button */
-
-
-/* .sponsor-toggle{          
-    margin: 20px 10px;
-    padding: 15px 20px;
-    outline:none;
-    font-size: 16px;
-    border: none;
-    border-radius: 25px;
-    border: 1px solid rgb(26, 26, 26);
-    background-color: rgb(196, 196, 196);
-    cursor: pointer;
-    transition: .3s ease-in-out 0s;
-   
-} */
-
-/* .sponsor-toggle:hover{
-    background-color: rgb(153, 153, 153);
-} */
-
-/* .sponsor-toggle:active{
-    background-color: rgb(26, 25, 25)
-} */
-
-
 
 .sponsor-button { 
     margin: 40px 25px 0 0;

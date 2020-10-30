@@ -1,15 +1,9 @@
 #career{
     
-    /* display: flex;
-    align-items: center;
-    justify-content: center;
-    text-align: center; */
     top: 0;
-    /* background-image: url(../IMAGES//career-back.svg); */
     background-size: cover;
     background-repeat: no-repeat;
     overflow-x: hidden;
-    /* background-attachment: fixed; */
 }
 
 
@@ -21,7 +15,6 @@
     align-items: center;
     justify-content: center;
     text-align: center;
-    /* overflow-x: hidden; */
 }
 
 .career-heading-box .career-heading{
@@ -61,29 +54,6 @@
                                                             /* button */
 
 
-/* .career-toggle{          
-    margin: 20px 10px;
-    padding: 15px 20px;
-    outline:none;
-    font-size: 16px;
-    border: none;
-    border-radius: 25px;
-    border: 1px solid rgb(26, 26, 26);
-    background-color: rgb(196, 196, 196);
-    cursor: pointer;
-    transition: .3s ease-in-out 0s;
-   
-} */
-
-/* .career-toggle:hover{
-    background-color: rgb(153, 153, 153);
-} */
-
-/* .career-toggle:active{
-    background-color: rgb(26, 25, 25)
-} */
-
-
 
 .career-toggle { 
     margin: 40px 0px 0 0;
@@ -108,15 +78,9 @@
 
     #career{
     
-        /* display: flex;
-        align-items: center;
-        justify-content: center;
-        text-align: center; */
         top: 0;
-        /* background-image: url(../IMAGES//career-back-mob.svg); */
         background-size: cover;
         background-repeat: no-repeat;
-        /* background-attachment: fixed; */
     }
     
     .career-heading-box{
@@ -189,17 +153,10 @@
 @media screen and (max-width:450px){
 
     #career{
-    
-        /* display: flex;
-        align-items: center;
-        justify-content: center;
-        text-align: center; */
         top: 0;
-        /* background-image: url(../IMAGES//career-back-mob.svg); */
         background-size: cover;
         background-repeat: no-repeat;
         height: auto;
-        /* background-attachment: fixed; */
     }
     
     .career-heading-box{

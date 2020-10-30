@@ -1,25 +1,4 @@
-/* #team{
-    display: flex;
-    flex-direction: column;
-    align-items: center;
-    justify-content: center;
-    text-align: center;
-    top: 0;
-    background-image: url(../IMAGES/BACKGROUD/track.png);
-    background-repeat: no-repeat;
-    background-attachment: fixed;
-    background-position-y: center;
-    background-position-x: right;
-     */
-/* } */
-/* .team-heading{
-    font-size: 30px;
-    font-weight: 700;
-    margin: 100px 10px 10px 10px;
-    padding: 10px;
-    border-bottom: 1px solid pink;
 
-} */
 
 .team-box{
     /* width: 100%; */
@@ -204,13 +183,7 @@
 
 
 @media screen and (max-width:380px){
-    /* #team{
-    background-image: unset;
-    background-repeat: no-repeat;
-    background-attachment: fixed;
-    background-position-y: center;
-    } */
-
+   
     
 .team-box .member-card{
     height: 250px;

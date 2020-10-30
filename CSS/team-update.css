@@ -57,10 +57,6 @@
 
     #team{
     
-        /* display: flex;
-        align-items: center;
-        justify-content: center;
-        text-align: center; */
         top: 0;
         background-image: unset;
         background-size: cover;
@@ -125,16 +121,13 @@
 
     #team{
     
-        /* display: flex;
-        align-items: center;
-        justify-content: center;
-        text-align: center; */
+       
         top: 0;
         background-image: unset;
         background-size: cover;
         background-repeat: no-repeat;
         margin-bottom: 0px;
-        /* background-attachment: fixed; */
+        
     }
 
     

@@ -89,22 +89,6 @@ body{
         transform: scale(10); 
     } 
 } 
-/* 
-.ripple-btn span { 
-  position: absolute; 
-  border-radius: 50%; 
- 
-  background-color: rgba(0, 0, 0, 0.3); 
-
-  width: 100px; 
-  height: 100px; 
-  margin-top: -50px; 
-  
-  margin-left: -50px; 
-
-  animation: ripple 1s; 
-  opacity: 0; 
-}  */
 
 
 
