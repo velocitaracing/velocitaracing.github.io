@@ -59,6 +59,7 @@
     justify-content: space-between;
     align-items: center;
     text-align: center;
+    z-index: 11;
     
 }
 
@@ -66,10 +67,12 @@
 .black-logo-VR{
     height: 110px;
     display: block;
+    z-index: 11;
 }
 .white-logo-VR{
     height: 110px;
     display: none;
+    z-index: 11;
 }
 
 .display-white-logo{
@@ -139,6 +142,7 @@
 .burger{
     padding: 20px;
     display: none;
+    z-index: 10;
 }
 
 .burger div{
@@ -167,6 +171,7 @@
     body{
         overflow-x: hidden;
     }
+    
 
     .logo{
    
@@ -196,10 +201,10 @@
     .navbar ul {
         position: absolute;
         right: 0px;
-        height: 88.5vh;
-        top: 11.5vh;
+        height: 100vh;
+        top: 0vh;
         display: flex;
-        justify-content: flex-start;
+        justify-content: center;
         background-color:black;
         flex-direction: column;
         align-items: center;
