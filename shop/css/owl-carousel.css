@@ -4,6 +4,7 @@
  */
 
 /* clearfix */
+
 .owl-carousel .owl-wrapper:after {
   content: ".";
   display: block;
@@ -209,3 +210,6 @@
   -ms-transform: translate3d(0,0,0);
 }
 
+.owl-item .item{
+  box-shadow: 0 4px 8px 0 rgba(0,0,0,0.2);
+}
