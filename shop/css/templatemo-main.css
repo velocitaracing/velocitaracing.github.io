@@ -172,7 +172,7 @@ a:hover { color: #FF0; }
 .baner-content {
   padding-top: 30vh;
   text-align: center;
-  background-image: url(../../IMAGES/Racetrack1-1.jpg);
+  background-image: url(../img/banner.jpg);
 }
 
 .baner-content h1 {
@@ -210,7 +210,7 @@ a:hover { color: #FF0; }
   padding-left: 15px;
   padding-right: 15px;
   padding-top: 15vh;
-  background-image: url(../../IMAGES/1467931279-sonoma-gettyimages-485785918.jpg);
+  background-image: url(../img/section-2.jpg);
   background-attachment: fixed;
   min-height: 100vh;
   background-size: cover;
@@ -273,7 +273,7 @@ h4, .h4 {
 
 .projects-content {
   padding-top: 20vh;
-  background-image: url(../../IMAGES/633da2548acdcc3625a51e5b6ce6bf1d.jpg);
+  background-image: url(../img/section-3.jpg);
   /* background-color: rgb(214, 214, 214); */
 }
 
@@ -306,7 +306,7 @@ h4, .h4 {
 
 .projects-content-two {
   padding-top: 20vh;
-  background-image: url(../../IMAGES/night-925414_1280.jpg);
+  background-image: url(../img/section-4.jpg);
 }
 
 .projects-content-two .item img {
@@ -360,8 +360,7 @@ h4, .h4 {
   padding-left: 15px;
   padding-right: 15px;
   padding-top: 8vh;
-  background-image: url(../../IMAGES/633da2548acdcc3625a51e5b6ce6bf1d.jpg);
-  background-attachment: fixed;
+  background-image: url(../img/section-5.jpg);
   min-height: 100vh;
   background-size: cover;
   background-position: center center;
@@ -413,7 +412,7 @@ section {
 }
 
 .tabgroup p {
-  background-color: rgba(0, 0, 0, 0.5);
+  background-color: rgba(0, 0, 0, 0.9);
   color: #fff;
   padding: 25px;
 }
@@ -429,7 +428,8 @@ section {
   padding-left: 15px;
   padding-right: 15px;
   padding-top: 16vh;
-  background-image: url(../../IMAGES/Image960x550\ \(1\).jpg);
+  background-image: url(../img/section-6.jpg);
+
 
 }
 
@@ -824,10 +824,13 @@ body.lb-disable-scrolling {
     padding-right: 15px;
     padding-top: 8vh;
     padding-bottom: 8vh;
-    background-image: url(../../IMAGES/633da2548acdcc3625a51e5b6ce6bf1d.jpg);
+    display: flex;
+    align-items: center;
+    justify-content: center;
+   
     background-attachment: fixed;
-    min-height: unset;
-    height: auto;
+    /* min-height: unset; */
+    /* height: auto; */
     background-size: cover;
     background-position: center center;
   }
