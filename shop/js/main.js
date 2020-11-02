@@ -63,6 +63,57 @@ jQuery(document).ready(function($) {
         
     });
 
+    var owl3 = $("#owl-testimonials3");
+
+    owl3.owlCarousel({
+      
+      pagination : true,
+      paginationNumbers: false,
+      autoPlay: 6000, //Set AutoPlay to 3 seconds
+      items : 3, //10 items above 1000px browser width
+      itemsDesktop : [1000,3], //5 items between 1000px and 901px
+      itemsDesktopSmall : [900,2], // betweem 900px and 601px
+      itemsTablet: [600,1], //2 items between 600 and 0
+      itemsMobile : false // itemsMobile disabled - inherit from itemsTablet option
+      
+  });
+
+  var counta = 0;
+
+$(window).scroll(function(e){
+
+
+	/* Onscroll number counter */
+	var statisticNumbers = $('.single-count');
+	if(statisticNumbers.length) {
+		var oTop = statisticNumbers.offset().top - window.innerHeight;
+		if (counta == 0 && $(window).scrollTop() > oTop) {
+			$('.count').each(function() {
+				var $this = $(this),
+				countTo = $this.attr('data-count');
+				$({
+					countNum: $this.text()
+				}).animate({
+					countNum: countTo
+				},
+
+				{
+					duration: 2000,
+					easing: 'swing',
+					step: function() {
+						$this.text(Math.floor(this.countNum));
+					},
+					complete: function() {
+						$this.text(this.countNum);
+					}
+				});
+			});
+			counta = 1;
+		}
+	}
+
+});
+
 
 });
 
