@@ -1138,6 +1138,8 @@ height: 150px;}
 }
 /* end */
 
+
+
 @media screen and (max-width:450px){
   .tabs-content {
     padding-left: 15px;
@@ -1154,9 +1156,6 @@ height: 150px;}
     background-size: cover;
     background-position: center center;
   }
-}
-
-@media screen and (max-width:450px){
   .navbar{
     display: none;
   }
@@ -1164,7 +1163,7 @@ height: 150px;}
     text-decoration: none;
     color: #1E1E23;
     opacity:1;
-    font-family: 'work sans', sans serif;
+    /* font-family: 'work sans', sans serif; */
     font-size: 1.5em;
     font-weight: 400;
     transition: 200ms;
