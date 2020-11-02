@@ -22,15 +22,17 @@
     </head>
 <body>
 
-    <div class="fixed-side-navbar">
-        <ul class="nav flex-column">
-            <li class="nav-item"><a class="nav-link" href="#home"><span>Intro</span></a></li>
-            <li class="nav-item"><a class="nav-link" href="#our-story"><span>Our Story</span></a></li>
-            <li class="nav-item"><a class="nav-link" href="#products"><span>Products</span></a></li>
-            <li class="nav-item"><a class="nav-link" href="#partners"><span>Partners</span></a></li>
-            <li class="nav-item"><a class="nav-link" href="#contact-us"><span>Contact Us</span></a></li>
+    <div class="navbar">
+        <div class="logo"><a href="https://velocitaracing.github.io/"><img src="../IMAGES/HOME/VL white.png" alt=""></div></a>
+        <ul>
+            <li><a href="#home">Home</a></li>
+            <li><a href="#our-story">Our Story</a></li>
+            <li><a href="#products">Trending</a></li>
+            <li><a href="#partners">Brands</a></li>
+            <li><a href="#contact-us">Contact</a></li><li><a href=""></a></li>
         </ul>
     </div>
+    
 
     
 			<nav role="navigation">
@@ -40,17 +42,16 @@
                     <span></span>
                     <span></span>
                 <ul id="menu">
-                  <li><a href="#home">Home</a></li>
-              <li><a href="#our-story">Our Story</a></li>
-              <li><a href="#products">Trending</a></li>
-              <li><a href="#partners">Brands</a></li>
-              <li><a href="#contact-us">Contact</a></li>
+                	<li><a href="#home">Home</a></li>
+                    <li><a href="#our-story">Our Story</a></li>
+                    <li><a href="#products">Trending</a></li>
+                    <li><a href="#partners">Brands</a></li>
+                    <li><a href="#contact-us">Contact</a></li>
                 </ul>
                </div>
-              </nav>
+            </nav>
 
     <div class="parallax-content baner-content" id="home">
-        <div class="logo"><a href="https://velocitaracing.github.io/"><img src="../IMAGES/HOME/VL logo.png" alt="" style="position: absolute; height: 130px; top: 0px ; left: 20px;"></div></a>
         <div class="container">
             <div class="first-content">
                 <h1>Velocita Racing Store</h1>
@@ -699,7 +700,7 @@
     <script>
         $(document).ready(function(){
           // Add smooth scrolling to all links
-          $(".fixed-side-navbar a, .primary-button a, nav a").on('click', function(event) {
+          $(".navbar ul li a, .primary-button a, nav a").on('click', function(event) {
 
             // Make sure this.hash has a value before overriding default behavior
             if (this.hash !== "") {
