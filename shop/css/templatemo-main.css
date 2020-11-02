@@ -1156,7 +1156,7 @@ height: 150px;}
 }
 
 @media screen and (max-width:450px){
-  .fixed-side-navbar{
+  .navbar{
     display: none;
   }
   a {
