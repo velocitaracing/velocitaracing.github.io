@@ -1,5 +1,24 @@
 @import url('https://fonts.googleapis.com/css2?family=Montserrat&display=swap');
 
+@import './about.css';
+@import './back-images.css';
+@import './career-update.css';
+@import './careers.css';
+@import './cars.css';
+@import './cars-update.css';
+@import './contact.css';
+@import './home.css';
+@import './imageslide.css';
+@import './joinus.css';
+@import './modal.css';
+@import './navbar.css';
+@import './shop.css';
+@import './social.css';
+@import './sponsor-update.css';
+@import './sponsors.css';
+@import './team-update.css';
+@import './team.css';
+
 *{
     padding: 0;
     margin: 0;
