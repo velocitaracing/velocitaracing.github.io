@@ -11,11 +11,12 @@
 }
 
 .sponsors-heading{
-    font-size: 30px;
-    font-weight: 700;
     padding: 20px;
     margin: 110px 10px 10px 10px;
-    border-bottom: 1px solid pink;
+    font-size: 35px;
+    text-align: left;
+    color: rgb(23, 63, 53);
+    font-weight: 600;
 }
 
 .sponsor-box{
@@ -86,7 +87,7 @@
         font-size: 25px;
         padding: 20px;
         margin: 110px 10px 10px 10px;
-        border-bottom: 1px solid pink;
+
     }
     
     .sponsor-box{

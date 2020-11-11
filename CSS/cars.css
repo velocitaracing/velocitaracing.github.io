@@ -11,11 +11,12 @@
 
 
 .cars-heading{
-    font-size: 30px;
-    font-weight: 700;
     padding: 10px;
     margin-top: 80px;
-    border-bottom: 1px solid pink;
+    font-size: 35px;
+    text-align: left;
+    color: rgb(23, 63, 53);
+    font-weight: 600;
 }
 
 .cars-box{
@@ -35,6 +36,5 @@
         font-weight: 700;
         padding: 10px;
         margin-top: 100px;
-        border-bottom: 1px solid pink;
     }
 }
