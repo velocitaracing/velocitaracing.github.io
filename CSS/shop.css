@@ -236,6 +236,10 @@
      
       
   }
+
+  .shop .shop-heading {
+    font-size: 25px;
+  }
   .shop-box{
     width: 100%;
     margin: 50px 40px 0 40px;
@@ -267,7 +271,6 @@
       font-weight: 700;
       margin: 0px auto 25px auto;
       padding: 10px;
-      border-bottom: 1px solid pink;
       width: 90%;
       text-align: center;
       
