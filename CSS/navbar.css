@@ -90,7 +90,7 @@
 }
 
 .logo-txt {
-    padding: 20px;
+    padding: 0 20px;
     text-decoration: none;
     color: black;
 
@@ -188,7 +188,7 @@
     }
 
     .logo-txt {
-        padding: 5px;
+        padding: 0 5px;
         
     }
 
@@ -264,4 +264,13 @@
 
 
 
+
+
+@media screen and (max-width:325px){
+    .logo-txt p{
+        padding: 0 4px;
+        font-size: 9px;
+    
+    }
+}
 
