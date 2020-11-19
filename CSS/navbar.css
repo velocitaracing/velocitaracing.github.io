@@ -65,12 +65,12 @@
 
 
 .black-logo-VR{
-    height: 110px;
+    height: 80px;
     display: block;
     z-index: 11;
 }
 .white-logo-VR{
-    height: 110px;
+    height: 80px;
     display: none;
     z-index: 11;
 }
@@ -113,7 +113,7 @@
     text-align: center;
     font-size: 15px;
     margin: 0 20px;
-    padding: 0 20px;
+    padding: 0px;
 
 }
 
@@ -177,7 +177,7 @@
    
         font-size: 15px;
         margin: 0 20px;
-        padding: 0 20px;
+        padding: 0px;
     }
 
     .black-logo-VR{

@@ -35,13 +35,15 @@
 }
 
 .shop .shop-heading {
-  font-size: 30px;
-  font-weight: 700;
+  font-size: 35px;
+  /* font-weight: 700; */
   margin: 10px auto;
   padding: 10px;
   /* border-bottom: 1px solid pink; */
   width: 80%;
   text-align: left;
+  color: rgb(23, 63, 53);
+  font-weight: 600;
   
   
 }
@@ -190,7 +192,7 @@
 
   
   .shop .shop-heading {
-      font-size: 25px;
+      font-size: 20px;
       margin: 25px auto;
       padding: 10px;
       border-bottom: 1px solid pink;
