@@ -63,7 +63,7 @@ body{
     position:absolute;
     left:50%;
     top:50%;
-    background-image:url(../IMAGES/LOADER/100.gif); /* path to your loading animation */
+    background-image:url(../IMAGES/LOADER/100.webp); /* path to your loading animation */
     background-repeat:no-repeat;
     background-position:center;
     background-size: cover;
