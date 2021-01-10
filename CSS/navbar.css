@@ -154,7 +154,14 @@
 .unset-values{
     padding: unset!important;
     margin: unset!important;
+    
+}
+
+.one-nav{
     z-index: 99!important;
+}
+.two-nav{
+    z-index: 100!important;
 }
 
 .unset-values a{
