@@ -12,13 +12,27 @@
 <script language="JavaScript">
     
     var password;
-    
+    var username;
     var pass1="admin";
+    var usern ="admin";
     
-    password=prompt('Please enter your password to view this page!',' ');
+    username=prompt('Please enter your Username to view this page!',' ');
     
-    if (password==pass1)
-      alert('Password Correct! Click OK to enter!');
+    
+    
+    if (username==usern)
+    {
+        password=prompt('Please enter your password to view this page!',' ');
+        
+        if(password==pass1)
+        alert('Password Correct! Click OK to enter!');
+
+        else{
+            window.location="http://velocitaracing.github.io";
+            alert('Password InCorrect!'); 
+            
+        }}
+    
     else
        {
         window.location="http://velocitaracing.github.io";
