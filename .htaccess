@@ -2,5 +2,5 @@ ErrorDocument 404 /404.html
 
 AuthType Basic  
 AuthName "restricted area"  
-AuthUserFile  /velocitaracing.github.io/resources/.htpasswd
+AuthUserFile  ../velocitaracing.github.io/resources/.htpasswd
 require valid-user
