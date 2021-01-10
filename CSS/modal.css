@@ -34,6 +34,11 @@
     width: 100%;
 }
 
+.faq-pdf{
+    height: 80%;
+    width: 90%;
+}
+
 .modal{
     position: relative;
     background-color: white;
