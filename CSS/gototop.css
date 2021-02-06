@@ -1,35 +1,17 @@
-.goto-top-link{
+.goto-top{
     display: none;
 }
 
 @media screen and (max-width: 450px){
-    .goto-top-button{
+    .arrow-container{
         position: fixed;
-        bottom: 30px;
-        right: 15px;
-        border-radius: 40px;
-        outline: none;
-        border: none;
-       
-        background-color: rgba(0, 0, 0, 0);
-        
+        top: 80vh;
+        left: 85vw;
+        z-index: 999;
     }
 
-    .goto-top-link{
-        display: none;
-    }
-
-    .goto-top-img{
-        height: 40px;
-        
-        
-        /* padding: 10px; */
-    }
-    
     .visible{
         display: block;
-        transition: 1s ease-in-out 0s;
-        /* transform : translateX(0); */
     }
 
 }

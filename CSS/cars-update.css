@@ -115,7 +115,7 @@
 .slideshow-container-new {
     /* height: 450px; */
     position: relative;
-    background: #fff;
+    /* background: #fff; */
     display: flex;
     align-items: center;
     justify-content: center;
@@ -174,7 +174,7 @@
   .dot-container-new {
     text-align: center;
     padding: 20px;
-    background: #fff;
+    /* background: #fff; */
   }
   
   /* The dots/bullets/indicators */

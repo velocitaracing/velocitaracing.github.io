@@ -76,6 +76,10 @@
     <div class="navbar">
         <div class="logo"><a class="logo-txt" href="#home"><img class="black-logo-VR" src="IMAGES/HOME/VR new logo.png" alt="velocita racing logo"><img class="white-logo-VR" src="IMAGES/HOME/VR new logo white.png" alt="velocita racing logo white"><p>VELOCITA RACING</p></a></div>
         <ul class="nav-links">
+            <div class="night-mode">
+                <input type='checkbox' id='time' class="night-toggle"/>
+                <label for='time'>NIG</label>
+            </div>
             <li><a href="#about">ABOUT</a></li>
             <li><a href="#cars">CARS</a></li>
             <li><a href="#team">TEAM</a></li>
@@ -117,6 +121,7 @@
             <li><a href="./blog/">BLOG</a></li>
             <li><a href="#contact">CONTACT</a></li>
         </ul>
+             
         <div class="burger">
             <div class="line1"></div>
             <div class="line2"></div>
@@ -174,19 +179,19 @@
                 <div class="slideshow-container">
 
                     <div class="mySlides fade">
-                      <div class="numbertext">1 / 3</div>
+                      <!-- <div class="numbertext">1 / 3</div> -->
                       <img src="IMAGES/SLIDER/RIT.webp" alt="Ramaiah Institite of Technology">
                       <div class="text"></div>
                     </div>
                     
                     <div class="mySlides fade">
-                      <div class="numbertext">2 / 3</div>
+                      <!-- <div class="numbertext">2 / 3</div> -->
                       <img src="IMAGES/HOME/VR new logo.webp" alt="Velocita Racing">
                       <div class="text"></div>
                     </div>
                     
                     <div class="mySlides fade">
-                      <div class="numbertext">3 / 3</div>
+                      <!-- <div class="numbertext">3 / 3</div> -->
                       <img src="IMAGES/SLIDER/FB.webp" alt="Formula Bharat">
                       <div class="text"></div>
                     </div>
@@ -368,7 +373,7 @@
                                         <p>MRF Slicks</p>
                                     </div>
                                     <div class="info">
-                                        <img src="./IMAGES/trofee.jpg" alt="">
+                                        <img src="./IMAGES/trofee.png" alt="">
                                         <p id="extra">13th Overall in FB2020</p>
                                     </div>
                                     <!-- <button>VIEW PAST</button> -->
@@ -543,8 +548,7 @@
                     <p>Meet our team</p>
                     <div class="info-team">
                         <p>Velocita has a team of excellent engineers who work with complete dedication to keep velocita ahead in every aspect!<br><br><br><br>They aren't serious always, we do have fun at velocita.</p>
-                    </div>
-                   
+                    </div> 
                 </div>
                 <div class="team-image team-right">
                     <img src="./IMAGES/team-image.svg" alt="">
@@ -552,7 +556,7 @@
             </div>
 
             <div class="team-box">
-                <div class="member-card left-one">
+                <div class="member-card team-card-one left-one">
                     <div class="card-side1">
                         <img src="IMAGES/TEAM/pranay.webp" alt="pranay">
                         
@@ -571,7 +575,7 @@
 
 
                 
-                <div class="member-card left-two">
+                <div class="member-card team-card-two left-two">
                     <div class="card-side1">
                         <img src="IMAGES/TEAM/niranjan.webp" alt="niranjan">
                         
@@ -589,7 +593,7 @@
 
 
                 
-                <div class="member-card right-one">
+                <div class="member-card team-card-three right-one">
                     <div class="card-side1">
                         <img src="IMAGES/TEAM/bharat.webp" alt="bharat">
                         
@@ -607,7 +611,7 @@
                 </div>
 
 
-                <div class="member-card right-two">
+                <div class="member-card team-card-four right-two">
                     <div class="card-side1">
                         <img src="IMAGES/TEAM/hemanth.webp" alt="hemanth">
                         
@@ -653,7 +657,7 @@
             
             <div class="career-heading-box">
                 <div class="career-image career-left">
-                    <img src="./IMAGES/career-image.svg" alt="careers velocita">
+                    <img src="./IMAGES/career-image.webp" alt="careers velocita">
                 </div>
                 <div class="career-heading">
                     <p>Student careers at velocita</p>
@@ -820,15 +824,15 @@
                         <p>Become a part of velocita's family and explore your skills and learn new everyday. Get exposed to various opportunities and solve real world problems.<br><br>We've got designing, photography, fabricating and much more for you. Be a part of our story...we can't wait to seeya!<br><br>PS: As we told you, we do have fun!<br><br>Recruitment 2020 will start soon, stay tuned for latest updates!</p>
                     </div>
                     <div class="info-career-joinus-button">
-                        <button class="career-button modal-btn-one ripple-btn">Apply Now</button>
-                        <button class="career-button modal-btn-faq ripple-btn">FAQs</button>
+                        <button class="career-button career-button-one modal-btn-one ripple-btn">Apply Now</button>
+                        <button class="career-button career-button-two modal-btn-faq ripple-btn">FAQs</button>
                     </div>
                     
                    
                 </div>
 
                 <div class="career-joinus-image joinus-right">
-                    <img src="./IMAGES/career-joinus.svg" alt="">
+                    <img src="./IMAGES/career-joinus.webp" alt="">
                 </div>
                
             </div>
@@ -940,7 +944,7 @@
             <div id="sponsor-us" class="sponsor-heading-box">
                
                 <div class="sponsor-image sponsor-left">
-                    <img src="./IMAGES/partnerwithus.svg" alt="">
+                    <img src="./IMAGES/partnerwithus.webp" alt="">
                 </div>
                 <div class="sponsor-heading">
                     <p>Partner with us</p>
@@ -949,8 +953,8 @@
                             <br><br>Velocita Racing will be greatful for your support!</p>
                     </div>
                     <div class="info-sponsor-button">
-                        <button class="sponsor-button modal-btn-three ripple-btn">Join Us</button>
-                        <button class="sponsor-button modal-btn-four ripple-btn">FAQs</button>
+                        <button class="sponsor-button sponsor-button-one modal-btn-three ripple-btn">Join Us</button>
+                        <button class="sponsor-button sponsor-button-two modal-btn-four ripple-btn">FAQs</button>
                     </div>
                        
                 </div>
@@ -1014,9 +1018,9 @@
                                 <div class="shop-btn">
                                    
                                     <form target="_blank" action="https://narkha.com/collections/velocita-racing">
-                                         <input class="lap-button sponsor-button ripple-btn" type="submit" value="Shop Now on Narkha" />
+                                         <input class="lap-button shop-button-one sponsor-button ripple-btn" type="submit" value="Shop Now on Narkha" />
                                     </form>
-                                    <button class=" lap-button sponsor-button modal-btn-five ripple-btn">Queries</button>
+                                    <button class=" lap-button shop-button-two sponsor-button modal-btn-five ripple-btn">Queries</button>
                                 </div>
                                 
                                 
@@ -1031,7 +1035,7 @@
     
                         <div class="mySlides-shop fade">
                           <!-- <div class="numbertext">1 / 3</div> -->
-                          <img src="IMAGES/SHOP/VelXNar.webp" alt="Velocita Racing X Narkha">
+                          <img src="IMAGES/SHOP/VelXNarW.webp" alt="Velocita Racing X Narkha">
                           <div class="text"></div>
                         </div>
                         <div class="mySlides-shop fade">
@@ -1107,9 +1111,9 @@
                     <div class="shop-btn">
                       
                         <form  target="_blank" action="https://narkha.com/collections/velocita-racing">
-                            <input class="mob-button sponsor-button ripple-btn" type="submit" value="Shop Now" />
+                            <input class="mob-button shop-button-three sponsor-button ripple-btn" type="submit" value="Shop Now" />
                         </form>
-                        <button class="mob-button sponsor-button modal-btn-six ripple-btn">Queries</button>
+                        <button class="mob-button shop-button-four sponsor-button modal-btn-six ripple-btn">Queries</button>
                         </div>
                     </div>
                    
@@ -1143,12 +1147,12 @@
                     </div>
                     <div class="socialbox">
                         <ul>
-                            <li><a href="mailto:velocitaracing.rit@gmail.com?Subject=Hey%20Velocita!"><img src="IMAGES/SOCIAL/email.png" alt="email"></a></li>
-                            <li><a href="https://www.instagram.com/officialvelocitaracing/" target="_blank"><img src="IMAGES/SOCIAL/instagram.png" alt="instagram"></a></li>
-                            <li><a href="https://www.facebook.com/velocitaracing/" target="_blank"><img src="IMAGES/SOCIAL/facebook.png" alt="facbook"></a></li>
-                            <li><a href="https://twitter.com/RacingVelocita" target="_blank"><img src="IMAGES/SOCIAL/twitter.png" alt="twitter"></a></li>
-                            <li><a href="https://www.linkedin.com/company/velocitaracing" target="_blank"><img src="IMAGES/SOCIAL/linkedin.png" alt="linkedin"></a></li>
-                            <li><a href="https://www.youtube.com/c/velocitaracing" target="_blank"><img src="IMAGES/SOCIAL/yt.png" alt="youtube"></a></li>
+                            <li class="social-link-one"><a href="mailto:velocitaracing.rit@gmail.com?Subject=Hey%20Velocita!"><img src="IMAGES/SOCIAL/email.png" alt="email"></a></li>
+                            <li class="social-link-two"><a href="https://www.instagram.com/officialvelocitaracing/" target="_blank"><img src="IMAGES/SOCIAL/instagram.png" alt="instagram"></a></li>
+                            <li class="social-link-three"><a href="https://www.facebook.com/velocitaracing/" target="_blank"><img src="IMAGES/SOCIAL/facebook.png" alt="facbook"></a></li>
+                            <li class="social-link-four"><a href="https://twitter.com/RacingVelocita" target="_blank"><img src="IMAGES/SOCIAL/twitter.png" alt="twitter"></a></li>
+                            <li class="social-link-five"><a href="https://www.linkedin.com/company/velocitaracing" target="_blank"><img src="IMAGES/SOCIAL/linkedin.png" alt="linkedin"></a></li>
+                            <li class="social-link-six"><a href="https://www.youtube.com/c/velocitaracing" target="_blank"><img src="IMAGES/SOCIAL/yt.png" alt="youtube"></a></li>
                         </ul>
                     </div>
                     <p class="mail">velocitaracing.rit@gmail.com</p>
@@ -1165,78 +1169,83 @@
 
 
 
-    <div class="goto-top">
-        <a class="goto-top-link" href="#home"><button class="goto-top-button"><img class="goto-top-img" src="./IMAGES/goto-top.png" alt="arrow"></button></a>
+    <div class="arrow-container goto-top">
+        <a class="goto-top-link" href="#home">
+            <div class="chevron arrow-one"></div>
+            <div class="chevron arrow-two"></div>
+            <div class="chevron arrow-three"></div>
+        </a>
+       
     </div>
 
 
     
     <div class="modal-bg modal-bg-one">
-        <div class="modal modal-one modal-recruit-data">
+        <div class="modal modal-one modal-night-one modal-recruit-data">
             <h3>Velocita Racing Recruitment 2020</h3>
             <span class="modal-close modal-close-one">x</span>
             <div class="apply-now">
                 <p>1. The process consists of 2 steps<br><br>&nbsp;&nbsp;&nbsp;Step 1&nbsp;:&nbsp; Tech/ Non-tech written round<br><br>&nbsp;&nbsp;&nbsp;Step 2&nbsp;:&nbsp; Interview round<br><br>2. Fill details carefully<br><br>3. You will be notified via e-mail</p>
             </div>
-            <button class="proceed-btn ripple-btn modal-close-btn">Proceed</button>
+            <button class="proceed-btn ripple-btn modal-night-button-one modal-close-btn">Proceed</button>
         </div>
     </div>
 
     <div class="modal-bg modal-bg-form">
-        <div class="modal modal-form">
+        <div class="modal modal-night-two modal-form">
             <h3>Velocita Racing Recruitment 2020</h3>
             <span class="modal-close modal-close-form">x</span>
             <div class="apply-now">
                 <iframe class="laptop" src="https://docs.google.com/forms/d/e/1FAIpQLScy6YUAURnKYK9PlIx9D6DkKW2k63L4cqybHDe_o3YB5FlM-g/viewform?embedded=true" width="" height="" frameborder="0" marginheight="0" marginwidth="0">Loading…</iframe>
                 <iframe class="mobile google-form" src="https://docs.google.com/forms/d/e/1FAIpQLScy6YUAURnKYK9PlIx9D6DkKW2k63L4cqybHDe_o3YB5FlM-g/viewform?embedded=true" width="" height="" frameborder="0" marginheight="0" marginwidth="0">Loading…</iframe>
             </div>
-            <button class="proceed-btn ripple-btn form-close-btn">Exit</button>
+            <button class="proceed-btn ripple-btn modal-night-button-two form-close-btn">Exit</button>
         </div>
     </div>
 
 
 
     <div class="modal-bg modal-bg-form modal-bg-two">
-        <div class="modal modal-form modal-two">
+        <div class="modal modal-night-three modal-form modal-two">
             <h3>Sponsor Query Form</h3>
             <span class="modal-close modal-close-form modal-close-two">x</span>
             <div class="apply-now">
                 <iframe class="laptop" src="https://docs.google.com/forms/d/e/1FAIpQLSdEgeYBPAzmKPxw0MKOAZYzQ3ZKVK0O3QfJKVDIAFZuZn9KqA/viewform?embedded=true" width="" height="" frameborder="0" marginheight="0" marginwidth="0">Loading…</iframe>
                 <iframe class="mobile google-form" src="https://docs.google.com/forms/d/e/1FAIpQLSdEgeYBPAzmKPxw0MKOAZYzQ3ZKVK0O3QfJKVDIAFZuZn9KqA/viewform?embedded=true" width="" height="" frameborder="0" marginheight="0" marginwidth="0">Loading…</iframe>
             </div>
-            <button class="proceed-btn ripple-btn sponsor-form-close-btn">Exit</button>
+            <button class="proceed-btn ripple-btn modal-night-button-three sponsor-form-close-btn">Exit</button>
         </div>
     </div>
 
     
 
     <div class="modal-bg modal-bg-faq">
-        <div class="modal modal-faq">
+        <div class="modal modal-night-four modal-faq">
             <!-- <h3>We are trying to fix this as soon as possible.</h3> -->
             <iframe class="faq-pdf laptop" src="./FAQS.pdf" width="640" height="200" frameborder="0" marginheight="0" marginwidth="0">Loading…</iframe>
             <iframe class="faq-pdf mobile" src="./FAQS.pdf" width="" height="" frameborder="0" marginheight="0" marginwidth="0">Loading…</iframe>
             <span class="modal-close modal-close-faq">x</span>
             <p class="joinus-modal-text">Didn't find what you were looking for? Get in touch right away!</p>
-            <button class="proceed-btn ripple-btn faq-close-button">Exit</button>
+            <button class="proceed-btn modal-night-button-four ripple-btn faq-close-button">Exit</button>
         </div>
     </div>
 
     
     <div class="modal-bg modal-bg-sponsor-faq">
-        <div class="modal modal-sponsor-faq">
+        <div class="modal modal-night-five modal-sponsor-faq">
             <!-- <h3>We are trying to fix this as soon as possible.</h3> -->
             <iframe class="faq-pdf laptop" src="./FAQS.pdf" width="640" height="200" frameborder="0" marginheight="0" marginwidth="0">Loading…</iframe>
             <iframe class="faq-pdf mobile" src="./FAQS.pdf" width="" height="" frameborder="0" marginheight="0" marginwidth="0">Loading…</iframe>
             <span class="modal-close modal-close-sponsor-faq">x</span>
             <p class="joinus-modal-text">Didn't find what you were looking for? Get in touch right away!</p>
-            <button class="proceed-btn ripple-btn sponsor-faq-close-button">Exit</button>
+            <button class="proceed-btn modal-night-button-five ripple-btn sponsor-faq-close-button">Exit</button>
         </div>
     </div>
 
 
     
     <div class="modal-bg modal-bg-product">
-        <div class="modal modal-product">
+        <div class="modal modal-night-six modal-product">
             <h3>Product Query</h3>
             <div class="apply-now">
                 <iframe class="laptop" src="https://docs.google.com/forms/d/e/1FAIpQLSeEh7WCkxA7Q5z97whl50vIOGSFueGB9HbrjDynvgAy5XEiRw/viewform?embedded=true" width="" height="" frameborder="0" marginheight="0" marginwidth="0">Loading…</iframe>
@@ -1244,7 +1253,7 @@
             </div>
             <span class="modal-close modal-close-product">x</span>
             <p class="joinus-modal-text"></p>
-            <button class="proceed-btn ripple-btn faq-close-product">Exit</button>
+            <button class="proceed-btn modal-night-button-six ripple-btn faq-close-product">Exit</button>
         </div>
     </div>
 
@@ -1278,6 +1287,7 @@
     <script src="JS/backscroll.js"></script>
     <script src="JS/careertoggle.js"></script>
     <script src="JS/ripple.js"></script>
+    <script src="JS/nightmode.js"></script>
     <!-- <script src="JS/circle-loader.js"></script> -->
 </body>
 </html>
