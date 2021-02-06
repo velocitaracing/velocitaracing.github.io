@@ -70,6 +70,17 @@ const nightMode = () =>{
     const arrow2 = document.querySelector('.arrow-two');  
     const arrow3 = document.querySelector('.arrow-three'); 
 
+    const teamSocialIcon = document.querySelector('.team-social-icon-one');
+    const teamSocialIcon2 = document.querySelector('.team-social-icon-two');
+    const teamSocialIcon3 = document.querySelector('.team-social-icon-three');
+    const teamSocialIcon4 = document.querySelector('.team-social-icon-four');
+    const teamSocialIcon5 = document.querySelector('.team-social-icon-five');
+    const teamSocialIcon6 = document.querySelector('.team-social-icon-six');
+    const teamSocialIcon7 = document.querySelector('.team-social-icon-seven');
+    const teamSocialIcon8 = document.querySelector('.team-social-icon-eight');
+
+    // const teamBack = document.querySelector('.member-card');
+
             // toggle
     nightToggle.addEventListener('click',()=>{
         body.classList.toggle('body-night');
@@ -142,6 +153,16 @@ const nightMode = () =>{
         arrow2.classList.toggle('arrow-night');
         arrow3.classList.toggle('arrow-night');
 
+        teamSocialIcon.classList.toggle('team-social-night');
+        teamSocialIcon2.classList.toggle('team-social-night');
+        teamSocialIcon3.classList.toggle('team-social-night');
+        teamSocialIcon4.classList.toggle('team-social-night');
+        teamSocialIcon5.classList.toggle('team-social-night');
+        teamSocialIcon6.classList.toggle('team-social-night');
+        teamSocialIcon7.classList.toggle('team-social-night');
+        teamSocialIcon8.classList.toggle('team-social-night');
+
+        // teamBack.classList.toggle('team-back-night');
 
 
     });

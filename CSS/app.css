@@ -262,6 +262,16 @@ body{
     color: #f0f0f0;
   }
 
+
+  .team-social-night{
+    color: #bb86fc;
+  }
+
+  /* .team-back-night{
+    background-image: url(../IMAGES/HOME/GearsDark.svg);
+    background-repeat: no-repeat;
+  } */
+
   .footer-night{
     color: #bb86fc;
   }
