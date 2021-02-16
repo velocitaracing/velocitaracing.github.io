@@ -165,6 +165,22 @@ body{
 .checked {
     color: orange;
   }
+
+.box{
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 0 12px;
+}
+
+.dept{
+    font-size: 8px;
+}
+
+.department{
+    font-size: 8px;
+}
  
 
 .footer{

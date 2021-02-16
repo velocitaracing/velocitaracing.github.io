@@ -4,7 +4,7 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0, user-scalable=0">
     <link rel="stylesheet" href="./style.css">
-    <script language="JavaScript">
+    <!-- <script language="JavaScript">
     
         var password;
         var username;
@@ -34,7 +34,7 @@
             }
         
      
-        </script>
+        </script> -->
         <link rel="stylesheet" href="../CSS/navbar.css">
         <link rel="stylesheet" href="../shop/css/fontAwesome.css">
     <title>Resources | Velocita Racing</title>
@@ -92,7 +92,7 @@
 
                     <a href="#">FB RULE BOOK V21.1</a>
                     <div class="author">
-                        <span class="auth">BY: FORMULA BHARAT</span>
+                        <span class="authName">BY: FORMULA BHARAT</span>
                     </div>
                     <div class="rating">
                         <span class="fa fa-star checked"></span>
@@ -101,9 +101,12 @@
                         <span class="fa fa-star-o"></span>
                         <span class="fa fa-star-o"></span>
                     </div>
-                    <form target="_blank" action="https://drive.google.com/file/d/1XwdTMriF-83_wiHrK6oa2XjeSbXlMHXg/view?usp=sharing">
-                        <input class="download" type="submit" value="READ"/>
-                    </form>
+                    <div class="box">
+                        <div class=""><span class="dept">SUBSYSTEM: <span class="deptName">ALL</span></span></div>
+                        <div class=""> <form target="_blank" action="https://drive.google.com/file/d/1XwdTMriF-83_wiHrK6oa2XjeSbXlMHXg/view?usp=sharing">
+                            <input class="download" type="submit" value="READ"/>
+                        </form></div>
+                    </div>
                 </div>
             </li>
             <li class="card">
@@ -113,7 +116,7 @@
                 <div class="text">
                     <a href="#">FUNDAMENTALS OF VEHICLE DYNAMICS</a>
                     <div class="author">
-                        <span class="auth">BY: NIRANJAN BHARADWAJ</span>
+                        <span class="authName">BY: NIRANJAN BHARADWAJ</span>
                     </div>
                     <div class="rating">
                         <span class="fa fa-star checked"></span>
@@ -122,9 +125,12 @@
                         <span class="fa fa-star-half-o checked"></span>
                         <span class="fa fa-star-o"></span>
                     </div>
-                    <form target="_blank" action="https://drive.google.com/file/d/1w8m42DVJqjkY7QYtuTOVWtiND0XERfH2/view?usp=sharing">
-                        <input class="download" type="submit" value="READ"/>
-                    </form>
+                    <div class="box">
+                        <div class=""><span class="dept">SUBSYSTEM: <span class="deptName">ALL</span></span></div>
+                        <div class=""> <form target="_blank" action="https://drive.google.com/file/d/1w8m42DVJqjkY7QYtuTOVWtiND0XERfH2/view?usp=sharing">
+                            <input class="download" type="submit" value="READ"/>
+                        </form></div>
+                    </div>
                 </div>
             </li>
             <li class="card">
@@ -134,7 +140,7 @@
                 <div class="text">
                     <a href="#">RACECAR VEHICLE DYNAMICS</a>
                     <div class="author">
-                        <span class="auth">BY: NIRANJAN BHARADWAJ</span>
+                        <span class="authName">BY: NIRANJAN BHARADWAJ</span>
                     </div>
                     <div class="rating">
                         <span class="fa fa-star checked"></span>
@@ -143,9 +149,36 @@
                         <span class="fa fa-star-o"></span>
                         <span class="fa fa-star-o"></span>
                     </div>
-                    <form target="_blank" action="https://drive.google.com/file/d/1CP3cbQAogNIbGHOBNmZ8wzukTUZ18NlG/view?usp=sharing">
-                        <input class="download" type="submit" value="READ"/>
-                    </form>
+                    <div class="box">
+                        <div class=""><span class="dept">SUBSYSTEM: <span class="deptName">ALL</span></span></div>
+                        <div class=""> <form target="_blank" action="https://drive.google.com/file/d/1CP3cbQAogNIbGHOBNmZ8wzukTUZ18NlG/view?usp=sharing">
+                            <input class="download" type="submit" value="READ"/>
+                        </form></div>
+                    </div>
+                </div>
+            </li>
+            <li class="card">
+                <div class="image">
+                    <img src="../IMAGES/PDF_file_icon.svg" alt="img">
+                </div>
+                <div class="text">
+                    <a href="#">LIMITED SLIP DIFFERENTIAL</a>
+                    <div class="author">
+                        <span class="authName">BY: DEEP</span>
+                    </div>
+                    <div class="rating">
+                        <span class="fa fa-star checked"></span>
+                        <span class="fa fa-star checked"></span>
+                        <span class="fa fa-star checked"></span>
+                        <span class="fa fa-star checked"></span>
+                        <span class="fa fa-star-o"></span>
+                    </div>
+                    <div class="box">
+                        <div class=""><span class="dept">SUBSYSTEM: <span class="deptName">POWERTRAIN</span></span></div>
+                        <div class=""> <form target="_blank" action="https://drive.google.com/file/d/1erJZbsZBUvcoMLb_MJkU4gF1lOnWcmuk/view?usp=sharing">
+                            <input class="download" type="submit" value="READ"/>
+                        </form></div>
+                    </div>
                 </div>
             </li>
             <li class="card"><a href="#">CSS</a></li>
@@ -169,24 +202,15 @@
     <script>
         function myFunction() {
           // Declare variables
-          var input, filter, ul, li, a, i;
+          var input, filter, ul, li;
           input = document.getElementById("mySearch");
           filter = input.value.toUpperCase();
           ul = document.getElementById("myMenu");
           li = ul.getElementsByTagName("li");
         
           // Loop through all list items, and hide those who don't match the search query
-          for (i = 0; i < li.length; i++) {
-            a = li[i].getElementsByTagName("a")[0];
-            if (a.innerHTML.toUpperCase().indexOf(filter) > -1) {
-              li[i].style.display = "";
-            } else {
-              li[i].style.display = "none";
-            }
-          }
-
-          for (i = 0; i < li.length; i++) {
-            a = li[i].getElementsByClassName("auth")[0];
+          for (var i = 0; i < li.length; i++) {
+            var a = li[i].getElementsByTagName("a")[0];
             if (a.innerHTML.toUpperCase().indexOf(filter) > -1) {
               li[i].style.display = "";
             } else {
@@ -194,6 +218,7 @@
             }
           }
         }
+
         </script>
 
 </body>
