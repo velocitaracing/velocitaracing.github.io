@@ -103,6 +103,11 @@ body{
     width: 70%;
 }
 
+.author{
+    font-size: 10px;
+    color: rgb(99, 99, 99);
+}
+
 .download{
     margin: 5px 0;
     padding: 10px 10px;
