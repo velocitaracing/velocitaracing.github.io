@@ -103,6 +103,16 @@ body{
     width: 70%;
 }
 
+.download{
+    margin: 5px 0;
+    padding: 5px;
+    font-size: 12px;
+}
+
+.checked {
+    color: orange;
+  }
+
 .footer{
     height: 5vh;
     width: 100%;
