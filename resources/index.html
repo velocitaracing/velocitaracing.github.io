@@ -92,7 +92,7 @@
 
                     <a href="#">FB RULE BOOK V21.1</a>
                     <div class="author">
-                        <span class="authName">BY: FORMULA BHARAT</span>
+                        <span class="auth">BY: <span class="authName">FORMULA BHARAT</span></span>
                     </div>
                     <div class="rating">
                         <span class="fa fa-star checked"></span>
@@ -116,7 +116,7 @@
                 <div class="text">
                     <a href="#">FUNDAMENTALS OF VEHICLE DYNAMICS</a>
                     <div class="author">
-                        <span class="authName">BY: NIRANJAN BHARADWAJ</span>
+                        <span class="auth">BY: <span class="authName">NIRANJAN BHARADWAJ</span></span>
                     </div>
                     <div class="rating">
                         <span class="fa fa-star checked"></span>
@@ -140,7 +140,7 @@
                 <div class="text">
                     <a href="#">RACECAR VEHICLE DYNAMICS</a>
                     <div class="author">
-                        <span class="authName">BY: NIRANJAN BHARADWAJ</span>
+                        <span class="auth">BY: <span class="authName">NIRANJAN BHARADWAJ</span></span>
                     </div>
                     <div class="rating">
                         <span class="fa fa-star checked"></span>
@@ -164,7 +164,7 @@
                 <div class="text">
                     <a href="#">LIMITED SLIP DIFFERENTIAL</a>
                     <div class="author">
-                        <span class="authName">BY: DEEP</span>
+                        <span class="auth">BY: <span class="authName">DEEP</span></span>
                     </div>
                     <div class="rating">
                         <span class="fa fa-star checked"></span>
@@ -181,14 +181,14 @@
                     </div>
                 </div>
             </li>
-            <li class="card"><a href="#">CSS</a></li>
+            <!-- <li class="card"><a href="#">CSS</a></li>
             <li class="card"><a href="#">JavaScript</a></li>
             <li class="card"><a href="#">PHP</a></li>
             <li class="card"><a href="#">Python</a></li>
             <li class="card"><a href="#">jQuery</a></li>
             <li class="card"><a href="#">SQL</a></li>
             <li class="card"><a href="#">Bootstrap</a></li>
-            <li class="card"><a href="#">Node.js</a></li>
+            <li class="card"><a href="#">Node.js</a></li> -->
         </ul>
 
     </div>
@@ -211,9 +211,16 @@
           // Loop through all list items, and hide those who don't match the search query
           for (var i = 0; i < li.length; i++) {
             var a = li[i].getElementsByTagName("a")[0];
+            var b = li[i].getElementsByClassName("authName")[0];
+            var c = li[i].getElementsByClassName("deptName")[0];
             if (a.innerHTML.toUpperCase().indexOf(filter) > -1) {
               li[i].style.display = "";
-            } else {
+            } else if  (b.innerHTML.toUpperCase().indexOf(filter) > -1) {
+              li[i].style.display = "";
+            } else if  (c.innerHTML.toUpperCase().indexOf(filter) > -1) {
+              li[i].style.display = "";
+            }
+            else {
               li[i].style.display = "none";
             }
           }
