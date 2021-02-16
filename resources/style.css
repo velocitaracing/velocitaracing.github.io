@@ -179,6 +179,10 @@ body{
 
 @media screen and (max-width:450px){
 
+    .res{
+        margin-top: 15vh;
+    }
+
     #mySearch{
         width: 70%;
     }
