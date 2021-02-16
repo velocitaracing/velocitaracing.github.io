@@ -105,8 +105,22 @@ body{
 
 .download{
     margin: 5px 0;
-    padding: 5px;
+    padding: 10px 10px;
     font-size: 12px;
+    border: none; 
+    border-radius: 5px; 
+    background-color: #1abc9c; 
+    color: #fff;  
+    outline: none; 
+    cursor: pointer; 
+
+
+    /* We need this to position 
+        span inside button */ 
+    position: relative; 
+    overflow: hidden; 
+    box-shadow: 6px 7px 40px -4px  
+             rgba(0, 0, 0, 0.2); 
 }
 
 .checked {
