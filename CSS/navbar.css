@@ -73,7 +73,9 @@
 
 
 
-
+.version{
+    display: none;
+}
 
 
 
@@ -308,6 +310,9 @@
     .burger{
         display: block;
     }
+    .dropbtn{
+        font-size: 15px;
+    }
 }
 
 .nav-active{
@@ -345,6 +350,17 @@
 }
 .toggle .line3{
     transform: rotate(45deg) translate(-5px,-6px);
+}
+
+@media screen and (max-width:450px){
+
+    .version{
+        display: block;
+        position: absolute;
+        bottom: 2vh;
+        color: #fff;
+        font-size: .6em;
+    }
 }
 
 @media screen and (max-width:430px){
