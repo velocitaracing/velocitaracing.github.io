@@ -1,4 +1,4 @@
-AuthName "Section name"
 AuthType Basic
+AuthName "Section name"
 AuthUserFile /.htpasswd
 Require valid-user
