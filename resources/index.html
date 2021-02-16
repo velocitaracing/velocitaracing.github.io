@@ -4,7 +4,7 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0, user-scalable=0">
     <link rel="stylesheet" href="./style.css">
-    <script language="JavaScript">
+    <!-- <script language="JavaScript">
     
         var password;
         var username;
@@ -34,11 +34,84 @@
             }
         
      
-        </script>
-    <title>VR Resources</title>
+        </script> -->
+        <link rel="stylesheet" href="../CSS/navbar.css">
+    <title>Resources | Velocita Racing</title>
 </head>
 <body>
-    Welcome to VR Resources
+
+    <div class="navbar">
+        <div class="logo"><a class="logo-txt" href="#home"><img class="black-logo-VR" src="../IMAGES/HOME/VR new logo white.png" alt="velocita racing logo white"><p>VELOCITA RACING</p></a></div>
+        <ul class="nav-links">
+            <li><a href="../../">HOME</a></li>
+            <li><a href="../../blog">BLOG</a></li>
+            <li><a href="../../#contact">CONTACT</a></li>
+        </ul>
+             
+        <div class="burger">
+            <div class="line1"></div>
+            <div class="line2"></div>
+            <div class="line3"></div>
+        </div>
+    </div>
+
+    <div class="wrapper">
+        <div class="res">
+            Welcome to Velocita Racing Resources
+        </div>
+
+        <input type="text" id="mySearch" onkeyup="myFunction()" placeholder="Search.." title="Type in a category">
+    
+        <ul id="myMenu" class="card-box">
+            <li class="card">
+                <div class="image">
+                    <img src="../IMAGES/brake.svg" alt="img">
+                </div>
+                <div class="text">
+                    <a href="#">HTML</a>
+                    <form  action="">
+                        <input class="download" type="submit" value="DOWNLOAD"/>
+                    </form>
+                </div></li>
+            <li class="card"><a href="#">CSS</a></li>
+            <li class="card"><a href="#">JavaScript</a></li>
+            <li class="card"><a href="#">PHP</a></li>
+            <li class="card"><a href="#">Python</a></li>
+            <li class="card"><a href="#">jQuery</a></li>
+            <li class="card"><a href="#">SQL</a></li>
+            <li class="card"><a href="#">Bootstrap</a></li>
+            <li class="card"><a href="#">Node.js</a></li>
+        </ul>
+
+    </div>
+
+    <div class="footer">
+        <p>COPYRIGHT &COPY; 2021 &nbsp;|&nbsp; VELOCITA RACING &nbsp;|&nbsp; ALL RIGHTS RESERVED
+        </p>
+    </div>
+    
+    <script src="../JS/mobnav.js"></script>
+    <script>
+        function myFunction() {
+          // Declare variables
+          var input, filter, ul, li, a, i;
+          input = document.getElementById("mySearch");
+          filter = input.value.toUpperCase();
+          ul = document.getElementById("myMenu");
+          li = ul.getElementsByTagName("li");
+        
+          // Loop through all list items, and hide those who don't match the search query
+          for (i = 0; i < li.length; i++) {
+            a = li[i].getElementsByTagName("a")[0];
+            if (a.innerHTML.toUpperCase().indexOf(filter) > -1) {
+              li[i].style.display = "";
+            } else {
+              li[i].style.display = "none";
+            }
+          }
+        }
+        </script>
+
 </body>
 
 </html>    

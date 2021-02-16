@@ -79,8 +79,7 @@
     display: flex;
     align-items: center;
     justify-content: center;
-    height: 10vh;
-    margin-bottom: 0;
+    height: 5vh;
     text-align: center;
     color: rgb(23, 63, 53);
 }
