@@ -4,43 +4,41 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0, user-scalable=0">
     <link rel="stylesheet" href="./style.css">
+    <script language="JavaScript">
+    
+        var password;
+        var username;
+        var pass1="admin";
+        var usern ="admin";
+        
+        username=prompt('Please enter your Username to view this page!',' ');
+        
+        
+        
+        if (username==usern)
+        {
+            password=prompt('Please enter your password to view this page!',' ');
+            
+            if(password==pass1)
+            alert('Password Correct! Click OK to enter!');
+           
+            else{
+                window.location="http://velocitaracing.github.io";
+                alert('Password InCorrect!'); 
+            }}
+        
+        else
+           {
+            alert('Incorrect Username, Access Denied!');
+            window.location="http://velocitaracing.github.io";
+            }
+        
+     
+        </script>
     <title>VR Resources</title>
 </head>
 <body>
     Welcome to VR Resources
 </body>
-<script language="JavaScript">
-    
-    var password;
-    var username;
-    var pass1="admin";
-    var usern ="admin";
-    
-    username=prompt('Please enter your Username to view this page!',' ');
-    
-    
-    
-    if (username==usern)
-    {
-        password=prompt('Please enter your password to view this page!',' ');
-        
-        if(password==pass1){
-        alert('Password Correct! Click OK to enter!');
-        window.location="http://velocitaracing.github.io/resources/resources.html";
-        }
-        else{
-            window.location="http://velocitaracing.github.io";
-            alert('Password InCorrect!'); 
-            
-        }}
-    
-    else
-       {
-        alert('Incorrect Username, Access Denied!');
-        window.location="http://velocitaracing.github.io";
-        }
-    
- 
-    </script>
 
 </html>    
