@@ -15,10 +15,6 @@
 }
 
 
-
-.dropdown{
-
-}
 .dropdown-arrow{
     height: .8em;
     padding: 0 0 0 5px;
@@ -32,6 +28,7 @@
     border: none;
     outline: none;
     cursor: pointer;
+    font-family: "Montserrat";
 }
   
 .dropdown {
@@ -311,7 +308,7 @@
         display: block;
     }
     .dropbtn{
-        font-size: 15px;
+        font-size: 14px;
     }
 }
 
