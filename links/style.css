@@ -55,7 +55,7 @@ body{
     padding: 1em;
     border: 1px solid black;
     outline: none;
-    border-radius: 30px;
+    /* border-radius: 30px; */
     transition: .2s ease-in-out 0s;
     background-color: #1abc9c; 
     color: #fff; 
@@ -92,4 +92,32 @@ body{
     width: 100%;
     position: absolute!important;
     bottom: 0!important;
+}
+
+@media screen and (max-width: 450px){
+    .small{
+        width: 150px;
+    }
+    .button{
+        margin: .8em .6em;
+    }
+}
+
+@media screen and (max-width: 350px){
+    body{
+        max-height: unset;
+        overflow-y: scroll;
+
+    }
+    .small{
+        width: 150px;
+    }
+    .button{
+        margin: .5em .5em;
+    }
+    .footer{
+        width: 100%;
+        position: relative!important;
+        bottom: 0!important;
+    }
 }
