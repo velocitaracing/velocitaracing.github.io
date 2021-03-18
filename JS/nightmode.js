@@ -12,6 +12,7 @@ const nightMode = () =>{
     const tBox2 = document.querySelector('.team-card-two');
     const tBox3 = document.querySelector('.team-card-three');
     const tBox4 = document.querySelector('.team-card-four');
+    const tBox5 = document.querySelector('.team-card-five');
     const caHeading = document.querySelector('.career-heading');
     const deptCard1 = document.querySelector('.card-one');
     const deptCard2 = document.querySelector('.card-two');
@@ -93,6 +94,7 @@ const nightMode = () =>{
         tBox2.classList.toggle('card-night');
         tBox3.classList.toggle('card-night');
         tBox4.classList.toggle('card-night');
+        tBox5.classList.toggle('card-night');
         caHeading.classList.toggle('heading-night');
         deptCard1.classList.toggle('card-night');
         deptCard2.classList.toggle('card-night');
