@@ -5,6 +5,7 @@ const nightMode = () =>{
     const aHeadingBorder = document.querySelector('.about-heading');
     const aboutBox = document.querySelector('.about-box2');
     const cHeading = document.querySelector('.cars-heading');
+    const carBox = document.querySelector('.swiper-slide');
     const car = document.querySelector('.car-name');
     const tHeading = document.querySelector('.team-heading');
     const tInfo = document.querySelector('.info-team');
@@ -92,6 +93,7 @@ const nightMode = () =>{
         car.classList.toggle('heading-night');
         tHeading.classList.toggle('heading-night');
         tInfo.classList.toggle('info-color');
+        carBox.classList.toggle('body-night');
         tBox.classList.toggle('card-night');
         tBox2.classList.toggle('card-night');
         tBox3.classList.toggle('card-night');

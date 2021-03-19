@@ -63,6 +63,14 @@
 
     <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
     <link rel="canonical" href="https://velocitaracing.github.io/blog/"/>
+
+
+    <link rel="stylesheet" href="./CSS/swipermin.css">
+    
+
+    <!-- <link rel="stylesheet" href="https://unpkg.com/swiper/swiper-bundle.min.css" />
+        <script src="https://unpkg.com/swiper/swiper-bundle.min.js"></script> -->
+
     <!-- <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.5.1/jquery.min.js" integrity="sha512-bLT0Qm9VnAYZDflyKcBaQ2gg0hSYNQrJ8RilYldYQ1FxQYoCLtUjuuRuZo+fjqhx/qtq/1itJ0C2ejDxltZVFg==" crossorigin="anonymous"></script> -->
     <!-- <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery-circle-progress/1.2.2/circle-progress.min.js"></script> -->
     <link rel="stylesheet" href="CSS/app.css">
@@ -219,11 +227,9 @@
 
         </section>
 
-        <section id="cars">
-            <div class="cars-heading">
-                OUR PROJECTS
-            </div>
-            <!-- <div class="cars-box"> -->
+
+
+        <!-- <div class="cars-box"> -->
                 <!-- <div class="car car1">
                     <div class="side-1">
                         <img src="IMAGES/CARS/VR-1.png" alt="VR-1">
@@ -345,15 +351,120 @@
 
                 </div> -->
 
+ 
+
+<!-- Slideshow container -->
+<!-- <div class="slideshow-container-new swiper-container">
+
+    <div class="swiper-wrapper">
+
+        Full-width slides/quotes
+    <div class="mySlides-new swiper-slide">
+        <div class="car-one">
+
+            <div class="car-image car-image-left">
+                <img src="./IMAGES/CARS/Asset 3.webp" alt="VRF-2">
+            </div>
+
+            <div class="car-info right-info">
+                
+                <p class="car-name">VRF-2</p>
+
+
+                <div class="wrapper">
+                    <div class="info">
+                        <img src="./IMAGES/engine.png" alt="">
+                        <p id="extra">KTM DUKE 390</p>
+                    </div>
+                    <div class="info">
+                        <img src="./IMAGES/turbo.png" alt="">
+                        <p id="extra">Garrett Turbocharger</p>
+                    </div>
+                    <div class="info">
+                        <img src="./IMAGES/tyre.svg" alt="">
+                        <p>MRF Slicks</p>
+                    </div>
+                    <div class="info">
+                        <img src="./IMAGES/trofee.png" alt="">
+                        <p id="extra">13th Overall in FB2020</p>
+                    </div>
+                    <button>VIEW PAST</button>
+                </div>
+            </div>
+
+        </div>
+    </div>
+
+    
+
+
+    <div class="mySlides-new swiper-slide">
+        <div class="car-two">
+
+            <div class="car-info left-info">
+                
+                <p class="car-name">VRF-1</p>
+
+
+                <div class="wrapper">
+                    <div class="info">
+                        <img src="./IMAGES/engine.png" alt="">
+                        <p id="extra">KTM DUKE 390</p>
+                    </div>
+                    <div class="info">
+                        <img src="./IMAGES/suspension.svg" alt="">
+                        <p id="extra">All independent Push-rod suspension</p>
+                    </div>
+                    <div class="info">
+                        <img  src="./IMAGES/tyre.svg" alt="">
+                        <p id="extra">O.Z Racing Wheels</p>
+                    </div>
+                    <div class="info">
+                        <img src="./IMAGES/brake.svg" alt="">
+                        <p id="extra">All round Disc Brakes</p>
+                    </div>
+                    <button>VIEW PAST</button>
+                </div>
+            </div>
+
+            <div class="car-image car-image-right">
+                <img id="VRF1-image" src="./IMAGES/CARS/Asset 1.webp" alt="VRF-1">
+            </div>
+
+        </div>
+
+    </div>
+    
+</div>                         
+    Next/prev buttons
+    <a class="prev-new" onclick="plusSlides(-1)">&#10094;</a>
+    <a class="next-new" onclick="plusSlides(1)">&#10095;</a>
+
+</div>
+
+Dots/bullets/indicators
+<div class="dot-container-new">
+    <span class="dot-new" onclick="currentSlide(1)"></span>
+    <span class="dot-new" onclick="currentSlide(2)"></span>
+    <span class="dot-new" onclick="currentSlide(3)"></span>
+</div> -->
 
 
 
 
-                <!-- Slideshow container -->
-                <div class="slideshow-container-new">
 
-                    <!-- Full-width slides/quotes -->
-                    <div class="mySlides-new">
+
+
+        <section id="cars">
+            <div class="cars-heading">
+                OUR PROJECTS
+            </div>
+            
+
+                <div class="swiper-container swiper-container-cars">
+                    <div class="swiper-wrapper">
+                      <div class="swiper-slide">
+
                         <div class="car-one">
 
                             <div class="car-image car-image-left">
@@ -387,12 +498,10 @@
                             </div>
         
                         </div>
-                    </div>
 
-                    
+                      </div>
+                      <div class="swiper-slide">
 
-
-                    <div class="mySlides-new">
                         <div class="car-two">
             
                             <div class="car-info left-info">
@@ -426,38 +535,18 @@
                             </div>
         
                         </div>
+
+                      </div>
+                      <!-- <div class="swiper-slide">Slide 3</div>
+                      <div class="swiper-slide">Slide 4</div> -->
                     </div>
-
-<!-- 
-                    
-                    <div class="mySlides-new">
-                       
-                    </div> -->
-                                
-
-                    
-                
-                   
-                
-                    <!-- Next/prev buttons -->
-                    <a class="prev-new" onclick="plusSlides(-1)">&#10094;</a>
-                    <a class="next-new" onclick="plusSlides(1)">&#10095;</a>
-
-                </div>
-                
-                <!-- Dots/bullets/indicators -->
-                <div class="dot-container-new">
-                    <span class="dot-new" onclick="currentSlide(1)"></span>
-                    <span class="dot-new" onclick="currentSlide(2)"></span>
-                    <!-- <span class="dot-new" onclick="currentSlide(3)"></span> -->
-                </div>
-
-
-
-
-
-
-                
+                    <!-- Add Pagination -->
+                    <div class="swiper-pagination"></div>
+                    <!-- Add Navigation -->
+                    <div class="swiper-button-prev"></div>
+                    <div class="swiper-button-next"></div>
+                  </div>     
+                             
                 
             <!-- </div> -->
         </section>
@@ -1052,82 +1141,30 @@
     
                     <div class="shop-box2">
                         
+                        <div class="swiper-container swiper-container-shop">
+                            <div class="swiper-wrapper">
+                              <div class="swiper-slide"><img src="./IMAGES/SHOP/VelXNarW.webp" alt="Velocita X Narkha"></div>
+                              <div class="swiper-slide"><img src="./IMAGES/SHOP/1.webp" alt="Velocita X Narkha"></div>
+                              <div class="swiper-slide"><img src="./IMAGES/SHOP/2.webp" alt="Velocita X Narkha"></div>
+                              <div class="swiper-slide"><img src="./IMAGES/SHOP/3.webp" alt="Velocita X Narkha"></div>
+                              <div class="swiper-slide"><img src="./IMAGES/SHOP/4.webp" alt="Velocita X Narkha"></div>
+                              <div class="swiper-slide"><img src="./IMAGES/SHOP/Merch release ig post 1.jpg" alt="Velocita X Narkha"></div>
+                              <div class="swiper-slide"><img src="./IMAGES/SHOP/Merch release ig post 2.jpg" alt="Velocita X Narkha"></div>
+                              <div class="swiper-slide"><img src="./IMAGES/SHOP/Merch release ig post 3.jpg" alt="Velocita X Narkha"></div>
+                              <div class="swiper-slide"><img src="./IMAGES/SHOP/COMCOM.jpg" alt="Velocita X Narkha"><div class="text" style="color: black;">BUMPER STICKERS BY VELOCITA</div></div>
+                            </div>
+                            <!-- Add Pagination -->
+                            <div class="swiper-pagination swiper-pagination-shop"></div>
+                            <!-- Add Arrows -->
+                            <div class="swiper-button-next"></div>
+                            <div class="swiper-button-prev"></div>
+                          </div>
+
+                          
+                        
+                          
+                        
                     
-                    <div class="slideshow-container">
-    
-                        <div class="mySlides-shop fade">
-                          <!-- <div class="numbertext">1 / 3</div> -->
-                          <img src="IMAGES/SHOP/VelXNarW.webp" alt="Velocita Racing X Narkha">
-                          <div class="text"></div>
-                        </div>
-                        <div class="mySlides-shop fade">
-                            <!-- <div class="numbertext">1 / 3</div> -->
-                            <img src="IMAGES/SHOP/1.webp" alt="Combo Pack">
-                            <!-- <div class="text" style="color: black;"></div> -->
-                        </div>
-                        <div class="mySlides-shop fade">
-                            <!-- <div class="numbertext">1 / 3</div> -->
-                            <img src="IMAGES/SHOP/2.webp" alt="Combo Pack">
-                            <!-- <div class="text" style="color: black;"></div> -->
-                        </div>
-                        <div class="mySlides-shop fade">
-                            <!-- <div class="numbertext">1 / 3</div> -->
-                            <img src="IMAGES/SHOP/3.webp" alt="Combo Pack">
-                            <!-- <div class="text" style="color: black;"></div> -->
-                        </div>
-                        <div class="mySlides-shop fade">
-                            <!-- <div class="numbertext">1 / 3</div> -->
-                            <img src="IMAGES/SHOP/4.webp" alt="Combo Pack">
-                            <!-- <div class="text" style="color: black;"></div> -->
-                        </div>
-                        
-                        <!-- <div class="mySlides-shop fade">
-                          <div class="numbertext">2 / 3</div>
-                          <img src="IMAGES/SHOP/cominsoon.png" alt="Velocita Racing">
-                          <div class="text"></div>
-                        </div> -->
-                        
-                        <div class="mySlides-shop fade">
-                          <!-- <div class="numbertext">3 / 3</div> -->
-                          <img src="IMAGES/SHOP/Merch release ig post 1.jpg" alt="Velocita Racing">
-                          <div class="text"></div>
-                        </div>
-
-                        <div class="mySlides-shop fade">
-                            <!-- <div class="numbertext">1 / 3</div> -->
-                            <img src="IMAGES/SHOP/Merch release ig post 2.jpg" alt="Dug Dug">
-                            <div class="text"></div>
-                        </div>
-                        <div class="mySlides-shop fade">
-                            <!-- <div class="numbertext">1 / 3</div> -->
-                            <img src="IMAGES/SHOP/Merch release ig post 3.jpg" alt="HOD">
-                            <div class="text"></div>
-                        </div>
-                        <div class="mySlides-shop fade">
-                            <!-- <div class="numbertext">1 / 3</div> -->
-                            <img src="IMAGES/SHOP//COMCOM.jpg" alt="Combo Pack">
-                            <div class="text" style="color: black;">BUMPER STICKERS BY VELOCITA</div>
-                        </div>
-
-                        
-                        
-                    </div>
-                        <br>
-                        
-                    <div style="text-align:center">
-                          <span class="dot-shop"></span> 
-                          <!-- <span class="dot-shop"></span>  -->
-                          <span class="dot-shop"></span> 
-                          <span class="dot-shop"></span>
-                          <span class="dot-shop"></span>
-                          <span class="dot-shop"></span>
-                          <span class="dot-shop"></span> 
-                          <span class="dot-shop"></span> 
-                          <span class="dot-shop"></span> 
-                          <span class="dot-shop"></span> 
-
-                           
-                    </div>
 
                     <!-- <button class="mob-button shop-now proceed-btn ripple-btn">Shop Now</button> -->
                     <div class="shop-btn">
@@ -1366,7 +1403,17 @@
 
     </script>
 
- 
+    <!-- <script>
+        var swiper = new Swiper('.swiper-container', {
+        pagination: {
+            el: '.swiper-pagination',
+        },
+        });
+    </script> -->
+
+    <script src="./JS/swipermin.js"></script>
+
+    <script src="JS/swiper.js"></script>
     <script src="JS/refresh.js"></script>
     <script src="JS/mobnav.js"></script>
     <script src="JS/smoothscroll.js"></script>
