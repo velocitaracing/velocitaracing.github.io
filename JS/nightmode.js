@@ -79,6 +79,8 @@ const nightMode = () =>{
     const teamSocialIcon6 = document.querySelector('.team-social-icon-six');
     const teamSocialIcon7 = document.querySelector('.team-social-icon-seven');
     const teamSocialIcon8 = document.querySelector('.team-social-icon-eight');
+    const teamSocialIcon9 = document.querySelector('.team-social-icon-nine');
+    const teamSocialIcon10 = document.querySelector('.team-social-icon-ten');
 
     // const teamBack = document.querySelector('.member-card');
 
@@ -163,6 +165,8 @@ const nightMode = () =>{
         teamSocialIcon6.classList.toggle('team-social-night');
         teamSocialIcon7.classList.toggle('team-social-night');
         teamSocialIcon8.classList.toggle('team-social-night');
+        teamSocialIcon9.classList.toggle('team-social-night');
+        teamSocialIcon10.classList.toggle('team-social-night');
 
         // teamBack.classList.toggle('team-back-night');
 
