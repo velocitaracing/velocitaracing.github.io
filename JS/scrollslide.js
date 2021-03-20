@@ -1,6 +1,6 @@
 $(document).ready(function(){
     $(window).scroll(function () {
-      triggerSlideInt( $(this), [ $('div.about-left-one'), $('div.car-image-left'), $('div.left-info'),$('div.left-one'), $('div.left-two'), $('div.career-left'), $('div.sponsor-left'), $('div.podcast-left')]);
+      triggerSlideInt( $(this), [ $('div.about-left-one'), $('div.car-image-left'), $('div.left-info'),$('div.left-one'), $('div.left-two'), $('div.career-left'), $('div.sponsor-left')]);
     });
   });
   
