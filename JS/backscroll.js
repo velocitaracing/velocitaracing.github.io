@@ -12,13 +12,14 @@ $('.banner-1').each(function() {
 
  $(window).bind('scroll', update);
  
+
  function update5(){ 
   var pos = $(window).scrollTop(); 
   $('.banner-2').each(function() { 
       var $element = $(this);
       // subtract some from the height b/c of the padding
       var height = 0;
-      $(this).css('backgroundPosition', '0 ' + (pos * velocity) +  'px'); 
+      $(this).css('backgroundPosition', '50% ' + (pos * velocity) +  'px'); 
      }); 
      };
   
@@ -31,7 +32,7 @@ $('.banner-1').each(function() {
         var $element = $(this);
         // subtract some from the height b/c of the padding
         var height = 0;
-        $(this).css('backgroundPosition', '0 ' + (pos * velocity) +  'px'); 
+        $(this).css('backgroundPosition', '50% ' + (pos * velocity) +  'px'); 
        }); 
        };
     
@@ -43,7 +44,7 @@ function update7(){
     var $element = $(this);
     // subtract some from the height b/c of the padding
     var height = 0;
-    $(this).css('backgroundPosition', '0 ' + (pos * velocity) +  'px'); 
+    $(this).css('backgroundPosition', '50% ' + (pos * velocity) +  'px'); 
      }); 
     };
       
