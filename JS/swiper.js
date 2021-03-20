@@ -1,6 +1,11 @@
 var swiper4 = new Swiper('.swiper-container-home', {
   // spaceBetween: 30,
-  centeredSlides: true,
+  // centeredSlides: true,
+  slidesPerView: 'auto',
+  navigation: {
+    nextEl: '.swiper-button-next',
+    prevEl: '.swiper-button-prev',
+  },
   autoplay: {
     delay: 2750,
     disableOnInteraction: false,
@@ -9,10 +14,7 @@ var swiper4 = new Swiper('.swiper-container-home', {
     el: '.swiper-pagination',
     clickable: true,
   },
-  navigation: {
-    nextEl: '.swiper-button-next',
-    prevEl: '.swiper-button-prev',
-  },
+  
 });
 
 
