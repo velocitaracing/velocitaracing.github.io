@@ -1,3 +1,26 @@
+
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    
+}
+
+body{
+    font-family: 'Montserrat', sans-serif; 
+    color: rgb(23, 63, 53);
+    transition: .3s ease 0s;
+    /* overflow-x: hidden!important; */
+    overflow: hidden;
+
+
+      -webkit-user-select: none;
+         -moz-user-select: -moz-none;
+          -ms-user-select: none;
+              user-select: none;
+  
+  }
+
 .navbar{
     display: flex;
     flex-direction: row;
@@ -161,10 +184,6 @@
 }
 .two-nav{
     z-index: 99!important;
-}
-
-.three-nav{
-    z-index: 98!important;
 }
 
 .unset-values a{

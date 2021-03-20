@@ -1,3 +1,20 @@
+var swiper4 = new Swiper('.swiper-container-home', {
+  spaceBetween: 30,
+  centeredSlides: true,
+  autoplay: {
+    delay: 2750,
+    disableOnInteraction: false,
+  },
+  pagination: {
+    el: '.swiper-pagination',
+    clickable: true,
+  },
+  navigation: {
+    nextEl: '.swiper-button-next',
+    prevEl: '.swiper-button-prev',
+  },
+});
+
 
     /* ========
     Debugger plugin, simple demo plugin to console.log some of callbacks
@@ -82,6 +99,23 @@
 
 
     var swiper3 = new Swiper('.swiper-container-shop', {
+      spaceBetween: 30,
+      centeredSlides: true,
+      autoplay: {
+        delay: 2500,
+        disableOnInteraction: false,
+      },
+      pagination: {
+        el: '.swiper-pagination',
+        clickable: true,
+      },
+      navigation: {
+        nextEl: '.swiper-button-next',
+        prevEl: '.swiper-button-prev',
+      },
+    });
+
+    var swiper5 = new Swiper('.swiper-container-podcast', {
       spaceBetween: 30,
       centeredSlides: true,
       autoplay: {

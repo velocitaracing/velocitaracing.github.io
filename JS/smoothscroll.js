@@ -59,6 +59,45 @@ if(this.hash !== '') {
 
 });
 
+
+$('.shop-banner-button').on('click', function(e) {
+  // console.log(this);
+
+if(this.hash !== '') {
+    e.preventDefault();
+
+    const hash = this.hash;
+
+    $('html, body').animate(
+      {
+            scrollTop: $(hash).offset().top
+          },
+            800
+    );
+       
+  }
+
+});
+
+$('.podcast-banner-button').on('click', function(e) {
+  // console.log(this);
+
+if(this.hash !== '') {
+    e.preventDefault();
+
+    const hash = this.hash;
+
+    $('html, body').animate(
+      {
+            scrollTop: $(hash).offset().top
+          },
+            800
+    );
+       
+  }
+
+});
+
 $('.goto-top-link').on('click', function(e) {
   // console.log(this);
 

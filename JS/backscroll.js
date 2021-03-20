@@ -2,7 +2,7 @@ var velocity = 0.5;
 
 function update(){ 
 var pos = $(window).scrollTop(); 
-$('#home').each(function() { 
+$('.banner-1').each(function() { 
     var $element = $(this);
     // subtract some from the height b/c of the padding
     var height = 0;
@@ -11,8 +11,43 @@ $('#home').each(function() {
    };
 
  $(window).bind('scroll', update);
+ 
+ function update5(){ 
+  var pos = $(window).scrollTop(); 
+  $('.banner-2').each(function() { 
+      var $element = $(this);
+      // subtract some from the height b/c of the padding
+      var height = 0;
+      $(this).css('backgroundPosition', '0 ' + (pos * velocity) +  'px'); 
+     }); 
+     };
+  
+   $(window).bind('scroll', update5);
 
 
+   function update6(){ 
+    var pos = $(window).scrollTop(); 
+    $('.banner-3').each(function() { 
+        var $element = $(this);
+        // subtract some from the height b/c of the padding
+        var height = 0;
+        $(this).css('backgroundPosition', '0 ' + (pos * velocity) +  'px'); 
+       }); 
+       };
+    
+     $(window).bind('scroll', update6);
+
+function update7(){ 
+  var pos = $(window).scrollTop(); 
+   $('.banner-4').each(function() { 
+    var $element = $(this);
+    // subtract some from the height b/c of the padding
+    var height = 0;
+    $(this).css('backgroundPosition', '0 ' + (pos * velocity) +  'px'); 
+     }); 
+    };
+      
+ $(window).bind('scroll', update7);     
 
  function update2(){ 
   var pos = $(window).scrollTop(); 

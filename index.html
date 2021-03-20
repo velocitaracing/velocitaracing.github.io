@@ -127,7 +127,18 @@
             <!-- <li><a href="#careers"><button>CAREERS</button></a></li> -->
             <!-- <li><a href="#sponsors">SPONSORS</a></li> -->
             <li><a href="#shop">SHOP</a></li>
-            <li><a href="./blog/">BLOG</a></li>
+            <li class="unset-values three-nav">
+            
+                <div class="dropdown">
+                    <button class="dropbtn">MORE<img class="dropdown-arrow" src="./IMAGES/arrow.png" alt="dropdown-arrow"></button>
+                    <div class="dropdown-content">
+                    <a href="../blog">BLOG</a>
+                    <a href="#podcast">PODCAST</a>
+                    <!-- <a href="#">Link 3</a> -->
+                    </div>
+                </div>
+               
+            </li>
             <li><a href="#contact">CONTACT</a></li>
 
             <div class="version">
@@ -153,13 +164,40 @@
             
             <div class="home-box">
                 
-                <div class="box-1">
+
+                <div class="swiper-container swiper-container-home">
+                    <div class="swiper-wrapper">
+                      <div class="swiper-slide banner-1"></div>
+                      <div class="swiper-slide banner-2">
+                        <a class="podcast-banner-button" href="#podcast">Learn More</a>
+                      </div>
+                      <div class="swiper-slide banner-3">
+                        <a class="shop-banner-button" href="#shop">Learn More</a>
+                      </div>
+                      <div class="swiper-slide banner-4">
+                        <a class="youtube-banner-button" target="_blank" href="https://www.youtube.com/watch?v=goey_q8qdPc">Watch Now</a>
+                      </div>
+                      <!-- <div class="swiper-slide">Slide 5</div>
+                      <div class="swiper-slide">Slide 6</div>
+                      <div class="swiper-slide">Slide 7</div>
+                      <div class="swiper-slide">Slide 8</div>
+                      <div class="swiper-slide">Slide 9</div>
+                      <div class="swiper-slide">Slide 10</div> -->
+                    </div>
+                    <!-- Add Pagination -->
+                    <div class="swiper-pagination"></div>
+                    <!-- Add Arrows -->
+                    <div class="swiper-button-next"></div>
+                    <div class="swiper-button-prev"></div>
+                  </div>
+
+                <!-- <div class="box-1"> -->
                     <!--p>UNDER DEVELOPMENT</p-->
-                </div>
-                <div class="box-2">
+                <!-- </div>
+                <div class="box-2"> -->
                   
                     <!--p>Welcome to<br><h1>VELOCITA RACING</h1></p-->
-                </div>
+                <!-- </div> -->
 
             </div>
         </section>
@@ -730,7 +768,7 @@ Dots/bullets/indicators
                     <div class="card-side2">
                         <h3>Vamshikrishna Sarode</h3>
                         <h5>Design Engineer</h5>
-                        <p>Let's keep pushing!<br><br></p> 
+                        <p>Let's keep <br> pushing!</p> 
                         <div class="team-social">
                             <a href="https://www.instagram.com/vamshikrishna.sarode/" target="_blank"><i class="team-social-icon-nine team-social-icon fa fa-instagram fa-2x" aria-hidden="true"></i></a>
                             <a href="https://www.linkedin.com/in/vamshi-krishna-s-r-15524b1b3/" target="_blank"><i class="team-social-icon-ten team-social-icon fa fa-linkedin fa-2x" aria-hidden="true"></i></a>
@@ -1158,7 +1196,7 @@ Dots/bullets/indicators
                             <!-- Add Arrows -->
                             <div class="swiper-button-next"></div>
                             <div class="swiper-button-prev"></div>
-                          </div>
+                        </div>
 
                           
                         
@@ -1181,19 +1219,56 @@ Dots/bullets/indicators
                     
                 </div>
 
-
-
-
-           
-            
-
-
-
-           
-         
-           
-            
+   
         </section>
+
+
+
+
+        <div id="podcast" class="podcast-heading-box">
+               
+            <div class="podcast-image podcast-left">
+                <div class="swiper-container swiper-container-podcast">
+                    <div class="swiper-wrapper">
+                      <div class="swiper-slide"><img src="./IMAGES/podcast.webp" alt="Racing Journey Podcast by Pranay Ketineni"></div>
+                      <!-- <div class="swiper-slide"><img src="./IMAGES/SHOP/1.webp" alt="Racing Journey Podcast"></div> -->
+                    </div>
+                    <!-- Add Pagination -->
+                    <div class="swiper-pagination swiper-pagination-shop"></div>
+                    <!-- Add Arrows -->
+                    <div class="swiper-button-next"></div>
+                    <div class="swiper-button-prev"></div>
+                </div>
+            </div>
+            <div class="podcast-heading">
+                <p>Racing Journey Podcast</p>
+                <div class="info-podcast">
+                    <p>Hey Automotive enthusiasts! Racing Journey is a podcast that talks about everything in the world of racing and specifically, 
+                        Formula Student. Here, I bring you all the stories, experiences and science that makes working in an FSAE or Formula Student team so exciting. 
+                        <br><br>Join me as I take you all in my journey as a Formula Student Captain.</p>
+                </div>
+                <div class="info-sponsor-button">
+                    <div class="pod-button">
+                        <a href="https://anchor.fm/pranay-ketineni" target="_blank" class="podcast-button podcast-night-one">Play Now</a>
+                        <a href="javascript:void(0);" class="podcast-button podcast-night-two">Know More</a>
+                    </div>
+                    <ul>
+                        <li><a target="_blank" href="https://open.spotify.com/show/0QOz83KZmGgEZM395NqANE"><img src="./IMAGES/podcast/icons8-spotify-48.png" alt="Racing Journey Podcast by Pranay Ketineni"></a></li>
+                        <li><a target="_blank" href="https://podcasts.google.com/feed/aHR0cHM6Ly9hbmNob3IuZm0vcy8zYzkwYmZhMC9wb2RjYXN0L3Jzcw=="><img src="./IMAGES/podcast/icons8-google-podcasts-48.png" alt="Racing Journey Podcast by Pranay Ketineni"></a></li>
+                        <li><a target="_blank" href="https://radiopublic.com/racing-journey-formula-student-WoLjkm"><img src="./IMAGES/podcast/radiopublic.webp" alt="Racing Journey Podcast by Pranay Ketineni"></a></li>
+                        <li><a target="_blank" href="https://pca.st/b1wx1dyh"><img src="./IMAGES/podcast/pocketcast.webp" alt="Racing Journey Podcast by Pranay Ketineni"></a></li>
+                        <li><a target="_blank" href="https://www.breaker.audio/racing-journey-formula-student"><img src="./IMAGES/podcast/breaker.webp" alt="Racing Journey Podcast by Pranay Ketineni"></a></li>
+                    </ul>
+                </div>
+                   
+            </div>
+
+           
+           
+        </div>
+
+
+    
         
         <section id="contact">
             <div class="contact-heading">
