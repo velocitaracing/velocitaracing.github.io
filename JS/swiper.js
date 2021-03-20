@@ -1,20 +1,20 @@
-var swiper4 = new Swiper('.swiper-container-home', {
-  // spaceBetween: 30,
-  // centeredSlides: true,
+var swiper3 = new Swiper('.swiper-container-home', {
   slidesPerView: 'auto',
-  navigation: {
-    nextEl: '.swiper-button-next',
-    prevEl: '.swiper-button-prev',
+  // centeredSlides: true,
+  spaceBetween: 0,
+      centeredSlides: true,
+      autoplay: {
+        delay: 2500,
+        disableOnInteraction: false,
+      },
+      pagination: {
+        el: '.swiper-pagination',
+        clickable: true,
+      },
+      navigation: {
+        nextEl: '.swiper-button-next',
+        prevEl: '.swiper-button-prev',
   },
-  autoplay: {
-    delay: 2750,
-    disableOnInteraction: false,
-  },
-  pagination: {
-    el: '.swiper-pagination',
-    clickable: true,
-  },
-  
 });
 
 

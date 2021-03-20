@@ -1,6 +1,9 @@
 var velocity = 0.5;
 
-
+$(".banner-1").css("background-position", "50% ");
+$(".banner-2").css("background-position", "50% ");
+$(".banner-3").css("background-position", "50% ");
+$(".banner-4").css("background-position", "50% ");
 
 function update(){ 
 var pos = $(window).scrollTop(); 
