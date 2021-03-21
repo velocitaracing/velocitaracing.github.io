@@ -17,7 +17,16 @@
 
 .dropdown-arrow{
     height: .8em;
-    padding: 0 0 0 5px;
+    padding: 2px 3px;
+    -ms-transform: rotate(-90deg); 
+    transform: rotate(-90deg);
+}
+
+.dropbtn:hover .dropdown-arrow{
+    -ms-transform: rotate(0deg); 
+    transform: rotate(0deg);
+    transition: .1s ease-in-out 0s;
+
 }
 
 .dropbtn {
@@ -29,6 +38,9 @@
     outline: none;
     cursor: pointer;
     font-family: "Montserrat";
+    /* display: flex;
+    align-items: center;
+    justify-content: center; */
 }
   
 .dropdown {
@@ -241,10 +253,11 @@
     }
 
     .dropdown-content {
+        text-align: center;
         display: none;
         position: absolute;
         background-color: #f1f1f1;
-        min-width: 100%;
+        min-width: 140px;
         padding: 10px 0;
         font-size: 14px;
         box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
@@ -308,12 +321,30 @@
     .navbar ul li {
         opacity: 0;
         padding: 10px 0;
+        display: block;
+        /* updates on 21/03/21 */
+        position: relative;
+        color: #FFF;
+        font-family: "Ek Mukta", sans-serif;
+        font-weight: 100;
+        text-decoration: none;
+        /* font-size: 22px; */
+        line-height: 2.35;
+        font-weight: 200;
+        outline: none; 
+        background-color: black;
+        width: 100%;
+        text-align: left;
+        padding: 0;
+        border-bottom: 1px solid #333;
+        /* margin-top: 5px; */
     }
     .burger{
         display: block;
     }
     .dropbtn{
         font-size: 14px;
+        padding: 16px 0;
     }
 }
 
@@ -363,6 +394,15 @@
         color: #fff;
         font-size: .6em;
     }
+
+    .dropdown-content{
+        padding: 5px 0;
+        font-size: 16px;
+    }
+    .dropdown-content a{
+        padding: 8px 0;
+    }
+
 }
 
 @media screen and (max-width:430px){
@@ -370,6 +410,22 @@
     height: 10vh;
 }
 }
+
+@media screen and (max-width:350px){
+    .navbar{
+        height: 10vh;
+    }
+
+    .dropdown-content{
+        min-width: 120px;
+        padding: 5px 0;
+        font-size: 16px;
+    }
+
+    .dropdown-content a{
+        padding: 5px 0;
+    }
+    }
 
 
 
