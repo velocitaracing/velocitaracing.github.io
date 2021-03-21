@@ -6,6 +6,12 @@ var formBg = document.querySelector('.modal-bg-form');
 var formClose = document.querySelector('.modal-close-form');
 var closeForm = document.querySelector('.form-close-btn');
 var sponsorcloseForm = document.querySelector('.sponsor-form-close-btn');
+var proceedClose = document.querySelector('.modal-close-btn-two');
+
+
+
+
+
 modalButton.addEventListener('click', function(){
     modalBg.classList.add('bg-active');
     document.querySelector("body").style.overflow = 'hidden';
@@ -17,6 +23,11 @@ modalClose.addEventListener('click', function(){
 });
 
 buttonclose.addEventListener('click' ,function(){
+    modalBg.classList.remove('bg-active');
+    document.querySelector("body").style.overflow = 'visible';
+});
+
+proceedClose.addEventListener('click', function(){
     modalBg.classList.remove('bg-active');
     document.querySelector("body").style.overflow = 'visible';
 });
@@ -42,6 +53,8 @@ var modalButtonfaq = document.querySelector('.modal-btn-faq');
 var modalBgfaq = document.querySelector('.modal-bg-faq');
 var modalClosefaq = document.querySelector('.modal-close-faq');
 var faqClose = document.querySelector('.faq-close-button');
+
+
 
 modalButtonfaq.addEventListener('click', function(){
     modalBgfaq.classList.add('bg-active');

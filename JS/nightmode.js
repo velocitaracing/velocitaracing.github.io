@@ -59,6 +59,7 @@ const nightMode = () =>{
     const modbtn4 = document.querySelector('.modal-night-button-four');
     const modbtn5 = document.querySelector('.modal-night-button-five');
     const modbtn6 = document.querySelector('.modal-night-button-six');
+    const modbtn7 = document.querySelector('.modal-night-button-seven');
 
     const podbtn1 = document.querySelector('.podcast-night-one');
     const podbtn2 = document.querySelector('.podcast-night-two');
@@ -149,6 +150,7 @@ const nightMode = () =>{
         modbtn4.classList.toggle('button-night');
         modbtn5.classList.toggle('button-night');
         modbtn6.classList.toggle('button-night');
+        modbtn7.classList.toggle('button-night');
 
         podbtn1.classList.toggle('button-night');
         podbtn2.classList.toggle('button-night');
