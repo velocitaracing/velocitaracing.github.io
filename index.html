@@ -62,7 +62,7 @@
 
 
     <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
-
+    <script src="./JS/swipermin.js"></script>
     <link rel="stylesheet" href="./CSS/swipermin.css">
 
 
@@ -88,16 +88,28 @@
                 <input type='checkbox' id='time' class="night-toggle"/>
                 <label for='time'>NIG</label>
             </div>
-            <li><a href="#about">ABOUT</a></li>
-            <li><a href="#cars">CARS</a></li>
-            <li><a href="#team">TEAM</a></li>
+            <li><a href="#home">HOME</a></li>
+            <li class="unset-values one-nav">
+            
+                <div class="dropdown">
+                    <button class="dropbtn">ABOUT<img class="dropdown-arrow" src="./IMAGES/arrow.png" alt="dropdown-arrow"></button>
+                    <div class="dropdown-content">
+                        <a href="#about">ABOUT US</a>
+                        <a href="#cars">CARS</a>
+                        <a href="#team">OUR TEAM</a>
+                    <!-- <a href="#">Link 3</a> -->
+                    </div>
+                </div>
+               
+            </li>
+            
             <!-- <li><div class="dropdown">
                 CAREERS
                 <div class="dropdown-content" >
                     Recruitment 2020
                 </div>
             </div></li> -->
-            <li class="unset-values one-nav">
+            <li class="unset-values two-nav">
             
                 <div class="dropdown">
                     <button class="dropbtn">CAREERS<img class="dropdown-arrow" src="./IMAGES/arrow.png" alt="dropdown-arrow"></button>
@@ -110,7 +122,7 @@
                
             </li>
 
-            <li class="unset-values two-nav">
+            <li class="unset-values three-nav">
             
                 <div class="dropdown">
                     <button class="dropbtn">SPONSORS<img class="dropdown-arrow" src="./IMAGES/arrow.png" alt="dropdown-arrow"></button>
@@ -126,7 +138,7 @@
             <!-- <li><a href="#careers"><button>CAREERS</button></a></li> -->
             <!-- <li><a href="#sponsors">SPONSORS</a></li> -->
             <li><a href="#shop">SHOP</a></li>
-            <li class="unset-values three-nav">
+            <li class="unset-values four-nav">
             
                 <div class="dropdown">
                     <button class="dropbtn">MORE<img class="dropdown-arrow" src="./IMAGES/arrow.png" alt="dropdown-arrow"></button>
@@ -765,9 +777,9 @@ Dots/bullets/indicators
                         
                     </div>
                     <div class="card-side2">
-                        <h3>Vamshikrishna Sarode</h3>
+                        <h3>Vamshikrishna</h3>
                         <h5>Design Engineer</h5>
-                        <p>Let's keep <br> pushing!</p> 
+                        <p>Let's keep pushing!<br></p> 
                         <div class="team-social">
                             <a href="https://www.instagram.com/vamshikrishna.sarode/" target="_blank"><i class="team-social-icon-nine team-social-icon fa fa-instagram fa-2x" aria-hidden="true"></i></a>
                             <a href="https://www.linkedin.com/in/vamshi-krishna-s-r-15524b1b3/" target="_blank"><i class="team-social-icon-ten team-social-icon fa fa-linkedin fa-2x" aria-hidden="true"></i></a>
@@ -1496,7 +1508,7 @@ Dots/bullets/indicators
         });
     </script> -->
 
-    <script src="./JS/swipermin.js"></script>
+    
 
     <script src="JS/swiper.js"></script>
     <script src="JS/refresh.js"></script>
