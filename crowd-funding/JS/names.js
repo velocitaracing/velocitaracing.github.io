@@ -11,7 +11,7 @@ xmlhttp2.onreadystatechange = function () {
       $myList.append('<li>' + name + '</li>');
 
       $('#myNames').append($myList);
-        console.log(name);
+        // console.log(name);
     //   document.getElementById("").innerHTML = amount;
 
     }
