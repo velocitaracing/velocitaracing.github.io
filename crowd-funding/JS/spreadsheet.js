@@ -8,13 +8,11 @@ xmlhttp.onreadystatechange = function () {
       let amount = data[i]["gsx$_cn6ca"]["$t"];
       let contributors = data[i]["gsx$_cokwr"]["$t"];
 
+
       document.getElementById("amount").innerHTML = amount;
 
       document.getElementById("contrib").innerHTML = contributors;
 
-      
-
-        // console.log(name);
     }
   }
 };
