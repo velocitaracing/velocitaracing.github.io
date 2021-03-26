@@ -1,7 +1,13 @@
 @import url('https://fonts.googleapis.com/css2?family=Montserrat&display=swap');
 
+@import './stats.css';
 @import './slabs.css';
 @import './home.css';
+@import './intro.css';
+@import './funds.css';
+@import './contributors.css';
+
+
 
 *{
     padding: 0;

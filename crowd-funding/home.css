@@ -2,7 +2,7 @@
 
 #home{
     height: 100vh;
-    background-image: url(./crowd-banner.png);
+    background-image: url(./Banner456.png);
     background-repeat: no-repeat;
     background-size: cover;
 
@@ -21,4 +21,13 @@
 
 #home p{
     font-size: 40px;
+}
+
+@media screen and (max-width:450px){
+    #home h1{
+        font-size: 60px;
+    }
+    #home p{
+        font-size: 30px;
+    }
 }

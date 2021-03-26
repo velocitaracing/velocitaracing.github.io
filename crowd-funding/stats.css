@@ -1,0 +1,61 @@
+#stats{
+    height: 30vh;
+
+    background-color: rgb(235, 235, 235);
+
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+#stats .container{
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+}
+
+#stats .container .number, #stats .container .text{
+    font-size: 30px;
+    font-family: 'Satisfy', cursive;
+    color: rgb(0, 0, 0);
+}
+
+#stats .container .rupees{
+    font-size: 50px;
+    color: rgb(255, 0, 179);
+}
+
+.razorpay{
+    display: flex;
+    flex-direction: column-reverse;
+    align-items: center;
+    justify-content: center;
+}
+
+.rPayButton{
+    margin-bottom: 15px ;
+}
+
+@media screen and (max-width:450px){
+    #stats{
+        height: 80vh;
+    }
+
+    #stats .container{
+        height: 100%;
+        width: 100%;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: space-evenly;
+    }
+
+    #stats .number, #stats .text{
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
+        border-bottom: 1px solid rgb(255, 0, 179);
+    }
+}

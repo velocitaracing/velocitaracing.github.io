@@ -1,16 +1,31 @@
 
 #slabs{
-    margin-top: 20vh;
-    height: 100vh;
+    height: auto;
     display: flex;
+    flex-direction: column;
     align-items: center;
     justify-content: center;
 }
 
+#slabs h1{
+  font-size: 45px;
+  font-family: 'Satisfy', cursive;
+  color: rgb(255, 0, 179);
+
+}
+
+#slabs .sub-heading{
+  font-size: 20px;
+  font-family: 'Satisfy', cursive;
+  color: rgb(255, 0, 179);
+
+}
 
 #slabs .container {
     width: 80%;
     display: flex;
+    
+    margin-top: 30px;
 }
 
 .slab-container{
@@ -29,7 +44,7 @@
 }
 
 .slab-container .border{
-    border-bottom: 1px solid black;
+    border-bottom: 1px solid rgb(255, 192, 221);
 }
 
 .slab-container .slabs .text{
@@ -44,7 +59,7 @@
 
 .slab-container .slabs:hover {
     cursor: pointer;
-    background-color: rgba(0, 170, 255, 0.09);
+    background-color: rgba(0, 170, 255, 0.07);
     /* width: 105%; */
 }
 
@@ -53,7 +68,7 @@
 }
 
 .slab-properties{
-    background-color: rgba(0, 170, 255, 0.09);
+    background-color: rgba(0, 170, 255, 0.07);
     width: 50%;
     display: flex;
     flex-direction: column;
@@ -93,7 +108,7 @@
 
 .slab-active{
     cursor: pointer;
-    background-color: rgba(0, 170, 255, 0.09)!important;
+    background-color: rgba(0, 170, 255, 0.07)!important;
 }
 
 .arrow-active{
@@ -108,6 +123,10 @@
     margin-top: 50px;
 }
 
+.text p{
+  font-size: 14px;
+}
+
 #mob{
     display: none;
 }
@@ -117,8 +136,25 @@
 @media screen and (max-width:450px){
 
     #mob{
-        margin-top: 15vh;
+        margin-top: 20px;
         display: block;
+    }
+
+    #mob h1{
+      margin-top: 70px;
+      font-size: 45px;
+      font-family: 'Satisfy', cursive;
+      color: rgb(255, 0, 179);
+      text-align: center;
+    
+    }
+
+    #mob .sub-heading{
+      font-size: 20px;
+      font-family: 'Satisfy', cursive;
+      color: rgb(255, 0, 179);
+      text-align: center;
+    
     }
 
     #slabs{
@@ -128,7 +164,7 @@
 
     .col{
         width: 95%;
-        margin: 0 auto;
+        margin: 30px auto 0 auto;
     }
 
     .accordion {

@@ -64,6 +64,7 @@
     <link rel="stylesheet" href="../CSS/navbar.css">
     <link rel="stylesheet" href="../CSS/contact.css">
     <link rel="stylesheet" href="../shop/css/fontAwesome.css">
+    <script src="./spreadsheet.js"></script>
 </head>
 <body>
     
@@ -141,12 +142,64 @@
 
 
     <section id="home">
-      <h1 id="heading">Crowdfunding</h1>
-      <p id="heading">Help us Grow More...</p>
+      <h1>Crowdfunding</h1>
+      <p>Help us Grow More...</p>
     </section>
 
 
+    <section id="stats">
+      <div class="container">
+        <div class="number"><span>₹ <span id="amount" class="rupees">1000</span></span> Raised</div>
+        <div class="number"><span id="contrib" class="rupees">6</span> Contributors</div>
+        <div class="razorpay">
+          <p class="text">Contribute Now</p>
+          <form class="rPayButton">
+            <script src = "https://cdn.razorpay.com/static/widget/payment-button.js"
+            data-payment_button_id = "pl_FNmjTJSGXBYIfp"
+            data-button_text = "Pay Now"
+            data-button_theme = "brand-color">
+            </script>
+          </form>
+        </div>
+      </div>
+    </section>
+
+    <section id="intro">
+      <div class="intro-text">
+        <h1>Why fund us?</h1>
+        <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Earum maiores omnis accusantium, 
+          nam nisi harum, nemo fugiat neque odit incidunt delectus, ex magnam distinctio optio?
+        Lorem ipsum dolor, sit amet consectetur adipisicing elit. Odit, ratione!<br><br>
+        Lorem ipsum dolor sit amet, consectetur adipisicing elit. Earum maiores omnis accusantium, 
+          nam nisi harum, nemo fugiat neque odit incidunt delectus, ex magnam distinctio optio?
+        Lorem ipsum dolor, sit amet consectetur adipisicing elit. Odit, ratione!
+      </p>
+      </div>
+      <div class="chart">
+        <div class="group-one">
+          <div class="card">
+
+          </div>
+          <div class="card">
+            
+          </div>
+        </div>
+        <div class="group-two">
+          <div class="card">
+
+          </div>
+          <div class="card">
+            
+          </div>
+        </div>
+      </div>
+      
+    </section>
+
+    
     <section id="slabs" class="desktop">
+      <h1>Know the Slabs</h1>
+      <span class="sub-heading">We've got exciting goodies for you!</span>
       <div class="container">
         <div class="slab-container">
           <div class="slabs border slab-1">
@@ -215,6 +268,8 @@
     </section>
 
     <section id="mob">
+      <h1>Know the Slabs</h1>
+      <p class="sub-heading">We've got exciting goodies for you!</p>
       <div class="col">
         <div class="tabs">
           <div class="tab">
@@ -259,6 +314,106 @@
         </div>
       </div>
     </section>
+
+
+    <section id="funds">
+      <div class="funds-text">
+        <h1>Where do the funds go?</h1>
+        <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Earum maiores omnis accusantium, 
+          nam nisi harum, nemo fugiat neque odit incidunt delectus, ex magnam distinctio optio?
+        Lorem ipsum dolor, sit amet consectetur adipisicing elit. Odit, ratione!<br><br>
+        Lorem ipsum dolor sit amet, consectetur adipisicing elit. Earum maiores omnis accusantium, 
+          nam nisi harum, nemo fugiat neque odit incidunt delectus, ex magnam distinctio optio?
+        Lorem ipsum dolor, sit amet consectetur adipisicing elit. Odit, ratione!
+      </p>
+      </div>
+      <div class="chart">
+        <canvas id="myChart2" width="400" height="400"></canvas>
+          <script>
+          var ctx = document.getElementById('myChart2').getContext('2d');
+          var myChart = new Chart(ctx, {
+              type: 'bar',
+              data: {
+                labels: ['CHASSIS', 'SUSPENSION AND STEERING', 'ENGINE AND TRANSMISSION', 'BRAKES', 'TIRES', 'COCKPIT', 'BODY', 'TRANSPORTATION'],
+                  datasets: [{
+                      label: 'Est. Cost',
+                      data: [100000, 133000, 120000, 70000, 80000, 23000, 150000, 50000],
+                      backgroundColor: [
+                          'rgba(255, 99, 132, 0.8)',
+                          'rgba(54, 162, 235, 0.8)',
+                          'rgba(255, 206, 86, 0.8)',
+                          'rgba(75, 192, 192, 0.8)',
+                          'rgba(153, 102, 255, 0.8)',
+                          'rgba(255, 159, 64, 0.8)',
+                          'rgba(55, 99, 102, 0.8)',
+                          'rgba(194, 162, 85, 0.8)'
+                      ],
+                      borderColor: [
+                          'rgba(255, 99, 132, 1)',
+                          'rgba(54, 162, 235, 1)',
+                          'rgba(255, 206, 86, 1)',
+                          'rgba(75, 192, 192, 1)',
+                          'rgba(153, 102, 255, 1)',
+                          'rgba(255, 159, 64, 1)',
+                          'rgba(55, 99, 102, 1)',
+                          'rgba(194, 162, 85, 1)'
+                      ],
+                      borderWidth: 1
+                  }]
+              },
+
+
+              options: {
+
+                maintainAspectRatio: false,
+                responsive: true,
+                legend: {
+                  display: 'False',
+                  position: 'top',
+                },
+                title: {
+                  display: true,
+                  text: 'Estimated budget to build a Formula Bharat Spec car',
+                  position: 'bottom',
+                  fontSize: 14,
+                  padding: 20
+                },
+
+                  scales: {
+                      yAxes: [{
+                          ticks: {
+                              beginAtZero: true
+                          },
+                          scaleLabel: {
+                          display: true,
+                          labelString: 'Cost in ₹'}
+                      }]
+                  }
+              }
+          });
+          </script>
+      </div>
+      
+    </section>
+
+    <section id="contributors">
+      <div class="cont-text">
+        <h1>Our Contributors</h1>
+        <p class="sub-heading">A big thanks to you all!</p>
+      </div>
+
+      <div class="names">
+        <ul>
+          <li>Niranjan &nbsp;.&nbsp;</li>
+          <li>Pranay &nbsp;.&nbsp;</li>
+          <li>Deep &nbsp;.&nbsp;</li>
+          <li>Satvik &nbsp;.&nbsp;</li>
+          <li>Deep</li>
+        </ul>
+      </div>
+
+    </section>
+
       
     <div class="footer">
         <p>COPYRIGHT &COPY; 2021 &nbsp;|&nbsp; VELOCITA RACING &nbsp;|&nbsp; ALL RIGHTS RESERVED
@@ -338,6 +493,6 @@
     <script src="./backScroll.js"></script>
     <script src="../JS/mobnav.js"></script>
     <script src="../JS/ripple.js"></script>
-    <script src="./crowdFunding.js"></script>
+    <!-- <script src="./crowdFunding.js"></script> -->
 </body>
 </html>
