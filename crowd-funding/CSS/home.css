@@ -23,6 +23,10 @@
     font-size: 40px;
 }
 
+#home img{
+    height: 70px;
+}
+
 @media screen and (max-width:450px){
     #home h1{
         font-size: 60px;

@@ -1,0 +1,64 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Satisfy&display=swap');
+
+@import './card.css';
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    
+}
+
+
+
+
+body{
+    font-family: 'Montserrat', sans-serif; 
+    color: rgb(23, 63, 53);
+    transition: .3s ease 0s;
+    /* overflow-x: hidden!important; */
+    overflow-x: hidden;
+    overflow-y: scroll;
+
+
+      -webkit-user-select: none;
+         -moz-user-select: -moz-none;
+          -ms-user-select: none;
+              user-select: none;
+}
+
+.navbar {
+    background: #000;
+}
+
+#home{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+
+    
+}
+
+.heading{
+    font-family: 'Satisfy', cursive;
+    height: 100vh;
+    /* padding-bottom: 30px; */
+    display: flex;
+    flex-direction: column;
+    font-size: 3rem;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+}
+
+.heading img{
+    height: 70px;
+}
+
+
+@media screen and (max-width:450px){
+    .heading{
+        font-size: 2em;
+    }
+}

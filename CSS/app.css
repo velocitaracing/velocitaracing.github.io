@@ -23,6 +23,8 @@
 @import './team-update.css';
 @import './team.css';
 
+@import './footer.css';
+
 
 *{
     padding: 0;
