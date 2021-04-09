@@ -181,9 +181,18 @@ body{
 .department{
     font-size: 8px;
 }
+
+.two{
+    flex-direction: column;
+}
+
+.two ul{
+    width: 100%;
+    flex-direction: column!important;
+}
  
 
-.footer{
+/* .footer{
     height: 5vh;
     width: 100%;
     margin: 30px 0;
@@ -191,7 +200,7 @@ body{
     display: flex;
     align-items: center;
     justify-content: center;
-}
+} */
 
 @media screen and (max-width:450px){
 
@@ -208,14 +217,14 @@ body{
         flex-direction: column;
     }
 
-    .footer{
+    /* .footer{
         font-size: 10px;
     }
-     
+      */
 }
 
-@media screen and (max-width:350px){
+/* @media screen and (max-width:350px){
     .footer{
         font-size: 8px;
     }
-}
+} */
