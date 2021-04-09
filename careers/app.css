@@ -41,7 +41,8 @@ body{
 }
 
 .heading{
-    font-family: 'Satisfy', cursive;
+    /* font-family: 'Satisfy', cursive; */
+    color: rgb(255, 0, 140);
     height: 100vh;
     /* padding-bottom: 30px; */
     display: flex;
