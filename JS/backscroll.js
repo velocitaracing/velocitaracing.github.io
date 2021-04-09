@@ -95,6 +95,24 @@ function update4(){
     
   $(window).bind('scroll', update4);    
  
+
+
+  
+function update18(){ 
+  var pos = $(window).scrollTop(); 
+  $('#career-heading-new').each(function() { 
+    var $element = $(this);
+    // subtract some from the height b/c of the padding
+    var height = 130;
+    $(this).css('backgroundPosition', '50% ' + Math.round((height - pos) * velocity) +  'px'); 
+    }); 
+  };
+    
+  $(window).bind('scroll', update18);    
+ 
+     
+
+     
      
 
      
