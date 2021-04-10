@@ -11,13 +11,20 @@
     padding: 3% 0%;
 }
 
+.lead-info{
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    justify-content: center;
+    width: 100%;
+}
 
 
 .lead-card{
     display: flex;
     flex-direction: row-reverse;
     align-items: center;
-    justify-content: center;
+    justify-content: space-between;
     margin: 0 auto;
 }
 
@@ -48,6 +55,12 @@
 
 .lead-card img{
     height: 300px;
+    
+}
+.lead-img{
+    display: flex;
+    align-items: center;
+    justify-content: center;
 }
 .lead-card h2{
     font-size: 18px;
@@ -80,8 +93,9 @@
         display: flex;
         flex-direction: row-reverse;
         align-items: center;
-        justify-content: center;
+        justify-content: space-between;
         margin: 0 auto;
+        width: 90%;
     }
     
     .capt-card{
@@ -90,7 +104,6 @@
     }
     
     .manager-card{
-        width: unset;
         margin: 20px 15px;
     }
     .lead-card ul{
@@ -123,5 +136,11 @@
 
     .fa{
         font-size: 16px!important;
+    }
+}
+
+@media screen and (max-width:340px) {
+    .lead-card{
+        width: 100%;
     }
 }

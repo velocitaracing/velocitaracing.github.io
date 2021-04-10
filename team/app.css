@@ -93,17 +93,43 @@ body{
 .heading ul li a{
     text-decoration: none;
     font-size: 20px;
-    background-color: #00c076;
+    background-color: #ffffff;
     padding: 5px 10px;
-    color: #fff;
+    color: rgb(0, 0, 0);
     border: 2px solid rgb(255, 0, 157);
 
 }
 
+.heading ul li a:hover {
+    background-color: rgb(255, 85, 198);
+    color: #fff;
+}
+
+.season6{
+    background: rgb(255, 0, 170)!important;
+    color: #fff!important;
+}
+.season5{
+    
+}
+.season1{
+    
+}
+.season1{
+    
+}
+.season1{
+    
+}
 
 @media screen and (max-width:450px){
     .heading{
         font-size: 2em;
+    }
+
+    .heading ul li{
+        list-style: none;
+        margin: 10px 10px;
     }
 }
 
