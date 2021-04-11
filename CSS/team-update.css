@@ -12,6 +12,31 @@
     /* background-attachment: fixed; */
 }
 
+.team-button{
+    text-decoration: none;
+    margin: 15px 0px 0 0;
+    padding: 15px 20px; 
+    border: none; 
+    border-radius: 5px; 
+    background-color: #1abc9c; 
+    /* color: #fff;  */
+    font-size: 18px; 
+    outline: none; 
+    cursor: pointer; 
+
+    /* We need this to position 
+        span inside button */ 
+    position: relative; 
+    overflow: hidden; 
+    box-shadow: 6px 7px 40px -4px  
+             rgba(0, 0, 0, 0.2); 
+}
+
+.team-button a{
+    text-decoration: none;
+    color: #fff; 
+}
+
 .team-heading-box{
     min-height: 100vh;
     display: flex;
