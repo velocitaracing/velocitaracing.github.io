@@ -44,6 +44,7 @@ const nightMode = () =>{
     const contHeadingBorder = document.querySelector('.contact-heading');
     const footer = document.querySelector('.night-foot');
 
+    const button0 = document.querySelector('.team-button-night');
     const button1 = document.querySelector('.career-toggle');
     const button2 = document.querySelector('.career-button');
     const button3 = document.querySelector('.career-button-two');
@@ -98,11 +99,11 @@ const nightMode = () =>{
         tHeading.classList.toggle('heading-night');
         tInfo.classList.toggle('info-color');
         carBox.classList.toggle('body-night');
-        tBox.classList.toggle('card-night');
-        tBox2.classList.toggle('card-night');
-        tBox3.classList.toggle('card-night');
-        tBox4.classList.toggle('card-night');
-        tBox5.classList.toggle('card-night');
+        // tBox.classList.toggle('card-night');
+        // tBox2.classList.toggle('card-night');
+        // tBox3.classList.toggle('card-night');
+        // tBox4.classList.toggle('card-night');
+        // tBox5.classList.toggle('card-night');
         caHeading.classList.toggle('heading-night');
         // deptCard1.classList.toggle('card-night');
         // deptCard2.classList.toggle('card-night');
@@ -135,6 +136,7 @@ const nightMode = () =>{
         contHeadingBorder.classList.toggle('heading-border-night');
         aboutBox.classList.toggle('about-box2-night');
         
+        button0.classList.toggle('button-night');
         button1.classList.toggle('button-night');
         button2.classList.toggle('button-night');
         button3.classList.toggle('button-night');
@@ -167,16 +169,16 @@ const nightMode = () =>{
         arrow2.classList.toggle('arrow-night');
         arrow3.classList.toggle('arrow-night');
 
-        teamSocialIcon.classList.toggle('team-social-night');
-        teamSocialIcon2.classList.toggle('team-social-night');
-        teamSocialIcon3.classList.toggle('team-social-night');
-        teamSocialIcon4.classList.toggle('team-social-night');
-        teamSocialIcon5.classList.toggle('team-social-night');
-        teamSocialIcon6.classList.toggle('team-social-night');
-        teamSocialIcon7.classList.toggle('team-social-night');
-        teamSocialIcon8.classList.toggle('team-social-night');
-        teamSocialIcon9.classList.toggle('team-social-night');
-        teamSocialIcon10.classList.toggle('team-social-night');
+        // teamSocialIcon.classList.toggle('team-social-night');
+        // teamSocialIcon2.classList.toggle('team-social-night');
+        // teamSocialIcon3.classList.toggle('team-social-night');
+        // teamSocialIcon4.classList.toggle('team-social-night');
+        // teamSocialIcon5.classList.toggle('team-social-night');
+        // teamSocialIcon6.classList.toggle('team-social-night');
+        // teamSocialIcon7.classList.toggle('team-social-night');
+        // teamSocialIcon8.classList.toggle('team-social-night');
+        // teamSocialIcon9.classList.toggle('team-social-night');
+        // teamSocialIcon10.classList.toggle('team-social-night');
 
         // teamBack.classList.toggle('team-back-night');
 
