@@ -166,7 +166,7 @@ body{
     color: orange;
   }
 
-.box{
+.dept-box{
     width: 100%;
     display: flex;
     align-items: center;

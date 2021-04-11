@@ -18,9 +18,8 @@ body{
     font-family: 'Montserrat', sans-serif; 
     color: rgb(23, 63, 53);
     transition: .3s ease 0s;
+    overflow: hidden;
     overflow-x: hidden!important;
-    overflow-x: hidden;
-    overflow-y: scroll;
 
 
       -webkit-user-select: none;
@@ -56,7 +55,7 @@ body{
     position:absolute;
     left:50%;
     top:50%;
-    background-image:url(../IMAGES/LOADER/100.webp); /* path to your loading animation */
+    background-image:url(../IMAGES/LOADER/loader_4.gif); /* path to your loading animation */
     background-repeat:no-repeat;
     background-position:center;
     background-size: cover;
