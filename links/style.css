@@ -88,6 +88,14 @@ body{
     opacity: 0.7;
 }
 
+.footer{
+    width: 100%;
+    position: absolute!important;
+    bottom: 0!important;
+    background-color: #fff!important;
+    color: #000!important;
+}
+
 
 
 @media screen and (max-width: 450px){
@@ -113,7 +121,7 @@ body{
     }
     .footer{
         width: 100%;
-        position: relative!important;
+        position: absolute!important;
         bottom: 0!important;
     }
 }
