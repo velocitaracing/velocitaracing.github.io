@@ -18,7 +18,7 @@ body{
     font-family: 'Montserrat', sans-serif; 
     color: rgb(23, 63, 53);
     transition: .3s ease 0s;
-    /* overflow-x: hidden!important; */
+    overflow-x: hidden!important;
     overflow-x: hidden;
     overflow-y: scroll;
 
@@ -36,7 +36,32 @@ body{
   .transitionSlideInbottom {
     opacity: 1;
     animation: fade-in-bottom 1s 1;
-  }
+}
+
+#preloader {
+
+    position: fixed;
+    top:0;
+    left:0;
+    right:0;
+    bottom:0;
+    background-color:#fff; /*change if the mask should have another color then white */
+    z-index:9999;
+}
+
+#status {
+ 
+    width:200px;
+    height:200px;
+    position:absolute;
+    left:50%;
+    top:50%;
+    background-image:url(../IMAGES/LOADER/100.webp); /* path to your loading animation */
+    background-repeat:no-repeat;
+    background-position:center;
+    background-size: cover;
+    margin:-100px 0 0 -100px;
+}
 
 
 .navbar {
