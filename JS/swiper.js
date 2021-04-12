@@ -1,3 +1,4 @@
+$(window).on('load', function() {
 var swiper3 = new Swiper('.swiper-container-home', {
   slidesPerView: 'auto',
   // centeredSlides: true,
@@ -16,6 +17,8 @@ var swiper3 = new Swiper('.swiper-container-home', {
         prevEl: '.swiper-button-prev',
   },
 });
+
+})
 
 
     /* ========
