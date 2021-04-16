@@ -1,0 +1,130 @@
+#how{
+    /* height: 100vh; */
+
+    margin-top: 100px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+
+}
+
+#how .intro-text{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-between;
+
+    width: 50%;
+    height: 40%;
+}
+
+#how .chart{
+    width: 50%;
+    margin: 0 20px 0 0;
+}
+
+#how .intro-text h1{
+    font-size: 35px;
+    /* font-family: 'Satisfy', cursive;
+    color: rgb(255, 0, 179); */
+    color: rgb(23, 63, 53);
+}
+
+#how .intro-text p{
+    font-size: 18px;
+    padding: 15px 25px;
+}
+
+#how img{
+    height: 350px;
+}
+
+#how .chart{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+#how .chart .group-one{
+    /* margin-top: 25px; */
+    display: flex;
+}
+
+#how .chart .group-two{
+    /* margin-bottom: 25px; */
+    display: flex;
+}
+
+
+#how .chart .card{
+    height: 300px;
+    width: 250px;
+    margin: 15px;
+    background-color: rgb(241, 241, 241);
+    box-shadow: 5px 5px 5px rgba(134, 134, 134, 0.6);
+    transition: .2s ease-in-out 0s;
+    border-radius: 10px;
+}
+
+.card-image{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 50%;
+}
+
+#how .chart .card img{
+    height: 130px;
+}
+
+
+#how .chart .card:hover{
+    box-shadow: 5px 5px 5px rgba(68, 68, 68, 0.9);
+    cursor: pointer;
+}
+
+#how .chart .card h4{
+    text-align: center;
+    margin: 10px 0;
+}
+
+#how .chart .card p{
+    font-size: 14px;
+    padding: 10px 15px;
+}
+
+
+
+@media screen and (max-width:450px){
+    #how{
+        height: unset;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
+    
+    }
+
+    #how .intro-text{
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
+    
+        padding-top: 50px;
+
+        width: 95%;
+        height: unset;
+    }
+    
+    #how .chart{
+        width: 95%;
+        margin: 0 auto;
+    }
+
+    #myChart{
+        margin: 20px auto;
+        width: 100%;
+    }
+}

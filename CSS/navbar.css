@@ -22,12 +22,13 @@
     transform: rotate(-90deg);
 }
 
-.dropbtn:hover .dropdown-arrow{
+.arrowone:hover .dropdown-arrow {
     -ms-transform: rotate(0deg); 
     transform: rotate(0deg);
     transition: .1s ease-in-out 0s;
 
 }
+
 
 .dropbtn {
     background-color:rgba(0, 0, 0, 0);

@@ -1,0 +1,67 @@
+#funds{
+    height: 100vh;
+
+    display: flex;
+    align-items: center;
+    justify-content: center;
+
+}
+
+#funds .funds-text{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-between;
+
+    width: 50%;
+    height: 40%;
+}
+
+#funds .chart{
+    width: 50%;
+    margin: 0 20px 0 0;
+}
+
+#funds .funds-text h1{
+    font-size: 35px;
+    font-family: 'Satisfy', cursive;
+    color: rgb(255, 0, 179);
+}
+
+#funds .funds-text p{
+    font-size: 18px;
+    padding: 15px 25px;
+}
+
+@media screen and (max-width:450px){
+    #funds{
+        height: unset;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
+    
+    }
+
+    #funds .funds-text{
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
+    
+        padding-top: 100px;
+
+        width: 95%;
+        height: unset;
+    }
+    
+    #funds .chart{
+        width: 95%;
+        margin: 0 auto;
+    }
+
+    #myChart{
+        margin: 20px auto;
+        width: 100%;
+    }
+}
