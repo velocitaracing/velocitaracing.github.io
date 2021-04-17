@@ -27,6 +27,7 @@
     /* font-family: 'Satisfy', cursive;
     color: rgb(255, 0, 179); */
     color: rgb(23, 63, 53);
+    
 }
 
 #intro .intro-text p{
@@ -63,7 +64,7 @@
     border-radius: 10px;
 }
 
-.card-image{
+#intro .card-image{
     display: flex;
     align-items: center;
     justify-content: center;
@@ -82,7 +83,7 @@
 
 #intro .chart .card h4{
     text-align: center;
-    margin: 10px 0;
+    margin: 10px;
 }
 
 #intro .chart .card p{

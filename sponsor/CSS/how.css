@@ -25,6 +25,7 @@
 }
 
 #how .intro-text h1{
+    /* margin-top: 60px; */
     font-size: 35px;
     /* font-family: 'Satisfy', cursive;
     color: rgb(255, 0, 179); */
@@ -44,34 +45,43 @@
     display: flex;
     align-items: center;
     justify-content: center;
+    width: 100%;
+
 }
 
 #how .chart .group-one{
     /* margin-top: 25px; */
     display: flex;
+    flex-direction: column;
+    margin-right: 30px;
 }
 
 #how .chart .group-two{
     /* margin-bottom: 25px; */
+  
     display: flex;
+    flex-direction: column;
+    margin-left: 30px;
 }
 
 
 #how .chart .card{
-    height: 300px;
-    width: 250px;
+    height: 200px;
+    width: 400px;
     margin: 15px;
     background-color: rgb(241, 241, 241);
     box-shadow: 5px 5px 5px rgba(134, 134, 134, 0.6);
     transition: .2s ease-in-out 0s;
     border-radius: 10px;
+
+    display: flex;
 }
 
-.card-image{
+#how .card-image{
     display: flex;
     align-items: center;
     justify-content: center;
-    height: 50%;
+    height: 100%;
 }
 
 #how .chart .card img{
@@ -84,8 +94,15 @@
     cursor: pointer;
 }
 
+#how .card-text {
+    display: flex;
+    flex-direction: column;
+    /* align-items: center; */
+    justify-content: center;
+}
+
 #how .chart .card h4{
-    text-align: center;
+    text-align: left;
     margin: 10px 0;
 }
 
