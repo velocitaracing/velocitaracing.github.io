@@ -18,8 +18,11 @@
 }
 
 #intro .chart{
-    width: 50%;
+    width: 100%;
     margin: 0 20px 0 0;
+    display: flex;
+    align-items: center;
+    justify-content: center;
 }
 
 #intro .intro-text h1{
@@ -59,11 +62,18 @@
     height: 300px;
     width: 250px;
     margin: 15px;
-    background-color: rgb(241, 241, 241);
+    /* background-color: rgb(241, 241, 241); */
     box-shadow: 5px 5px 5px rgba(134, 134, 134, 0.6);
     transition: .2s ease-in-out 0s;
     border-radius: 10px;
+
+    background-image: url(../../IMAGES/sponsorPage/back-card.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
 }
+  
+
 
 #intro .card-image{
     display: flex;
@@ -94,7 +104,7 @@
 
 
 
-@media screen and (max-width:450px){
+@media screen and (max-width:550px){
     #intro{
         height: unset;
         display: flex;
@@ -124,10 +134,17 @@
         
         
     }
+
+    #intro .card-image{
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        height: 100%;
+    }
     
 
     #intro img{
-        height: 150px;
+        height: 200px;
     }
 
     #intro .chart{
@@ -141,13 +158,40 @@
         height: 100px;
     }
 
+    #intro .chart .card{
+        height: 200px;
+        width: 95%;
+        margin: 15px 0;
+        background-color: rgb(241, 241, 241);
+        box-shadow: 5px 5px 5px rgba(134, 134, 134, 0.6);
+        transition: .2s ease-in-out 0s;
+        border-radius: 10px;
+        
+        display: flex;
+    
+      
+    }
+
+    #intro .card-text{
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
+
+    }
+    #intro .chart .card h4 {
+        text-align: left;
+        width: 100%;
+        padding: 0 15px;
+    }
+
     #intro .chart .group-one{
-        margin-top: 25px;
+        margin-top: 0px;
         
     }
     
     #intro .chart .group-two{
-        margin-bottom: 25px;
+        margin-bottom: 0px;
     }
     
     
