@@ -4,6 +4,7 @@ $(".banner-1").css("background-position", "50% ");
 $(".banner-2").css("background-position", "50% ");
 $(".banner-3").css("background-position", "50% ");
 $(".banner-4").css("background-position", "50% ");
+$(".banner-5").css("background-position", "50% ");
 
 function update(){ 
 var pos = $(window).scrollTop(); 
@@ -54,7 +55,20 @@ function update7(){
      }); 
     };
       
- $(window).bind('scroll', update7);     
+ $(window).bind('scroll', update7);
+ 
+ function update40(){ 
+  var pos = $(window).scrollTop(); 
+   $('.banner-5').each(function() { 
+    var $element = $(this);
+    // subtract some from the height b/c of the padding
+    var height = 0;
+    $(this).css('backgroundPosition', '50% ' + (pos * velocity) +  'px'); 
+     }); 
+    };
+      
+ $(window).bind('scroll', update40);     
+
 
  function update2(){ 
   var pos = $(window).scrollTop(); 
