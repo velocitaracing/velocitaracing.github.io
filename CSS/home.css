@@ -53,6 +53,11 @@
     -o-background-size: cover!important;
 }
 
+.banner-5{
+    background-image: url(../IMAGES/HOME/banner\ 5.webp)!important;
+    /* background-attachment: fixed!important; */
+}
+
 .banner-1{
     background-image: url(../IMAGES/HOME/Asset\ 4.webp)!important;
     /* background-attachment: fixed!important; */
@@ -122,6 +127,11 @@
 
 
 @media screen and (max-width: 550px){
+
+    .banner-5{
+        background-image: url(../IMAGES/HOME/mobbanner/mob-banner-5.webp)!important;
+    }
+
     .banner-1{
         background-image: url(../IMAGES/HOME/Asset\ 2.webp)!important;
     }

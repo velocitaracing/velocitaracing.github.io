@@ -5,10 +5,11 @@
     justify-content: center;
     text-align: center; */
     top: 0;
-    background-image: url(../IMAGES//team-back.svg);
+    background-image: url(../IMAGES/TEAM/team-back.svg);
     background-size: cover;
     background-repeat: no-repeat;
     overflow-x: hidden;
+    background-attachment: fixed;
     /* background-attachment: fixed; */
 }
 
