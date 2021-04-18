@@ -54,6 +54,11 @@ const nightMode = () =>{
     const button7 = document.querySelector('.shop-button-two');
     const button8 = document.querySelector('.shop-button-three');
     const button9 = document.querySelector('.shop-button-four');
+    const button10 = document.querySelector('.vrf1-night');
+    const button11 = document.querySelector('.vrf2-night');
+
+
+
     const modbtn1 = document.querySelector('.modal-night-button-one');
     const modbtn2 = document.querySelector('.modal-night-button-two');
     const modbtn3 = document.querySelector('.modal-night-button-three');
@@ -95,7 +100,7 @@ const nightMode = () =>{
         body.classList.toggle('body-night');
         aHeading.classList.toggle('heading-night');
         cHeading.classList.toggle('heading-night');
-        car.classList.toggle('heading-night');
+        // car.classList.toggle('heading-night');
         tHeading.classList.toggle('heading-night');
         tInfo.classList.toggle('info-color');
         carBox.classList.toggle('body-night');
@@ -105,6 +110,7 @@ const nightMode = () =>{
         // tBox4.classList.toggle('card-night');
         // tBox5.classList.toggle('card-night');
         caHeading.classList.toggle('heading-night');
+
         // deptCard1.classList.toggle('card-night');
         // deptCard2.classList.toggle('card-night');
         // deptCard3.classList.toggle('card-night');
@@ -146,6 +152,10 @@ const nightMode = () =>{
         button7.classList.toggle('button-night');
         button8.classList.toggle('button-night');
         button9.classList.toggle('button-night');
+        button10.classList.toggle('button-night');
+        button11.classList.toggle('button-night');
+
+
         modbtn1.classList.toggle('button-night');
         modbtn2.classList.toggle('button-night');
         modbtn3.classList.toggle('button-night');
