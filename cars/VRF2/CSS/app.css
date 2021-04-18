@@ -67,5 +67,10 @@ body{
     .info img{
         height: 250px;
     }
+
+    #home .model-name{
+        height: 150px;
+    }
+    
     
 }
