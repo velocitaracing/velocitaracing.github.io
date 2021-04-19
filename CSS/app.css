@@ -63,22 +63,28 @@ form input{
   font-family: 'Montserrat', sans-serif; 
 }
 
-.static-image{
+/* .static-image{
   height: 400px;
 
-  background-image: url(../IMAGES/BACKGROUD/glenn-hansen-VW4xiLRr-do-unsplash.jpg);
+  background-image: url(../IMAGES/BACKGROUD/engine.jpg);
   background-repeat: no-repeat;
   background-size: cover;
   background-position: center;
   background-attachment: fixed;
 }
 
-#cars .swiper-container{
+.cover{
+  height: 100%;
+  width: 100%;
+  background-color: rgba(0, 0, 0, 0.726);
+} */
+
+/* #cars .swiper-container{
   background-image: url(../IMAGES/HOME/);
   background-size: cover;
   background-repeat: no-repeat;
   background-attachment: fixed;
-}
+} */
 
 
 
