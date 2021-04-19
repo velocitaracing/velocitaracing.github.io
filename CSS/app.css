@@ -63,14 +63,23 @@ form input{
   font-family: 'Montserrat', sans-serif; 
 }
 
+.static-image{
+  height: 400px;
 
-/* #cars{
-  background-image: url(../IMAGES/CARS/cars-back-3.jpg);
+  background-image: url(../IMAGES/BACKGROUD/glenn-hansen-VW4xiLRr-do-unsplash.jpg);
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center;
+  background-attachment: fixed;
+}
+
+#cars .swiper-container{
+  background-image: url(../IMAGES/HOME/);
   background-size: cover;
   background-repeat: no-repeat;
   background-attachment: fixed;
 }
- */
+
 
 
 
