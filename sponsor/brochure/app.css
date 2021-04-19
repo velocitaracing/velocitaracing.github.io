@@ -17,8 +17,8 @@ body{
     color: rgb(23, 63, 53);
     transition: .3s ease 0s;
     /* overflow-x: hidden!important; */
-    overflow-x: hidden;
-    overflow-y: scroll;
+    overflow-x: hidden!important;
+    overflow-y: hidden;
 
 
       -webkit-user-select: none;
@@ -33,5 +33,17 @@ body{
 
 #home {
     height: 100vh;
+}
+
+.footer{
+    margin: unset!important;
+    height: unset!important;
+    width: 100%!important;
+}
+
+.footer-image{
+    margin: unset!important;
+    height: 170px!important;
+    width: unset!important;
 }
 
