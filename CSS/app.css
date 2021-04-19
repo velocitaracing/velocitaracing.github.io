@@ -1,4 +1,5 @@
 @import url('https://fonts.googleapis.com/css2?family=Montserrat&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Satisfy&display=swap');
 
 @import './loader.css';
 
@@ -26,6 +27,7 @@
 @import './team.css';
 
 @import './footer.css';
+@import './imagesections.css';
 
 
 *{
@@ -63,28 +65,19 @@ form input{
   font-family: 'Montserrat', sans-serif; 
 }
 
-/* .static-image{
-  height: 400px;
 
-  background-image: url(../IMAGES/BACKGROUD/engine.jpg);
-  background-repeat: no-repeat;
-  background-size: cover;
-  background-position: center;
-  background-attachment: fixed;
+#sponsors{
+  /* background-color: #1b1b1b; */
 }
 
-.cover{
-  height: 100%;
-  width: 100%;
-  background-color: rgba(0, 0, 0, 0.726);
-} */
 
-/* #cars .swiper-container{
+
+#cars .swiper-container{
   background-image: url(../IMAGES/HOME/);
   background-size: cover;
   background-repeat: no-repeat;
   background-attachment: fixed;
-} */
+}
 
 
 

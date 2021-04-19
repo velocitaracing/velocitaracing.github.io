@@ -170,6 +170,35 @@ function update21(){
   $(window).bind('scroll', update21);      
 
      
+  function update22(){ 
+    var pos = $(window).scrollTop(); 
+    $('.static-career').each(function() { 
+      var $element = $(this);
+      // console.log(height);
+      // subtract some from the height b/c of the padding
+      var scrollHeight = $('.static-career').position().top;
+      // console.log(scrollHeight);
+      var height = scrollHeight;
+       $(this).css('backgroundPosition', '50% ' + Math.round((height - pos) * velocity) +  'px'); 
+        }); 
+      };
+  
+$(window).bind('scroll', update22);  
 
-     
+  function update23(){ 
+  var pos = $(window).scrollTop(); 
+  $('.static-sponsor').each(function() { 
+    var $element = $(this);
+    // console.log(height);
+    // subtract some from the height b/c of the padding
+    var scrollHeight = $('.static-sponsor').position().top;
+    // console.log(scrollHeight);
+    var height = scrollHeight;
+    $(this).css('backgroundPosition', '50% ' + Math.round((height - pos) * velocity) +  'px'); 
+    }); 
+  };
+         
+$(window).bind('scroll', update23);      
+    
+           
 
