@@ -1,0 +1,39 @@
+.brochure-container{
+    display: flex;
+    align-items: center;
+    flex-wrap: wrap;
+    justify-content: space-evenly;
+    margin-top: 100px;
+}
+
+.brochure-container h1{
+    font-size: 30px;
+    margin-bottom: 30px;
+}
+
+.brochure-container img{
+    height: 300px;
+}
+
+@media screen and (max-width:450px) {
+    
+    .brochure-container h1{
+        font-size: 30px;
+        margin-bottom: 0px;
+        padding: 0 10px;
+        text-align: center;
+    }
+.click-here{
+    margin-bottom: 30px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+.brochure-button{
+    margin: 20px 0px 0 0!important;
+}
+.brochure-container img{
+    height: 200px;
+}
+}
