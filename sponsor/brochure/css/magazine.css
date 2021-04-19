@@ -172,7 +172,7 @@
 .magazine-viewport .previous-button-hover,
 .magazine-viewport .previous-button-down{
 	background-image:url(../pics/arrows.png);
-	background-position:-4px 284px;
+	background-position:-50% 284px;
 	background-repeat:no-repeat;
 }
 
