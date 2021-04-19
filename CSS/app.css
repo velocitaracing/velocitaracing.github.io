@@ -55,6 +55,13 @@ body{
     margin: 0 auto;
 }
 
+button{
+  font-family: 'Montserrat', sans-serif; 
+}
+
+form input{
+  font-family: 'Montserrat', sans-serif; 
+}
 
 
 /* #cars{
