@@ -92,7 +92,7 @@
    }
 
    .two p, .three p{
-       font-size: 18px;
+       font-size: 14px;
    }
 
    .two ul{
@@ -110,6 +110,7 @@
    }
 
    .two a{
+    font-size: 12px;
     text-decoration: none;
     color: rgb(255, 255, 255);
    }
