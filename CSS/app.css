@@ -81,6 +81,14 @@ form input{
   background-position: center;
 }
 
+@media screen and (max-width:450px){
+ #cars-VRF{
+   display: none;
+ }
+}
+
+
+
 /* #cars .swiper-slide{
   height: 100vh;
 } */
