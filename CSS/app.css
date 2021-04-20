@@ -72,12 +72,33 @@ form input{
 
 
 
-#cars{
-  /* background-image: url(../IMAGES/BACKGROUD/4877010.webp); */
+#cars-VRF{
+  height: 100vh;
+  background-image: url(../IMAGES/BACKGROUD/Web\ 1280\ –\ 5.webp);
   background-size: cover;
   background-repeat: no-repeat;
   background-attachment: fixed;
+  background-position: center;
 }
+
+/* #cars .swiper-slide{
+  height: 100vh;
+} */
+
+#cars .car-one{
+  height: 100%;
+  width: 100%;
+  background-image: url(../IMAGES/BACKGROUD/Web\ 1280\ –\ 4.webp);
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-attachment: fixed;
+  background-position: center;
+}
+
+
+/* #cars .swiper-wrapper{
+ height: 100vh;
+} */
 
 
 
