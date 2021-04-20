@@ -93,6 +93,58 @@
     color: rgb(163, 64, 255);
   }
 
+  .static-car{
+    height: 100vh;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center center;
+    background-attachment: fixed;
+    background-image: url(../IMAGES/BACKGROUD/engine.jpg);
+  }
+  
+  .static-car .cover{
+    position: absolute;
+    right: 0;
+    height: 100%;
+    width: 50%;
+    /* background-color: rgba(255, 255, 255, 0.863); */
+    background-image: url(../IMAGES/BACKGROUD/5137894.webp);
+    opacity: .94;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center center;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+  }
+  
+  .static-car .cover h4{
+    width: 100%;
+    text-align: center;
+    padding: 0 5%;
+    font-size: 8em;
+    font-weight: 700;
+    color: rgb(163, 64, 255);
+    font-family: 'Montserrat', sans-serif;
+  }
+  
+   .static-car .cover p{
+    width: 100%;
+    margin-top: 20px;
+    text-align: center;
+    padding: 0 5%;
+    font-size: 1.4em;
+    font-weight: 700;
+    color: rgb(255, 255, 255);
+    font-family: 'Montserrat', sans-serif;
+  }
+
+  .static-car .cover .time{
+    font-size: 1.3em;
+    font-weight: 500;
+  }
+ 
 
 @media screen and (max-width:450px) {
     .static-career{
@@ -117,7 +169,7 @@
         justify-content: center;
       }
 
-      static-sponsor{
+      .static-sponsor{
         display: flex;
         flex-direction: column;
         align-items: center;
@@ -141,5 +193,20 @@
         align-items: center;
         justify-content: center;
       }
+
+      
+      .static-car .cover{
+        position: unset;
+        right: unset;
+        height: 100%;
+        width: 100%;
+      }
+
+      .static-car .cover .time{
+        padding: 0 2%;
+        font-size: .8em;
+      }
+
+      
 }
 
