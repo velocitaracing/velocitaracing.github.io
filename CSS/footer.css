@@ -126,6 +126,7 @@
     border-radius: 10px;
     /* padding: 0 20px; */
     /* margin-right: 40px; */
+    filter: invert(92%);
    }
 
    .footer .fa{
@@ -189,3 +190,5 @@
     
     }
 }
+
+
