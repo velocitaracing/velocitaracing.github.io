@@ -96,7 +96,7 @@ form input{
 #cars .car-one{
   height: 100%;
   width: 100%;
-  background-image: url(../IMAGES/BACKGROUD/Web\ 1280\ –\ 9.webp);
+  /* background-image: url(../IMAGES/BACKGROUD/Web\ 1280\ –\ 9.webp); */
   background-size: cover;
   background-repeat: no-repeat;
   background-attachment: fixed;

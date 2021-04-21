@@ -126,57 +126,83 @@
 
 
 
+
+
+
+
   .static-car{
     height: 100vh;
     background-repeat: no-repeat;
     background-size: cover;
     background-position: center center;
     background-attachment: fixed;
-    background-image: url(../IMAGES/BACKGROUD/Web\ 1280\ –\ 1.webp);
+    background-image: url(../IMAGES/BACKGROUD/IMG_2234_color.webp);
+    display: flex;
+    align-items: center;
+    justify-content: flex-end;
   }
-  
-  .static-car .cover{
-    position: absolute;
-    right: 0;
+    
+ 
+  .static-car .cover-2{
     height: 100%;
     width: 50%;
-    /* background-color: rgba(0, 0, 0, 0.945); */
-    background-image: url(../IMAGES/BACKGROUD/5137894.webp);
-    opacity: .99;
+    background-image: url(../IMAGES/BACKGROUD/IMG_2234_color.webp);
     background-repeat: no-repeat;
     background-size: cover;
     background-position: center center;
-    
+    background-attachment: fixed;
+  }
+
+  .static-car .cover-1{
+    height: 100%;
+    width: 100%;
+    background-color: rgba(255, 255, 255, 0.863);
+    /* background-image: url(../IMAGES/BACKGROUD//4877010.webp); */
+    opacity: .98;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center center;
     display: flex;
     flex-direction: column;
     align-items: center;
     justify-content: center;
   }
-  
-  .static-car .cover h4{
+
+  .static-car .cover{
+    height: 100%;
     width: 100%;
-    text-align: center;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    
+  }
+
+  .static-car .cover h4{
     padding: 0 5%;
     font-size: 8em;
     font-weight: 700;
-    color: rgb(163, 64, 255);
+    color: rgb(0, 0, 0);
     font-family: 'Montserrat', sans-serif;
+    width: 100%;
+    text-align: left;
   }
   
    .static-car .cover p{
     width: 100%;
-    margin-top: 20px;
-    text-align: center;
+    /* margin-top: 20px; */
+    text-align: left;
     padding: 0 5%;
-    font-size: 1.4em;
+    font-size: 1.8em;
     font-weight: 700;
-    color: rgb(255, 255, 255);
+    color: rgb(0, 76, 121);
     font-family: 'Montserrat', sans-serif;
   }
 
   .static-car .cover .time{
     font-size: 1.3em;
     font-weight: 500;
+    margin-top: 10px;
   }
 
   .static-car .make-name{
@@ -238,7 +264,7 @@
       }
 
       
-      .static-car .cover{
+      .static-car .cover-2{
         position: unset;
         right: unset;
         height: 100%;
@@ -250,8 +276,13 @@
         font-size: .8em;
       }
 
+      .static-car .cover p{
+        text-align: center;
+      }
+
       .static-car .cover h4{
         font-size: 6em;
+        text-align: center;
       }
       
 }
