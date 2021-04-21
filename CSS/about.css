@@ -13,6 +13,26 @@
     overflow-x: hidden;
 }
 
+.aboutButton{
+    text-decoration: none;
+      padding: 15px 20px; 
+      border: none; 
+      border-radius: 5px; 
+      background-color: #1abc9c; 
+      /* color: #fff;  */
+      font-size: 18px; 
+      outline: none; 
+      cursor: pointer; 
+      color: #fff;
+  
+      /* We need this to position 
+          span inside button */ 
+      position: relative; 
+      overflow: hidden; 
+      box-shadow: 6px 7px 40px -4px  
+               rgba(0, 0, 0, 0.2); 
+  }
+
 .about-box{
     width: 100%;
     margin: 0px 40px 0 40px;
@@ -35,8 +55,9 @@
     text-align: left;
     font-size: 35px;
     font-weight: 600;
-    margin-left: 50px
-    
+    margin-left: 50px;
+
+   
 }
 
 .about-button{
@@ -53,7 +74,7 @@
     font-size: 20px;
     font-weight: 500;
     text-align: left;
-    margin: 30px 0 0 50px;
+    margin: 30px 0 0 50px;  /*30px*/
     line-height: 1.5em;
 }
 

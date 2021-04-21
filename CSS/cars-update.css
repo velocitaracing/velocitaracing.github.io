@@ -26,7 +26,7 @@
   
   @media screen and (max-width:450px){
     #cars .swiper-container {
-      height: 80vh;
+      height: 90vh;
     }
   }
 
@@ -93,6 +93,7 @@
 
 .car-one .car-image img{
     height: 350px;
+    z-index: 2;
 }
 
 #extra{
@@ -146,6 +147,7 @@
 
 .car-two .car-image img{
     height: 350px;
+    z-index: 2;
 }
 
 
@@ -290,8 +292,10 @@
 @media screen and (max-width:768px){
 
     .car-btn{
-        margin-top: 10px;
-        margin-bottom: 20px;
+        position: absolute;
+        /* margin-top: 10px;
+        margin-bottom: 20px; */
+        bottom: 10%;
     }
 
     .slideshow-container-new{
