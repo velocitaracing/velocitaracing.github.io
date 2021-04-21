@@ -82,7 +82,7 @@
 
 @media screen and (max-width:768px){
     .sponsors-heading{
-        font-size: 25px;
+        font-size: 30px;
         padding: 20px;
         margin: 110px 10px 10px 10px;
 
@@ -93,7 +93,7 @@
         flex-direction: row;
         flex-wrap: wrap;
         width: 100%;
-        margin: 30px 10px;
+        margin: 0 10px 30px 10px;
         padding: 5px;
         align-items: center;
         justify-content: center;

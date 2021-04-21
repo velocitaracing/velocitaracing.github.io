@@ -86,7 +86,7 @@
 /* .dropdown:hover .dropbtn {background-color: #3e8e41;} */
 
 /* .animate-nav{
-    font-size: 14px;
+    font-size: 14px!important;
     height: 10vh;
 } */
 
@@ -135,7 +135,7 @@
 
 .black{
     background-color: rgb(0, 0, 0);
-    box-shadow: 0 8px 16px 0 rgba(0,0,0,0.2);
+    box-shadow: 0 8px 16px 0 rgba(65, 49, 49, .5);
 }
 
 .logo-txt {
