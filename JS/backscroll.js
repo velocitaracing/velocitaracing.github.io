@@ -125,19 +125,21 @@ function update18(){
   $(window).bind('scroll', update18);    
  
   
-  // function update19(){ 
-  //   var pos = $(window).scrollTop(); 
-  //   $('#cars').each(function() { 
-  //     var $element = $(this);
-  //     // subtract some from the height b/c of the padding
-  //     var scrollHeight = $('#cars').position().top;
-  //     // console.log(scrollHeight);
-  //     var height = scrollHeight;
-  //     $(this).css('backgroundPosition', '50% ' + Math.round((height - pos) * velocity) +  'px'); 
-  //     }); 
-  //   };
+  function update19(){ 
+    var pos = $(window).scrollTop(); 
+    $('#cars').each(function() { 
+      var $element = $(this);
+      // subtract some from the height b/c of the padding
+      var scrollHeight = $('#cars').position().top;
+      // console.log(scrollHeight);
+      var height = scrollHeight;
+      $(this).css('backgroundPosition', '50% ' + Math.round((height - pos) * velocity) +  'px'); 
+      }); 
+    };
       
-  //   $(window).bind('scroll', update19);    
+    $(window).bind('scroll', update19);    
+
+   
    
   function update20(){ 
     var pos = $(window).scrollTop(); 
@@ -201,20 +203,20 @@ $(window).bind('scroll', update22);
 $(window).bind('scroll', update23);      
     
 
-function update24(){ 
-  var pos = $(window).scrollTop(); 
-  $('.static-car .cover').each(function() { 
-    var $element = $(this);
-    // console.log(height);
-    // subtract some from the height b/c of the padding
-    var scrollHeight = $('.static-car').position().top;
-    // console.log(scrollHeight);
-    var height = scrollHeight;
-    $(this).css('backgroundPosition', '50% ' + Math.round((height - pos) * velocity) +  'px'); 
-    }); 
-  };
+// function update24(){ 
+//   var pos = $(window).scrollTop(); 
+//   $('#exp-car').each(function() { 
+//     var $element = $(this);
+//     // console.log(height);
+//     // subtract some from the height b/c of the padding
+//     var scrollHeight = $('#exp-car').position().top;
+//     // console.log(scrollHeight);
+//     var height = scrollHeight;
+//     $(this).css('backgroundPosition', '50% ' + Math.round((height - pos) * velocity) +  'px'); 
+//     }); 
+//   };
          
-$(window).bind('scroll', update24);  
+// $(window).bind('scroll', update24);  
 
 
 function update25(){ 

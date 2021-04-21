@@ -124,6 +124,8 @@
     color: rgb(163, 64, 255);
   }
 
+
+
   .static-car{
     height: 100vh;
     background-repeat: no-repeat;
@@ -138,13 +140,13 @@
     right: 0;
     height: 100%;
     width: 50%;
-    /* background-color: rgba(255, 255, 255, 0.863); */
+    /* background-color: rgba(0, 0, 0, 0.945); */
     background-image: url(../IMAGES/BACKGROUD/5137894.webp);
-    opacity: .94;
+    opacity: .99;
     background-repeat: no-repeat;
     background-size: cover;
     background-position: center center;
-    background-attachment: fixed;
+    
     display: flex;
     flex-direction: column;
     align-items: center;
