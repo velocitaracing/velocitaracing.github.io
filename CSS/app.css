@@ -66,13 +66,48 @@ form input{
 }
 
 
-#sponsors{
-  /* background-color: #1b1b1b; */
+/* .secondaryButton{
+  padding: 10px 25px;
+  font-family: 'Montserrat', 'sans-seriff';
+  font-size: 19px;
+  border-radius: 30px;
+  outline: none;
+  border: 2px solid rgb(0, 67, 129);
+  background-color: rgb(255, 255, 255);
+  transition: .2s ease-in-out 0s;
+  color: rgb(0, 67, 129);
+  font-weight: 500;
+}
+
+.secondaryButton:hover{
+  border: 2px solid rgb(0, 67, 129);
+  background-color: rgb(0, 67, 129);
+  color: #fff;
+  cursor: pointer;
+} */
+
+.aboutButton{
+  text-decoration: none;
+    padding: 15px 20px; 
+    border: none; 
+    border-radius: 5px; 
+    background-color: #1abc9c; 
+    /* color: #fff;  */
+    font-size: 18px; 
+    outline: none; 
+    cursor: pointer; 
+    color: #fff;
+
+    /* We need this to position 
+        span inside button */ 
+    position: relative; 
+    overflow: hidden; 
+    box-shadow: 6px 7px 40px -4px  
+             rgba(0, 0, 0, 0.2); 
 }
 
 
-
-#cars-VRF{
+/* #cars-VRF{
   height: 100vh;
   background-image: url(../IMAGES/BACKGROUD/Web\ 1280\ –\ 5.webp);
   background-size: cover;
@@ -85,7 +120,7 @@ form input{
  #cars-VRF{
    display: none;
  }
-}
+} */
 
 
 

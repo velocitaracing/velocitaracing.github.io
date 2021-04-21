@@ -15,7 +15,6 @@
 
 .team-button{
     text-decoration: none;
-    margin: 15px 0px 0 0;
     padding: 15px 20px; 
     border: none; 
     border-radius: 5px; 
@@ -31,6 +30,15 @@
     overflow: hidden; 
     box-shadow: 6px 7px 40px -4px  
              rgba(0, 0, 0, 0.2); 
+}
+
+.div-team-button{
+    width: 100%;
+    margin-top: 30px;
+    display: flex;
+    align-items: center;
+    justify-content: flex-start;
+    margin-left: 50px;
 }
 
 .team-button a{
@@ -50,13 +58,15 @@
 
 .team-heading-box .team-heading{
     width: 50%;
+    margin-left: 50px;
 
 }
 
 .team-heading-box .team-heading p{
     font-size: 35px;
-
+    text-align: left;
     font-weight: 600;
+    margin-left: 50px;
 }
 
 .team-heading-box .team-heading .info-team p{
@@ -100,16 +110,20 @@
         align-items: center;
         justify-content: center;
         text-align: center;
+        
     }
 
     .team-heading-box .team-heading{
         width: 95%;
+        margin-left: 0;
     
     }
     
     .team-heading-box .team-heading p{
         font-size: 30px;
         font-weight: 600;
+        text-align: center;
+        margin-left: 0;
     }
     
     .team-heading-box .team-heading .info-team p{
@@ -129,6 +143,15 @@
         margin-top: 50px;
         margin-bottom: 50px;
         height: 250px;
+    }
+
+    .div-team-button{
+        width: 100%;
+        margin-top: 30px;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        margin-left: 0px;
     }
     
     
