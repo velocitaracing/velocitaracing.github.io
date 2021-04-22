@@ -234,6 +234,20 @@ function update25(){
          
 $(window).bind('scroll', update25);
     
-
+function update26(){ 
+  var pos = $(window).scrollTop(); 
+  $('.static-car .cover-1').each(function() { 
+    var $element = $(this);
+    // console.log(height);
+    // subtract some from the height b/c of the padding
+    var scrollHeight = $('.static-car').position().top;
+    // console.log(scrollHeight);
+    var height = scrollHeight;
+    $(this).css('backgroundPosition', '50% ' + Math.round((height - pos) * velocity) +  'px'); 
+    }); 
+  };
+         
+$(window).bind('scroll', update26);
+    
           
 

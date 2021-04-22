@@ -157,9 +157,10 @@
     height: 100%;
     width: 100%;
     background-color: rgba(255, 255, 255, 0.863);
-    background-image: url(../IMAGES/BACKGROUD//4877010.webp);
-    opacity: .93;
+    background-image: url(../IMAGES/BACKGROUD/IMG_2234.webp);
+    opacity: 1;
     background-repeat: no-repeat;
+    background-attachment: fixed;
     background-size: cover;
     background-position: center center;
     display: flex;
@@ -175,6 +176,7 @@
     flex-direction: column;
     align-items: center;
     justify-content: center;
+    background-color: rgba(255, 255, 255, 0.763);
     
   }
 
