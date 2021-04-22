@@ -7,7 +7,7 @@
   
   $(document).ready(function(){
     $(window).scroll(function () {
-      triggerSlideInt( $(this), [ $('div.about-left-one'), $('div.car-image-left'), $('div.left-info'), $('div.career-left'), $('div.sponsor-left')]);
+      triggerSlideInt( $(this), [ $('div.left-info'), $('div.career-left'), $('div.sponsor-left')]);
     });
   });
   
@@ -44,7 +44,7 @@
   
   $(document).ready(function(){
     $(window).scroll(function () {
-      triggerSlideInsu( $(this), [ $('div.right-info'),$('div.car-image-right'), $('div.team-right'), $('div.joinus-right')]);
+      triggerSlideInsu( $(this), [ $('div.right-info'), $('div.team-right'), $('div.joinus-right')]);
     });
   });
   
