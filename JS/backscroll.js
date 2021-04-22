@@ -117,7 +117,7 @@ function update18(){
   $('#career-heading-new').each(function() { 
     var $element = $(this);
     // subtract some from the height b/c of the padding
-    var height = 130;
+    var height = $('#career-heading-new').position().top;
     $(this).css('backgroundPosition', '50% ' + Math.round((height - pos) * velocity) +  'px'); 
     }); 
   };

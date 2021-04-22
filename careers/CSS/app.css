@@ -40,34 +40,236 @@ body{
     
 }
 
-.heading{
+#career-box-main{
+    height: 100%;
+    width: 100%;
+}
+
+#career-heading-new{
+    width: 100%;
     /* font-family: 'Satisfy', cursive; */
-    color: rgb(255, 0, 140);
     height: 100vh;
     /* padding-bottom: 30px; */
     display: flex;
-    flex-direction: column;
-    font-size: 3rem;
     align-items: center;
-    justify-content: center;
+    justify-content: flex-start;
     text-align: center;
 
-    /* background-image: url(../IMAGES/HOME/silhouette-confident-businesspeople.webp); */
+    background-image: url(../../IMAGES/CAREERS/juliana-amorim-RBwfEmXqS3A-unsplash.jpg);
     /* background-position: top center; */
     background-repeat: no-repeat;
     background-size: cover;
     background-attachment: fixed;
-    background-position-y: 10vh;
+    /* background-position-y: -50%!important; */
     background-position-x: center;
 }
 
-.heading img{
-    height: 70px;
+#career-heading-new .cover-1{
+    width: 50%;
+    height: 100%;
+
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    text-align: left;
+
+    background-color: rgba(255, 255, 255, 0.636);
+    font-size: 3rem;
 }
+
+#career-heading-new .cover-1 h2{
+    padding: 0 5%;
+    font-size: 1.6em;
+    color: #000;
+}
+
+#career-heading-new .cover-1 p{
+    padding: 0 5%;
+    margin-top: 20px;
+    width: 100%;
+    text-align: left;
+    font-size: .5em;
+    color: #000;
+}
+
+.blue-box{
+    position: absolute;
+    right: 50px;
+    height: 60vh;
+    width: 50vh;
+    background-color: rgb(0, 51, 146);
+
+
+}
+
+.blue-box .underline{
+    position: absolute;
+    right: 50px;
+    top: 50px;
+    height: 4px;
+    width: 100px;
+    background-color: #fff;
+}
+
+.blue-box .underline-heading{
+    position: absolute;
+    right: 50px;
+    top: 70px;
+    color: #fff;
+    font-size: 1.2em;
+    font-weight: 600;
+
+}
+
+.blue-box .content{
+    position: relative;
+    padding: 25px;
+    top: 30%;
+    color: #fff;
+    font-size: 1.2em;
+    text-align: left;
+}
+
+.blue-box .content .first-capital{
+    font-size: 1.5em;
+}
+
+.career-news-button{
+    position: absolute;
+    bottom: 5%;
+    left: 25px;
+}
+
+.secondaryButton{
+    padding: 10px 25px;
+    font-family: 'Montserrat', 'sans-seriff';
+    font-size: 16px;
+    border-radius: 30px;
+    outline: none;
+    color: #fff;
+    border: 2px solid rgb(255, 255, 255);
+    background-color: rgba(255, 255, 255, 0);
+    transition: .2s ease-in-out 0s;
+    font-weight: 500;
+}
+
+.secondaryButton:hover{
+    border: 2px solid rgb(255, 255, 255);
+    background-color: rgb(0, 67, 129);
+    color: #000;
+    cursor: pointer;
+    background-color: #fff;
+
+} 
+
 
 
 @media screen and (max-width:450px){
-    .heading{
-        font-size: 2em;
+
+    #career-heading-new .cover-1{
+        width: 100%;
+        height: 100%;
+    
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
+        text-align: left;
+    
+        background-color: rgba(255, 255, 255, 0.636);
+        font-size: 2.5rem;
     }
+
+    #career-heading-new .cover-1 h2{
+        padding: 0 5%;
+        /* font-size: 1.6em; */
+    }
+    
+    #career-heading-new .cover-1 p{
+        padding: 0 5%;
+        margin-top: 20px;
+        width: 100%;
+        text-align: left;
+        font-size: .6em;
+    }
+    
+
+    .blue-box{
+        position: absolute;
+        top: 75vh;
+        right: 0px;
+        height: 50vh;
+        width: 40vh;
+        background-color: rgb(0, 51, 146);
+    
+    
+    }
+
+    .blue-box .content{
+        position: relative;
+        padding: 25px;
+        top: 30%;
+        color: #fff;
+        font-size: 1.3em;
+        line-height: 1.4em;
+        text-align: left;
+    }
+
+    .non-tech{
+        margin-top: 250px;
+    }
+
+}
+
+@media screen and (max-width:380px) {
+
+    .blue-box{
+        position: absolute;
+        top: 80vh;
+        right: 0px;
+        height: 50vh;
+        width: 40vh;
+        background-color: rgb(0, 51, 146);
+    
+    
+    }
+    
+    .blue-box .content{
+        position: relative;
+        padding: 25px;
+        top: 30%;
+        color: #fff;
+        font-size: 1em;
+        line-height: 1.4em;
+        text-align: left;
+    }
+    
+}
+
+@media screen and (max-width:350px) {
+
+    
+    .blue-box{
+        position: absolute;
+        top: 80vh;
+        right: 0px;
+        height: 55vh;
+        width: 45vh;
+        background-color: rgb(0, 51, 146);
+    
+    
+    }
+    
+    .blue-box .content{
+        position: relative;
+        padding: 25px;
+        top: 30%;
+        color: #fff;
+        font-size: 1em;
+        line-height: 1.4em;
+        text-align: left;
+    }
+
+    
 }
