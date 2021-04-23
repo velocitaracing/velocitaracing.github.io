@@ -50,7 +50,7 @@ body{
     
 }
 
-.heading{
+#home .heading{
     /* font-family: 'Satisfy', cursive; */
     color: rgb(255, 0, 140);
     height: 100vh;

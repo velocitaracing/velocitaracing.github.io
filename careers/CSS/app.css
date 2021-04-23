@@ -178,7 +178,7 @@ body{
         text-align: left;
     
         background-color: rgba(255, 255, 255, 0.636);
-        font-size: 2.5rem;
+        font-size: 2.2rem;
     }
 
     #career-heading-new .cover-1 h2{
@@ -192,6 +192,7 @@ body{
         width: 100%;
         text-align: left;
         font-size: .6em;
+        font-weight: 600;
     }
     
 

@@ -191,11 +191,20 @@
     
     }
 
+    .card-side-one .dept-name{
+        position: absolute;
+        top: 20px;
+        left: 120px;
+        font-size: .85em;
+        font-weight: 600;
+    
+    }
+
     .card-side-one .dept-about{
         position: absolute;
         top: 70px;
         left: 120px;
-        font-size: .8em;
+        font-size: .75em;
         font-weight: 600;
         text-align: left;
         padding-right: 15px;
@@ -249,7 +258,7 @@
         position: absolute;
         top: 20px;
         left: 120px;
-        font-size: 1em;
+        font-size: .8em;
         font-weight: 600;
     
     }
@@ -268,7 +277,7 @@
         position: absolute;
         /* top: 15%; */
         left: 120px;
-        font-size: .8em;
+        font-size: .7em;
         font-weight: 600;
         text-align: left;
         padding-right: 15px;

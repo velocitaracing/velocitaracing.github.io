@@ -135,7 +135,7 @@
 
 .black{
     background-color: rgb(0, 0, 0);
-    box-shadow: 0 8px 16px 0 rgba(65, 49, 49, .5);
+    box-shadow: 0 8px 16px 0 rgba(65, 49, 49, .3);
 }
 
 .logo-txt {
