@@ -25,8 +25,8 @@
   }
 
 #home .swiper-slide {
-    text-align: center;
-    font-size: 18px;
+    /* text-align: center; */
+    /* font-size: 18px; */
     background: #fff;
     /* Center slide text vertically */
     display: -webkit-box;
@@ -52,6 +52,12 @@
     -moz-background-size: cover!important;
     -o-background-size: cover!important;
 }
+
+.banner-6{
+    background-image: url(../IMAGES/HOME/IMG_2101.webp)!important;
+    /* background-attachment: fixed!important; */
+}
+
 
 .banner-5{
     background-image: url(../IMAGES/HOME/banner\ 5.webp)!important;
@@ -79,6 +85,99 @@
     background-image: url(../IMAGES/HOME/banner\ 4.webp)!important;
     /* background-attachment: fixed!important; */
 }
+
+.cover-1{
+    height: 100%;
+    width: 100%;
+    background-color: rgba(0, 0, 0, 0.781);
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.blue-box{
+    position: absolute;
+    right: 50px;
+    height: 60vh;
+    width: 50vh;
+    background-color: rgb(0, 51, 146);
+}
+
+.blue-box .underline{
+    position: absolute;
+    right: 50px;
+    top: 50px;
+    height: 4px;
+    width: 100px;
+    background-color: #fff;
+}
+
+.blue-box .underline-heading{
+    position: absolute;
+    right: 50px;
+    top: 70px;
+    color: #fff;
+    font-size: 1.2em;
+    font-weight: 600;
+
+}
+
+.blue-box .content{
+    position: relative;
+    padding: 25px;
+    top: 30%;
+    color: #fff;
+    font-size: 1.2em;
+    text-align: left;
+}
+
+
+.home-news-button{
+    position: absolute;
+    bottom: 5%;
+    left: 25px;
+}
+
+
+
+.welcome .underline{
+    position: absolute;
+    left: 100px;
+    top: 60vh;
+    height: 4px;
+    width: 100px;
+    background-color: #fff;
+
+}
+
+.welcome-heading{
+    position: absolute;
+    top: 25vh;
+    left: 100px;
+    font-size: 5em;
+    font-weight: 700;
+    color: #fff;
+    /* text-transform: uppercase; */
+}
+
+.welcome-sub-heading{
+    position: absolute;
+    top: 65vh;
+    left: 100px;
+    font-size: 1.4em;
+    font-weight: 600;
+    color: #fff;
+}
+
+.home-button{
+    position: absolute;
+    top: 75vh;
+    left: 100px;
+    font-size: 1.4em;
+    font-weight: 600;
+    color: #fff;
+}
+
 
 
 
@@ -127,6 +226,10 @@
 
 
 @media screen and (max-width: 550px){
+
+    #banner-imp{
+        display: none!important;
+    }
 
     .banner-5{
         background-image: url(../IMAGES/HOME/mobbanner/mob-banner-5.webp)!important;

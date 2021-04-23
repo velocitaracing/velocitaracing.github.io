@@ -1,10 +1,24 @@
 var velocity = 0.5;
 
-$(".banner-1").css("background-position", "50% ");
-$(".banner-2").css("background-position", "50% ");
-$(".banner-3").css("background-position", "50% ");
-$(".banner-4").css("background-position", "50% ");
-$(".banner-5").css("background-position", "50% ");
+// $(".banner-1").css("background-position", "50% ");
+// $(".banner-2").css("background-position", "50% ");
+// $(".banner-3").css("background-position", "50% ");
+// $(".banner-4").css("background-position", "50% ");
+// $(".banner-5").css("background-position", "50% ");
+// $(".banner-6").css("background-position", "50% ");
+
+
+function update41(){ 
+  var pos = $(window).scrollTop(); 
+   $('.banner-6').each(function() { 
+    var $element = $(this);
+    // subtract some from the height b/c of the padding
+    var height = 0;
+    $(this).css('backgroundPosition', '50% ' + (pos * velocity) +  'px'); 
+     }); 
+    };
+      
+ $(window).bind('scroll', update41); 
 
 function update(){ 
 var pos = $(window).scrollTop(); 
@@ -67,7 +81,9 @@ function update7(){
      }); 
     };
       
- $(window).bind('scroll', update40);     
+ $(window).bind('scroll', update40);   
+ 
+ 
 
 
  function update2(){ 
@@ -117,7 +133,8 @@ function update18(){
   $('#career-heading-new').each(function() { 
     var $element = $(this);
     // subtract some from the height b/c of the padding
-    var height = $('#career-heading-new').position().top;
+    var scrollHeight = $('#career-heading-new').position().top;
+    var height = scrollHeight;
     $(this).css('backgroundPosition', '50% ' + Math.round((height - pos) * velocity) +  'px'); 
     }); 
   };
