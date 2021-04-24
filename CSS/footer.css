@@ -131,6 +131,7 @@
 
 .footer .content .about-cont .logo img{
    height: 60px;
+   /* filter: brightness(0) invert(1) ; */
 }
 
 
