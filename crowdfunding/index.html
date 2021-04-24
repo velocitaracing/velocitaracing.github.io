@@ -62,6 +62,9 @@
     
     <script src="https://cdn.jsdelivr.net/npm/chart.js@2.9.4/dist/Chart.min.js"></script>
 
+    <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet">
+    <script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
+
 
     <link rel="stylesheet" href="../CSS/loader.css">
     <link rel="stylesheet" href="./CSS/app.css">
@@ -179,7 +182,7 @@
 
     <section id="stats">
       <div class="stats-heading">
-        <div class="blue-box">
+        <div data-aos="fade-right" class="blue-box">
           <div class="underline"></div>
           <h3>STATS</h3>
         </div>
@@ -187,9 +190,9 @@
         <!-- <div class="underline"></div> -->
       </div>
       <div class="container">
-        <div class="number"><span>₹ <span id="amount" class="rupees">1000</span></span> Raised</div>
-        <div class="number"><span id="contrib" class="rupees">6</span> Contributors</div>
-        <div class="razorpay">
+        <div data-aos="zoom-in" class="number"><span>₹ <span id="amount" class="rupees">1000</span></span> Raised</div>
+        <div data-aos="zoom-in" class="number"><span id="contrib" class="rupees">6</span> Contributors</div>
+        <div data-aos="zoom-in" class="razorpay">
           <button class="secondaryButton secondary-dark-button stats-pay-button">SUPPORT NOW</button>
           <!-- <form class="rPayButton">
             <script src = "https://cdn.razorpay.com/static/widget/payment-button.js"
@@ -203,10 +206,10 @@
     </section>
 
     <section id="intro">
-      <div class="intro-text">
+      <div data-aos="zoom-in" class="intro-text">
         <h1>Why fund us?</h1>
         <div class="underline"></div>
-        <p>
+        <p data-aos="zoom-in">
           <span class="bold">“They always say time changes things, but you have to change them yourself.”</span>
           <!-- Over the past decades, there has been substantial headway in the automobile industry, automobiles have become an integral part of the world’s development. 
           They have become a necessity rather than a commodity, and there is always room for more growth. 
@@ -219,25 +222,25 @@
           <!-- <br><br>       We hope to bring revolutionary changes in several key sectors including Law Enforcement, defence, Motorsport and Transportation.
               <br><br>    Donate now. Help make a better future -->
         </p>
-        <div class="read-more-button">
+        <div data-aos="fade-up" class="read-more-button">
           <button class="secondaryButton secondary-dark-button">READ MORE</button>
         </div>
         
       </div>
       <div class="chart">
         <div class="group-one">
-          <div class="card">
+          <div data-aos="zoom-in" class="card">
 
           </div>
-          <div class="card">
+          <div data-aos="zoom-in" class="card">
             
           </div>
         </div>
         <div class="group-two">
-          <div class="card">
+          <div data-aos="zoom-in" class="card">
 
           </div>
-          <div class="card">
+          <div data-aos="zoom-in" class="card">
             
           </div>
         </div>
@@ -248,12 +251,12 @@
     
     <section id="slabs">
       <div class="slabs-heading">
-        <h1>Know the Slabs</h1>
-        <div class="underline"></div>
-        <span class="sub-heading">We've got exciting goodies for you!</span>
+        <h1 data-aos="fade-up">Know the Slabs</h1>
+        <div data-aos="zoom-in" class="underline"></div>
+        <span data-aos="fade-up" class="sub-heading">We've got exciting goodies for you!</span>
       </div>
       
-      <div id="desktop" class="container">
+      <div data-aos="fade-up" id="desktop" class="container">
         <div class="slab-container">
           <div class="slabs border slab-1">
             <div class="slab-image">
@@ -322,7 +325,7 @@
       </div>
 
 
-      <div id="mob">
+      <div data-aos="fade-up" id="mob">
         <div class="col">
           <div class="tabs">
             <div class="tab">
@@ -378,9 +381,9 @@
 
     <section id="funds">
       <div class="funds-text">
-        <h1>Where do the funds go?</h1>
-        <div class="underline"></div>
-        <img class="pie-chart" src="./chart.png" alt="">
+        <h1 data-aos="fade-up">Where do the funds go?</h1>
+        <div data-aos="zoom-in" class="underline"></div>
+        <img data-aos="zoom-in" class="pie-chart" src="./chart.png" alt="">
         <!-- <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Earum maiores omnis accusantium, 
           nam nisi harum, nemo fugiat neque odit incidunt delectus, ex magnam distinctio optio?
         Lorem ipsum dolor, sit amet consectetur adipisicing elit. Odit, ratione!<br><br>
@@ -389,7 +392,7 @@
         Lorem ipsum dolor, sit amet consectetur adipisicing elit. Odit, ratione!
       </p> -->
       </div>
-      <div class="chart">
+      <div data-aos="zoom-in" class="chart">
         <canvas id="myChart2" width="400" height="400"></canvas>
           <script>
           var ctx = document.getElementById('myChart2').getContext('2d');
@@ -468,13 +471,13 @@
 
     <section id="contributors">
       <div class="cont-text">
-        <h1>Contributors</h1>
-        <div class="underline"></div>
-        <p class="sub-heading">A big thanks to you all!</p>
+        <h1 data-aos="fade-up" >Contributors</h1>
+        <div data-aos="zoom-in" class="underline"></div>
+        <p data-aos="fade-up" class="sub-heading">A big thanks to you all!</p>
       </div>
 
       <div class="names">
-        <ul id="myNames">
+        <ul data-aos="zoom-in" id="myNames">
           <!-- <li>Niranjan &nbsp;.&nbsp;</li>
           <li>Pranay &nbsp;.&nbsp;</li>
           <li>Deep &nbsp;.&nbsp;</li>
@@ -639,6 +642,11 @@
           }).resize(); //call resize function 
       });
     </script> -->
+
+    <script>
+      AOS.init();
+    </script>
+  
 
     <script src="./JS/smoothScroll.js"></script>
     <script src="../JS/loader.js"></script>
