@@ -1,4 +1,4 @@
-@import url('https://fonts.googleapis.com/css2?family=Roboto&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Montserrat&display=swap');
 
 *{
     padding: 0;
@@ -7,7 +7,7 @@
 }
 
 body{
-    font-family: 'Roboto', sans-serif;
+    font-family: 'Montserrat', sans-serif;
     /* max-height: 100vh; */
     overflow-x: hidden;
     overflow-y: scroll;
@@ -88,12 +88,16 @@ body{
     opacity: 0.7;
 }
 
-.footer{
+.footer p{
     width: 100%;
     position: absolute!important;
-    bottom: 0!important;
+    bottom: 0;
+    margin: 10px 0;
+    padding: 10px 0;
+    text-align: center;
     background-color: #fff!important;
     color: #000!important;
+    font-size: 1em;
 }
 
 
@@ -104,6 +108,10 @@ body{
     }
     .button{
         margin: .8em .6em;
+    }
+
+    .footer{
+        font-size: .6em;
     }
 }
 
