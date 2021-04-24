@@ -55,8 +55,11 @@
     <meta name="msapplication-TileColor" content="#ffc40d">
     <meta name="theme-color" content="#ffffff">
 
-    <script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/1.20.2/TweenMax.min.js"></script>
+
     <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
+
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/1.20.2/TweenMax.min.js"></script>
+    
     <script src="https://cdn.jsdelivr.net/npm/chart.js@2.9.4/dist/Chart.min.js"></script>
 
 
@@ -152,25 +155,49 @@
 
 
     <section id="home">
-      <h1>Crowdfunding</h1>
-      <p>Help us Grow More...</p>
-      <img src="../IMAGES/HOME/icons8-double-up.gif" alt="">
+      <div class="blue-box">
+        <div class="underline"></div>
+        <p class="underline-heading">UPDATE</p>
+        <p class="content">Every contribution means a lot to us, so we've got exciting goodies for every contribution you make!
+        </p>
+        <button class="secondaryButton crowdfunding-home-button">SUPPORT NOW</button>
+      </div>
+    
+      <div class="cover-1">
+        <h2>Crowdfunding</h2>
+        <h4>Season 2021-22</h4>
+        <div class="home-underline"></div>
+        <p class="second-sub-heading">Help us grow more</p>
+        <p class="third-sub-heading">Learn why support us</p>
+        <div class="home-scroll-buttons">
+        <a href="#intro"><button class="secondaryButton secondary-dark-button crowdfunding-scroll-button">WHY VELOCITA</button></a>
+        <a href="#funds"><button class="secondaryButton secondary-dark-button crowdfunding-scroll-button">FUND USAGE</button></a>
+        </div>
+      </div>
     </section>
 
 
     <section id="stats">
+      <div class="stats-heading">
+        <div class="blue-box">
+          <div class="underline"></div>
+          <h3>STATS</h3>
+        </div>
+       
+        <!-- <div class="underline"></div> -->
+      </div>
       <div class="container">
         <div class="number"><span>₹ <span id="amount" class="rupees">1000</span></span> Raised</div>
         <div class="number"><span id="contrib" class="rupees">6</span> Contributors</div>
         <div class="razorpay">
-          <p class="text">Contribute Now</p>
-          <form class="rPayButton">
+          <button class="secondaryButton secondary-dark-button stats-pay-button">SUPPORT NOW</button>
+          <!-- <form class="rPayButton">
             <script src = "https://cdn.razorpay.com/static/widget/payment-button.js"
             data-payment_button_id = "pl_FNmjTJSGXBYIfp"
             data-button_text = "Pay Now"
             data-button_theme = "brand-color">
             </script>
-          </form>
+          </form> -->
         </div>
       </div>
     </section>
@@ -178,13 +205,24 @@
     <section id="intro">
       <div class="intro-text">
         <h1>Why fund us?</h1>
-        <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Earum maiores omnis accusantium, 
-          nam nisi harum, nemo fugiat neque odit incidunt delectus, ex magnam distinctio optio?
-        Lorem ipsum dolor, sit amet consectetur adipisicing elit. Odit, ratione!<br><br>
-        Lorem ipsum dolor sit amet, consectetur adipisicing elit. Earum maiores omnis accusantium, 
-          nam nisi harum, nemo fugiat neque odit incidunt delectus, ex magnam distinctio optio?
-        Lorem ipsum dolor, sit amet consectetur adipisicing elit. Odit, ratione!
-      </p>
+        <div class="underline"></div>
+        <p>
+          <span class="bold">“They always say time changes things, but you have to change them yourself.”</span>
+          <!-- Over the past decades, there has been substantial headway in the automobile industry, automobiles have become an integral part of the world’s development. 
+          They have become a necessity rather than a commodity, and there is always room for more growth. 
+          Stagnation in the automobile industry will guarantee stagnation in every other field or industry. -->
+  <br><br>  Your support can help us create a better future where millions of ingenious ideas can be turned into a magnificent reality that can inspire a generation of youth. 
+          We believe in being the innovator rather than being the imitator which drives us to work on our ideas and make them a reality that is near perfect.
+       <br><br>   Our Vision is to develop a well-engineered car that will provide the ultimate driving experience with top-notch 
+          creativity and innovation which is cost-efficient with an advanced manufacturing process and modular design.
+
+          <!-- <br><br>       We hope to bring revolutionary changes in several key sectors including Law Enforcement, defence, Motorsport and Transportation.
+              <br><br>    Donate now. Help make a better future -->
+        </p>
+        <div class="read-more-button">
+          <button class="secondaryButton secondary-dark-button">READ MORE</button>
+        </div>
+        
       </div>
       <div class="chart">
         <div class="group-one">
@@ -208,15 +246,24 @@
     </section>
 
     
-    <section id="slabs" class="desktop">
-      <h1>Know the Slabs</h1>
-      <span class="sub-heading">We've got exciting goodies for you!</span>
-      <div class="container">
+    <section id="slabs">
+      <div class="slabs-heading">
+        <h1>Know the Slabs</h1>
+        <div class="underline"></div>
+        <span class="sub-heading">We've got exciting goodies for you!</span>
+      </div>
+      
+      <div id="desktop" class="container">
         <div class="slab-container">
           <div class="slabs border slab-1">
+            <div class="slab-image">
+              <img src="./cones.png" alt="">
+            </div>
             <div class="text">
-              <h3>Gold SLAB | ₹ 100</h3>
-              <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. A, consequatur.</p>
+              <h3>CONES | <span class="amount">&lt; ₹ 500</span></h3>
+              <!-- <span class="slab-tooltip"><img src="./question.png" alt=""></span> -->
+                
+              <!-- <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. A, consequatur.</p> -->
             </div>
             <div class="arrow">
               <i class="fa fa-angle-right fa-2x" aria-hidden="true"></i>
@@ -261,82 +308,86 @@
         </div>
         <div class="slab-properties">
           <div  class="property">
-            <h3 id="propHeading">Heading</h3>
-            <p id="propOne">Lorem, ipsum dolor sit amet consectetur adipisicing elit. Sit, odit?</p>
+            <h3 id="propHeading">No slab Selected</h3>
+            <p id="propOne">Click on a slab to know more</p>
+            <p id="goodies"></p>
           </div>
           <div class="propImage">
             <img id="myImage" src="./icons8-gift.gif" alt="">
           </div>
             <form class="payment">
-              <script src = "https://cdn.razorpay.com/static/widget/payment-button.js"
-              data-payment_button_id = "pl_FNmjTJSGXBYIfp"
-              data-button_text = "Pay Now"
-              data-button_theme = "brand-color">
-              </script>
+              <button class="secondaryButton secondary-dark-button">PAY NOW</button>
             </form>
+        </div>
+      </div>
+
+
+      <div id="mob">
+        <div class="col">
+          <div class="tabs">
+            <div class="tab">
+              <input class="accordion" type="radio" id="rd1" name="rd">
+              <label class="tab-label" for="rd1">CONES | &lt; 500</label>
+              <div class="tab-content">
+                <div class="content-heading">You will be getting</div>
+                <div class="goodies">
+                  <img id="myImage" src="./cones.png" alt="">
+                  <ul>
+                    <li>Newsletter</li>
+                    <li>Name on Webpage</li>
+                    <li>Wristbands</li>
+                  </ul>
+                </div>
+                <!-- <form class="payment"> -->
+                    <button class="secondaryButton payment-slab-mob-button secondary-dark-button">PAY NOW</button>
+                <!-- </form> -->
+              </div>
+            </div>
+            <div class="tab">
+              <input class="accordion" type="radio" id="rd2" name="rd">
+              <label class="tab-label" for="rd2">Gold SLAB | ₹ 100<br>Lorem ipsum dolor sit amet.</label>
+              <div class="tab-content">
+                <img id="myImage" src="./icons8-gift.gif" alt="">
+              </div>
+            </div>
+            <div class="tab">
+              <input class="accordion" type="radio" id="rd5" name="rd">
+              <label class="tab-label" for="rd5">Gold SLAB | ₹ 100<br>Lorem ipsum dolor sit amet.</label>
+              <div class="tab-content">
+                <img id="myImage" src="./icons8-gift.gif" alt="">
+              </div>
+            </div>
+            <div class="tab">
+              <input class="accordion" type="radio" id="rd4" name="rd">
+              <label class="tab-label" for="rd4">Gold SLAB | ₹ 100<br>Lorem ipsum dolor sit amet.</label>
+              <div class="tab-content">
+                <img id="myImage" src="./icons8-gift.gif" alt="">
+              </div>
+            </div>
+            <div class="tab">
+              <input class="accordion" type="radio" id="rd3" name="rd">
+              <label for="rd3" class="tab-close">Close others &times;</label>
+            </div>
+          </div>
         </div>
       </div>
     </section>
 
-    <section id="mob">
-      <h1>Know the Slabs</h1>
-      <p class="sub-heading">We've got exciting goodies for you!</p>
-      <div class="col">
-        <div class="tabs">
-          <div class="tab">
-            <input class="accordion" type="radio" id="rd1" name="rd">
-            <label class="tab-label" for="rd1">Gold SLAB | ₹ 100<br>Lorem ipsum dolor sit amet.</label>
-            <div class="tab-content">
-              <img id="myImage" src="./icons8-gift.gif" alt="">
-              <form class="payment">
-                <script src = "https://cdn.razorpay.com/static/widget/payment-button.js"
-                data-payment_button_id = "pl_FNmjTJSGXBYIfp"
-                data-button_text = "Pay Now"
-                data-button_theme = "brand-color">
-                </script>
-              </form>
-            </div>
-          </div>
-          <div class="tab">
-            <input class="accordion" type="radio" id="rd2" name="rd">
-            <label class="tab-label" for="rd2">Gold SLAB | ₹ 100<br>Lorem ipsum dolor sit amet.</label>
-            <div class="tab-content">
-              <img id="myImage" src="./icons8-gift.gif" alt="">
-            </div>
-          </div>
-          <div class="tab">
-            <input class="accordion" type="radio" id="rd5" name="rd">
-            <label class="tab-label" for="rd5">Gold SLAB | ₹ 100<br>Lorem ipsum dolor sit amet.</label>
-            <div class="tab-content">
-              <img id="myImage" src="./icons8-gift.gif" alt="">
-            </div>
-          </div>
-          <div class="tab">
-            <input class="accordion" type="radio" id="rd4" name="rd">
-            <label class="tab-label" for="rd4">Gold SLAB | ₹ 100<br>Lorem ipsum dolor sit amet.</label>
-            <div class="tab-content">
-              <img id="myImage" src="./icons8-gift.gif" alt="">
-            </div>
-          </div>
-          <div class="tab">
-            <input class="accordion" type="radio" id="rd3" name="rd">
-            <label for="rd3" class="tab-close">Close others &times;</label>
-          </div>
-        </div>
-      </div>
-    </section>
+    
 
 
     <section id="funds">
       <div class="funds-text">
         <h1>Where do the funds go?</h1>
-        <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Earum maiores omnis accusantium, 
+        <div class="underline"></div>
+        <img class="pie-chart" src="./chart.png" alt="">
+        <!-- <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Earum maiores omnis accusantium, 
           nam nisi harum, nemo fugiat neque odit incidunt delectus, ex magnam distinctio optio?
         Lorem ipsum dolor, sit amet consectetur adipisicing elit. Odit, ratione!<br><br>
         Lorem ipsum dolor sit amet, consectetur adipisicing elit. Earum maiores omnis accusantium, 
           nam nisi harum, nemo fugiat neque odit incidunt delectus, ex magnam distinctio optio?
         Lorem ipsum dolor, sit amet consectetur adipisicing elit. Odit, ratione!
-      </p>
+      </p> -->
       </div>
       <div class="chart">
         <canvas id="myChart2" width="400" height="400"></canvas>
@@ -345,28 +396,30 @@
           var myChart = new Chart(ctx, {
               type: 'bar',
               data: {
-                labels: ['CHASSIS', 'SUSPENSION AND STEERING', 'ENGINE AND TRANSMISSION', 'BRAKES', 'TIRES', 'COCKPIT', 'BODY', 'TRANSPORTATION'],
+                labels: ['Reg. Fee', 'Wheels', 'Safety', 'Parts', 'Logistic', 'Material', 'Manuf.', ''],
+                // labels: ['CHASSIS', 'SUSPENSION AND STEERING', 'ENGINE AND TRANSMISSION', 'BRAKES', 'TIRES', 'COCKPIT', 'BODY', 'TRANSPORTATION'],
                   datasets: [{
                       label: 'Est. Cost',
-                      data: [100000, 133000, 120000, 70000, 80000, 23000, 150000, 50000],
+                      // data: [100000, 133000, 120000, 70000, 80000, 23000, 150000, 50000],
+                      data: [1.2, 2.5, 1.5, 5.3, 0.5, 2, 2.5],
                       backgroundColor: [
-                          'rgba(255, 99, 132, 0.8)',
-                          'rgba(54, 162, 235, 0.8)',
-                          'rgba(255, 206, 86, 0.8)',
-                          'rgba(75, 192, 192, 0.8)',
-                          'rgba(153, 102, 255, 0.8)',
-                          'rgba(255, 159, 64, 0.8)',
-                          'rgba(55, 99, 102, 0.8)',
+                          'rgba(60,120,216, 0.8)',
+                          'rgba(246,178,107, 0.8)',
+                          'rgba(255,109,1, 0.8)',
+                          'rgba(204,0,0, 0.8)',
+                          'rgba(106,168,79, 0.8)',
+                          'rgba(70,189,198, 0.8)',
+                          'rgba(251,188,4, 0.8)',
                           'rgba(194, 162, 85, 0.8)'
                       ],
                       borderColor: [
-                          'rgba(255, 99, 132, 1)',
-                          'rgba(54, 162, 235, 1)',
-                          'rgba(255, 206, 86, 1)',
-                          'rgba(75, 192, 192, 1)',
-                          'rgba(153, 102, 255, 1)',
-                          'rgba(255, 159, 64, 1)',
-                          'rgba(55, 99, 102, 1)',
+                          'rgba(60,120,216, 1)',
+                          'rgba(246,178,107, 1)',
+                          'rgba(255,109,1, 1)',
+                          'rgba(204,0,0, 1)',
+                          'rgba(106,168,79, 1)',
+                          'rgba(70,189,198, 1)',
+                          'rgba(251,188,4, 1)',
                           'rgba(194, 162, 85, 1)'
                       ],
                       borderWidth: 1
@@ -384,7 +437,7 @@
                 },
                 title: {
                   display: true,
-                  text: 'Estimated budget to build a Formula Bharat Spec car',
+                  text: 'Estimated budget to build a Formula Bharat Spec car in LAKHS',
                   position: 'bottom',
                   fontSize: 14,
                   padding: 20
@@ -397,7 +450,13 @@
                           },
                           scaleLabel: {
                           display: true,
-                          labelString: 'Cost in ₹'}
+                          labelString: 'Cost in LAKH ₹'}
+                      }],
+                      xAxes: [{
+
+                          scaleLabel: {
+                          display: true,
+                          labelString: 'Refer PIE CHART Legends'}
                       }]
                   }
               }
@@ -409,7 +468,8 @@
 
     <section id="contributors">
       <div class="cont-text">
-        <h1>Our Contributors</h1>
+        <h1>Contributors</h1>
+        <div class="underline"></div>
         <p class="sub-heading">A big thanks to you all!</p>
       </div>
 
@@ -521,9 +581,10 @@
       
     <script>
       $(".slab-1").click(function(){
-        document.getElementById("propHeading").innerHTML = "Heading 1"
-        document.getElementById("propOne").innerHTML = "Hello JavaScript!"
-        document.getElementById('myImage').src='./icons8-wrapped-gift-48.png'
+        document.getElementById("propHeading").innerHTML = "Whoo hoo! You've choosen the CONES"
+        document.getElementById("propOne").innerHTML = "You will be getting"
+        document.getElementById("goodies").innerHTML = "Newsletter<br>Name on webpage<br>Wristband"
+        document.getElementById('myImage').src='./cones.png'
       });
       $(".slab-2").click(function(){
         document.getElementById("propHeading").innerHTML = "Heading 2"
@@ -579,7 +640,7 @@
       });
     </script> -->
 
-
+    <script src="./JS/smoothScroll.js"></script>
     <script src="../JS/loader.js"></script>
     <script src="./JS/backscroll.js"></script>
     <script src="../JS/mobnav.js"></script>

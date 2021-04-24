@@ -272,11 +272,15 @@
         margin: 5px 0;
        
     }
+
+    .dropbtn{
+        font-size: 14px;
+    }
     
 }
 
 
-@media screen and (max-width:980px){
+@media screen and (max-width:1065px){
     body{
         overflow-x: hidden;
     }

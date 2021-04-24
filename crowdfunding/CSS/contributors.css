@@ -1,23 +1,40 @@
 #contributors{
     /* height: 30vh; */
+    padding-bottom: 100px;
     display: flex;
     flex-direction: column;
     align-items: center;
     justify-content: center;
 }
 
-#contributors .cont-text{
-    text-align: center;
+#contributors .cont-text{ 
+    width: 100%;
+    padding-left: 5%;
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    justify-content: center;
+    
 }
 
 #contributors .cont-text h1{
-    font-size: 45px;
-    font-family: 'Satisfy', cursive;
-    color: rgb(255, 0, 179);
+    font-size: 1.5em;
+    /* font-family: 'Satisfy', cursive; */
+    color: rgb(0, 0, 0);
+    width: 100%;
+    text-align: left;
 }
 
+#contributors .cont-text .underline{
+    margin: 20px 0;
+    height: 4px;
+    width: 100px;
+    background-color: rgb(3, 77, 138);
+}
+
+
 #contributors .sub-heading{
-    font-size: 25px;
+    font-size: 2em;
     font-family: 'Satisfy', cursive;
     color: rgb(255, 0, 179);
 }

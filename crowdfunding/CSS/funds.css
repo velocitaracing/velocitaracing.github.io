@@ -1,20 +1,22 @@
 #funds{
-    height: 100vh;
+    /* min-height: 100vh; */
 
     display: flex;
     align-items: center;
     justify-content: center;
 
+    padding: 150px 0;
 }
 
 #funds .funds-text{
     display: flex;
     flex-direction: column;
-    align-items: center;
+    align-items: flex-start;
     justify-content: space-between;
 
     width: 50%;
-    height: 40%;
+    /* height: 40%; */
+    padding-left: 5%;
 }
 
 #funds .chart{
@@ -23,15 +25,26 @@
 }
 
 #funds .funds-text h1{
-    font-size: 35px;
-    font-family: 'Satisfy', cursive;
-    color: rgb(255, 0, 179);
+    font-size: 1.5em;
+    /* font-family: 'Satisfy', cursive; */
+    color: rgb(0, 0, 0);
+    width: 100%;
+    text-align: left;
+    /* padding-left: 2.5%; */
+}
+
+#funds .funds-text .underline{
+    margin: 20px 0;
+    height: 4px;
+    width: 100px;
+    background-color: rgb(3, 77, 138);
 }
 
 #funds .funds-text p{
-    font-size: 18px;
-    padding: 15px 25px;
+    font-size: 1.1em;
 }
+
+
 
 @media screen and (max-width:450px){
     #funds{
@@ -40,20 +53,22 @@
         flex-direction: column;
         align-items: center;
         justify-content: center;
+        
+       padding: 100px 0;
     
     }
 
     #funds .funds-text{
         display: flex;
         flex-direction: column;
-        align-items: center;
+        align-items: flex-start;
         justify-content: center;
     
-        padding-top: 100px;
-
+        /* padding: 0 0; */
         width: 95%;
         height: unset;
     }
+
     
     #funds .chart{
         width: 95%;
@@ -63,5 +78,10 @@
     #myChart{
         margin: 20px auto;
         width: 100%;
+    }
+
+    .pie-chart{
+        width: 100%;
+        margin: 20px 0;
     }
 }

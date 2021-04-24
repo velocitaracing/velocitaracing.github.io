@@ -7,15 +7,30 @@
     justify-content: center;
 }
 
-#slabs h1{
-  font-size: 45px;
-  font-family: 'Satisfy', cursive;
-  color: rgb(255, 0, 179);
+#slabs .slabs-heading{
+  padding-left: 5%;
+  text-align: left;
+  width: 100%;
+}
+
+#slabs .slabs-heading h1{
+  font-size: 1.5em;
+  /* font-family: 'Satisfy', cursive; */
+  color: rgb(0, 0, 0);
+  width: 100%;
+  text-align: left;
 
 }
 
-#slabs .sub-heading{
-  font-size: 20px;
+#slabs .slabs-heading .underline{
+  margin: 20px 0;
+  height: 4px;
+  width: 100px;
+  background-color: rgb(3, 77, 138);
+}
+
+#slabs .slabs-heading .sub-heading{
+  font-size: 1.5em;
   font-family: 'Satisfy', cursive;
   color: rgb(255, 0, 179);
 
@@ -24,12 +39,15 @@
 #slabs .container {
     width: 80%;
     display: flex;
-    
+    /* border-radius: 15px; */
     margin-top: 30px;
+    
 }
 
 .slab-container{
     width: 50%;
+
+    
 }
 
 
@@ -39,18 +57,61 @@
     justify-content: space-between;
     padding: 10px;
     /* height: 70px; */
-    background-color: rgba(0, 170, 255, 0.02);
+    background-color: rgb(32, 69, 105);
     
 }
 
 .slab-container .border{
-    border-bottom: 1px solid rgb(255, 192, 221);
+    border-bottom: 1px solid rgb(255, 255, 255);
 }
 
 .slab-container .slabs .text{
     position: relative;
-    width: 75%;
+    display: flex;
+    align-items: center;
+    justify-content: flex-start;
+    width: 90%;
+    height: 50px;
     
+}
+
+.slab-container .slabs .text h3{
+  font-size: 1.2em;
+  width: 40%;
+  font-weight: 600;
+  color: rgb(238, 238, 238);
+  
+}
+
+.slab-container .slabs .text .amount{
+  font-size: .8em;
+  font-weight: 600;
+  color: rgb(209, 209, 209);
+  
+}
+
+.slab-container .slabs .slab-image{
+
+}
+
+.slab-container .slabs .slab-image img{
+height: 40px;
+}
+
+.slab-container .slabs .slab-tooltip{
+
+}
+
+.slab-container .slabs .slab-tooltip img{
+height: 15px;
+}
+
+
+
+.slab-container .slabs .text p{
+  width: 60%;
+  color: rgb(247, 247, 247);
+  
 }
 
 .slab-container .slabs .arrow{
@@ -59,16 +120,16 @@
 
 .slab-container .slabs:hover {
     cursor: pointer;
-    background-color: rgba(0, 170, 255, 0.07);
+    background-color: rgb(37, 52, 66);
     /* width: 105%; */
 }
 
 .slab-container .slabs:hover .fa-angle-right{
-    color: salmon!important;
+    color: 224, 224, 224!important;
 }
 
 .slab-properties{
-    background-color: rgba(0, 170, 255, 0.07);
+    background-color: rgb(230, 230, 230);
     width: 50%;
     display: flex;
     flex-direction: column;
@@ -84,13 +145,27 @@
 #propHeading{
     width: 100%;
     text-align: center;
-    margin-top: 20px;
+    /* margin-top: 20px; */
+    font-size: 1.3em;
+    color: rgb(0, 0, 0);
 }
 
 #propOne{
     width: 100%;
-    text-align: center;
-    margin-top: 20px;
+    text-align: left;
+    margin-top: 10px;
+    font-size: 1.2em;
+    color: rgb(0, 0, 0);
+}
+
+#goodies{
+
+    width: 100%;
+    text-align: left;
+    margin-top: 10px;
+    font-size: 1em;
+    color: rgb(0, 0, 0);
+
 }
 
 .propImage{
@@ -101,18 +176,18 @@
 }
 
 #myImage{
-    height: 150px;
+    height: 70px;
     margin-top: 20px;
 }
 
 
 .slab-active{
     cursor: pointer;
-    background-color: rgba(0, 170, 255, 0.07)!important;
+    background-color: rgb(34, 47, 61)!important;
 }
 
 .arrow-active{
-    color: salmon!important;
+    color: rgb(224, 224, 224)!important;
 }
 
 .payment{
@@ -120,7 +195,7 @@
     display: flex;
     align-items: center;
     justify-content: center; 
-    margin-top: 50px;
+    margin-top: 0px;
 }
 
 .text p{
@@ -138,28 +213,33 @@
     #mob{
         margin-top: 20px;
         display: block;
+        width: 95%;
     }
 
-    #mob h1{
-      margin-top: 70px;
-      font-size: 45px;
-      font-family: 'Satisfy', cursive;
-      color: rgb(255, 0, 179);
-      text-align: center;
     
+
+    #desktop{
+        display: none!important;
+        /* height: unset; */
     }
 
-    #mob .sub-heading{
-      font-size: 20px;
-      font-family: 'Satisfy', cursive;
-      color: rgb(255, 0, 179);
-      text-align: center;
-    
+    .goodies{
+      display: flex;
+      align-items: center;
+      justify-content: flex-start;
     }
 
-    #slabs{
-        display: none;
-        height: unset;
+    .goodies img{
+      margin-right: 15px;
+    }
+
+    .goodies ul {
+      list-style: none;
+    }
+
+    .payment-slab-mob-button{
+      margin-top: 20px;
+      margin-left: 0!important;
     }
 
     .col{

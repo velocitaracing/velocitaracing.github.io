@@ -79,6 +79,8 @@ body{
 }
 
 #career-heading-new .cover-1 h2{
+    width: 100%;
+    text-align: left;
     padding: 0 5%;
     font-size: 1.6em;
     color: #000;
