@@ -52,7 +52,13 @@ body{
 
    
   }
-
+/* 
+  .navbar ul{
+    background-color: rgb(3, 77, 138);
+    padding: 0 30px;
+    height: 11vh;
+  }
+ */
 
 
   .car-box{
