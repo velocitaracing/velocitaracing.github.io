@@ -1,4 +1,4 @@
-$('.home-scroll-buttons a').on('click', function(e) {
+$('.crowdfunding-scroll-button').on('click', function(e) {
     // console.log(this);
 
   if(this.hash !== '') {

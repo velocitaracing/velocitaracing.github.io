@@ -173,8 +173,9 @@
         <p class="second-sub-heading">Help us grow more</p>
         <p class="third-sub-heading">Learn why support us</p>
         <div class="home-scroll-buttons">
-        <a href="#intro"><button class="secondaryButton secondary-dark-button crowdfunding-scroll-button">WHY VELOCITA</button></a>
-        <a href="#funds"><button class="secondaryButton secondary-dark-button crowdfunding-scroll-button">FUND USAGE</button></a>
+          <!-- buttons -->
+        <a href="#intro" class="secondaryButton secondary-dark-button crowdfunding-scroll-button">WHY VELOCITA</a>
+        <a href="#funds" class="secondaryButton secondary-dark-button crowdfunding-scroll-button">FUND USAGE</a>
         </div>
       </div>
     </section>
@@ -263,7 +264,7 @@
               <img src="./cones.png" alt="">
             </div>
             <div class="text">
-              <h3>CONES | <span class="amount">&lt; ₹ 500</span></h3>
+              <h3>CONES<span class="amount">| &lt; ₹ 500</span></h3>
               <!-- <span class="slab-tooltip"><img src="./question.png" alt=""></span> -->
                 
               <!-- <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. A, consequatur.</p> -->
@@ -273,36 +274,60 @@
             </div>
           </div>
           <div class="slabs border slab-2">
+            <div class="slab-image">
+              <img src="./flag.png" alt="">
+            </div>
             <div class="text">
-              <h3>Gold SLAB | ₹ 100</h3>
-              <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. A, consequatur.</p>
+              <h3>FLAG<span class="amount">| ₹ 500</span></h3>
+              <!-- <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. A, consequatur.</p> -->
             </div>
             <div class="arrow">
               <i class="fa fa-angle-right fa-2x" aria-hidden="true"></i>
             </div>
           </div>
           <div class="slabs border slab-3">
+            <div class="slab-image">
+              <img src="./wrench.png" alt="">
+            </div>
             <div class="text">
-              <h3>Gold SLAB | ₹ 100</h3>
-              <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. A, consequatur.</p>
+              <h3>WRENCH<span class="amount">| ₹ 1000</span></h3>
+              <!-- <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. A, consequatur.</p> -->
             </div>
             <div class="arrow">
               <i class="fa fa-angle-right fa-2x" aria-hidden="true"></i>
             </div>
           </div>
           <div class="slabs border slab-4">
+            <div class="slab-image">
+              <img src="./tire.png" alt="">
+            </div>
             <div class="text">
-              <h3>Gold SLAB | ₹ 100</h3>
-              <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. A, consequatur.</p>
+              <h3>TIRE<span class="amount">| ₹ 2500</span></h3>
+              <!-- <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. A, consequatur.</p> -->
             </div>
             <div class="arrow">
               <i class="fa fa-angle-right fa-2x" aria-hidden="true"></i>
             </div>
           </div>
-          <div class="slabs slab-5">
+          <div class="slabs border slab-5">
+            <div class="slab-image">
+              <img src="./flag.png" alt="">
+            </div>
             <div class="text">
-              <h3>Gold SLAB | ₹ 100</h3>
-              <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. A, consequatur.</p>
+              <h3>FLAG<span class="amount">| ₹ 5000</span></h3>
+              <!-- <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. A, consequatur.</p> -->
+            </div>
+            <div class="arrow">
+              <i class="fa fa-angle-right fa-2x" aria-hidden="true"></i>
+            </div>
+          </div>
+          <div class="slabs slab-6">
+            <div class="slab-image">
+              <img src="./flag.png" alt="">
+            </div>
+            <div class="text">
+              <h3>FLAG<span class="amount">| ₹ 10,000</span></h3>
+              <!-- <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. A, consequatur.</p> -->
             </div>
             <div class="arrow">
               <i class="fa fa-angle-right fa-2x" aria-hidden="true"></i>
@@ -311,12 +336,12 @@
         </div>
         <div class="slab-properties">
           <div  class="property">
-            <h3 id="propHeading">No slab Selected</h3>
-            <p id="propOne">Click on a slab to know more</p>
-            <p id="goodies"></p>
+            <h3 data-aos="zoom-in" id="propHeading">No slab Selected</h3>
+            <p data-aos="zoom-in" id="propOne">Click on a slab to know more</p>
+            <p data-aos="zoom-in" id="goodies"></p>
           </div>
           <div class="propImage">
-            <img id="myImage" src="./icons8-gift.gif" alt="">
+            <img data-aos="zoom-in" id="myImage" src="./icons8-gift.gif" alt="">
           </div>
             <!-- <form class="payment"> -->
               <button class="secondaryButton secondary-dark-button">PAY NOW</button>
@@ -584,30 +609,40 @@
       
     <script>
       $(".slab-1").click(function(){
-        document.getElementById("propHeading").innerHTML = "Whoo hoo! You've choosen the CONES"
-        document.getElementById("propOne").innerHTML = "You will be getting"
-        document.getElementById("goodies").innerHTML = "Newsletter<br>Name on webpage<br>Wristband"
-        document.getElementById('myImage').src='./cones.png'
+        document.getElementById("propHeading").innerHTML = "Whoo hoo! You've choosen the Cones"
+        document.getElementById("propOne").innerHTML = "Good going and you have unlocked"
+        document.getElementById("goodies").innerHTML = "E-certificate<br>Newsletter Subscription<br>Shoutout on webpage<br>Wristband"
+        document.getElementById('myImage').src='./gift-2.gif'
       });
       $(".slab-2").click(function(){
-        document.getElementById("propHeading").innerHTML = "Heading 2"
-        document.getElementById("propOne").innerHTML = "Hello JavaScript 2!"
-        document.getElementById('myImage').src='./icons8-gift-card-48.png'
+        document.getElementById("propHeading").innerHTML = "Hooray! Chequered Flag selected"
+        document.getElementById("propOne").innerHTML = "That's amazing and you have unlocked"
+        document.getElementById("goodies").innerHTML = "E-certificate<br>Newsletter Subscription<br>Shoutout on webpage<br>Wristband<br>Invite to unveil<br>Stickers"
+        document.getElementById('myImage').src='./gift-2.gif'
       });
       $(".slab-3").click(function(){
-        document.getElementById("propHeading").innerHTML = "Heading 3"
-        document.getElementById("propOne").innerHTML = "Hello JavaScript 3!"
-        document.getElementById('myImage').src='./icons8-gift.gif'
+        document.getElementById("propHeading").innerHTML = "Yay! Spanner selected"
+        document.getElementById("propOne").innerHTML = "That's amazing and you have unlocked"
+        document.getElementById("goodies").innerHTML = "E-certificate<br>Newsletter Subscription<br>Shoutout on webpage<br>Wristband<br>Invite to unveil<br>Stickers<br>Badges"
+        document.getElementById('myImage').src='./gift-2.gif'
       });
       $(".slab-4").click(function(){
-        document.getElementById("propHeading").innerHTML = "Heading 4"
-        document.getElementById("propOne").innerHTML = "Hello JavaScript 4!"
-        document.getElementById('myImage').src='./icons8-wrapped-gift-48.png'
+        document.getElementById("propHeading").innerHTML = "Awesome! You chose the ALPHA"
+        document.getElementById("propOne").innerHTML = "That's amazing and you have unlocke"
+        document.getElementById("goodies").innerHTML = "E-certificate<br>Newsletter Subscription<br>Shoutout on webpage<br>Wristband<br>Invite to unveil<br>Stickers<br>Badges<br>Name on car"
+        document.getElementById('myImage').src='./gift-2.gif'
       });
       $(".slab-5").click(function(){
         document.getElementById("propHeading").innerHTML = "Heading 5"
-        document.getElementById("propOne").innerHTML = "Hello JavaScript 5!"
-        document.getElementById('myImage').src='./icons8-gift-card-48.png'
+        document.getElementById("propOne").innerHTML = "That's amazing and you have unlocke"
+        document.getElementById("goodies").innerHTML = "E-certificate<br>Newsletter Subscription<br>Shoutout on webpage<br>Wristband<br>Invite to unveil<br>Stickers<br>Badges<br>Name on car"
+        document.getElementById('myImage').src='./gift-2.gif'
+      });
+      $(".slab-6").click(function(){
+        document.getElementById("propHeading").innerHTML = "Heading 6"
+        document.getElementById("propOne").innerHTML = "That's amazing and you have unlocke"
+        document.getElementById("goodies").innerHTML = "E-certificate<br>Newsletter Subscription<br>Shoutout on webpage<br>Wristband<br>Invite to unveil<br>Stickers<br>Badges<br>Name on car<br>Invite to workshop"
+        document.getElementById('myImage').src='./gift-2.gif'
       });
     </script>
 

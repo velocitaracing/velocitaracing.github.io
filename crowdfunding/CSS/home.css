@@ -17,7 +17,6 @@
 }
 
 
-
 #home .cover-1{
     width: 50%;
     height: 100%;
@@ -78,13 +77,14 @@
     color: #000;
 }
 
-.home-scroll-buttons{
+.home-scroll-buttons {
     position: absolute;
     left: 2.5%;
     bottom: 10vh;
     display: flex;
     align-items: center;
     justify-content: center;
+
 }
 
 #home .blue-box{

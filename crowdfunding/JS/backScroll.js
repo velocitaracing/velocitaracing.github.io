@@ -12,3 +12,19 @@ function update(){
        };
     
 $(window).bind('scroll', update);
+
+
+var heading = $("#propHeading");
+var iconButton = $(".slabs");
+iconButton.on("click", function() {
+    $("#propHeading").removeClass('aos-animate');
+    $("#propOne").removeClass('aos-animate');
+    $("#goodies").removeClass('aos-animate');
+    $("#myImage").removeClass('aos-animate');
+    setTimeout(function() {
+        $("#propHeading").addClass('aos-animate');
+        $("#propOne").addClass('aos-animate');
+        $("#goodies").addClass('aos-animate');
+        $("#myImage").addClass('aos-animate');
+    }, 200);
+});

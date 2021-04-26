@@ -35,12 +35,15 @@ body{
               user-select: none;
 }
 
+
 .navbar {
     background: #000;
 }
 
 .crowdfunding-scroll-button{
     margin-right: 20px;
+    text-align: center;
+    text-decoration: none;
 }
 
 .secondary-dark-button{
