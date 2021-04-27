@@ -255,19 +255,19 @@ body{
     .scroll-links{
         position: absolute;
         left: 25px;
-        bottom: 25vh;
+        bottom: 140px;
     }
     
     .scroll-links-two{
         position: absolute;
         left: 25px;
-        bottom: 15vh;
+        bottom: 90px;
     }
     
     .scroll-links-three{
         position: absolute;
         left: 25px;
-        bottom: 5vh;
+        bottom: 40px;
     }
 
 
