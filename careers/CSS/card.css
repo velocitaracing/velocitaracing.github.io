@@ -54,7 +54,7 @@
     /* background-color: rgb(255, 255, 255); */
     /* background-size: cover; */
     transition: .2s ease-in-out 0s;
-    cursor: pointer;
+    /* cursor: pointer; */
 
 }
 
@@ -161,7 +161,7 @@
         /* background-color: rgb(255, 255, 255); */
         /* background-size: cover; */
         transition: .2s ease-in-out 0s;
-        cursor: pointer;
+        /* cursor: pointer; */
     
     }
 
@@ -224,7 +224,7 @@
         /* background-color: rgb(255, 255, 255); */
         /* background-size: cover; */
         transition: .2s ease-in-out 0s;
-        cursor: pointer;
+        /* cursor: pointer; */
     
     }
 
@@ -309,7 +309,7 @@
         /* background-color: rgb(255, 255, 255); */
         /* background-size: cover; */
         transition: .2s ease-in-out 0s;
-        cursor: pointer;
+        /* cursor: pointer; */
     
     }
 

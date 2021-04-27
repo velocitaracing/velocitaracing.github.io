@@ -79,4 +79,10 @@ body{
 
 } 
 
-
+@media screen and (max-width:350px){
+    .crowdfunding-scroll-button{
+        margin-right: 5px;
+        text-align: center;
+        text-decoration: none;
+    }
+}

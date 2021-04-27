@@ -245,6 +245,11 @@ height: 15px;
         /* height: unset; */
     }
 
+    #myImage{
+ 
+     display: none;
+    }
+
     .goodies{
       display: flex;
       align-items: center;

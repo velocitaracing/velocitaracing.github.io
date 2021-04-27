@@ -57,11 +57,37 @@
 }
 
 #intro .chart .group-one{
-    margin-top: 20px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
 }
 
 #intro .chart .group-two{
-    margin-bottom: 20px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    
+}
+
+#intro .chart .group-one img{
+    border: 5px solid rgb(223, 223, 223);
+    box-shadow: 5px 5px 5px rgba(68, 68, 68, 0.6);
+    position: absolute;
+    right: 5vw;
+    margin-top: 75px;
+    /* top: 200px; */
+    height: 200px;
+    z-index: 2;
+}
+
+#intro .chart .group-two img{
+    border: 5px solid rgb(223, 223, 223);
+    box-shadow: 5px 5px 5px rgba(68, 68, 68, 0.6);
+    height: 200px;
+    position: absolute;
+    right: 15vw;
+    margin-top: -75px;
+    
 }
 
 
@@ -104,11 +130,51 @@
     
     #intro .chart{
         width: 95%;
-        margin: 0 auto;
+        margin: 40px auto;
+        height: auto;
+        /* margin: 30px; */
+        flex-direction: column;
     }
+
+    #intro .chart .group-one img{
+        border: 5px solid rgb(223, 223, 223);
+        box-shadow: 5px 5px 5px rgba(68, 68, 68, 0.6);
+        position: relative;
+        right: 0;
+        margin-top: 0px;
+        /* top: 200px; */
+        height: 150px;
+        z-index: 2;
+        margin-bottom: 30px;
+        /* margin-top: 75px; */
+        margin-left: 50%;
+    }
+    
+    #intro .chart .group-two img{
+        border: 5px solid rgb(223, 223, 223);
+        box-shadow: 5px 5px 5px rgba(68, 68, 68, 0.6);
+        height: 150px;
+        position: relative;
+        right: 0;
+        margin-top: -75px;
+        margin-left: -50%;
+        
+    }
+    
 
     #myChart{
         margin: 20px auto;
         width: 100%;
+    }
+}
+
+@media screen and (max-width:350px) {
+    #intro .chart .group-one img{
+       height: 120px;
+    }
+    
+    #intro .chart .group-two img{
+       height: 120px;
+        
     }
 }
