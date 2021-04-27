@@ -76,6 +76,8 @@ body{
 
     /* width: 170px; */
 
+    /* width: 150px; */
+
     text-align: center;
     text-decoration: none;
 
@@ -167,7 +169,7 @@ body{
     width: 100%;
     text-align: left;
     padding: 0 5%;
-    font-size: 1.6em;
+    font-size: 1.4em;
     color: #000;
 }
 
@@ -183,8 +185,8 @@ body{
 .blue-box{
     position: absolute;
     right: 50px;
-    height: 60vh;
-    width: 50vh;
+    height: 400px;
+    width: 350px;
     background-color: rgb(3, 77, 138);
 
 
@@ -210,13 +212,23 @@ body{
 }
 
 .blue-box .content{
-    position: relative;
+    position: absolute;
     padding: 25px;
-    top: 30%;
+    top: 220px;
     color: #fff;
     font-size: 1.2em;
     text-align: left;
 }
+
+.blue-box .content-two{
+    position: relative;
+    padding: 25px;
+    top: 60px;
+    color: #fff;
+    font-size: 1.2em;
+    text-align: left;
+}
+
 
 .blue-box .content .first-capital{
     font-size: 1.5em;
@@ -224,9 +236,22 @@ body{
 
 .career-news-button{
     position: absolute;
-    bottom: 5%;
+    top: 300px;
     left: 25px;
 }
+
+.career-news-button-two{
+    position: absolute;
+    top: 140px;
+    left: 25px;
+}
+
+.career-news-button-three{
+    position: absolute;
+    top: 200px;
+    left: 25px;
+}
+
 
 .secondaryButton{
     padding: 10px 25px;
@@ -292,7 +317,7 @@ body{
 
 
 
-@media screen and (max-width:450px){
+@media screen and (max-width:765px){
 
 
     .linkSecondaryButton{
@@ -331,7 +356,7 @@ body{
 
     .blue-box{
         position: absolute;
-        top: 75vh;
+        top: 100vh;
         right: 0px;
         height: 50vh;
         width: 40vh;
@@ -341,17 +366,65 @@ body{
     }
 
     .blue-box .content{
-        position: relative;
-        padding: 25px;
-        top: 30%;
+        position: absolute;
+        padding: 0 25px;
+        top: 230px;
+        /* margin-top: 10px; */
         color: #fff;
         font-size: 1.3em;
         line-height: 1.4em;
         text-align: left;
+       
     }
+    .blue-box .content-two{
+        position: relative;
+        padding: 25px;
+        top: 60px;
+        color: #fff;
+        font-size: 1.2em;
+        text-align: left;
+    }
+    
+    
+    .blue-box .content .first-capital{
+        font-size: 1.5em;
+    }
+    
+    .career-news-button{
+        position: absolute;
+        top: 300px;
+        /* bottom: 0; */
+        left: 25px;
+    }
+    
+    .career-news-button-two{
+        position: absolute;
+        top: 140px;
+        margin-top: 10px;
+        left: 25px;
+    }
+    
+    .career-news-button-three{
+        position: absolute;
+        top: 200px;
+        left: 25px;
+    }
+
+    .emerg{
+        margin-top: 400px;
+        padding: 25px 0;
+    }
+
+    .emerg .container{
+
+        padding: 25px 0;
+    }
+    
+    
 
     .non-tech{
         margin-top: 250px;
+    
     }
 
     #career-heading-new .cover-1 h2{
@@ -382,9 +455,9 @@ body{
 
     .blue-box{
         position: absolute;
-        top: 80vh;
+        top: 100vh;
         right: 0px;
-        height: 50vh;
+        height: 60vh;
         width: 40vh;
         background-color: rgb(3, 77, 138);
     
@@ -400,6 +473,13 @@ body{
         line-height: 1.4em;
         text-align: left;
     }
+
+    .career-news-button{
+        position: absolute;
+        top: 330px;
+        left: 25px;
+    }
+    
     
 }
 
@@ -408,9 +488,9 @@ body{
     
     .blue-box{
         position: absolute;
-        top: 80vh;
+        top: 100vh;
         right: 0px;
-        height: 55vh;
+        height: 70vh;
         width: 45vh;
         background-color: rgb(3, 77, 138);
     
