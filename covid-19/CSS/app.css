@@ -354,6 +354,10 @@ body{
         margin-top: 250px;
     }
 
+    h2{
+        font-size: 2em!important;
+    }
+
 }
 
 @media screen and (max-width:380px) {
