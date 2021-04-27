@@ -323,6 +323,13 @@ body{
 
 @media screen and (max-width:765px){
 
+    .white-logo-VR{
+        display: block!important;
+    }
+
+    .black-logo-VR{
+        display: none!important;
+    }
 
     .linkSecondaryButton{
       font-size: 12px;
