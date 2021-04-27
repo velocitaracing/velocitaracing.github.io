@@ -61,7 +61,7 @@ body{
    margin-right: 5px;
 }
 
-.secondary-dark-button{
+/* .secondary-dark-button{
     border: 2px solid rgb(0, 67, 129)!important;
     color: rgb(0, 67, 129)!important;
     font-weight: 500!important;
@@ -70,7 +70,7 @@ body{
 .secondary-dark-button:hover{
     color: #fff!important;
     background-color: rgb(0, 67, 129)!important;
-}
+} */
 
 .linkSecondaryButton{
 
@@ -103,6 +103,11 @@ body{
 
 .background-trans{
     background-color: rgba(255, 255, 255, 0)!important;
+}
+
+
+.background-trans:hover{
+    background-color: rgba(255, 255, 255, 1)!important;
 }
 
 .dropbtn{
@@ -254,6 +259,7 @@ body{
     position: absolute;
     top: 200px;
     left: 25px;
+    z-index: 2;
 }
 
 
