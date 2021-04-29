@@ -7,7 +7,7 @@ var velocity = 0.5;
 // $(".banner-5").css("background-position", "50% ");
 // $(".banner-6").css("background-position", "50% ");
 
-if( screen.width() < 500 ) {
+if( $(window).width() < 500 ) {
   // code
 $(".banner-1").css("background-position", "50% ");
 $(".banner-2").css("background-position", "50% ");
