@@ -7,6 +7,18 @@ var velocity = 0.5;
 // $(".banner-5").css("background-position", "50% ");
 // $(".banner-6").css("background-position", "50% ");
 
+if( screen.width() < 500 ) {
+  // code
+$(".banner-1").css("background-position", "50% ");
+$(".banner-2").css("background-position", "50% ");
+$(".banner-3").css("background-position", "50% ");
+$(".banner-4").css("background-position", "50% ");
+$(".banner-5").css("background-position", "50% ");
+$(".banner-6").css("background-position", "50% ");
+}
+
+
+
 
 function update41(){ 
   var pos = $(window).scrollTop(); 
@@ -268,14 +280,4 @@ $(window).bind('scroll', update26);
     
           
 
-
-  if( screen.width() < 500 ) {
-      // code
-    $(".banner-1").css("background-position", "50% ");
-    $(".banner-2").css("background-position", "50% ");
-    $(".banner-3").css("background-position", "50% ");
-    $(".banner-4").css("background-position", "50% ");
-    $(".banner-5").css("background-position", "50% ");
-    $(".banner-6").css("background-position", "50% ");
-  }
 
