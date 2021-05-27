@@ -11,7 +11,7 @@ document.onclick = function (e){
         // body.classList.remove('nav-active-body');
     }
 
-    console.log(e.target.className)
+    // console.log(e.target.className)
 }
 
 
