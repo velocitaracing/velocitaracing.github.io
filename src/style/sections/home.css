@@ -1,0 +1,109 @@
+#home{
+    min-height: 100vh;
+    width: 100%;
+}
+
+#home .container{ 
+    min-height: 100vh; 
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: flex-start;
+
+    background-image: url(../../assets/Home/home-background\ \(2\).png);
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center center;
+}
+
+#home .container .heading{
+    height: 100%;
+    width: 50%;
+    padding-left: 60px;
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    justify-content: center;
+}
+
+#home .container .heading h1{
+    font-size: 3.6rem;
+    text-transform: capitalize;
+}
+
+#home .container .heading span{
+    font-size: 1.1em;
+    text-transform: uppercase;
+ }
+
+#home .container .heading button{
+   margin: 20px 0 0 0;
+}
+
+#home .container .blue-box-container{
+    width: 50%;
+    display: flex;
+    align-items: center;
+    justify-content: flex-end;
+    padding-right: 80px;
+}
+
+
+@media screen and (max-width:978px) {
+    #home .container{ 
+        min-height: 100vh; 
+        width: 100%;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
+    }
+    #home .container .heading{
+        height: 100%;
+        width: 100%;
+        padding-left: 30px;
+        display: flex;
+        flex-direction: column;
+        align-items: flex-start;
+        justify-content: center;
+
+        margin-top: 200px;
+    }
+    #home .container .heading h1{
+        font-size: 3.6rem;
+        text-transform: capitalize;
+    }
+    
+    #home .container .heading span{
+        font-size: 1.2rem;
+        text-transform: uppercase;
+    }
+    
+    #home .container .heading button{
+       margin: 20px 0 0 0;
+    }
+    
+    #home .container .blue-box-container{
+        width: 100%;
+        display: flex;
+        align-items: center;
+        justify-content: flex-end;
+        padding-right: 30px;
+
+        margin-top: 50px;
+    }
+    
+}
+
+@media screen and (max-width:478px) {
+    #home .container .heading h1{
+        font-size: 2.6rem;
+        text-transform: capitalize;
+    }
+    
+    #home .container .heading span{
+        font-size: 1rem;
+        text-transform: uppercase;
+    }
+    
+}

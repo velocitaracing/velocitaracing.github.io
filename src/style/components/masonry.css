@@ -1,0 +1,153 @@
+.masonry{
+
+    /* height: 400px; */
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: flex-end;
+    padding: 0 60px 0 0;
+}
+
+.masonry .masonry-column{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+
+.masonry .masonry-column div{
+    margin: 5px;
+    border-radius: 20px;
+
+    overflow: hidden;
+}
+
+.masonry .masonry-column .small{
+    height: 200px;
+    width: 200px;
+    background-color: rosybrown;
+}
+
+.masonry .masonry-column .medium{
+    height: 300px;
+    width: 200px;
+    background-color: rosybrown;
+}
+
+.masonry .masonry-column .equal{
+
+    height: 165px;
+    width: 200px;
+    background-color: rosybrown;
+
+}
+
+
+@media screen and (max-width:978px) {
+    .masonry{
+
+        /* height: 400px; */
+        width: 100%;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        padding: 50px 0px 0 0px ;
+    }
+    
+    .masonry .masonry-column{
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
+    }
+    
+    .masonry .masonry-column div{
+        margin: 2.5px;
+        border-radius: 20px;
+        overflow: hidden;
+    }
+    
+    .masonry .masonry-column .small{
+        height: 135px;
+        width: 120px;
+        background-color: rosybrown;
+    }
+    
+    .masonry .masonry-column .medium{
+        height: 235px;
+        width: 120px;
+        background-color: rosybrown;
+    }
+    
+    .masonry .masonry-column .equal{
+    
+        height: 120px;
+        width: 120px;
+        background-color: rosybrown;
+    
+    }
+}
+
+@media screen and (max-width:378px) {
+    .masonry{
+
+        /* height: 400px; */
+        width: 100%;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        padding: 30px 0px 0 0px ;
+    }
+
+    .masonry .masonry-column .small{
+        height: 125px;
+        width: 110px;
+        background-color: rosybrown;
+    }
+    
+    .masonry .masonry-column .medium{
+        height: 205px;
+        width: 110px;
+        background-color: rosybrown;
+    }
+    
+    .masonry .masonry-column .equal{
+    
+        height: 110px;
+        width: 110px;
+        background-color: rosybrown;
+    
+    }
+}
+
+@media screen and (max-width:350px) {
+    .masonry{
+
+        /* height: 400px; */
+        width: 100%;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        padding: 30px 0px 0 0px ;
+    }
+
+    .masonry .masonry-column .small{
+        height: 115px;
+        width: 100px;
+        background-color: rosybrown;
+    }
+    
+    .masonry .masonry-column .medium{
+        height: 195px;
+        width: 100px;
+        background-color: rosybrown;
+    }
+    
+    .masonry .masonry-column .equal{
+    
+        height: 100px;
+        width: 100px;
+        background-color: rosybrown;
+    
+    }
+}

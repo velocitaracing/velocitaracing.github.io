@@ -1,0 +1,198 @@
+.side-line{
+    height: 300px;
+    width: 3px;
+    background-color: rgb(0, 153, 255);
+    position: absolute;
+    left: 25px;
+    margin-top: 0px;
+}
+
+.curve{
+    height: 20px;
+    width: 20px;
+    /* background-color: rgb(0, 153, 255); */
+    position: absolute;
+    left: 16px;
+    /* margin-top: -175px; */
+    background-color: rgb(0, 153, 255);
+    /* border: 3px solid rgb(0, 153, 255); */
+    border-radius: 100%;
+
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.insights-curve{
+    margin-top: unset;
+}
+
+.insights-side-line{
+    height: 700px;
+
+}
+
+.insi-side-line{
+    height: 50vh;
+    margin-top: 50vh;
+}
+
+.podcast-side-line{
+    height: 100px;
+    margin-top: -100px;
+}
+
+.curve-spot{
+    height: 20px;
+    width: 20px;
+    position: absolute;
+    background-color: rgb(0, 153, 255);
+    /* border: 3px solid rgb(0, 153, 255); */
+    border-radius: 100%;
+    margin-right: 160px;
+
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.line-spot{
+    margin-top: -300px;
+}
+
+.right-line{
+    height: 150px;
+    width: 3px;
+    background-color: rgb(0, 153, 255);
+    position: absolute;
+    margin-right: 160px;
+    margin-top: -150px;
+}
+
+.horizon-line{
+    width: calc(50% - 55px);
+    height: 3px;
+    left: 25px;
+    padding-left: 25px;
+    background-color: rgb(0, 153, 255);
+    position: absolute;
+    margin-right: 160px;
+    margin-top: -300px;
+}
+
+.line-circle{
+    height: 20px;
+    width: 20px;
+    position: absolute;
+    background-color: rgb(0, 153, 255);
+    /* border: 3px solid rgb(0, 153, 255); */
+    border-radius: 100%;
+    margin-right: 160px;
+    margin-top: -300px;
+}
+
+.inner-circle{
+    height: 12px;
+    width: 12px;
+    background-color: rgb(253, 253, 253);
+    border-radius: 100%;
+    z-index: 2;
+}
+
+
+@media screen and (max-width:978px) {
+    .side-line{
+        height: 300px;
+        width: 3px;
+        background-color: rgb(0, 153, 255);
+        position: absolute;
+        left: 10px;
+        margin-top: 0px;
+    }
+    
+    .curve{
+        height: 15px;
+        width: 15px;
+        /* background-color: rgb(0, 153, 255); */
+        position: absolute;
+        left: 4px;
+        padding-right: 0!important;
+        /* margin-top: -175px; */
+        /* background-color: rgb(0, 153, 255); */
+        border: 3px solid rgb(0, 153, 255);
+        border-radius: 100%;
+    }
+
+    
+    .insights-side-line{
+        height: 1000px;
+
+    }
+
+    .insi-side-line{
+        height: 100vh;
+        margin-top: 100vh;
+    }
+
+    .podcast-side-line{
+        height: 100px;
+        margin-top: -100px;
+    }
+
+    .curve-spot{
+       display: none;
+    }
+    
+    .line-spot{
+       
+    }
+    
+    .right-line{
+       display: none;
+    }
+    
+    .horizon-line{
+      display: none;
+    }
+    
+    .line-circle{
+      display: none;
+    }
+
+}
+
+
+@media screen and (max-width:450px) {
+    .curve{
+       display: none; 
+    }
+    
+    .curve-spot{
+        display: none;
+     }
+     
+     .line-spot{
+        display: none;
+     }
+     
+     .right-line{
+        display: none;
+     }
+     
+     .horizon-line{
+       display: none;
+     }
+     
+     .line-circle{
+       display: none;
+     }
+    .side-line{
+       display: none;
+    }
+
+    .inner-circle{
+       display: none;
+    }
+}
+
+

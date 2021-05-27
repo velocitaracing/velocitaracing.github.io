@@ -1,0 +1,697 @@
+.inButton{
+    width: 120px;
+    padding: 8px 0px;
+    font-family: 'Montserrat', 'sans-seriff';
+    font-size: .8rem;
+    text-transform: uppercase;
+    /* border-radius: 30px; */
+    outline: none;
+    color: rgb(0, 67, 129);
+    border: 2px solid rgb(0, 67, 129);
+    background-color: rgba(255, 255, 255, 0);
+    transition: .2s ease-in-out 0s;
+    font-weight: 500;
+
+}
+
+.inButton:hover{
+    border: 2px solid rgb(0, 67, 129);
+    color: #fff;
+    cursor: pointer;
+    /* background-color: rgb(0, 67, 129); */
+} 
+
+
+#insights{
+    /* min-height: 100vh; */
+
+    padding: 100px 0;
+
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+    justify-content: center;
+}
+
+#insights .container{
+    height: 100%;
+    width: 100%;
+
+    display: flex;
+    /* flex-direction: row-reverse; */
+    align-items: center;
+    justify-content: center;
+}
+
+#insights .container .left{
+    width: 50%;
+    padding-left: 60px;
+    padding-right: 60px;
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    justify-content: center;
+}
+
+#insights .container .left .heading{
+
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    justify-content: center;
+}
+
+#insights .container .left .heading h1{
+    font-size: 2.2rem;
+    text-transform: uppercase;
+}
+
+#insights .container .left span{
+    font-size: 1.2rem;
+    text-transform: uppercase;
+}
+
+
+#insights .container .left .about-insights{
+    padding-top: 10px;
+    font-size: .95rem;
+    text-transform: unset;
+    line-height: 1.4rem;
+}
+
+#insights .container .left button{
+   margin-top: 30px;
+}
+
+#insights .container .right{
+    width: 50%;
+    /* filter: grayscale(); */
+}
+
+/* Shop Box */
+
+#insights .container .right .container .shop-box{
+    background-image: url(../../assets/Shop/Instagram\ Post\ –\ 2.webp);
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+}
+
+#insights .container .right .container .shop-box .cover{
+    height: 100%;
+    width: 100%;
+    margin: 0 0;
+    background-color: rgba(0, 0, 0, 0);
+
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    justify-content: center;
+    padding-left: 10px;
+}
+
+#insights .container .right .container .shop-box .cover span{
+   color: rgb(217, 255, 0);
+   font-size: 2rem;
+   font-weight: 700;
+   display: none;
+}
+#insights .container .right .container .shop-box .cover .sub-heading{
+    color: rgb(217, 255, 0);
+    font-size: 1rem;
+    text-transform: capitalize;
+ }
+ 
+#insights .container .right .container .shop-box .cover .sub-sub-heading{
+    color: rgb(217, 255, 0);
+    font-size: 1.4rem;
+    padding-top: 10px;
+}
+
+/* Podcast */
+
+#insights .container .right .container .podcast-box{
+    background-image: url(../../assets/Podcast/pod-2.webp);
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+}
+
+#insights .container .right .container .podcast-box .cover{
+    height: 100%;
+    width: 100%;
+    margin: 0 0;
+    background-color: rgba(0, 0, 0, 0);
+
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    justify-content: center;
+    padding-left: 10px;
+}
+
+/* Twitter Box */
+
+#insights .container .right .container .twitter-box{
+    background-color: #119afb;
+
+    display: flex;
+    align-items: center;
+    justify-content: center;
+
+    transition: .2s ease-in-out 0s;
+}
+
+
+#insights .container .right .container .twitter-box button{
+    display: none;
+}
+
+
+#insights .container .right .container .twitter-box:hover{
+    background-color: #000000;
+}
+
+#insights .container .right .container .twitter-box:hover .cover{
+    display: none;
+}
+
+#insights .container .right .container .twitter-box:hover .twitter-button{
+    display: block;
+    border: 2px solid rgb(255, 255, 255)!important;
+    color: #fff!important;
+}
+
+
+
+#insights .container .right .container .twitter-box .twitter-image{
+    filter: brightness(0) invert(1);
+    height: 30px;
+}
+
+#insights .container .right .container .twitter-box .cover{
+    height: 100%;
+    width: 100%;
+    margin: 0 0;
+    background-color: rgba(0, 0, 0, 0);
+
+    display: flex;
+    /* flex-direction: column; */
+    align-items: center;
+    justify-content: center;
+    padding-left: 10px;
+}
+
+
+#insights .container .right .container .twitter-box .cover span{
+   color: #fff;
+   text-transform: capitalize;
+   padding: 10px;
+}
+
+#insights .container .right .container .twitter-box .cover .tweet-text{
+    display: flex;
+    flex-direction: column-reverse;
+}
+
+.tweet{
+    /* transform: translateY(100px); */
+    animation-name: twitter;
+    animation-duration: 7s;
+    animation-iteration-count: infinite;
+
+    height: 200px;
+
+    text-transform: unset!important;
+
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.follow-us{
+    /* transform: translateY(100px); */
+    /* animation-name: twitter;
+    animation-duration: 2s; */
+    animation-name: follow;
+    animation-duration: 7s;
+    animation-iteration-count: infinite;
+
+    height: 200px;
+
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    
+}
+
+
+
+/* Youtube Box */
+
+#insights .container .right .container .youtube-box{
+    /* background-image: url(../../assets/Insights/youtube.png);
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat; */
+
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+#insights .container .right .container .youtube-box:hover{
+   background-color: #000;
+}
+
+#insights .container .right .container .youtube-box:hover .cover{
+  display: none;
+}
+
+#insights .container .right .container .youtube-box .youtube-button{
+    display: none;
+}
+
+
+#insights .container .right .container .youtube-box:hover .youtube-button{
+    display: block;
+    border: 2px solid rgb(255, 255, 255)!important;
+    color: #fff!important;
+}
+
+
+#insights .container .right .container .youtube-box .cover{
+    height: 100%;
+    width: 100%;
+    margin: 0 0;
+    background-color: rgba(0, 0, 0, 1);
+
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    justify-content: center;
+    /* padding-left: 10px; */
+}
+
+#insights .container .right .container .youtube-box .youtube-video{
+    height: 100%;
+    width: 100%;
+
+    padding: 0 5px;
+   
+}
+
+
+
+/* Graphic Design */
+
+#insights .container .right .container .maya-box{
+    background-image: url(../../assets/Insights/graphic-designer.png);
+    background-size: cover;
+    background-position: top;
+    background-repeat: no-repeat;
+
+    overflow: hidden;
+}
+
+#insights .container .right .container .maya-box .cover{
+    height: 100%;
+    width: 100%;
+    margin: 0 0;
+    /* opacity: .6; */
+    background-image: linear-gradient(rgba(0, 0, 0, 0.068), rgba(255, 255, 255, 0));
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    justify-content: flex-start;
+
+}
+   
+
+#insights .container .right .container .maya-box span{
+    padding: 20px;
+    color: #000;
+    font-size: 1.2rem;
+    font-weight: 700;
+    
+}
+
+.gd-apply-now{
+    transform: translateY(-350px)!important;
+    transition: .25s ease-in-out 0s;
+    margin-top: 40px;
+    margin-left: 40px;
+    font-weight: 700;
+}
+
+.gd-apply-now:hover{
+    color: rgb(0, 67, 129)!important;
+   
+}
+
+.graphic-design-heading{
+    transition: .25s ease-in-out 0s;
+}
+
+#insights .container .right .container .maya-box:hover .graphic-design-heading{
+    transform: translateX(250px);
+    /* animation-iteration-count: infinite; */
+}
+
+#insights .container .right .container .maya-box:hover .gd-apply-now{
+    display: block;
+    transform: translateY(-125px)!important;
+    /* position: relative; */
+    /* width: 140px!important; */
+    /* animation-name: graphic;
+    animation-duration: 2s; */
+    /* transform: translateX(0px); */
+    margin-top: 40px;
+    margin-left: 40px;
+}
+
+
+
+/* Newsletter */
+
+#insights .container .right .container .newsletter-box{
+    
+}
+
+#insights .container .right .container .newsletter-box .cover{
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    justify-content: center;
+    height: 100%;
+    width: 100%;
+    margin: 0;
+    /* background-image: linear-gradient(rgb(255, 81, 0), rgb(255, 0, 200)); */
+    border-radius: 0;
+
+    background-image: url(../../assets/Insights/paper.jpg);
+    /* background-size: cover; */
+    background-position: center;
+    background-repeat: no-repeat;
+   
+}
+
+
+#insights .container .right .container .newsletter-box .cover span{
+    font-size: 1rem;
+    text-transform: uppercase;
+    padding: 5px 10px;
+    font-weight: 700;
+
+    color: #000;
+    
+}
+
+#insights .container .right .container .newsletter-box .cover .sub-heading{
+    font-size: .9rem;
+    text-transform: unset;
+    font-weight: unset;
+    padding: 0px 10px;
+
+}
+
+
+/* FSAE info */
+
+#insights .container .right .container .info-box{
+  
+
+    background-image: url(../../assets/Insights/fsae.png);
+    background-size: 100% 100%;
+    background-position: top;
+    background-repeat: no-repeat;
+
+    animation-name: zoom;
+    animation-duration: 8s;
+    animation-iteration-count: infinite;
+
+    
+}
+
+#insights .container .right .container .info-box:hover{
+
+
+}
+
+#insights .container .right .container .info-box .cover{
+    height: 100%;
+    width: 100%;
+    margin: 0 0;
+    background-image: linear-gradient(rgb(247, 247, 247), rgba(255, 255, 255, 0));
+   
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    justify-content: flex-start;
+}
+   
+
+#insights .container .right .container .info-box span{
+    padding: 20px 0 0 10px;
+    color: rgb(0, 0, 0);
+    font-size: 1rem;
+    font-weight: 700;
+}
+
+#insights .container .right .container .info-box .sub-heading{
+    padding: 0px 10px;
+    color: rgb(0, 0, 0);
+    font-size: 1.8rem;
+    font-weight: 700;
+}
+
+#insights .container .right .container .info-box button{
+    margin-top: 10px;
+    margin-left: 10px;
+    border: 2px solid rgb(0, 0, 0)!important;
+    color: rgb(0, 0, 0)!important;
+    font-weight: 700;
+}
+
+
+@keyframes zoom{
+    0%  {background-size: 100% 100%;}
+    70% {background-size: 120% 120%;}
+    100% {background-size: 100% 100%;}
+}
+
+
+@keyframes twitter{
+    0%  {transform: translateY(100px);}
+    30% {transform: translateY(100px);}
+    50% {transform: translateY(-100px);}
+    60% {transform: translateY(-100px);}
+    80% {transform: translateY(-100px);}
+    100% {transform: translateY(100px);}
+}
+
+@keyframes follow{
+    0%  {transform: translateY(100px);}
+    30% {transform: translateY(100px);}
+    50% {transform: translateY(-100px);}
+    60% {transform: translateY(-100px);}
+    80% {transform: translateY(-100px);}
+    100% {transform: translateY(100px);}
+}
+
+
+
+
+
+
+
+
+
+@media screen and (max-width:978px) {
+
+    .inButton{
+        width: 70px;
+        padding: 4px 0px;
+        font-family: 'Montserrat', 'sans-seriff';
+        font-size: .6rem;
+        text-transform: uppercase;
+        /* border-radius: 30px; */
+        outline: none;
+        color: rgb(0, 67, 129);
+        border: 2px solid rgb(0, 67, 129);
+        background-color: rgba(255, 255, 255, 0);
+        transition: .2s ease-in-out 0s;
+        font-weight: 500;
+    
+    }
+    
+
+    #insights {
+        padding: 50px 0;
+    }
+
+    #insights .container{
+        height: 100%;
+        width: 100%;
+    
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
+    }
+    
+    #insights .container .left{
+        width: 100%;
+        padding-left: 30px;
+        /* padding-right: 60px; */
+        display: flex;
+        flex-direction: column;
+        align-items: flex-start;
+        justify-content: center;
+    }
+
+    #insights .container .left .heading{
+
+        display: flex;
+        flex-direction: column;
+        align-items: flex-start;
+        justify-content: center;
+    }
+
+    #insights .container .left .heading h1{
+        font-size: 1.8rem;
+        text-transform: uppercase;
+    }
+
+    #insights .container .left span{
+        font-size: 1rem;
+        text-transform: uppercase;
+    }
+
+
+    #insights .container .left .about-insights{
+        padding-top: 10px;
+        font-size: .85rem;
+        text-transform: unset;
+        line-height: 1.4rem;
+    }
+
+    #insights .container .left button{
+        margin-top: 30px;
+    }
+
+    #insights .container .right{
+        width: 100%;
+
+    }
+
+    /* Twitter box */
+
+    #insights .container .right .container .twitter-box .twitter-image{
+        height: 20px;
+    }
+
+    
+    .tweet{
+        font-size: .7rem;
+    }
+
+    .follow-us{
+        font-size: .65rem;
+    }
+
+    /* Graphic Design */
+
+    #insights .container .right .container .maya-box span{
+        padding: 20px;
+        color: #000;
+        font-size: .7rem;
+        font-weight: 700;
+    }
+
+        
+    .gd-apply-now{
+        /* transform: translateY(-400px)!important; */
+        transition: .25s ease-in-out 0s;
+        margin-top: 25px;
+        margin-left: 30px;
+        font-weight: 700;
+    }
+
+    #insights .container .right .container .maya-box:hover .gd-apply-now{
+        display: block;
+        transform: translateY(-95px)!important;
+        /* position: relative; */
+        /* width: 140px!important; */
+        /* animation-name: graphic;
+        animation-duration: 2s; */
+        /* transform: translateX(0px); */
+        margin-top: 40px;
+        margin-left: 25px;
+    }
+    
+
+
+    /* FASE */
+
+    
+    #insights .container .right .container .info-box span{
+        padding: 20px 0 0 10px;
+        color: rgb(0, 0, 0);
+        font-size: .7em;
+        font-weight: 700;
+    }
+
+    #insights .container .right .container .info-box .sub-heading{
+        padding: 0px 10px;
+        color: rgb(0, 0, 0);
+        font-size: 1.2rem;
+        font-weight: 700;
+    }
+
+    /* Newsletter */
+
+    #insights .container .right .container .newsletter-box .cover span{
+        font-size: .7rem;
+        text-transform: uppercase;
+        padding: 5px 10px;
+        font-weight: 700;
+    
+        color: #000;
+        
+    }
+    
+    #insights .container .right .container .newsletter-box .cover .sub-heading{
+        font-size: .65rem;
+        text-transform: unset;
+        font-weight: unset;
+        padding: 0px 10px;
+    
+    }
+    
+
+}
+
+@media screen and (max-width:378px){
+
+}
+
+@media screen and (max-width:350px){
+    #insights .container .left .heading h1{
+        font-size: 1.5rem;
+        text-transform: uppercase;
+    }
+
+    #insights .container .left span{
+        font-size: 1rem;
+        text-transform: uppercase;
+    }
+
+
+    #insights .container .left .about-insights{
+        padding-top: 10px;
+        font-size: .7rem;
+        text-transform: unset;
+        line-height: 1.2rem;
+    }
+}

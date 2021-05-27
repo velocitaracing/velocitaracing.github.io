@@ -1,0 +1,314 @@
+#careers{
+    min-height: auto;
+
+    padding: 100px 0;
+
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+    justify-content: center;
+}
+
+#careers .container{
+    height: 100%;
+    width: 100%;
+
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+#careers .container .left{
+    width: 50%;
+    padding-left: 60px;
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    justify-content: center;
+}
+
+#careers .container .left .heading{
+
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    justify-content: center;
+}
+
+#careers .container .left .heading h1{
+    font-size: var(--sectionHeadingFontSize);
+    text-transform: uppercase;
+}
+
+#careers .container .left span{
+    font-size: var(--sectionSubHeadingFontSize);
+    text-transform: uppercase;
+}
+
+
+#careers .container .left .about-careers{
+    padding-top: 10px;
+    font-size: var(--sectionParagraphFontSize);
+    text-transform: unset;
+    line-height: var(--sectionParagraphLineHeight);
+}
+
+#careers .container .left button{
+   margin-top: 30px;
+}
+
+
+#careers .container .right{
+    width: 50%;
+}
+
+#careers .container .right .career-circle{
+    height: 8rem;
+    width: 8rem;
+    background-color: var(--primaryBlue);
+    border-radius: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+
+    transition: .25s ease-in-out 0s;
+}
+
+#careers .container .right .career-circle .career-image{
+    height: 55px;
+    width: 55px;
+    filter: brightness(0) invert(1);
+}
+
+#careers .container .right .career-circle span{
+   filter: brightness(0) invert(1);
+   font-size: .8rem;
+   font-weight: 600;
+   text-transform: capitalize;
+   display: none;
+}
+
+#careers .container .right .career-circle:hover {
+    height: 135px;
+    width: 135px;
+    box-shadow: 0px 4px 8px 0px rgba(0, 0, 0, 0.678);
+}
+
+#careers .container .right .career-circle:hover .career-image{
+  display: none;
+}
+
+#careers .container .right .career-circle:hover span{
+    display: block;
+}
+
+.career-circle-one{
+    position: absolute;
+    right: 3rem;
+}
+
+.career-circle-two{
+    position: absolute;
+    right: 11rem;
+    margin-top: -5rem;
+}
+
+.career-circle-three{
+    position: absolute;
+    right: 11rem;
+    margin-top: 5rem;
+}
+
+.career-circle-four{
+    position: absolute;
+    right: 19rem;
+    margin-top: -10rem;
+}
+
+.career-circle-five{
+    position: absolute;
+    right: 19rem;
+    /* margin-top: 170px; */
+}
+
+
+.career-circle-six{
+    position: absolute;
+    right: 19rem;
+    margin-top: 10rem;
+}
+
+.career-circle-seven{
+    position: absolute;
+    right: 27rem;
+    margin-top: 5rem;
+}
+
+.career-circle-seven span{
+    font-size: 1rem!important;
+    display: block!important;
+}
+
+@media screen and (max-width:978px){
+
+    #careers{
+        /* min-height: 100vh; */
+
+        padding: 50px 0;
+    }
+    
+    #careers .container .left{
+        width: 100%;
+        padding-left: 30px;
+        display: flex;
+        flex-direction: column;
+        align-items: flex-start;
+        justify-content: center;
+    }
+
+    #careers .container .left .heading{
+
+        display: flex;
+        flex-direction: column;
+        align-items: flex-start;
+        justify-content: center;
+    }
+
+    #careers .container .left .heading h1{
+        font-size: var(--sectionHeadingFontSizeM);
+        text-transform: uppercase;
+    }
+
+    #careers .container .left span{
+        font-size: var(--sectionSubHeadingFontSizeM);
+        text-transform: uppercase;
+        padding-right: 30px;
+    }
+
+
+    #careers .container .left .about-careers{
+        padding-top: 10px;
+        font-size: var(--sectionParagraphFontSizeM);
+        text-transform: unset;
+        line-height: var(--sectionParagraphLineHeightM);
+    }
+
+    #careers .container .left button{
+    margin-top: 30px;
+    }
+    #careers .container .right{
+        width: 100%;
+        position: absolute;
+        margin-bottom: -650px;
+    }
+    #careers .container .right .career-circle{
+        height: 6rem;
+        width: 6rem;
+    }
+    #careers .container .right .career-circle .career-image{
+        height: 50px;
+        width: 50px;
+        filter: brightness(0) invert(1);
+    }
+    #careers .container .right .career-circle:hover {
+        height: 7rem;
+        width: 7rem;
+        box-shadow: 0px 4px 8px 0px rgba(0, 0, 0, 0.678);
+        z-index: 1;
+    }
+    #careers .container .right .career-circle:hover span{
+        display: block;
+        text-align: center;
+    }
+    .career-circle-one{
+        position: absolute;
+        right: 3rem;
+    }
+    
+    .career-circle-two{
+        position: absolute;
+        right: 8rem;
+        margin-top: -4rem;
+    }
+    
+    .career-circle-three{
+        position: absolute;
+        right: 8rem;
+        margin-top: 4rem;
+    }
+    
+    .career-circle-four{
+        position: absolute;
+        right: 13rem;
+        margin-top: -8rem;
+    }
+    
+    .career-circle-five{
+        position: absolute;
+        right: 13rem;
+        /* margin-top: 170px; */
+    }
+    
+    
+    .career-circle-six{
+        position: absolute;
+        right: 13rem;
+        margin-top: 8rem;
+    }
+    
+    .career-circle-seven{
+        position: absolute;
+        right: 3rem;
+        margin-top: 8rem;
+    }
+    
+    .career-circle-seven span{
+        font-size: 1rem!important;
+        display: block!important;
+    }
+    
+}
+
+@media screen and (max-width: 378px) {
+
+    #careers{
+        padding: 50px 0;
+    }
+    
+    #careers .container{
+        height: 100%;
+        width: 100%;
+
+        display: flex;
+        align-items: center;
+        justify-content: center;
+
+        /* padding-top: 150px; */
+    }
+}
+
+@media screen and (max-width: 350px) {
+    
+    #careers .container .left .heading h1{
+        font-size: var(--sectionHeadingFontSizeXS);
+        text-transform: uppercase;
+    }
+
+    #careers .container .left span{
+        font-size: var(--sectionSubHeadingFontSizeXS);
+        text-transform: uppercase;
+    }
+
+
+    #careers .container .left .about-careers{
+        padding-top: 10px;
+        font-size: var(--sectionParagraphFontSizeXS);
+        text-transform: unset;
+        line-height: var(--sectionParagraphLineHeightXS);
+    }
+
+}
+
+
+
+
