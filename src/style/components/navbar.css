@@ -1,3 +1,11 @@
+:root{
+    --navLinksFontSize: .85rem;
+    --navLinksFontColor: #000;
+    --navLogoFontSize: 1rem;
+    --primaryBlue: rgb(0, 67, 129);
+
+}
+
 .navbar{
     display: flex;
     align-items: center;
