@@ -52,9 +52,31 @@
 }
 
 #load{
-    animation-name: button;
-    animation-duration: 1s;
+    transition: .3s ease-in 0s;
+}
+
+.animationButton{
+    animation-name: spin;
+    animation-duration: .5s;
     animation-iteration-count: infinite;
 }
 
+@keyframes spin{
+    0%{
+        border: none;
+        border-top: 2px solid rgb(255, 255, 255);
+        border-right: 2px solid rgb(255, 255, 255);
+        border-bottom: 2px solid rgb(255, 255, 255);
+        border-left: 2px solid rgba(255, 255, 255, 0);
+    }
 
+    100%{
+        border: none;
+        border-top: 2px solid rgb(255, 255, 255);
+        border-right: 2px solid rgb(255, 255, 255);
+        border-bottom: 2px solid rgb(255, 255, 255);
+        border-left: 2px solid rgba(255, 255, 255, 0);
+
+        transform: rotate(360deg);
+    }
+}
