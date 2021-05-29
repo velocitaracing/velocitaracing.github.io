@@ -1,0 +1,207 @@
+.flat-card
+{
+    width: 350px;
+    min-height: 200px;
+    background-color: rgb(255, 255, 255);
+
+    margin: 0px 50px;
+}
+
+.flat-card .card-left
+{
+    position: absolute;
+    width: 150px;
+    height: 150px;
+
+    margin-top: 25px;
+    margin-left: -75px;
+    background-color: rgb(255, 255, 255);
+
+    border: 2px solid rgb(0, 162, 255);
+    border-radius: 15px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.flat-card .card-left img
+{
+    height: 120px;
+}
+
+#garret{
+    height: 50px;
+}
+
+#narkha{
+    height: 60px;
+}
+
+
+.flat-card .card-right
+{
+    padding-left: 100px;
+    padding-top: 25px;
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    justify-content: flex-start;
+}
+
+.flat-card .card-right h1
+{
+    text-transform: uppercase;
+    font-size: 1rem;   
+    line-height: 1.4rem;
+}
+
+.flat-card .card-right span
+{
+    display: none;
+}
+
+.flat-card .card-right p
+{
+    
+}
+
+.flat-card .card-right .underline
+{
+    margin: 10px 0;
+    width: 45px;
+}
+
+/* bronze sponsor cards */
+
+.bronze-sponsor .flat-card
+{
+    width: 260px;
+    min-height: 175px;
+    background-color: rgb(255, 255, 255);
+
+    margin: 0px 40px;
+}
+
+.bronze-sponsor .flat-card .card-left
+{
+    position: absolute;
+    width: 135px;
+    height: 135px;
+
+    margin-top: 25px;
+    margin-left: -60px;
+    background-color: rgb(255, 255, 255);
+
+    border: 2px solid rgb(0, 162, 255);
+    border-radius: 15px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.bronze-sponsor .flat-card .card-left img
+{
+    height: 100px;
+}
+
+.bronze-sponsor .flat-card .card-right
+{
+    padding-left: 100px;
+    padding-top: 25px;
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    justify-content: flex-start;
+}
+
+.bronze-sponsor .flat-card .card-right h1
+{
+    text-transform: uppercase;
+    font-size: .9rem;   
+    line-height: 1.4rem;
+}
+
+.bronze-sponsor .flat-card .card-right span
+{
+   
+}
+
+.bronze-sponsor .flat-card .card-right p
+{
+    
+}
+
+
+/* small-bronze sponsor cards */
+
+.small-bronze-sponsor .flat-card
+{
+    width: 230px;
+    min-height: 175px;
+    background-color: rgb(255, 255, 255);
+
+    margin: 0px 40px;
+}
+
+.small-bronze-sponsor .flat-card .card-left
+{
+    position: absolute;
+    width: 115px;
+    height: 115px;
+
+    margin-top: 25px;
+    margin-left: -60px;
+    background-color: rgb(255, 255, 255);
+
+    border: 2px solid rgb(0, 162, 255);
+    border-radius: 15px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.small-bronze-sponsor .flat-card .card-left img
+{
+    height: 90px;
+}
+
+.small-bronze-sponsor .flat-card .card-right
+{
+    padding-left: 75px;
+    padding-top: 25px;
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    justify-content: flex-start;
+}
+
+.small-bronze-sponsor .flat-card .card-right h1
+{
+    text-transform: uppercase;
+    font-size: .85rem;   
+    line-height: 1.4rem;
+}
+
+.small-bronze-sponsor .flat-card .card-right span
+{
+    
+    font-size: .8rem; 
+}
+
+.small-bronze-sponsor .flat-card .card-right p
+{
+    
+}
+
+@media screen and (max-width:450px) {
+   
+    .small-bronze-sponsor .flat-card
+    {
+        width: 230px;
+        min-height: 145px;
+        background-color: rgb(255, 255, 255);
+
+        margin: 0px 40px;
+    }
+
+}
