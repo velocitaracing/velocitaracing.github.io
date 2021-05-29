@@ -95,18 +95,25 @@
     <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet">
    
     <!-- CSS -->
+    <link rel="stylesheet" href="../src/style/components/preloader.css">
     <link rel="stylesheet" href="../src/style/components/navbar.css">
     <link rel="stylesheet" href="../src/style/components/body.css">
     <link rel="stylesheet" href="../src/style/components/footer.css">
+    <link rel="stylesheet" href="../src/style/components/underline.css">
 
     <link rel="stylesheet" href="./css/app.css">
-    <link rel="stylesheet" href="../src/style/components/underline.css">
     <link rel="stylesheet" href="../src/utilities/fontAwesome.css">
    
    
 
 </head>
 <body>
+
+    <!-- Preloader -->
+
+    <div id="preloader">
+        <div id="status">&nbsp;</div>
+    </div>
 
     <!-- Navbar -->
 
@@ -360,6 +367,9 @@
     </script>
 
     <!-- Scripts -->
+
+        <!-- Preloader -->
+        <script src="../src/js/preLoader.js"></script>
 
         <!-- Mobile Navbar -->
         <script src="../src/js/mobnav.js"></script>

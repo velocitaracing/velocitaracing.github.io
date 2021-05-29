@@ -1,4 +1,4 @@
-#about-us{
+#career-areas{
     min-height: 100vh;
 
     /* padding: 100px 0; */
@@ -9,48 +9,49 @@
     justify-content: center;
 }
 
-#about-us .container{
-
+#career-areas .container{
+    width: 100%;
     display: flex;
     align-items: center;
     justify-content: center;
 }
 
-#about-us .container .left{
+#career-areas .container .left{
     
     display: flex;
     flex-direction: column;
-    align-items: center;
+    align-items: flex-start;
     justify-content: center;
-    /* padding-left: 60px; */
-    /* width: 50%; */
+    padding-left: 60px;
+    width: 50%;
 }
 
-#about-us .container .left h1{
+#career-areas .container .left h1{
     font-size: 2.2rem;
     text-transform: uppercase;
 }
 
-#about-us .container .left span{
+#career-areas .container .left span{
     font-size: 1rem;
     text-transform: uppercase;
 }
 
-#about-us .container .left p{
+#career-areas .container .left p{
     font-size: .95rem;
     line-height: 1.4rem;
-    padding-top: 30px;
+    padding-top: 15px;
 }
 
-#about-us .container .right{
+#career-areas .container .right{
     
     display: flex;
     align-items: center;
-    justify-content: center;
+    justify-content: flex-end;
+    padding-right: 60px;
     width: 50%;
 }
 
-#about-us .container img{
+#career-areas .container img{
     
     height: 350px;
     box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.438);
@@ -58,51 +59,52 @@
 }
 
 @media screen and (max-width:978px) {
-    #about-us{
+    #career-areas{
         min-height: 100vh;
     
-        /* padding: 100px 0; */
+        padding: 100px 0;
     
         display: flex;
         flex-wrap: wrap;
         align-items: center;
         justify-content: center;
     }
-    #about-us .container{
+    #career-areas .container{
         display: flex;
         flex-direction: column;
         align-items: center;
         justify-content: center;
     }
 
-    #about-us .container .left{
+    #career-areas .container .left{
     
         display: flex;
         flex-direction: column;
         align-items: flex-start;
         justify-content: center;
-        /* padding-left: 30px; */
+        padding-left: 30px;
+        padding-top: 100px;
         width: 100%;
     }
     
-    #about-us .container .left h1{
+    #career-areas .container .left h1{
         font-size: 1.8rem;
         text-transform: uppercase;
     }
     
-    #about-us .container .left span{
+    #career-areas .container .left span{
         font-size: 1rem;
         text-transform: uppercase;
     }
     
-    #about-us .container .left p{
+    #career-areas .container .left p{
         font-size: .85rem;
         line-height: 1.4rem;
         padding-top: 30px;
         padding-right: 30px;
     }
     
-    #about-us .container .right{
+    #career-areas .container .right{
         
         display: flex;
         align-items: center;
@@ -111,7 +113,7 @@
         padding-top: 50px;
     }
     
-    #about-us .container img{
+    #career-areas .container img{
         
         height: 250px;
         box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.438);
@@ -120,7 +122,7 @@
 }
 
 @media screen and (max-width:378px) {
-       #about-us .container img{
+       #career-areas .container img{
         
         height: 200px;
         box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.438);
@@ -129,24 +131,24 @@
 }
 
 @media screen and (max-width:350px) {
-    #about-us .container .left h1{
+    #career-areas .container .left h1{
         font-size: 1.5rem;
         text-transform: uppercase;
     }
     
-    #about-us .container .left span{
+    #career-areas .container .left span{
         font-size: .8rem;
         text-transform: uppercase;
     }
     
-    #about-us .container .left p{
+    #career-areas .container .left p{
         font-size: .7rem;
         line-height: 1.2rem;
         padding-top: 30px;
         padding-right: 30px;
     }
 
-    #about-us .container img{
+    #career-areas .container img{
         
         height: 200px;
         box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.438);

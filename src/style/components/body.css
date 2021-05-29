@@ -10,6 +10,10 @@ body{
     font-family: 'Montserrat', sans-serif; 
     transition: .25s ease-in-out 0s;
 
+    /* Preloader */
+
+    overflow: hidden;
+
     /* No User Selection */
 
     -webkit-user-select: none;
