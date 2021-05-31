@@ -17,14 +17,14 @@ body{
     color: rgb(23, 63, 53);
     transition: .3s ease 0s;
     /* overflow-x: hidden!important; */
-    overflow-x: hidden!important;
-    overflow-y: hidden;
+    /* overflow-x: hidden!important;
+    overflow-y: hidden; */
 
-
+/* 
       -webkit-user-select: none;
          -moz-user-select: -moz-none;
           -ms-user-select: none;
-              user-select: none;
+              user-select: none; */
 }
 
 .navbar {

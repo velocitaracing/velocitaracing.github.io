@@ -1,0 +1,210 @@
+#how-support{
+    /* min-height: 100vh; */
+
+    /* padding: 100px 0; */
+
+    margin-top: 100px;
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+    justify-content: center;
+
+    /* background-image: url(../../../src/assets/Sponsor-page/partner-us-home-page.png);
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center; */
+}
+
+#how-support .container{
+
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    justify-content: center;
+    width: 100%;
+}
+
+#how-support .container .left{
+    
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    justify-content: center;
+    padding-left: 60px;
+    width: 100%;
+}
+
+#how-support .container .left h1{
+    font-size: 2.2rem;
+    text-transform: uppercase;
+}
+
+#how-support .container .left span{
+    font-size: 1.2rem;
+    text-transform: uppercase;
+}
+
+#how-support .container .left p{
+    font-size: .95rem;
+    line-height: 1.4rem;
+    padding-top: 15px;
+}
+
+#how-support .container .left button{
+
+    margin-top: 30px;
+}
+
+#how-support .container .right{
+    width: 100%;
+    padding-left: 60px;
+}
+
+
+#how-support .container .right .container{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+    flex-wrap: wrap;
+
+}
+
+#how-support .container .right .video-card{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    margin: 30px;
+
+    /* height: 450px; */
+    width: 250px;
+
+
+}
+
+#how-support .container .right .video-card .video{
+    height: 225px;
+    width: 225px;
+    overflow: hidden;
+    border-radius: 100%;
+    border: 3px solid rgb(207, 207, 207);
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+#how-support .container .right .video-card video{
+    height: 250px;
+}
+
+
+#how-support .container .right .video-card span{
+    padding: 20px 0 0 0;
+    font-size: .85rem;
+    text-transform: uppercase;
+}
+
+#how-support .container .right .video-card p{
+    padding: 10px ;
+    font-size: .8rem;
+    text-align: center;
+    width: 250px;
+
+}
+
+@media screen and (max-width:978px) {
+    #how-support{
+        /* min-height: 100vh; */
+    
+        /* padding: 100px 0; */
+    
+        /* margin-top: 100px; */
+        display: flex;
+        flex-wrap: wrap;
+        align-items: center;
+        justify-content: center;
+    
+        /* background-image: url(../../../src/assets/Sponsor-page/partner-us-home-page.png);
+        background-size: cover;
+        background-repeat: no-repeat;
+        background-position: center; */
+    }
+    
+    #how-support .container{
+    
+        display: flex;
+        flex-direction: column;
+        align-items: flex-start;
+        justify-content: center;
+        width: 100%;
+    }
+    
+    #how-support .container .left{
+        
+        display: flex;
+        flex-direction: column;
+        align-items: flex-start;
+        justify-content: center;
+        padding-left: 30px;
+        width: 100%;
+    }
+    
+    #how-support .container .left h1{
+        font-size: 1.6rem;
+        text-transform: uppercase;
+    }
+    
+    #how-support .container .left span{
+        font-size: 1rem;
+        text-transform: uppercase;
+    }
+    
+    #how-support .container .left p{
+        font-size: .85rem;
+        line-height: 1.4rem;
+        padding-top: 15px;
+        padding-right: 15px;
+    }
+    
+    #how-support .container .left button{
+    
+        margin-top: 30px;
+    }
+    
+    #how-support .container .right{
+        width: 100%;
+        padding-left: 0px;
+    }
+
+    #how-support .container .right .video-card{
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
+        margin: 15px;
+    
+        /* height: 450px; */
+        width: 250px;
+    
+    
+    }
+}
+
+@media screen and (max-width:350px) {
+    /* #how-support .container .left h1{
+        font-size: 1.2rem;
+        text-transform: uppercase;
+    }
+    
+    #how-support .container .left span{
+        font-size: 1rem;
+        text-transform: uppercase;
+    }
+    
+    #how-support .container .left p{
+        font-size: .7rem;
+        line-height: 1.2rem;
+        padding-top: 15px;
+        padding-right: 15px;
+    } */
+}

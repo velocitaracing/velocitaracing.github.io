@@ -7,6 +7,11 @@
     flex-wrap: wrap;
     align-items: center;
     justify-content: center;
+
+    /* background-image: url(../../src/assets/Career-page/career-home-page.png);
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center; */
 }
 
 #career-areas .container{
@@ -14,6 +19,8 @@
     display: flex;
     align-items: center;
     justify-content: center;
+
+   
 }
 
 #career-areas .container .left{
@@ -27,12 +34,12 @@
 }
 
 #career-areas .container .left h1{
-    font-size: 2.2rem;
+    font-size: 2.6rem;
     text-transform: uppercase;
 }
 
 #career-areas .container .left span{
-    font-size: 1rem;
+    font-size: 1.2rem;
     text-transform: uppercase;
 }
 

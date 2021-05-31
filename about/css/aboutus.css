@@ -54,7 +54,8 @@
     
     height: 350px;
     box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.438);
-    border: 6px solid rgb(0, 183, 255);
+    border-radius: 20px;
+    /* border: 6px solid rgb(0, 183, 255); */
 }
 
 @media screen and (max-width:978px) {
@@ -114,8 +115,9 @@
     #about-us .container img{
         
         height: 250px;
+        border-radius: 20px;
         box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.438);
-        border: 6px solid rgb(0, 183, 255);
+        /* border: 6px solid rgb(0, 183, 255); */
     }
 }
 
@@ -124,7 +126,7 @@
         
         height: 200px;
         box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.438);
-        border: 6px solid rgb(0, 183, 255);
+        /* border: 6px solid rgb(0, 183, 255); */
     }
 }
 
@@ -150,6 +152,6 @@
         
         height: 200px;
         box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.438);
-        border: 6px solid rgb(0, 183, 255);
+        /* border: 6px solid rgb(0, 183, 255); */
     }
 }

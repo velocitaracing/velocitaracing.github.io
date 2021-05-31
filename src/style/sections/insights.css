@@ -426,15 +426,18 @@
     background-position: top;
     background-repeat: no-repeat;
 
-    animation-name: zoom;
+    /* animation-name: zoom;
     animation-duration: 8s;
-    animation-iteration-count: infinite;
+    animation-iteration-count: infinite; */
+
+    transition: 1.5s ease-in-out 0s;
 
     
 }
 
 #insights .container .right .container .info-box:hover{
 
+    background-size: 120% 120%;
 
 }
 
@@ -474,11 +477,11 @@
 }
 
 
-@keyframes zoom{
+/* @keyframes zoom{
     0%  {background-size: 100% 100%;}
     70% {background-size: 120% 120%;}
     100% {background-size: 100% 100%;}
-}
+} */
 
 
 @keyframes twitter{
