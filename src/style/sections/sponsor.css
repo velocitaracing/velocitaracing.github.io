@@ -53,7 +53,7 @@
     line-height: 1.4rem;
 }
 
-#sponsor .container .left button{
+#sponsor .container .left a{
    margin-top: 30px;
 }
 
@@ -136,7 +136,7 @@
         line-height: 1.4rem;
     }
 
-    #sponsor .container .left button{
+    #sponsor .container .left a{
         margin-top: 30px;
     }
 

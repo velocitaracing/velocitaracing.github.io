@@ -50,7 +50,7 @@
 
 #read-brochure .container .left button{
 
-    margin-top: 30px;
+    /* margin-top: 30px; */
 }
 
 #read-brochure .container .right{
@@ -109,11 +109,6 @@
         line-height: 1.4rem;
         padding-top: 15px;
         padding-right: 15px;
-    }
-    
-    #read-brochure .container .left button{
-    
-        margin-top: 30px;
     }
     
     #read-brochure .container .right{

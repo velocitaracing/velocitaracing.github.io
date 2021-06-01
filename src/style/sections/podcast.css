@@ -55,7 +55,7 @@
     line-height: 1.4rem;
 }
 
-#podcast .container .left button{
+#podcast .container .left a{
    margin-top: 30px;
 }
 
@@ -120,7 +120,7 @@
         line-height: 1.4rem;
     }
     
-    #podcast .container .left button{
+    #podcast .container .left a{
        margin-top: 30px;
     }
     

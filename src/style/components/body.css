@@ -22,7 +22,7 @@ body{
         user-select: none;
 }
 
-.nav-active-body{
-    background-color: rgba(0, 0, 0, 0.288);
+.nav-body-active{
+    overflow: hidden!important;
 }
 

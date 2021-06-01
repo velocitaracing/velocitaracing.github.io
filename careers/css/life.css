@@ -179,4 +179,12 @@
         height: 250px;
         
     }
+
+    #life .container-right{
+       
+        padding: 20px 0;
+       
+    }
+
+   
 }
