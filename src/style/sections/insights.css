@@ -430,7 +430,7 @@
     animation-duration: 8s;
     animation-iteration-count: infinite; */
 
-    transition: 1.5s ease-in-out 0s;
+   
 
     
 }
@@ -438,7 +438,7 @@
 #insights .container .right .container .info-box:hover{
 
     background-size: 120% 120%;
-
+    transition: 1.5s ease-in-out 0s;
 }
 
 #insights .container .right .container .info-box .cover{
