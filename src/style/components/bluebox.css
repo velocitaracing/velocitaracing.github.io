@@ -55,10 +55,10 @@
 }
 
 .blue-box button:hover{
-    /* border: 2px solid #fff;
-    color: rgb(0, 67, 129); */
+    border: 2px solid #fff;
+    color: rgb(0, 67, 129);
     cursor: pointer;
-    /* background-color: #fff; */
+    background-color: #fff;
 } 
 
 @media screen and (max-width:450px) {
