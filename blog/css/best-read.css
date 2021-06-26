@@ -1,0 +1,225 @@
+#top-weekly{
+    min-height: 100vh;
+
+    /* padding: 100px 0; */
+    width: 100%;
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+    justify-content: center;
+}
+
+#top-weekly .container{
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+#top-weekly .container .left{
+    
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    padding-left: 60px;
+    width: 50%;
+}
+
+#top-weekly .container .left h1{
+    font-size: 2.2rem;
+    text-transform: uppercase;
+}
+
+#top-weekly .container .left span{
+    font-size: 1rem;
+    text-transform: uppercase;
+}
+
+#top-weekly .container .left p{
+    font-size: .95rem;
+    line-height: 1.4rem;
+    padding-top: 30px;
+}
+
+#top-weekly .container .right{
+    
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    width: 50%;
+    padding: 0 30px;
+    height: 100%;
+    position: relative;
+}
+
+#top-weekly .container .right h1{
+    font-size: 2.4rem;
+    text-transform: capitalize;
+    font-weight: 400;
+}
+#top-weekly .container .right .big{
+    font-size: 4.6rem;
+    text-transform: uppercase;
+    font-weight: 700;
+}
+
+
+#top-weekly .container .right span{
+    font-size: 1rem;
+    text-transform: uppercase;
+}
+
+#top-weekly .container .right p{
+    font-size: .95rem;
+    line-height: 1.4rem;
+    padding-top: 30px;
+}
+
+#top-weekly .right .container {
+    width: 100%;
+    position: relative;
+}
+
+#top-weekly .right .container .heading {
+   
+    position: absolute;
+    left: 45px;
+    top: 0px;
+}
+
+#top-weekly .right .container .content{
+    width: 100%;
+    padding-left: 45px;
+}
+
+
+#top-weekly .right .heading span{
+    text-transform: uppercase;
+    font-size: 1.2rem;
+   
+}
+
+#top-weekly .right .container ul{
+    list-style: none;
+
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    justify-content: flex-end;
+
+    width: 100%;
+    margin-top: 50px;
+    
+}
+
+#top-weekly .right .container ul li{
+    display: flex;
+    align-items: center;
+    justify-content: flex-start;
+    margin: 15px 0;
+
+    /* border: 3px solid rgb(255, 39, 75); */
+    background-color: rgb(235, 235, 235);
+    width: 525px;
+    height: 145px;
+    box-shadow: 0 10px 20px 0px rgba(0,0,0,.3);
+
+    padding: 0 20px;
+}
+
+#top-weekly .right .date{
+        position: relative;
+        height: 70px;
+        width: 55px;
+        border: 4px solid rgb(255, 15, 135);
+        display: flex;
+        align-items: center;
+        flex-direction: column;
+        justify-content: space-evenly;
+    
+        color: rgb(255, 34, 144);
+
+}
+
+#top-weekly .right .container ul li img{
+    height: 100px;
+    border-radius: 10px;
+    margin-left: 20px;
+}
+
+#top-weekly .right .container ul li .text{
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    justify-content: space-between;
+    padding-left: 20px;
+
+    height: 100%;
+    padding: 20px;
+}
+
+#top-weekly .right .container ul li .text .title{
+    text-transform: none;
+}
+
+#top-weekly .right .container ul li .text .descrip{
+    text-transform: none;
+    font-size: .8rem;
+}
+
+#top-weekly .right .container ul li .text button{
+    
+}
+
+#top-weekly .sub-button{
+    /* position: relative; */
+    bottom: 90px;
+    right: 10px;
+    padding: 10px 15px 10px 15px;
+    outline: none;
+    border: none;
+    font-weight: 700;
+    font-size: 1rem;
+    overflow: hidden;
+    font-family: 'Montserrat';
+    transition: .1s ease-in-out 0s;
+
+    background-color: rgb(255, 61, 94);
+
+    color: #fff;
+}
+
+#top-weekly .sub-button span{
+    /* position: absolute; */
+    height: 120px;
+    width: 35px;
+    transform: rotateZ(15deg);
+    background-color: rgb(230, 226, 0);
+    left: -10px;
+    top: -20px;
+
+    transition: .1s ease-in-out 0s;
+}
+
+#top-weekly .right .container ul li .action{
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  width: 100%;
+}
+
+#top-weekly .right .container ul li .action .sub-author{
+    font-size: .7rem;
+  }
+
+
+#top-weekly .sub-button:hover{
+   cursor: pointer;
+   background-color: rgb(230, 226, 0);
+}
+
+#top-weekly .sub-button:hover span{
+    background-color: rgb(0, 0, 0);
+}

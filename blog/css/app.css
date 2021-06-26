@@ -1,1 +1,11 @@
 @import './blog-home.css';
+@import './blog-card.css';
+@import './best-read.css';
+@import './main-blog-card.css';
+@import './more.css';
+@import './news.css';
+
+
+
+@import '../../src/style/components/underline.css';
+
