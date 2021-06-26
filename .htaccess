@@ -1,2 +1,2 @@
 ErrorDocument 404 /404.html
-Redirect /blog /404.html
+Redirect blog /404.html
