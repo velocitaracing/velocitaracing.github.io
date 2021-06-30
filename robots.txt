@@ -1,0 +1,3 @@
+User-agent: *
+Disallow: 
+Sitemap: https://velocitaracing.github.io/sitemap.xml
