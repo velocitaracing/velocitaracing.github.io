@@ -59,6 +59,39 @@
     <meta name="theme-color" content="#ffffff">
 
     <!-- Open Graph -->
+
+    <!-- Password -->
+    <script language="JavaScript">
+    
+      var password;
+      var username;
+      var pass1="admin";
+      var usern ="admin";
+      
+      username=prompt('Please enter your Username to view this page!','');
+      
+      
+      
+      if (username==usern)
+      {
+          password=prompt('Please enter your password to view this page!','');
+          
+          if(password==pass1)
+          alert('Access Granted!');
+         
+          else{
+              window.location="../../";
+              alert('InCorrect Password, Access Denied!'); 
+          }}
+      
+      else
+         {
+          alert('Incorrect Username, Access Denied!');
+          window.location="../../";
+          }
+      
+   
+      </script>
     
     <!-- LinkedIn -->
     <meta name="image" property="og:image" content="https://velocitaracing.github.io/src/assets/Logo/image.png" />
