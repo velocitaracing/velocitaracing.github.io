@@ -1,0 +1,251 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat&display=swap');
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    
+}
+
+body{
+    font-family: 'Montserrat', sans-serif; 
+    color: rgb(23, 63, 53);
+    transition: .3s ease 0s;
+    /* overflow-x: hidden!important; */
+    overflow-x: hidden;
+    overflow-y: scroll;
+
+
+      -webkit-user-select: none;
+         -moz-user-select: -moz-none;
+          -ms-user-select: none;
+              user-select: none;
+  
+}
+
+#home{
+    /* height: 90vh; */
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+
+#home-2{
+  /* height: 80vh; */
+  width: 100%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+
+.container{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    width: 50%;
+    text-align: left;
+}
+
+.text{
+    width: 100%;
+    padding: 0 0 0 20%;
+    text-align: left;
+}
+
+.container p1{
+     font-size: 75px;
+    line-height: 1.5em;
+    padding: 10px 0;
+
+}
+
+.container p2{
+    font-size: 40px;
+    line-height: 1.5em;
+
+}
+
+
+
+.container p{
+    font-size: 30px;
+   line-height: 1.5em;
+   margin: 10px 0;
+   padding: 10px 0;
+
+}
+
+.txt-type{
+    margin: 20px auto;
+    padding: 20px 0;
+}
+
+
+@media screen and (max-width:807px){
+    
+
+.container p1{
+     font-size: 65px;
+ 
+}
+
+.container p2{
+    font-size: 30px;
+
+
+}
+
+.container p{
+    font-size: 20px;
+  
+
+}
+
+}
+
+
+@media screen and (max-width:609px){
+    
+
+    .container p1{
+         font-size: 60px;
+     
+    }
+    
+    .container p2{
+        font-size: 25px;
+    
+    
+    }
+    
+}
+
+
+@media screen and (max-width:511px){
+
+    #home{
+        /* margin-top: 15vh;
+        flex-wrap: wrap;
+        margin-bottom: 5vh; */
+    }
+    .container{
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
+        width: 100%;
+        text-align: unset;
+    }
+    
+    .text{
+        width: 100%;
+        margin: 0 0 0 0;
+        padding: 0 0 0 10%;
+        text-align: unset;
+    }
+
+
+}
+
+
+
+.navbar{
+    background-color: #000;
+}
+
+
+
+.container {
+    width: 100%;
+    height: 480px;
+  }
+  
+  #learn-more {
+    fill-opacity: 0;
+    fill: #fff;
+    stroke: #fff;
+    stroke-width: 2;
+    border-radius: 5px;
+    stroke-linejoin: round;
+    transition: all 250ms ease-in;
+    cursor: pointer;
+  }
+  #learn-more:hover {
+    fill-opacity: 1;
+  }
+  #learn-more:hover ~ .learn-more-text {
+    fill: #005fa4;
+  }
+  
+  .learn-more-text {
+    font-family: "Roboto";
+    fill: #fff;
+    pointer-events: none;
+    font-size: 14px;
+    transition: all 250ms ease-in;
+  }
+  
+  .center {
+    fill: #005fa4;
+  }
+  
+  .pointer {
+    fill: #fff;
+    stroke: #3b8fc0;
+    stroke-width: 2;
+  }
+  
+  .nav-copy {
+    font-family: "Roboto";
+    fill: #fff;
+    fill-opacity: 1;
+    transition: all 250ms ease-in;
+  }
+  .nav-copy.changing {
+    fill-opacity: 0;
+  }
+  
+  .service {
+    cursor: pointer;
+  }
+  .service text {
+    font-size: 14px;
+    font-family: "Roboto";
+    text-anchor: middle;
+  }
+  .service .icon-wrapper {
+    transform-origin: 50% 50%;
+  }
+  .service .icon-wrapper, .service .icon-wrapper > * {
+    transition: all 250ms ease-in;
+  }
+  .service circle {
+    fill: #005fa4;
+  }
+  .service circle.shadow {
+    fill-opacity: 0;
+    filter: url(#service-shadow);
+  }
+  .service use {
+    fill: #fff;
+  }
+  .service text {
+    fill: #4d4d4d;
+  }
+  .service.active .icon-wrapper, .service:hover .icon-wrapper {
+    transform: scale(1.15) translateY(-5px);
+  }
+  .service.active .icon-wrapper, .service.active .icon-wrapper > *, .service:hover .icon-wrapper, .service:hover .icon-wrapper > * {
+    transition: all 250ms ease-out;
+  }
+  .service.active .icon-wrapper circle.shadow, .service:hover .icon-wrapper circle.shadow {
+    fill-opacity: 0.4;
+  }
+  .service.active text, .service:hover text {
+    fill: #005fa4;
+    font-weight: bold;
+  }
+
+

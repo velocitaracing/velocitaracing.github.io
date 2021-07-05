@@ -1,0 +1,120 @@
+#stats{
+    /* height: 40vh; */
+
+    background-color: rgb(247, 247, 247);
+    padding: 60px 0;
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    justify-content: center;
+}
+
+#stats .blue-box{
+    position: absolute;
+    /* top: 0; */
+    /* left: 0; */
+    
+    height: 120px;
+    width: 120px;
+    background-color: rgb(3, 77, 138);
+
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+#stats .stats-heading{
+    /* position: absolute; */
+    padding-left: 5%;
+}
+
+#stats .blue-box .big{
+    /* position: absolute; */
+    position: absolute;
+    left: 25px;
+    /* top: 55px; */
+    font-size: 1.4em;
+    color: rgb(255, 255, 255);
+}
+
+
+#stats .stats-heading .blue-box .underline{
+    position: absolute;
+    left: 25px;
+    height: 4px;
+    width: 50px;
+    background-color: rgb(255, 255, 255);
+}
+
+
+
+/* #stats .stats-heading .underline{
+    margin-top: 20px;
+    height: 4px;
+    width: 100px;
+    background-color: rgb(3, 77, 138);
+} */
+
+#stats .container{
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+    padding-top: 50px;
+    padding-left: 150px;
+}
+
+#stats .container .number, #stats .container .text{
+    font-size: 30px;
+    font-family: 'Satisfy', cursive;
+    color: rgb(0, 0, 0);
+}
+
+#stats .container .rupees{
+    font-size: 50px;
+    color: rgb(255, 0, 179);
+}
+
+.razorpay{
+    display: flex;
+    flex-direction: column-reverse;
+    align-items: center;
+    justify-content: center;
+}
+
+.rPayButton{
+    margin-bottom: 15px ;
+}
+
+@media screen and (max-width:450px){
+    #stats{
+        padding-top: 40vh;
+        height: unset;
+    }
+
+    .stats-pay-button{
+        margin-top: 20px;
+        margin-right: unset!important;
+    }
+
+    #stats .number{
+        margin-bottom: 40px;
+    }
+
+    #stats .container{
+        height: 100%;
+        width: 100%;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: space-evenly;
+    }
+
+    #stats .number, #stats .text{
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
+        border-bottom: 1px solid rgb(255, 0, 179);
+    }
+}
