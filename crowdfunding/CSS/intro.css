@@ -8,6 +8,10 @@
 
 }
 
+/* #main-form{
+    display: none;
+} */
+
 #intro .intro-text{
     display: flex;
     flex-direction: column;
@@ -126,6 +130,12 @@
 
         width: 95%;
         height: unset;
+    }
+
+    #intro .intro-text p{
+        font-size: .85rem;
+        /* padding: 0 0 100px 0; */
+        padding-right: 30px;
     }
     
     #intro .chart{

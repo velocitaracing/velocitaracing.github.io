@@ -2,8 +2,59 @@
   Basic Modal Styles
 \**************************/
 
+.error{
+  color: red!important;
+}
+.input-disabled{
+  color: rgb(92, 92, 92)!important;
+}
+
+.pure-button{
+  /* z-index: -100!important; */
+  /* opacity: 0; */
+ 
+}
+
+.next-button{
+  text-transform: uppercase;
+  text-decoration: none;
+  color: #fff;
+
+  background-color: #006eff;
+  padding: 15px 30px;
+  position: absolute;
+  bottom: 0px;
+  right: 0;
+  font-size: .8rem;
+}
+
+#new-pay{
+  text-transform: uppercase;
+  text-decoration: none;
+  color: #fff;
+
+  background-color: #006eff;
+  padding: 15px 30px;
+  position: absolute;
+  bottom: 0px;
+  font-size: .8rem;
+  left: 0;
+}
+
+
+.blocker{
+  z-index: 100;
+}
+
+.pure-g{
+  letter-spacing: unset!important;
+}
 .modal {
     font-family: -apple-system,BlinkMacSystemFont,avenir next,avenir,helvetica neue,helvetica,ubuntu,roboto,noto,segoe ui,arial,sans-serif;
+    /* max-width: 700px; */
+    /* padding: 0 100px; */
+    width: 95%;
+    min-height: 440px;
   }
   
   .modal__overlay {
