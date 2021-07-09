@@ -1,4 +1,15 @@
+$("#close-process").click(function(){
 
+    $(".slabs").removeClass("slab-active");
+    // $(".slabs i").removeClass("arrow-active");
+    $(".slab-1").click()
+    
+      
+      $('.slab-1').addClass("slab-active");
+    //   $('.slab-1').find("i").addClass("arrow-active");
+});
+      
+      
       $(".slab-1").click(function(){
         document.getElementById("slab-name").innerHTML = "cones"
         document.getElementById("payment-amount").innerHTML = "100.00"
@@ -222,6 +233,11 @@
           $('#dis-two').prop('disabled', false);
         });
 
+        // var btn = document.createElement("a");   // Create a <button> element
+        // btn.innerHTML = "Edit Amount";
+        // btn.setAttribute("id", "edit-money");                   // Insert text
+        // document.body.appendChild(btn);
+
         $("#proceed-step-three").click (function() {
           var nameValue = document.getElementById("dis-two").value;
           document.getElementById("text").value = "upi://pay?cu=INR&pa=satvikcrvk718-1@oksbi&pn=Satvik%20S.&am="+ nameValue + "&tn=Velocita%20Racing%20Crowdfunding%20Cones"
@@ -252,4 +268,6 @@
               $("#qr-generate").css({'display':'block'});
             }, 2800);
         // document.getElementById('myImage').src='./gift-2.gif'
-      });
+    });
+
+
