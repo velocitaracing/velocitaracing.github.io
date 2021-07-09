@@ -20,6 +20,8 @@ function main() {
 
     $("#loading-alert").css({'display':'none'});
 
+    $("#sendbut").css({'display':'block'});
+
     $("#agree").css({'display':'none'});
 
     $("#finish-button").css({'display':'none'});  
@@ -100,6 +102,7 @@ $("#proceed-step-one").click (function() {
                 document.getElementById("sendbut").disabled = true;
                 $("#step-one-form").css({'display':'none'});
                 $("#step-two-form").css({'display':'none'});
+                $("#sendbut").css({'display':'none'});
 
                   
             });
