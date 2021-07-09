@@ -9,7 +9,7 @@
     text-align: center;
 
     background-image: url(../Web\ 1280\ –\ 1.png);
-    /* background-position: top center; */
+    /* background-position: center; */
     background-repeat: no-repeat;
     background-size: cover;
     background-attachment: fixed;
@@ -124,6 +124,9 @@
 
 @media screen and (max-width:450px){
 
+#home{
+    background-position: center;
+}
     
 #home .cover-1{
     width: 100%;
