@@ -124,9 +124,9 @@
 
 @media screen and (max-width:450px){
 
-#home{
+/* #home{
     background-position: center;
-}
+} */
     
 #home .cover-1{
     width: 100%;
