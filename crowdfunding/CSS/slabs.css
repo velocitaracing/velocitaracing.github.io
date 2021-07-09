@@ -220,17 +220,17 @@
 .qr-pay{
   display: flex;
   flex-direction: column;
-  align-items: center;
+  align-items: flex-start;
   justify-content: center;
   position: absolute;
-  right: 0px;
-  bottom: 30px;
+  right: 30px;
+  bottom: 51px;
 }
 
 .payment-gpay{
  
   bottom: 210px;
-  margin: 15px 35px 0 30px;
+  margin: 15px 35px 0 0px;
   font-size: .75rem;
   font-weight: 400;
   line-height: 1.2rem;
@@ -257,18 +257,44 @@
 
 .upi-button{
   margin: 10px 0px 4px 0px;
-  height: 42px;
+  height: 38px;
   background-color: #fff;
-  width: 162px;
+  width: 180px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  border-radius: 2px;
+  /* border: .15rem solid rgb(175, 175, 175); */
+  box-shadow: 0 0 10px 0 rgb(0 0 0 / 20%);
+}
+
+
+.raz-button{
+  margin: 10px 0px 4px 30px;
+  height: 38px;
+  font-family: Lato, Muli, -apple-system, BlinkMacSystemFont, Arial, sans-serif;
+  font-size: 14px;
+  color: #fff;
+  font-weight: 600;
+  background-color: #528ff0;
+  width: 180px;
  display: flex;
  align-items: center;
  justify-content: center;
- border-radius: 4px;
- border: .15rem solid rgb(175, 175, 175);
+ border-radius: 2px;
+ /* border: .15rem solid #528ff0; */
+ box-shadow: 0 0 10px 0 rgb(0 0 0 / 20%);
+ text-decoration: none;
 }
 
 .upi-image{
   height: 30px;
+}
+
+.raz-img{
+  height: 16px;
+  margin-top: 5px;
+  margin-left: 70px;
 }
 
 #qrcode{
@@ -507,7 +533,7 @@
   }
 
   #slabs .container .payment-box{
-    height: 735px;
+    height: 755px;
     width: 375px;
     background-color: rgb(241, 241, 241);
     box-shadow: 0 4px 8px 0 rgba(0,0,0,.4);
@@ -534,12 +560,12 @@
   }
 
   .payment-gpay{
-    
+    margin-left: 30px;
   }
 
   .qr-pay{
   position: absolute;
-  bottom: 120px;
+  bottom: 140px;
   left: 0;
   display: flex;
   flex-direction: column;
@@ -550,6 +576,10 @@
   .upi-button{
     position: relative;
     left: 30px;
+  }
+
+  .raz-button{
+
   }
 /* 
   .googlepay-payment{
@@ -585,7 +615,7 @@
   }
 
   #slabs .container .payment-box{
-    height: 750px;
+    height: 775px;
     width: 345px;
     background-color: rgb(241, 241, 241);
     box-shadow: 0 4px 8px 0 rgba(0,0,0,.4);
@@ -621,7 +651,7 @@
   }
 
   #slabs .container .payment-box{
-    height: 820px;
+    height: 840px;
     width: 300px;
     background-color: rgb(241, 241, 241);
     box-shadow: 0 4px 8px 0 rgba(0,0,0,.4);

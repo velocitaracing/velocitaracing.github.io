@@ -19,7 +19,7 @@
     justify-content: space-between;
 
     width: 60%;
-    padding-left: 5%;
+    padding-left: 60px;
     /* height: 40%; */
 }
 
@@ -127,7 +127,7 @@
         justify-content: center;
     
         padding-top: 50px;
-
+        padding-left: 30px;
         width: 95%;
         height: unset;
     }

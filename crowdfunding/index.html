@@ -487,22 +487,37 @@
 
               <div class="razorpay-payment">
                 <p class="payment-raz">Pay using Razorpay</p>
-              <form class="raz">
+              <!-- <form class="raz">
                 <script src = "https://cdn.razorpay.com/static/widget/payment-button.js"
                 data-payment_button_id = "pl_FNmjTJSGXBYIfp"
                 data-button_text = "PAY NOW"
                 data-button_theme = "brand-color">
                 </script>
-              </form>
+              </form> -->
+              <!-- <div class="razorpay-embed-btn" data-url="https://pages.razorpay.com/pl_HWvnyCfD3KuaAM/view" data-text="Pay Now" data-color="#528FF0" data-size="medium">
+                <script>
+                  (function(){
+                    var d=document; var x=!d.getElementById('razorpay-embed-btn-js')
+                    if(x){ var s=d.createElement('script'); s.defer=!0;s.id='razorpay-embed-btn-js';
+                    s.src='https://cdn.razorpay.com/static/embed_btn/bundle.js';d.body.appendChild(s);} else{var rzp=window['__rzp__'];
+                    rzp && rzp.init && rzp.init()}})();
+                </script>
+              </div> -->
+
+                <a id="#raz-but" class="raz-button" href="https://pages.razorpay.com/velocitaracing">Pay Now</a>
+                <img class="raz-img" src="./powered_by_razorpay.png" alt="">
+              
+                  
               </div>
 
               <div class="qr-pay">
                 <p class="payment-gpay">Scan and pay using UPI</p>
                 <a id="upi-but" class="upi-button" href="#ex2" rel="modal:open"><img class="upi-image" src="./Preview.jpg" alt=""></a>
+              </div>
                 <!-- <img id="qr-generate" class="qr" src="./QRS/QR.png" alt="">
                 <div id="pay-load" class="loader"></div>
                 <p class="upi-id">velocitaracing@oksbi</p> -->
-                <div id="ex2" class="modal">
+              <div id="ex2" class="modal">
                   <!-- <p>Thanks for clicking on 2. That felt good.</p> -->
                   <!-- <img id="qr-generate" class="qr" src="./QRS/QR.png" alt="">
                   <div id="pay-load" class="loader"></div>
@@ -596,7 +611,7 @@
 
                           <div id="agree" class="pure-u-1 pure-u-md-1-3">
                             <legend></legend>
-                            <p>By clicking next you hereby state that the above given informations are correct.
+                            <p>By clicking next you here by state that the above given informations are correct.
                               <br>
                             </p>
                           </div>
@@ -626,15 +641,20 @@
                </form>
 
 
-               <div id="pay-load-two">
-                <div id="pay-load" class="loader"></div>
-              </div>
+                <div id="pay-load-two">
+                  <div id="pay-load" class="loader"></div>
+                </div>
 
                 <span id="proceed-for-payment"> Click Proceed to continue to Payment</span>
 
                 <div id="loading-alert">
                   <!-- <img src="./__Iphone-spinner-1.gif" alt=""> -->
-                  <span>Loading...</span>
+                  <span>Processing...</span>
+                </div>
+
+                <div id="internet-alert">
+                  <!-- <img src="./__Iphone-spinner-1.gif" alt=""> -->
+                  <span>Failed!<br><br> Check internet connection, <br><br>then try again.</span>
                 </div>
 
                 <!-- <span id="link-expired">The paymet link has expired<br>Refresh the page to make a new payment</span> -->
@@ -646,6 +666,7 @@
                 <a href="javascript:void(0);" id="proceed-step-three"  class="next-button" >NEXT 3</a>
 
                 <a href="#upi-cone" id="proceed-step-four"  rel="modal:open" class="next-button" >PROCEED</a>
+
               </div>
 
              
@@ -681,7 +702,7 @@
               </div>
                 
 
-              </div>
+              
             </div>
           </div>
         </div>
@@ -736,41 +757,55 @@
       
     </section>
 
-    <!-- <section id="intro">
-      <div data-aos="zoom-in" class="intro-text">
-        <h1>What have we achieved?</h1>
-        <div class="underline"></div>
-        <p data-aos="zoom-in">
-          <span class="bold">“Coming together is a beginning; keeping together is progress;
-            Working together is a success.”</span>
+    <section id="intro" class="achieve">
+      <div class="intro-text intro-achieve">
+        <h1 data-aos="zoom-in">What have we achieved?</h1>
+        <div data-aos="zoom-in" class="underline"></div>
+          <span data-aos="zoom-in" class="bold">“Coming together is a beginning; keeping together is progress;
+            Working together is a success.” <br><br>    Our success over the years,<br></span>
 
-            <br><br>    Our success over the years,<br>
-            <br>FB 2019 - Our first venture into Formula Student. With absolutely no foundation to work on, the team
-                designed and built our first Formula Student car THE VRF1.
-            <br>Engineering design event - 47th
-            <br>Business plan - 27th
-            <br>Cost & Manufacturing event - 29th
-            <br>Overall - 52nd out of 54 teams
-            
-            <br><br>    FB 2020 - Over the next year, a lot of meticulous work went into building our pride The VRF2. It was
-                overall a much lighter, faster, well put together car.
-            <br>Engineering design event - 18th
-            <br>Business plan - 12th
-            <br>Cost & Manufacturing event - 4th
-            <br>Overall - 13th out of 52 teams
+            <div class="container">
+              <div data-aos="zoom-in" class="card">
+                <p>
+                  <br>FB 2019 - Our first venture into Formula Student. With absolutely no foundation to work on, the team
+                      designed and built our first Formula Student car THE VRF1.
+                      <br><br>Engineering design event - 47th
+                  <br>Business plan - 27th
+                  <br>Cost & Manufacturing event - 29th
+                  <br>Overall - 52nd out of 54 teams
+                </p>
 
-            <br><br>    FB 2021 - Virtual Event - Cutting down on the manufacturing
-                part and having more teams participating.
-              <br>Engineering design event - 13th
-              <br>Business plan - 43rd
-              <br>Overall - 22nd out of 60 teams
-        </p>
-        <div data-aos="fade-up" class="read-more-button">
+                <div class="year">2019</div>
+              </div>
+              <div data-aos="zoom-in" class="card">
+                <p>
+                  <br>FB 2020 - Over the next year, a lot of meticulous work went into building our pride The VRF2. It was
+                      overall a much lighter, faster, well put together car.
+                      <br><br>Engineering design event - 18th
+                  <br>Business plan - 12th
+                  <br>Cost & Manufacturing event - 4th
+                  <br>Overall - 13th out of 52 teams
+                </p>
+                <div class="year">2020</div>
+              </div>
+              <div data-aos="zoom-in" class="card">
+                <p>
+                  <br>FB 2021 - Virtual Event - Cutting down on the manufacturing
+                  part and having more teams participating.
+                  <br><br>Engineering design event - 13th
+                  <br>Business plan - 43rd
+                  <br>Overall - 22nd out of 60 teams
+                </p>
+                <div class="year">2021</div>
+              </div>
+            </div>
+
+        <!-- <div data-aos="fade-up" class="read-more-button">
           <button class="secondaryButton secondary-dark-button">READ MORE</button>
-        </div>
+        </div> -->
         
       </div>
-      <div class="chart">
+      <!-- <div class="chart">
         <div class="group-one">
          
           <img data-aos="zoom-in" src="./DSC_0846.webp" alt="">
@@ -781,8 +816,8 @@
           <img data-aos="zoom-in" src="./IMG_2855 (1).webp" alt="">
         </div>
       </div>
-      
-    </section> -->
+       -->
+    </section>
 
     
 
@@ -877,7 +912,7 @@
       
     </section>
 
-    <section id="contributors">
+    <!-- <section id="contributors">
       <div class="cont-text">
         <h1 data-aos="fade-up" >Contributors</h1>
         <div data-aos="zoom-in" class="underline"></div>
@@ -886,15 +921,15 @@
 
       <div class="names">
         <ul data-aos="zoom-in" id="myNames">
-          <!-- <li>Niranjan &nbsp;.&nbsp;</li>
+          <li>Niranjan &nbsp;.&nbsp;</li>
           <li>Pranay &nbsp;.&nbsp;</li>
           <li>Deep &nbsp;.&nbsp;</li>
           <li>Satvik &nbsp;.&nbsp;</li>
-          <li>Deep</li> -->
+          <li>Deep</li>
         </ul>
       </div>
 
-    </section>
+    </section> -->
 
       
   </section>
@@ -988,12 +1023,12 @@
                     
                     $("#loading-alert").css({'display':'flex'});
                     fetch(scriptURL, { method: 'POST', body: new FormData(form)})
-                    .then(response => alert("You have successfully submitted."))
+                    // .then(response => alert("You have successfully submitted."))
                     .then(response => $("#loading-alert").css({'display':'none'}))
                     .then(response => $("#proceed-step-four").css({'display':'block'}))
                     .then(response => $("#proceed-for-payment").css({'display':'block'}))
                     .then(response => $("#main-form").trigger("reset"))
-                    .catch(error => console.error('Error!', error.message | alert("Check internet connection")))  
+                    .catch(error => console.error('Error!', error.message | $("#loading-alert").css({'display':'none'}) | $("#internet-alert").css({'display':'block'}) | alert("Check internet connection") ))  
                     // .catch(error => alert("Check internet connection"))         
                 })
 </script>

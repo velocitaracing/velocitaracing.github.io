@@ -20,6 +20,8 @@ function main() {
 
     $("#loading-alert").css({'display':'none'});
 
+    $("#internet-alert").css({'display':'none'});
+
     $("#sendbut").css({'display':'block'});
 
     $("#agree").css({'display':'none'});
