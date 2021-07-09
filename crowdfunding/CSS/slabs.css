@@ -256,15 +256,15 @@
 }
 
 .upi-button{
-  margin: 10px 0px 0 5px;
-  height: 38px;
+  margin: 10px 0px 4px 5px;
+  height: 42px;
   background-color: #fff;
-  width: 158px;
+  width: 162px;
  display: flex;
  align-items: center;
  justify-content: center;
  border-radius: 4px;
- border: .1rem solid black;
+ border: .15rem solid rgb(175, 175, 175);
 }
 
 .upi-image{
@@ -349,6 +349,22 @@
   /* display: none; */
 }
 
+#loading-alert{
+
+  /* display: flex;
+  align-items: center;
+  justify-content: center;
+
+  height: 100%;
+  width: 100%; */
+
+}
+
+
+#loading-alert img{
+  height: 50px;
+}
+
 #sendbut{
   opacity: 0;
 }
@@ -381,6 +397,13 @@
 .payment-instructions{
   padding-top: 20px;
   font-size: .8rem;
+}
+
+#thank-you{
+  background-image: url(../thank-you.png);
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: center;
 }
 
 .generated-qr{

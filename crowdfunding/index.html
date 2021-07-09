@@ -527,7 +527,7 @@
                             </div>
                             <div class="pure-u-1-2 pure-u-md-1-3">
                                 <label for="multi-email">Phone Number</label>
-                                <input name="Phone" type="text" class="pure-u-23-24" required="" />
+                                <input name="Phone" type="tel" id="phnumber" class="pure-u-23-24" required="" />
                             </div>
                             <legend style="margin: 15px 0 10px 0;">Address</legend>
                             <div class="pure-u-1-2 pure-u-md-1-3">
@@ -536,7 +536,7 @@
                             </div>
                             <div class="pure-u-1-2 pure-u-md-1-3">
                                 <label for="multi-city">Pin Code</label>
-                                <input name="Pin Code" type="text" class="pure-u-23-24" />
+                                <input name="Pin Code" type="text" id="pincode" class="pure-u-23-24" />
                             </div>
                             <div class="pure-u-1 pure-u-md-1-3 state-select">
                                 <label for="multi-state">State</label>
@@ -594,13 +594,20 @@
                               <input name="Amount" type="number" min="1" step="any" id="dis-two" class="pure-u-23-24 input-disabled" disabled  value="100" />
                           </div>
 
+                          <div id="agree" class="pure-u-1 pure-u-md-1-3">
+                            <legend></legend>
+                            <p>By clicking next you hereby state that the above given informations are correct.
+                              <br>
+                            </p>
+                          </div>
+
                           <div>
                             <!-- <small>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Animi quia quae beatae adipisci quasi repellat fugiat incidunt? Eum, aspernatur corrupti!</small> -->
 
                           </div>
-                          <label for="multi-terms" class="pure-checkbox">
+                          <!-- <label for="multi-terms" class="pure-checkbox">
                             <input name="checkbox" type="checkbox" id="multi-terms" /> I&#x27;ve read the terms and conditions
-                          </label>
+                          </label> -->
 
                           <a id="edit-money">Edit Money</a>
                         </div>
@@ -625,7 +632,7 @@
 
                 <span id="proceed-for-payment"> Click Proceed to continue to Payment</span>
 
-                <span id="loading-alert">loading</span>
+                <div id="loading-alert"><img src="./__Iphone-spinner-1.gif" alt=""></div>
 
                 <!-- <span id="link-expired">The paymet link has expired<br>Refresh the page to make a new payment</span> -->
                 
@@ -655,14 +662,19 @@
                   
                   <p class="payment-instructions">Scan the QR code from your preferred payment app or click on the UPI button to pay.
                     <br><br>Transaction confirmation will be sent via e-mail withing 24 hours of transaction.
-                      You can click "EXIT" after confirmation shows on your payment app.
+                      You can click "FINISH" after confirmation shows on your payment app.
                     <br>For any queries write to us at velocitaracing.rit@gmail.com
                   </p>
                 </div>
 
-                <a href="#" rel="modal:close" class="next-button">Close</a>
+                <a id="finish-button" href="#thank-you" rel="modal:open" class="next-button">FINISH</a>
 
                 <!-- <a href="#" rel="modal:close" id="new-pay" >NEW Pay</a> -->
+              </div>
+
+              <div id="thank-you" class="modal">
+                <p></p>
+                <a href="#" rel="modal:close" class="next-button">CLOSE</a>
               </div>
                 
 

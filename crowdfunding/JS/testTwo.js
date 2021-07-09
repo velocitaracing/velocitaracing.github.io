@@ -20,6 +20,11 @@ function main() {
 
     $("#loading-alert").css({'display':'none'});
 
+    $("#agree").css({'display':'none'});
+
+    $("#finish-button").css({'display':'none'});  
+
+
     $("#qrcode").css({'opacity':'0'});  
     
 
@@ -27,6 +32,11 @@ function main() {
 
     $('#dis-one').prop('disabled', true);
     $('#dis-two').prop('disabled', true);
+
+    $('#multi-first-name').prop('disabled', false);
+    $('#multi-last-name').prop('disabled', false);
+    $('#multi-email').prop('disabled', false);
+    $('#phnumber').prop('disabled', false);
 
 
 
@@ -51,6 +61,8 @@ $("#proceed-step-one").click (function() {
             $("#proceed-step-two").css({'display':'block'});
             $("#step-one-form").css({'display':'none'});
 
+            $("#agree").css({'display':'block'});
+
             $("#proceed-step-two").click (function() {
 
                 $("#step-one-form").css({'display':'block'});
@@ -62,12 +74,22 @@ $("#proceed-step-one").click (function() {
                 $("#proceed-step-three").css({'display':'block'});
 
                 $("#edit-money").css({'display':'none'});
-                
+
+                $('#multi-first-name').prop('disabled', true);
+                $('#multi-last-name').prop('disabled', true);
+                $('#multi-email').prop('disabled', true);
+                $('#phnumber').prop('disabled', true);
+                $("#agree").css({'display':'none'});
             });
 
             $("#proceed-step-three").click (function() {
                 $("#proceed-step-three").css({'display':'none'});  
                 $("#proceed-step-one").css({'display':'none'});
+
+                $('#multi-first-name').prop('disabled', false);
+                $('#multi-last-name').prop('disabled', false);
+                $('#multi-email').prop('disabled', false);
+                $('#phnumber').prop('disabled', false);
                 
                 $('#dis-one').prop('disabled', false);
                 $('#dis-two').prop('disabled', false);

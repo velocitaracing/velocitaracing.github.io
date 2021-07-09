@@ -5,7 +5,7 @@
 .error{
   color: red!important;
 }
-.input-disabled{
+.input-disabled, .pure-form input{
   color: rgb(92, 92, 92)!important;
 }
 
