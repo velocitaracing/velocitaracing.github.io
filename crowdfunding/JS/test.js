@@ -52,6 +52,11 @@ $("#get-qr").click ( function() {
     $("#finish-button").css({'display':'block'});  
 })
 
+$("#mobile-upi").click ( function() {
+    $("#finish-button").css({'display':'block'});  
+})
+
+
 
 
 // var qrcode = new QRCode("qrcode");
