@@ -59,6 +59,14 @@
   flex-wrap: wrap;
 }
 
+.head-info{
+  display: flex;
+}
+
+#info-click{
+  margin-top: 35px;
+}
+
 #slabs .container .left .card-container{
   display: flex;
   align-items: center;
@@ -118,7 +126,7 @@
 }
 
 #slab-name{
-  margin: 30px 30px 0 30px;
+  margin: 30px 15px 0 30px;
   font-size: 1.6rem;
   text-transform: uppercase;
   font-weight: 400;
@@ -333,7 +341,7 @@
 
 #get-qr{
   
-  margin: 10px 5px 0 0;
+  margin: 0px 0px 0 0;
   height: 38px;
   background-color: #fff;
   width: 158px;
@@ -344,6 +352,11 @@
  border: .1rem solid black;
  text-decoration: none;
  color: black;
+ transform: translateX(50%);
+
+ margin-top: -110px;
+
+ position: absolute;
 
 }
 
@@ -535,6 +548,11 @@
  border: .1rem solid black;
  text-decoration: none;
  color: black;
+
+ transform: translateX(0%);
+
+ top: 85px;
+
 
 }
 

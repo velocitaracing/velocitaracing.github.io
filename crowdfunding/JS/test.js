@@ -44,13 +44,15 @@ $("#get-qr").
   });
 
 $("#get-qr").click (function() {  
-    $("#qrcode").css({'opacity':'1'});  
+    $("#qrcode").css({'opacity':'1'}); 
+    $("#finish-button").css({'display':'block'}); 
+    $("#get-qr").css({'display':'none'});
+    
+    $("#mobile-upi").css({'opacity':'1'});
+    // $(".upi-id").css({'display':'block'});  
+
 });
 
-
-$("#get-qr").click ( function() {
-    $("#finish-button").css({'display':'block'});  
-})
 
 $("#mobile-upi").click ( function() {
     $("#finish-button").css({'display':'block'});  

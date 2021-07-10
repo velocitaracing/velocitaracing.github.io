@@ -28,6 +28,12 @@ function main() {
 
     $("#finish-button").css({'display':'none'});  
 
+    $("#get-qr").css({'display':'flex'}); 
+
+    $("#mobile-upi").css({'opacity':'0'}); 
+
+    // $(".upi-id").css({'display':'none'});
+
 
     $("#qrcode").css({'opacity':'0'});  
     
