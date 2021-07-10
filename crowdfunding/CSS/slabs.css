@@ -44,6 +44,11 @@
   display: flex;
 }
 
+#slabs .info-icon{
+  height: 20px;
+  cursor: pointer;
+}
+
 #slabs .container .left{
   width: 50%;
   height: unset;
@@ -291,10 +296,15 @@
   height: 30px;
 }
 
+#agree{
+  padding-top: 10px;
+  font-size: .85rem;
+}
+
 .raz-img{
   height: 16px;
   margin-top: 5px;
-  margin-left: 70px;
+  margin-left: 69px;
 }
 
 #qrcode{
@@ -397,18 +407,18 @@
 
 #edit-money{
   display: none;
-
+  /* font-family: Lato, Muli, -apple-system, BlinkMacSystemFont, Arial, sans-serif; */
   margin: 10px 0px 0 0;
   /* height: 38px; */
   padding: 10px 0;
-  background-color: #fff;
+  background-color: rgb(0, 183, 255);
   width: 100px;
    border-radius: 4px;
-   border: .1rem solid black;
+   /* border: .1rem solid black; */
   text-decoration: none;
-  color: black;
+  color: rgb(255, 255, 255);
   text-align: center;
-
+  box-shadow: 0 0 10px 0 rgb(0 0 0 / 20%);
   font-size: .8rem;
 }
 
@@ -432,6 +442,22 @@
   background-position: center;
 }
 
+#info-one h2{
+  padding: 15px 0;
+  text-transform: capitalize;
+}
+
+#info-one p{
+  font-size: .95rem;
+  line-height: 1.2rem;
+}
+
+
+#info-one img{
+  margin-top: 15px;
+}
+
+
 .generated-qr{
   width: 100%;
   height: 100%!important;
@@ -447,6 +473,14 @@
 }
 
 @media screen and (max-width:768px){
+
+  /* #slab-name{
+    margin: 30px 30px 0 30px;
+    font-size: 1.6rem;
+    text-transform: uppercase;
+    font-weight: 400;
+  } */
+  
   #slabs .container {
     padding: 50px 0;
     width: 100%;
@@ -605,6 +639,7 @@
 
 @media screen and (max-width:378px){
 
+  
   #slabs .container .card{
     height: 175px;
     width: 330px;

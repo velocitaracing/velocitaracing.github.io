@@ -15,6 +15,10 @@
  
 }
 
+label{
+  font-size: .85rem
+}
+
 .next-button{
   text-transform: uppercase;
   text-decoration: none;
@@ -53,7 +57,7 @@
     font-family: -apple-system,BlinkMacSystemFont,avenir next,avenir,helvetica neue,helvetica,ubuntu,roboto,noto,segoe ui,arial,sans-serif;
     /* max-width: 700px; */
     /* padding: 0 100px; */
-    width: 95%;
+    width: 100%;
     min-height: 440px;
   }
   

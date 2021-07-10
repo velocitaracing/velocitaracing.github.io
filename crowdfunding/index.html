@@ -381,10 +381,7 @@
         <div class="left">
           <div class="card-container">
             <div class="card slabs slab-1 slab-active">
-              <div id="ex1" class="modal">
-                <p>Thanks for clicking. That felt good.</p>
-                <a href="#" rel="modal:close">Finish</a>
-              </div>
+              
             </div>
             <div id="hello" class="card slabs slab-2">        
               
@@ -410,14 +407,31 @@
           </div>
           <!-- <a href="#upi-cone"  rel="modal:open">PROCEED</a> -->
         </div>
+
+
+        <div id="ex1" class="modal">
+          <p>Thanks for clicking. That felt good.</p>
+          
+          <a href="#" rel="modal:close" class="next-button">close</a>
+        </div>
+        
+        <div id="info-one" class="modal">
+          <h2>single-cylinder engine</h2>
+          <p>A single-cylinder engine is a piston engine with one cylinder. They are often used for motorcycles, motor scooters, 
+            go-karts, all-terrain vehicles, radio-controlled vehicles, portable tools and garden machinery (such as lawnmowers, cultivators, and string trimmers).
+          </p>
+          <img src="" alt="image here">
+          <a href="#" rel="modal:close" class="next-button">close</a>
+        </div>
+
         <div class="right">
           <div id="payment-box-reload" class="payment-box">
             <div class="underline"></div>
             <h2 class="page-name">Payment Details</h2>
             <div id="block-one" class="heading">
               
-              <h1 id="slab-name">Cones</h1>
-              <p id="slab-details">You have chosen the <span id="worth-details">cones worth INR 100</span>. This will help us buy nuts, bolts, small parts, electronics, wires and much more.
+              <h1 id="slab-name">1C Engine <a href="#info-one" rel="modal:open"><img class="info-icon" src="../src/assets/Navicons/icons8-info-128.png" alt=""></a></h1>
+              <p id="slab-details">You have chosen the <span id="worth-details">cones worth INR 100</span>. This will help us buy various crutial and critical items to manufacture our vehicle. 
                 Thank you for your generous help.
                 <br><br> We appretiate your kind help and in return we have some goodies for you. <!-- Link to open the modal -->
                 <span id="click-here" class="click-here"><a href="#ex1" rel="modal:open">Click here</a></span> to know more.
@@ -527,35 +541,35 @@
                       <div id="step-one-form">
                         <legend>Payee Details</legend>
                         <div class="pure-g">
-                            <div class="pure-u-1-2 pure-u-md-1-3">
+                            <div class="pure-u-5-6 pure-u-md-1-3">
                                 <label for="multi-first-name">First Name</label>
                                 <input name="First Name" type="text" id="multi-first-name" class="pure-u-23-24" required=""  />
                             </div>
-                            <div class="pure-u-1-2 pure-u-md-1-3">
+                            <div class="pure-u-5-6 pure-u-md-1-3">
                                 <label for="multi-last-name">Last Name</label>
                                 <input name="Last Name" type="text" id="multi-last-name" class="pure-u-23-24" />
                             </div>
                             <legend style="margin: 15px 0 10px 0;">Contact</legend>
-                            <div class="pure-u-1-2 pure-u-md-1-3">
+                            <div class="pure-u-5-6 pure-u-md-1-3">
                                 <label for="multi-email">E-Mail</label>
                                 <input name="Email" type="email" id="multi-email" aria-describedby="emailHelp" class="pure-u-23-24" required="" />
                             </div>
-                            <div class="pure-u-1-2 pure-u-md-1-3">
+                            <div class="pure-u-3-5 pure-u-md-1-3">
                                 <label for="multi-email">Phone Number</label>
                                 <input name="Phone" type="tel" id="phnumber" class="pure-u-23-24" required="" />
                             </div>
                             <legend style="margin: 15px 0 10px 0;">Address</legend>
-                            <div class="pure-u-1-2 pure-u-md-1-3">
+                            <div class="pure-u-2-3 pure-u-md-1-3">
                                 <label for="multi-city">City</label>
                                 <input name="City" type="text" id="multi-city" class="pure-u-23-24" />
                             </div>
-                            <div class="pure-u-1-2 pure-u-md-1-3">
+                            <div class="pure-u-1-3 pure-u-md-1-3">
                                 <label for="multi-city">Pin Code</label>
                                 <input name="Pin Code" type="tel" id="pincode" class="pure-u-23-24" />
                             </div>
                             <div class="pure-u-1 pure-u-md-1-3 state-select">
                                 <label for="multi-state">State</label>
-                                <select name="State" id="multi-state" class="pure-input-1-2">
+                                <select name="State" id="multi-state" class="pure-input-2-3">
                                     <option value="Andhra Pradesh">Andhra Pradesh</option>
                                     <option value="Andaman and Nicobar Islands">Andaman and Nicobar Islands</option>
                                     <option value="Arunachal Pradesh">Arunachal Pradesh</option>
@@ -602,13 +616,14 @@
                           <legend>Payment Details</legend>
                           <div class="pure-u-1-2 pure-u-md-1-3">
                             <label for="multi-city">Slab</label>
-                            <input name="Slab" type="text" id="dis-one" class="pure-u-23-24 input-disabled" disabled value="CONES"/>
+                            <input name="Slab" type="text" id="dis-one" class="pure-u-23-24 input-disabled" disabled value="1C ENGINE"/>
                           </div>
                           <div class="pure-u-1-2 pure-u-md-1-3">
                               <label for="multi-city">Amount (INR)</label>
                               <input name="Amount" type="number" min="1" step="any" id="dis-two" class="pure-u-23-24 input-disabled" disabled  value="100" />
                           </div>
 
+                          <a id="edit-money">Edit Amount</a>
                           <div id="agree" class="pure-u-1 pure-u-md-1-3">
                             <legend></legend>
                             <p>By clicking next you here by state that the above given informations are correct.
@@ -624,7 +639,7 @@
                             <input name="checkbox" type="checkbox" id="multi-terms" /> I&#x27;ve read the terms and conditions
                           </label> -->
 
-                          <a id="edit-money">Edit Amount</a>
+                          
                         </div>
                           
 
@@ -767,7 +782,7 @@
             <div class="container">
               <div data-aos="zoom-in" class="card">
                 <p>
-                  <br>FB 2019 - Our first venture into Formula Student. With absolutely no foundation to work on, the team
+                  FB 2019 - Our first venture into Formula Student. With absolutely no foundation to work on, the team
                       designed and built our first Formula Student car THE VRF1.
                       <br><br>Engineering design event - 47th
                   <br>Business plan - 27th
@@ -779,7 +794,7 @@
               </div>
               <div data-aos="zoom-in" class="card">
                 <p>
-                  <br>FB 2020 - Over the next year, a lot of meticulous work went into building our pride The VRF2. It was
+                  FB 2020 - Over the next year, a lot of meticulous work went into building our pride The VRF2. It was
                       overall a much lighter, faster, well put together car.
                       <br><br>Engineering design event - 18th
                   <br>Business plan - 12th
@@ -790,7 +805,7 @@
               </div>
               <div data-aos="zoom-in" class="card">
                 <p>
-                  <br>FB 2021 - Virtual Event - Cutting down on the manufacturing
+                  FB 2021 - Virtual Event - Cutting down on the manufacturing
                   part and having more teams participating.
                   <br><br>Engineering design event - 13th
                   <br>Business plan - 43rd
