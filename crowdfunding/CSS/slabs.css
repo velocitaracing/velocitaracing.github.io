@@ -131,6 +131,16 @@
   line-height: 1.2rem;
 }
 
+.slabs{
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.slabs h1{
+  font-size: 1.2rem;
+}
+
 .click-here{
   /* margin: 10px 30px 0 30px; */
   font-size: .75rem;
@@ -456,6 +466,8 @@
 #info-one img{
   margin-top: 15px;
 }
+
+
 
 
 .generated-qr{
