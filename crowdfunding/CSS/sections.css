@@ -1,0 +1,197 @@
+.sec-intro{
+
+    /* height: 100vh; */
+    width: 100%;
+    /* margin: 50px 0 0 0; */
+    height: 600px;
+
+
+    display: flex;
+    align-items: center;
+    justify-content: flex-end;
+
+    
+/* 
+    background-image: url(../cover-2.webp);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover; */
+
+}
+
+.sec-intro .cover{
+
+
+
+    /* background-image: url(../cover-3-2.webp);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover; */
+}
+
+#sec-one{
+    background-image: url(../cover-3-2.webp);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    /* background-attachment: fixed; */
+
+    
+}
+
+#sec-two{
+    background-image: url(../cover-3-2-3.webp);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    /* background-attachment: fixed; */
+
+    
+}
+
+#sec-three{
+    background-image: url(../cover-3-2-4.webp);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    /* background-attachment: fixed; */
+
+    
+}
+
+#slabs .slabs{
+
+}
+
+.sec-intro .cover-extra{
+    margin-top: 50px;
+}
+.sec-intro .cover{
+       
+    width: 50%;
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    justify-content: center;
+    padding: 30px;
+}
+
+.sec-intro .cover h1{
+    text-transform: capitalize;
+    font-size: 3.5rem;
+    font-family: lato, sans-serif;
+}
+
+.sec-intro .cover p{
+    /* text-transform: capitalize; */
+    font-size: 1.4rem;
+    font-family: lato, sans-serif;
+
+    padding: 15px 0;
+}
+
+.sec-intro .cover p span{
+    /* text-transform: capitalize; */
+    font-size: 1.1rem;
+    font-family: lato, sans-serif;
+
+    /* padding: 15px 0; */
+}
+
+#sup-now, #sup-now-two, #sup-now-three{
+    margin: 20px 0px 0px 0px;
+
+}
+
+#load-but{
+    margin: 0 auto;
+}
+
+#help-pay{
+    height: 100px;
+
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+
+#help-pay .cover{
+    background-color: rgb(255, 255, 214);
+    height: 100%;
+    width: 90%;
+
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+
+    font-size: 1rem;
+
+    padding: 20px;
+}
+
+#help-pay span{
+    padding: 5px 0;
+}
+
+
+#help-pay span a{
+    text-decoration: none;
+   
+}
+
+@media screen and (max-width:768px) {
+    .sec-intro{
+
+        /* height: 100vh; */
+        width: 100%;
+        /* margin: 50px 0 0 0; */
+        height: auto;
+        /* min-height: 600px; */
+        margin: 50px 0;
+    
+    
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: flex-end;
+    
+        
+    /* 
+        background-image: url(../cover-2.webp);
+        background-position: center;
+        background-repeat: no-repeat;
+        background-size: cover; */
+    
+    }
+
+    .sec-intro .cover{
+       
+        width: 100%;
+        height: 100%;
+        display: flex;
+        flex-direction: column;
+        align-items: flex-start;
+        justify-content: center;
+        padding: 30px;
+
+        background-color: rgba(255, 255, 240, 0.699);
+    }
+    
+    .sec-intro .cover-extra{
+        margin-top: 0px;
+        /* padding: 50px; */
+    }
+
+
+}
+
+@media screen and (max-width:375px) {
+    .sec-intro .cover h1{
+        text-transform: capitalize;
+        font-size: 3rem;
+        font-family: lato, sans-serif;
+    }
+}

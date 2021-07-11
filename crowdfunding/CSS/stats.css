@@ -2,7 +2,7 @@
     /* height: 40vh; */
 
     background-color: rgb(247, 247, 247);
-    padding: 60px 0;
+    padding: 50px 0;
     display: flex;
     flex-direction: column;
     align-items: flex-start;
@@ -60,19 +60,19 @@
     display: flex;
     align-items: center;
     justify-content: space-evenly;
-    padding-top: 50px;
+    padding-top: 0px;
     padding-left: 150px;
 }
 
 #stats .container .number, #stats .container .text{
     font-size: 30px;
-    font-family: 'Satisfy', cursive;
+    font-family: lato, sans-serif;
     color: rgb(0, 0, 0);
 }
 
 #stats .container .rupees{
     font-size: 50px;
-    color: rgb(255, 0, 179);
+    color: rgb(0, 143, 209);
 }
 
 .razorpay{
@@ -116,5 +116,18 @@
         align-items: center;
         justify-content: center;
         border-bottom: 1px solid rgb(255, 0, 179);
+        
     }
+
+    #stats .container .number, #stats .container .text{
+        font-size: 25px;
+        font-family: lato, sans-serif;
+        color: rgb(0, 0, 0);
+    }
+
+    #stats .container .rupees{
+        font-size: 40px;
+        color: rgb(0, 143, 209);
+    }
+
 }

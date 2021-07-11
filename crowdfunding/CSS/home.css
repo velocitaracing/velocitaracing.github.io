@@ -8,7 +8,8 @@
     justify-content: flex-start;
     text-align: center;
 
-    background-image: url(../Web\ 1280\ –\ 1.png);
+    /* background-image: url(../Web\ 1280\ –\ 1.png); */
+    background-image: url(../cover-3.png);
     /* background-position: center; */
     background-repeat: no-repeat;
     background-size: cover;
@@ -27,7 +28,7 @@
     justify-content: center;
     text-align: left;
 
-    background-color: rgba(255, 255, 255, 0.636);
+    /* background-color: rgba(255, 255, 255, 0.636); */
     font-size: 3rem;
 }
 
@@ -263,6 +264,21 @@
         line-height: 1.4em;
         text-align: left;
     }
+
+    .secondaryButton{
+        padding: 10px 20px!important;
+        font-family: 'Montserrat', 'sans-seriff';
+        font-size: 13px!important;
+        border-radius: 30px;
+        outline: none;
+        color: #fff;
+        border: 2px solid rgb(255, 255, 255);
+        background-color: rgba(255, 255, 255, 0);
+        transition: .2s ease-in-out 0s;
+        font-weight: 500;
+        width: unset!important
+    }
+    
 
     
 }

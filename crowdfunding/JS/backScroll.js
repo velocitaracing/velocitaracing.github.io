@@ -15,6 +15,22 @@ function scrollCrowd(){
   $(window).bind('scroll', scrollCrowd);
 
 
+// function scrollsecone(){ 
+//     var pos = $(window).scrollTop(); 
+//     $('#sec-one').each(function() { 
+//       var $element = $(this);
+//       // console.log(height);
+//       // subtract some from the height b/c of the padding
+//       var scrollHeight = $('#sec-one').position().top;
+//       // console.log(scrollHeight);
+//       var height = scrollHeight;
+//       $(this).css('backgroundPosition', '50% ' + Math.round((height - pos) * velocity) +  'px'); 
+//       }); 
+//     };
+        
+//   $(window).bind('scroll', scrollsecone);
+
+
 // var heading = $("#propHeading");
 // var iconButton = $(".slabs");
 // iconButton.on("click", function() {

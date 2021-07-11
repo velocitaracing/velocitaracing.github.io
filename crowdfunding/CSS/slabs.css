@@ -6,7 +6,7 @@
     align-items: center;
     justify-content: center;
 
-    padding: 150px 0 0 0;
+    padding: 100px 0 0 0;
 }
 
 #slabs .slabs-heading{
@@ -16,11 +16,12 @@
 }
 
 #slabs .slabs-heading h1{
-  font-size: 1.5em;
-  /* font-family: 'Satisfy', cursive; */
+  font-size: 3rem;
+  font-family: lato, sans-serif;
   color: rgb(0, 0, 0);
   width: 100%;
   text-align: left;
+  text-transform: uppercase;
 
 }
 
@@ -33,8 +34,8 @@
 
 #slabs .slabs-heading .sub-heading{
   font-size: 1.5em;
-  font-family: 'Satisfy', cursive;
-  color: rgb(255, 0, 179);
+  font-family: lato, sans-serif;
+  color: rgb(0, 0, 0);
 
 }
 
@@ -90,9 +91,11 @@
 #slabs .container .card{
   height: 175px;
   width: 175px;
-  background-color: rgb(243, 243, 243);
+  background-color: rgb(201, 201, 201);
   /* box-shadow: 0 8px 16px 0 rgba(0,0,0,.4); */
   margin: 5px;
+
+  position: relative;
 
 }
 
@@ -100,6 +103,7 @@
 #slabs .container .card:hover{
   /* background-color: rgb(243, 243, 243); */
   box-shadow: 0 4px 8px 0 rgba(0,0,0,.4);
+  background-color: rgb(255, 208, 0);
 }
 
 #slabs .container .payment-box{
@@ -141,9 +145,65 @@
 
 .slabs{
   display: flex;
+  flex-direction: column;
   align-items: center;
   justify-content: center;
 }
+
+#slabs .slabs img{
+  height: 90px;
+}
+
+#slabs .slabs .amt{
+  padding: 0px;
+  font-family: lato, sans-serif;
+  font-weight: 700;
+  font-size: 1rem;
+
+  position: absolute;
+  left: 5px;
+  bottom: 10px;
+
+  display: none;
+}
+
+.card-arrow{
+  position: absolute;
+  right: 5px;
+  bottom: 5px;
+}
+
+.pay-mobile-card{
+  position: absolute;
+  top: 0;
+  right: 0;
+  padding: 10px 15px;
+  background-color: #173f35;
+  text-decoration: none;
+  color: rgb(255, 255, 255);
+
+  display: none;
+}
+
+
+
+#slabs .slabs .amt-name{
+  padding: 10px 0 5px 0 ;
+  font-family: lato, sans-serif;
+  font-weight: 700;
+  font-size: 1rem;
+  display: none;
+}
+
+#slabs .slabs i{
+  display: none;
+}
+
+.arrow-active{
+  display: block!important;
+}
+
+
 
 .slabs h1{
   font-size: 1.2rem;
@@ -276,6 +336,8 @@
 
 .slab-active{
   box-shadow: 0 4px 8px 0 rgba(0,0,0,.4);
+  background-color: rgb(255, 208, 0)!important;
+
 }
 
 .upi-button{
@@ -480,7 +542,19 @@
   margin-top: 15px;
 }
 
+#slab-info-img{
+  height: 110px;
+  margin: 20px auto;
+}
 
+#goodies{
+  padding: 20px;
+}
+
+#slab-info-para{
+  line-height: 1.2rem;
+  font-family: lato, sans-serif;
+}
 
 
 .generated-qr{
@@ -505,6 +579,11 @@
     text-transform: uppercase;
     font-weight: 400;
   } */
+
+  .pay-active{
+    display: block!important;
+  }
+  
   
   #slabs .container {
     padding: 50px 0;
@@ -517,6 +596,13 @@
     display: block;
   }
   
+  #slabs .slabs .amt{
+    display: block;
+  }
+
+  #slabs .slabs .amt-name{
+    display: block;
+  }
 
   #slabs .container .left .card-container{
     display: flex;
@@ -669,7 +755,9 @@
 
 @media screen and (max-width:378px){
 
-  
+  #slabs .slabs-heading h1{
+    font-size: 2.5rem;
+  }
   #slabs .container .card{
     height: 175px;
     width: 330px;
@@ -706,6 +794,9 @@
 
 @media screen and (max-width:350px){
 
+  #slabs .slabs-heading h1{
+    font-size: 2rem;
+  }
   #slabs .container .card{
     height: 175px;
     width: 300px;
