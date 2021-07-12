@@ -1,3 +1,9 @@
+if( $(window).width() < 500 ) {
+  // code
+$("#home").css("background-position", "50% 0px");
+}
+
+
 var velocity = 0.5;
 function scrollCrowd(){ 
     var pos = $(window).scrollTop(); 

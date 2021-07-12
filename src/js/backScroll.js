@@ -1,6 +1,11 @@
 var velocity = 0.15;
 var velocityTwo = 0.2;
 
+if( $(window).width() < 500 ) {
+  // code
+$("#home").css("background-position", "50% 0px");
+}
+
 function scrollZero(){ 
   var pos = $(window).scrollTop(); 
   $('#home').each(function() { 

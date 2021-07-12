@@ -74,10 +74,18 @@
         height: 40px;
         width: 100px;
     } */
+
+       
+    #intro .container .card p{
+        font-size: .8rem;
+     
+        line-height: 1.1rem;
+     
+     }
     
 }
 
-@media screen and (max-width: 399px) {
+@media screen and (max-width: 375px) {
     #intro .container .card{
         height: 280px;
         width: 425px;
