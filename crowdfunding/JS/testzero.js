@@ -24,7 +24,7 @@ $("#close-process").click(function(){
         document.getElementById("text").value = "upi://pay?cu=INR&pa=satvikcrvk718-1@oksbi&pn=Satvik%20S.&am=100&tn=Velocita%20Racing%20Crowdfunding%201CENGINE";
         document.getElementById("dis-one").value = "1C ENGINE"
         document.getElementById("dis-two").value = "100"
-        document.getElementById("goodies").value = " <li>Newsletter Subscription</li><li>Shout out on Website</li><li>Invite to unveil</li>"
+        document.getElementById("goodies").innerHTML = " <li>Newsletter Subscription</li><li>Shout out on Website</li><li>Invite to unveil</li>"
         document.getElementById("slab-info-img").src = "./crowdfundingicons/Asset 12.png"
         $("#edit-money").css({'display': 'none'});
 
@@ -59,7 +59,7 @@ $("#close-process").click(function(){
         document.getElementById("payment-amount").innerHTML = "500.00"
         // document.getElementById("qr-generate").src = "./QRS/QR100.png"
         document.getElementById("slab-info-name").innerHTML = "V2 V-Twin"
-        document.getElementById("goodies").value = " <li>Newsletter Subscription</li><li>Shout out on Website</li><li>Invite to unveil</li><li>Offer on official merchandise</li"
+        document.getElementById("goodies").innerHTML = " <li>Newsletter Subscription</li><li>Shout out on Website</li><li>Invite to unveil</li><li>Offer on official merchandise</li"
 
         document.getElementById("slab-info-para").innerHTML = "A V-twin engine, also called a V2 engine, is a two-cylinder piston engine where the cylinders share a common crankshaft and are arranged in a V configuration. Although widely associated with motorcycles (installed either transversely or longitudinally), V-twin engines have also been used for industrial engines and in several small cars. The V-twin design dates back to the late 1880s."
         document.getElementById("text").value = "upi://pay?cu=INR&pa=satvikcrvk718-1@oksbi&pn=Satvik%20S.&am=500&tn=Velocita%20Racing%20Crowdfunding%20V2V-TWIN"
@@ -96,7 +96,7 @@ $("#close-process").click(function(){
         document.getElementById("payment-amount").innerHTML = "1,000.00"
         // document.getElementById("qr-generate").src = "./QRS/QR100.png"
         document.getElementById("slab-info-name").innerHTML = "I3 Inline 3"
-        document.getElementById("goodies").value = " <li>Newsletter Subscription</li><li>Shout out on Website</li><li>Invite to unveil</li><li>Offer on official merchandise</li><li>Wrist band</li>"
+        document.getElementById("goodies").innerHTML = " <li>Newsletter Subscription</li><li>Shout out on Website</li><li>Invite to unveil</li><li>Offer on official merchandise</li><li>Wrist band</li>"
 
         document.getElementById("slab-info-para").innerHTML = "A straight-three engine (also called an inline-triple or inline-three) is a three-cylinder piston engine where cylinders are arranged in a line along a common crankshaft. Less common than straight-four engines, straight-three engines have nonetheless been used in various motorcycles, cars and agricultural machinery."
         document.getElementById("slab-info-img").src = "./crowdfundingicons/Asset 10.png"
@@ -132,7 +132,7 @@ $("#close-process").click(function(){
         document.getElementById("payment-amount").innerHTML = "1,500.00"
         // document.getElementById("qr-generate").src = "./QRS/QR100.png"
         document.getElementById("slab-info-name").innerHTML = "I4 Inline 4"
-        document.getElementById("goodies").value = " <li>Newsletter Subscription</li><li>Shout out on Website</li><li>Invite to unveil</li><li>Offer on official merchandise</li><li>Wrist band</li><li>Badges</li>"
+        document.getElementById("goodies").innerHTML = " <li>Newsletter Subscription</li><li>Shout out on Website</li><li>Invite to unveil</li><li>Offer on official merchandise</li><li>Wrist band</li><li>Badges</li>"
 
         document.getElementById("slab-info-para").innerHTML = "A straight-four engine (also called an inline-four) is a four-cylinder piston engine where cylinders are arranged in a line along a common crankshaft. The vast majority of automotive four-cylinder engines use a straight-four layout. (with the exceptions of the flat-four engines produced by Subaru and Porsche) and the layout is also very common in motorcycles and other machinery. "
         document.getElementById("slab-info-img").src = "./crowdfundingicons/Asset 11.png"
@@ -165,7 +165,7 @@ $("#close-process").click(function(){
     $(".slab-5").click(function(){
         document.getElementById("slab-name").innerHTML = "V6 Engine"
         document.getElementById("payment-amount").innerHTML = "3,000.00"
-        document.getElementById("goodies").value = " <li>Newsletter Subscription</li><li>Shout out on Website</li><li>Invite to unveil</li><li>Offer on official merchandise</li><li>Wrist band</li><li>Badges</li><li>Diary</li>"
+        document.getElementById("goodies").innerHTML = " <li>Newsletter Subscription</li><li>Shout out on Website</li><li>Invite to unveil</li><li>Offer on official merchandise</li><li>Wrist band</li><li>Badges</li><li>Diary</li>"
 
         // document.getElementById("qr-generate").src = "./QRS/QR100.png"
         document.getElementById("slab-info-name").innerHTML = "V6 Engine"
@@ -202,7 +202,7 @@ $("#close-process").click(function(){
         document.getElementById("payment-amount").innerHTML = "5,000.00"
         // document.getElementById("qr-generate").src = "./QRS/QR100.png"
         document.getElementById("slab-info-name").innerHTML = "V8 Engine"
-        document.getElementById("goodies").value = " <li>Newsletter Subscription</li><li>Shout out on Website</li><li>Invite to unveil</li><li>Offer on official merchandise</li><li>Wrist band</li><li>Badges</li><li>Diary</li><li>Name on car</li>"
+        document.getElementById("goodies").innerHTML = " <li>Newsletter Subscription</li><li>Shout out on Website</li><li>Invite to unveil</li><li>Offer on official merchandise</li><li>Wrist band</li><li>Badges</li><li>Diary</li><li>Name on car</li>"
 
         document.getElementById("slab-info-para").innerHTML = "A V8 engine is an eight-cylinder piston engine in which the cylinders share a common crankshaft and are arranged in a V configuration. The popularity of V8 engines in cars was greatly increased following the 1932 introduction of the Ford Flathead V8."
         document.getElementById("slab-info-img").src = "./crowdfundingicons/Asset 13.png"
@@ -238,7 +238,7 @@ $("#close-process").click(function(){
         document.getElementById("payment-amount").innerHTML = "10,000.00"
         // document.getElementById("qr-generate").src = "./QRS/QR100.png"
         document.getElementById("slab-info-name").innerHTML = "V12 Engine"
-        document.getElementById("goodies").value = " <li>Newsletter Subscription</li><li>Shout out on Website</li><li>Invite to unveil</li><li>Offer on official merchandise</li><li>Wrist band</li><li>Badges</li><li>Diary</li><li>Name on car</li><li>Invite to the workshop and track day.</li>"
+        document.getElementById("goodies").innerHTML = " <li>Newsletter Subscription</li><li>Shout out on Website</li><li>Invite to unveil</li><li>Offer on official merchandise</li><li>Wrist band</li><li>Badges</li><li>Diary</li><li>Name on car</li><li>Invite to the workshop and track day.</li>"
 
         document.getElementById("slab-info-para").innerHTML = "A V12 engine is a twelve-cylinder piston engine where two banks of six cylinders are arranged in a V configuration around a common crankshaft. V12 engines are more common than V10 engines. However, they are less common than V8 engines. The first V12 engine was built in 1904 for use in racing boats. "
         document.getElementById("slab-info-img").src = "./crowdfundingicons/Asset 14.png"
@@ -273,7 +273,7 @@ $("#close-process").click(function(){
         document.getElementById("slab-name").innerHTML = "ROTARY | OPEN SLAB"
         document.getElementById("payment-amount").innerHTML = "XXXX.XX"
         document.getElementById("slab-info-name").innerHTML = "Rotary Engine"
-        document.getElementById("goodies").value = "Refer Other Slabs"
+        document.getElementById("goodies").innerHTML = "Refer Other Slabs"
 
         document.getElementById("slab-info-para").innerHTML = "The rotary engine is an early type of internal combustion engine, usually designed with an odd number of cylinders per row in a radial configuration, in which the crankshaft remained stationary in operation, with the entire crankcase and its attached cylinders rotating around it as a unit. Its main application was in aviation, although it also saw use before its primary aviation role, in a few early motorcycles and automobiles"
         document.getElementById("slab-info-img").src = "./crowdfundingicons/Asset 9.png"

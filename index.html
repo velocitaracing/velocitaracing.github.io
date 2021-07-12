@@ -146,6 +146,10 @@
     <!-- JS -->
     <script src="./src/js/test.js"></script>
 
+    <!-- JQuery Modal -->
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery-modal/0.9.1/jquery.modal.min.js"></script>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/jquery-modal/0.9.1/jquery.modal.min.css" />
+
 </head>
 <body>
 
@@ -154,6 +158,20 @@
     <div id="preloader">
         <div id="status">&nbsp;</div>
     </div>
+
+    
+    <!-- Modal -->
+
+    <div id="ex1" class="modal">
+        <img src="./crowdfunding/modal.png" alt="">
+        <a href="#" rel="modal:close" class="close-button">Support Now</a>
+    </div>
+
+      
+      <!-- Link to open the modal -->
+    <!-- <p><a href="#ex1" rel="modal:open">Open Modal</a></p> -->
+
+
 
     <!-- Navbar -->
 
@@ -166,6 +184,7 @@
         </div>
         <div class="nav-links">
             <ul id="nav-ul" class="nav-ul">
+                <li><a class="navlink-border click-link" href="./crowdfunding/"><span class="main-link"><img class="main-nav-icon" src="./src/assets/Navicons/icons8-crowdfunding-100.png" alt="">Crowdfunding</span></a></li>
                 <li><a class="navlink-border click-link" href="./"><span class="main-link"><img class="main-nav-icon" src="./src/assets/Navicons/icons8-home-page-96.png" alt="">home</span></a></li>
                 <li class="sub-nav"><a class="navlink-border" href="javascript:void(0);"><span class="main-link"><img class="main-nav-icon" src="./src/assets/Navicons/icons8-info-128.png" alt="">about</span><i class="arrow fa fa-angle-right"></i></a>
                     <ul class="dropdown">
@@ -309,6 +328,8 @@
 
 
     </div>
+
+
 
 
     <!-- Marker Car -->
@@ -972,6 +993,14 @@
         <script src="./src/js/refresh.js"></script>
 
         <!-- Testing -->
+        
+    <script>
+         $("#ex1").modal({
+            escapeClose: true,
+            clickClose: true,
+            showClose: true
+            });
+    </script>
         
       
 </body>
