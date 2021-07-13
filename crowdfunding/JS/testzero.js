@@ -322,4 +322,3 @@ $("#close-process").click(function(){
         // document.getElementById('myImage').src='./gift-2.gif'
     });
 
-
