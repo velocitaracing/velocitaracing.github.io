@@ -786,6 +786,10 @@
     position: relative;
   }
 
+  .qr-pay{
+    margin-top: 25px;
+  }
+
   /* .qr-pay{
     display: flex;
     flex-direction: column;
