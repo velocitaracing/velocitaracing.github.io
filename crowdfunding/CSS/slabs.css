@@ -764,6 +764,45 @@
   
 }
 
+@media screen and (max-width:450px){
+
+  #slabs .slabs-heading h1{
+    font-size: 2.5rem;
+  }
+  #slabs .container .card{
+    height: 175px;
+    width: 330px;
+    background-color: rgb(243, 243, 243);
+    /* box-shadow: 0 8px 16px 0 rgba(0,0,0,.4); */
+    margin: 5px;
+  
+  }
+
+  #slabs .container .payment-box{
+    height: 820px;
+    width: 345px;
+    background-color: rgb(241, 241, 241);
+    box-shadow: 0 4px 8px 0 rgba(0,0,0,.4);
+    position: relative;
+  }
+
+  /* .qr-pay{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    position: absolute;
+    right: 0px;
+    bottom: 200px;
+  } */
+
+  .qr{
+    height: 120px;
+    margin: 10px 0;
+    /* display: none; */
+  }
+}
+
 @media screen and (max-width:390px){
 
   #slabs .slabs-heading h1{
