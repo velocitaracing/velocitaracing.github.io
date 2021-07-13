@@ -780,7 +780,7 @@
 
   #slabs .container .payment-box{
     height: 820px;
-    width: 345px;
+    width: 355px;
     background-color: rgb(241, 241, 241);
     box-shadow: 0 4px 8px 0 rgba(0,0,0,.4);
     position: relative;
@@ -842,7 +842,7 @@
   }
 }
 
-@media screen and (max-width:350px){
+@media screen and (max-width:360px){
 
   #slabs .slabs-heading h1{
     font-size: 2rem;
@@ -857,8 +857,8 @@
   }
 
   #slabs .container .payment-box{
-    height: 840px;
-    width: 300px;
+    height: 860px;
+    width: 320px;
     background-color: rgb(241, 241, 241);
     box-shadow: 0 4px 8px 0 rgba(0,0,0,.4);
     position: relative;
