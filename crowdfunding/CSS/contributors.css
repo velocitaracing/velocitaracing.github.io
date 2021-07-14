@@ -34,9 +34,9 @@
 
 
 #contributors .sub-heading{
-    font-size: 2em;
-    font-family: 'Satisfy', cursive;
-    color: rgb(255, 0, 179);
+    font-size: 1.6rem;
+    font-family: lato, sans-serif;
+    color: rgb(0, 0, 0);
 }
 
 .names ul{
@@ -54,7 +54,7 @@
     list-style: none;
     margin: 0 10px;
     font-size: 30px;
-    font-family: 'Satisfy', cursive;
+    font-family: lato, sans-serif;
     color: rgb(0, 0, 0);
 }
 
