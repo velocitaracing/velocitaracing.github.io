@@ -36,7 +36,7 @@ if(this.hash !== '') {
 
 });
 
-$('#suo-now-two').on('click', function(e) {
+$('#sup-now-two').on('click', function(e) {
   // console.log(this);
 
 if(this.hash !== '') {
