@@ -7,11 +7,14 @@ xmlhttp.onreadystatechange = function () {
     for (i = 0; i < data.length; i++) {
       let amount = data[i]["gsx$_cn6ca"]["$t"];
       let contributors = data[i]["gsx$_cokwr"]["$t"];
+      let day = data[i]["gsx$_cpzh4"]["$t"];
 
 
       document.getElementById("amount").innerHTML = amount;
 
       document.getElementById("contrib").innerHTML = contributors;
+
+      document.getElementById("day").innerHTML = day;
 
     }
   }
