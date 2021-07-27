@@ -1,11 +1,11 @@
-.side-line{
+/* .side-line{
     height: 300px;
     width: 3px;
     background-color: rgb(0, 153, 255);
     position: absolute;
     left: 25px;
     margin-top: 0px;
-}
+} */
 
 .curve{
     height: 20px;
@@ -27,27 +27,26 @@
     margin-top: unset;
 }
 
-.insights-side-line{
+/* .insights-side-line{
     height: 700px;
 
-}
+} */
 
-.insi-side-line{
+/* .insi-side-line{
     height: 90vh;
     margin-top: 90vh;
-}
+} */
 
-.podcast-side-line{
+/* .podcast-side-line{
     height: 600px;
     margin-top: -600px;
-}
+} */
 
 .curve-spot{
     height: 20px;
     width: 20px;
     position: absolute;
     background-color: rgb(0, 153, 255);
-    /* border: 3px solid rgb(0, 153, 255); */
     border-radius: 100%;
     margin-right: 160px;
 
@@ -58,18 +57,21 @@
 
 .line-spot{
     margin-top: -300px;
-}
 
-.right-line{
+    display: none;
+
+} 
+
+/* .right-line{
     height: 150px;
     width: 3px;
     background-color: rgb(0, 153, 255);
     position: absolute;
     margin-right: 160px;
     margin-top: -150px;
-}
+}  */
 
-.horizon-line{
+/* .horizon-line{
     width: calc(50% - 55px);
     height: 3px;
     left: 25px;
@@ -78,7 +80,9 @@
     position: absolute;
     margin-right: 160px;
     margin-top: -300px;
-}
+} */
+
+
 
 .line-circle{
     height: 20px;
@@ -89,6 +93,8 @@
     border-radius: 100%;
     margin-right: 160px;
     margin-top: -300px;
+
+    display: none;
 }
 
 .inner-circle{
