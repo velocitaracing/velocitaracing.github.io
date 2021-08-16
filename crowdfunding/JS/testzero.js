@@ -7,9 +7,9 @@ $("#close-process").click(function(){
     $(".slab-1").click()
     
       
-      $('.slab-1').addClass("slab-active");
-      $('.slab-1').find("i").addClass("arrow-active");
-      $('.slab-1').find(".pay-mobile-card").addClass("pay-active");
+      $('.slab-2').addClass("slab-active");
+      $('.slab-2').find("i").addClass("arrow-active");
+      $('.slab-2').find(".pay-mobile-card").addClass("pay-active");
 
     
 });
@@ -21,14 +21,14 @@ $("#close-process").click(function(){
         // document.getElementById("qr-generate").src = "./QRS/QR.png"
         document.getElementById("slab-info-name").innerHTML = "Single Cylinder Engine"
         document.getElementById("slab-info-para").innerHTML = "A single-cylinder engine is a piston engine with one cylinder. They are often used for motorcycles, motor scooters, go-karts, all-terrain vehicles, radio-controlled vehicles, portable tools and garden machinery (such as lawnmowers, cultivators, and string trimmers)."
-        document.getElementById("text").value = "upi://pay?cu=INR&pa=40121360059@SBIN0010500.ifsc.npci&pn=Satvik S.&am=100&tn=Velocita%20Racing%20Crowdfunding%201CENGINE";
+        document.getElementById("text").value = "upi://pay?cu=INR&pa=40121360059@SBIN0010500.ifsc.npci&pn=Satvik S.&am=100&tn=Velocita%20Racing%20Crowdfunding%201CENGINE&aid=uGICAgICNoKyPZw";
         document.getElementById("dis-one").value = "1C ENGINE"
         document.getElementById("dis-two").value = "100"
         document.getElementById("goodies").innerHTML = " <li>Newsletter Subscription</li><li>Shout out on Website</li><li>Invite to unveil</li>"
         document.getElementById("slab-info-img").src = "./crowdfundingicons/Asset 12.png"
         $("#edit-money").css({'display': 'none'});
 
-        $("#mobile-upi").attr("href", "upi://pay?cu=INR&pa=40121360059@SBIN0010500.ifsc.npci&pn=Satvik S.&am=100&tn=Velocita%20Racing%20Crowdfunding%201cENGINE")
+        $("#mobile-upi").attr("href", "upi://pay?cu=INR&pa=40121360059@SBIN0010500.ifsc.npci&pn=Satvik S.&am=100&tn=Velocita%20Racing%20Crowdfunding%201cENGINE&aid=uGICAgICNoKyPZw")
 
         document.getElementById("click-here").innerHTML = '<a href="#ex1" rel="modal:open">Click here</a>'
         
@@ -62,8 +62,8 @@ $("#close-process").click(function(){
         document.getElementById("goodies").innerHTML = " <li>Newsletter Subscription</li><li>Shout out on Website</li><li>Invite to unveil</li><li>Offer on official merchandise</li"
 
         document.getElementById("slab-info-para").innerHTML = "A V-twin engine, also called a V2 engine, is a two-cylinder piston engine where the cylinders share a common crankshaft and are arranged in a V configuration. Although widely associated with motorcycles (installed either transversely or longitudinally), V-twin engines have also been used for industrial engines and in several small cars. The V-twin design dates back to the late 1880s."
-        document.getElementById("text").value = "upi://pay?cu=INR&pa=40121360059@SBIN0010500.ifsc.npci&pn=Satvik S.&am=500&tn=Velocita%20Racing%20Crowdfunding%20V2V-TWIN"
-        $("#mobile-upi").attr("href", "upi://pay?cu=INR&pa=40121360059@SBIN0010500.ifsc.npci&pn=Satvik S.&am=500&tn=Velocita%20Racing%20Crowdfunding%20V2V-TWIN")
+        document.getElementById("text").value = "upi://pay?cu=INR&pa=40121360059@SBIN0010500.ifsc.npci&pn=Satvik S.&am=500&tn=Velocita%20Racing%20Crowdfunding%20V2V-TWIN&aid=uGICAgICNoKyPZw"
+        $("#mobile-upi").attr("href", "upi://pay?cu=INR&pa=40121360059@SBIN0010500.ifsc.npci&pn=Satvik S.&am=500&tn=Velocita%20Racing%20Crowdfunding%20V2V-TWIN&aid=uGICAgICNoKyPZw")
 
         document.getElementById("dis-two").value = "500"
         document.getElementById("dis-one").value = "V2 V-TWIN"
@@ -100,8 +100,8 @@ $("#close-process").click(function(){
 
         document.getElementById("slab-info-para").innerHTML = "A straight-three engine (also called an inline-triple or inline-three) is a three-cylinder piston engine where cylinders are arranged in a line along a common crankshaft. Less common than straight-four engines, straight-three engines have nonetheless been used in various motorcycles, cars and agricultural machinery."
         document.getElementById("slab-info-img").src = "./crowdfundingicons/Asset 10.png"
-        document.getElementById("text").value = "upi://pay?cu=INR&pa=40121360059@SBIN0010500.ifsc.npci&pn=Satvik S.&am=1000&tn=Velocita%20Racing%20Crowdfunding%20I3-INLINE-3"
-        $("#mobile-upi").attr("href", "upi://pay?cu=INR&pa=40121360059@SBIN0010500.ifsc.npci&pn=Satvik S.&am=1000&tn=Velocita%20Racing%20Crowdfunding%20I3-INLINE-3")
+        document.getElementById("text").value = "upi://pay?cu=INR&pa=40121360059@SBIN0010500.ifsc.npci&pn=Satvik S.&am=1000&tn=Velocita%20Racing%20Crowdfunding%20I3-INLINE-3&aid=uGICAgICNoKyPZw"
+        $("#mobile-upi").attr("href", "upi://pay?cu=INR&pa=40121360059@SBIN0010500.ifsc.npci&pn=Satvik S.&am=1000&tn=Velocita%20Racing%20Crowdfunding%20I3-INLINE-3&aid=uGICAgICNoKyPZw")
 
         document.getElementById("dis-one").value = "I3 INLINE 3"
         document.getElementById("dis-two").value = "1000"
@@ -136,8 +136,8 @@ $("#close-process").click(function(){
 
         document.getElementById("slab-info-para").innerHTML = "A straight-four engine (also called an inline-four) is a four-cylinder piston engine where cylinders are arranged in a line along a common crankshaft. The vast majority of automotive four-cylinder engines use a straight-four layout. (with the exceptions of the flat-four engines produced by Subaru and Porsche) and the layout is also very common in motorcycles and other machinery. "
         document.getElementById("slab-info-img").src = "./crowdfundingicons/Asset 11.png"
-        document.getElementById("text").value = "upi://pay?cu=INR&pa=40121360059@SBIN0010500.ifsc.npci&pn=Satvik S.&am=1500&tn=Velocita%20Racing%20Crowdfunding%20I4-INLINE-4"
-        $("#mobile-upi").attr("href", "upi://pay?cu=INR&pa=40121360059@SBIN0010500.ifsc.npci&pn=Satvik S.&am=1500&tn=Velocita%20Racing%20Crowdfunding%20I4-INLINE-4")
+        document.getElementById("text").value = "upi://pay?cu=INR&pa=40121360059@SBIN0010500.ifsc.npci&pn=Satvik S.&am=1500&tn=Velocita%20Racing%20Crowdfunding%20I4-INLINE-4&aid=uGICAgICNoKyPZw"
+        $("#mobile-upi").attr("href", "upi://pay?cu=INR&pa=40121360059@SBIN0010500.ifsc.npci&pn=Satvik S.&am=1500&tn=Velocita%20Racing%20Crowdfunding%20I4-INLINE-4&aid=uGICAgICNoKyPZw")
 
         document.getElementById("dis-one").value = "I4 (INLINE 4)"
         document.getElementById("dis-two").value = "1500"
@@ -171,8 +171,8 @@ $("#close-process").click(function(){
         document.getElementById("slab-info-name").innerHTML = "V6 Engine"
         document.getElementById("slab-info-para").innerHTML = "A V6 engine is a six-cylinder piston engine where the cylinders share a common crankshaft and are arranged in a V configuration. The V6 layout has become the most common layout for six-cylinder automotive engines."
         document.getElementById("slab-info-img").src = "./crowdfundingicons/Asset 16.png"
-        document.getElementById("text").value = "upi://pay?cu=INR&pa=40121360059@SBIN0010500.ifsc.npci&pn=Satvik S.&am=3000&tn=Velocita%20Racing%20Crowdfunding%20V6-Engine"
-        $("#mobile-upi").attr("href", "upi://pay?cu=INR&pa=40121360059@SBIN0010500.ifsc.npci&pn=Satvik S.&am=3000&tn=Velocita%20Racing%20Crowdfunding%20V6-Engine")
+        document.getElementById("text").value = "upi://pay?cu=INR&pa=40121360059@SBIN0010500.ifsc.npci&pn=Satvik S.&am=3000&tn=Velocita%20Racing%20Crowdfunding%20V6-Engine&aid=uGICAgICNoKyPZw"
+        $("#mobile-upi").attr("href", "upi://pay?cu=INR&pa=40121360059@SBIN0010500.ifsc.npci&pn=Satvik S.&am=3000&tn=Velocita%20Racing%20Crowdfunding%20V6-Engine&aid=uGICAgICNoKyPZw")
 
         document.getElementById("dis-one").value = "V6 ENGINE"
         document.getElementById("dis-two").value = "3000"
@@ -206,8 +206,8 @@ $("#close-process").click(function(){
 
         document.getElementById("slab-info-para").innerHTML = "A V8 engine is an eight-cylinder piston engine in which the cylinders share a common crankshaft and are arranged in a V configuration. The popularity of V8 engines in cars was greatly increased following the 1932 introduction of the Ford Flathead V8."
         document.getElementById("slab-info-img").src = "./crowdfundingicons/Asset 13.png"
-        document.getElementById("text").value = "upi://pay?cu=INR&pa=40121360059@SBIN0010500.ifsc.npci&pn=Satvik S.&am=5000&tn=Velocita%20Racing%20Crowdfunding%20V8-Engine"
-        $("#mobile-upi").attr("href", "upi://pay?cu=INR&pa=40121360059@SBIN0010500.ifsc.npci&pn=Satvik S.&am=5000&tn=Velocita%20Racing%20Crowdfunding%20V8-Engine")
+        document.getElementById("text").value = "upi://pay?cu=INR&pa=40121360059@SBIN0010500.ifsc.npci&pn=Satvik S.&am=5000&tn=Velocita%20Racing%20Crowdfunding%20V8-Engine&aid=uGICAgICNoKyPZw"
+        $("#mobile-upi").attr("href", "upi://pay?cu=INR&pa=40121360059@SBIN0010500.ifsc.npci&pn=Satvik S.&am=5000&tn=Velocita%20Racing%20Crowdfunding%20V8-Engine&aid=uGICAgICNoKyPZw")
 
         document.getElementById("dis-one").value = "V8 ENGINE"
         document.getElementById("dis-two").value = "5000"
@@ -245,8 +245,8 @@ $("#close-process").click(function(){
         document.getElementById("dis-one").value = "V12 ENGINE"
         document.getElementById("dis-two").value = "10000"
         $("#edit-money").css({'display': 'none'});
-        document.getElementById("text").value = "upi://pay?cu=INR&pa=40121360059@SBIN0010500.ifsc.npci&pn=Satvik S.&am=10000&tn=Velocita%20Racing%20Crowdfunding%20V12-Engine"
-        $("#mobile-upi").attr("href", "upi://pay?cu=INR&pa=40121360059@SBIN0010500.ifsc.npci&pn=Satvik S.&am=1000&tn=Velocita%20Racing%20Crowdfunding%20V12-Engine")
+        document.getElementById("text").value = "upi://pay?cu=INR&pa=40121360059@SBIN0010500.ifsc.npci&pn=Satvik S.&am=10000&tn=Velocita%20Racing%20Crowdfunding%20V12-Engine&aid=uGICAgICNoKyPZw"
+        $("#mobile-upi").attr("href", "upi://pay?cu=INR&pa=40121360059@SBIN0010500.ifsc.npci&pn=Satvik S.&am=1000&tn=Velocita%20Racing%20Crowdfunding%20V12-Engine&aid=uGICAgICNoKyPZw")
 
 
         document.getElementById('worth-details').innerHTML='V12 Engine worth INR 10,000'
@@ -293,8 +293,8 @@ $("#close-process").click(function(){
         $("#proceed-step-three").click (function() {
           var nameValue = document.getElementById("dis-two").value;
           var amtValue = document.getElementById("dis-one").value;
-          document.getElementById("text").value = "upi://pay?cu=INR&pa=40121360059@SBIN0010500.ifsc.npci&pn=Satvik S.&am="+ nameValue + "&tn=Velocita%20Racing%20Crowdfunding%20Slab" + amtValue
-          $("#mobile-upi").attr("href", "upi://pay?cu=INR&pa=40121360059@SBIN0010500.ifsc.npci&pn=Satvik S.&am=" + nameValue + "&tn=Velocita%20Racing%20Crowdfunding%20Slab" + amtValue);
+          document.getElementById("text").value = "upi://pay?cu=INR&pa=40121360059@SBIN0010500.ifsc.npci&pn=Satvik S.&am="+ nameValue + "&aid=uGICAgICNoKyPZw&tn=Velocita%20Racing%20Crowdfunding%20Slab" + amtValue
+          $("#mobile-upi").attr("href", "upi://pay?cu=INR&pa=40121360059@SBIN0010500.ifsc.npci&pn=Satvik S.&am=" + nameValue + "&aid=uGICAgICNoKyPZw&tn=Velocita%20Racing%20Crowdfunding%20Slab" + amtValue);
         });
 
        
