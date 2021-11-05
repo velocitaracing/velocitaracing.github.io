@@ -1,8 +1,8 @@
 {
   "files": {
-    "main.css": "/static/css/main.74f6af4c.chunk.css",
-    "main.js": "/static/js/main.28ed33ef.chunk.js",
-    "main.js.map": "/static/js/main.28ed33ef.chunk.js.map",
+    "main.css": "/static/css/main.c8d3a228.chunk.css",
+    "main.js": "/static/js/main.02564d5a.chunk.js",
+    "main.js.map": "/static/js/main.02564d5a.chunk.js.map",
     "runtime-main.js": "/static/js/runtime-main.fcd6891a.js",
     "runtime-main.js.map": "/static/js/runtime-main.fcd6891a.js.map",
     "static/js/2.fde4e16f.chunk.js": "/static/js/2.fde4e16f.chunk.js",
@@ -10,7 +10,7 @@
     "static/js/3.1db9162b.chunk.js": "/static/js/3.1db9162b.chunk.js",
     "static/js/3.1db9162b.chunk.js.map": "/static/js/3.1db9162b.chunk.js.map",
     "index.html": "/index.html",
-    "static/css/main.74f6af4c.chunk.css.map": "/static/css/main.74f6af4c.chunk.css.map",
+    "static/css/main.c8d3a228.chunk.css.map": "/static/css/main.c8d3a228.chunk.css.map",
     "static/js/2.fde4e16f.chunk.js.LICENSE.txt": "/static/js/2.fde4e16f.chunk.js.LICENSE.txt",
     "static/media/AnilLogo.826c5ff1.webp": "/static/media/AnilLogo.826c5ff1.webp",
     "static/media/Decofix-Logo.5f49a0eb.webp": "/static/media/Decofix-Logo.5f49a0eb.webp",
@@ -117,7 +117,7 @@
   "entrypoints": [
     "static/js/runtime-main.fcd6891a.js",
     "static/js/2.fde4e16f.chunk.js",
-    "static/css/main.74f6af4c.chunk.css",
-    "static/js/main.28ed33ef.chunk.js"
+    "static/css/main.c8d3a228.chunk.css",
+    "static/js/main.02564d5a.chunk.js"
   ]
 }
