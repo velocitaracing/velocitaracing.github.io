@@ -1,0 +1,29 @@
+.mySwiper{
+ 
+    height: 275px;
+
+    .swiper-wrapper{
+     
+
+        .swiper-slide{
+            height: 250px;
+            display: flex;
+            // margin-right: 30px;
+            align-items: center;
+            justify-content: center;
+            background-color: rgb(236, 236, 236);
+            // box-shadow: 0 4px 8px 0 rgb(94, 94, 94);
+            border-radius: 5px;
+            // background-color: rosybrown;
+
+            img{
+                height: 240px;
+            }
+        }
+    }
+
+    .swiper-pagination{
+        bottom: 0px;
+    }
+}
+

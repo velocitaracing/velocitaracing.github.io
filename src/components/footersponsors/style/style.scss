@@ -1,0 +1,126 @@
+.footer-sponsor-main-container{
+    position: relative;
+    width: 100%;
+    
+    .footer-sponsor-container-heading{
+        margin: 60px 0 0 60px;
+
+        position: relative;
+    
+            .title{
+                // font-family: Roboto mono, monospace;
+                font-size: 2.4rem;
+                // position: absolute;
+                // margin-left: 60px;
+                text-transform: uppercase;
+                // position: absolute;
+                // left: 60px;
+            }
+
+            .underline{
+                height: .2rem;
+                width: 60px;
+                margin: 10px 0;
+                background-color: tomato;
+            }
+    }
+
+    .footer-sponsor-container{
+
+        width: 100%;
+
+        // height: 100vh;
+
+        padding: 30px 60px 50px 60px;
+
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content:  flex-start;
+
+
+
+        ul{
+
+            margin: 0 auto;
+            max-width: 1308px;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+
+            flex-wrap: wrap;
+
+            list-style: none;
+            li{
+                text-decoration: none;
+                margin: 10px 20px;
+                img{
+                    height: 70px;
+
+                    filter: grayscale(100%);
+
+                    opacity: .85;
+                }
+            }
+        }
+    }
+}
+
+
+@media screen and (max-width:600px){
+    .footer-sponsor-main-container{
+        margin: 75px 0;
+        .footer-sponsor-container-heading{
+            margin: unset;
+            padding-left: 30px;
+                .title{
+                    // font-family: Roboto mono, monospace;
+                    font-size: 2.2rem;
+                    // position: absolute;
+                    // margin-left: 30px;
+                    text-transform: uppercase;
+                }
+        }
+        
+        .footer-sponsor-container{
+        
+            width: 100%;
+        
+            // height: 500px;
+        
+            padding: 0px 0px 50px 0px;
+        
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+            justify-content: center;
+        
+        
+        
+            ul{
+        
+                margin: 0 auto;
+                max-width: unset;
+                display: flex;
+                align-items: center;
+                justify-content: center;
+        
+                flex-wrap: wrap;
+        
+                list-style: none;
+                li{
+                    text-decoration: none;
+                    margin: 10px 15px;
+                    img{
+                        height: 55px;
+        
+                        filter: grayscale(100%);
+        
+                        opacity: .85;
+                    }
+                }
+            }
+        }
+    }
+}
+    

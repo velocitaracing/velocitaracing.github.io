@@ -1,0 +1,44 @@
+#section-one-payment{
+
+    .main-container{
+        background-image: linear-gradient(rgba(255,255,255,.7), rgba(255,255,255,.7)), url(../../../assets/Home/pattern.jpg);
+        // background-color: #f3f3f3;
+        min-height: 100vh;
+        // padding: 100px 100px 50px 100px;
+        display: flex;
+        align-items: flex-start;
+        justify-content: center;
+
+        .payment-form-container{
+            width: 60%;
+            min-height: 100vh;
+            padding: 50px 50px;
+            border-radius: 10px;
+            // box-shadow:  20px 20px 60px #d9d9d9,
+            //             -20px -20px 60px #ffffff;
+            background-color: rgb(255, 255, 255);
+        }
+        .right{
+            width: 40%;
+        }
+    }
+}
+
+@media screen and (max-width:420px) {
+    #section-one-payment{
+
+        .main-container{
+            flex-direction: column;
+
+            .payment-form-container{
+                width: 100%;
+
+                padding: 50px 30px;
+            }
+
+            .right{
+                width: 100%;
+            }
+        }
+    }
+}

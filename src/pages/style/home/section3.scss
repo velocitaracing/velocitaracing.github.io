@@ -1,0 +1,317 @@
+// Home Page | Section Three
+
+#section-three {
+  height: auto;
+ 
+  // background-color: var(--secondaryColor);
+
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  width: 100%;
+
+  .main-container {
+    padding: 200px 0;
+    width: 100%;
+    height: 100%;
+    background-color: var(--secondaryColor);
+    display: flex;
+    align-items: center;
+    justify-content: center;
+
+    position: relative;
+
+    .styled-character-position {
+      left: 0px;
+      top: -125px;
+      transform: rotateZ(-90deg);
+    }
+
+    .maya {
+      position: absolute;
+      padding-bottom: 125px;
+      height: 450px;
+    }
+
+    .left {
+      height: 100%;
+      width: 50%;
+      display: flex;
+      align-items: center;
+      justify-content: flex-end;
+      padding-left: 60px;
+
+      position: relative;
+
+      .car-image {
+        height: 270px;
+        padding-right: 75px;
+
+        @media screen and (max-width: 550px) {
+          padding-left: 0px;
+          padding-right: 0px;
+          height: 175px;
+        }
+
+        @media screen and (max-width: 420px) {
+          padding-left: 0px;
+          padding-right: 0px;
+          height: 175px;
+        }
+        @media screen and (max-width: 390px) {
+          padding-left: 0px;
+          padding-right: 0px;
+          height: 165px;
+        }
+        @media screen and (max-width: 360px) {
+          padding-left: 0px;
+          padding-right: 0px;
+          height: 145px;
+        }
+      }
+
+      .info-box {
+        height: 115px;
+        width: 95px;
+        background-color: var(--primaryColorDarkGrey);
+        position: absolute;
+        bottom: -125px;
+        left: 0px;
+
+        @media screen and (max-width: 390px) {
+          bottom: -150px;
+        }
+
+        .box-left {
+          width: 225px;
+          left: 60px;
+          color: var(--offWhiteColor);
+
+          @media screen and (max-width: 390px) {
+            width: 200px;
+            left: 30px;
+          }
+          @media screen and (max-width: 360px) {
+            width: 200px;
+            left: 30px;
+          }
+        }
+
+        .box-right {
+          position: absolute;
+          left: 300px;
+          color: var(--offWhiteColor);
+
+          @media screen and (max-width: 390px) {
+            left: 240px;
+          }
+          @media screen and (max-width: 360px) {
+            left: 240px;
+          }
+          .arrow {
+            font-size: 2.8rem;
+            padding: 8px;
+            border: 0.15rem solid tomato;
+            border-radius: 100%;
+          }
+        }
+      }
+    }
+
+    .right {
+      height: 100%;
+      width: 50%;
+      position: relative;
+      padding-right: 60px;
+
+      .neo-block {
+        position: absolute;
+        z-index: 2;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        left: 60px;
+        bottom: -295px;
+        height: 150px;
+        width: 150px;
+        border-radius: 15px;
+        background: #2a2a2a;
+        box-shadow: 20px 20px 35px #242424, -20px -20px 35px #303030;
+
+        @media screen and (max-width: 768px) {
+          bottom: 0;
+          left: unset;
+          right: 60px;
+        }
+
+        @media screen and (max-width: 420px) {
+          height: 100px;
+          width: 100px;
+          left: unset;
+          bottom: 0;
+          right: 60px;
+
+          .arrow-large {
+            height: 75px;
+          }
+        }
+      }
+
+      .block {
+        width: 100%;
+        position: absolute;
+        height: 50px;
+        background-color: var(--secondaryColor);
+      }
+
+      .info-box {
+        height: 115px;
+        width: 175px;
+        background-color: var(--primaryColorDarkGrey);
+        position: absolute;
+        bottom: 0;
+        right: 0px;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+
+        .box-left {
+          position: absolute;
+          left: -200px;
+          padding-right: 60px;
+          color: var(--offWhiteColor);
+
+          @media screen and (max-width: 420px) {
+            right: 0px;
+            left: unset;
+            width: 300px;
+          }
+
+          @media screen and (max-width: 390px) {
+            right: 00px;
+            left: unset;
+            width: 300px;
+          }
+        }
+
+        .box-right {
+          position: absolute;
+          right: 60px;
+          .arrow {
+            font-size: 2.8rem;
+            padding: 8px;
+
+            border: 0.15rem solid tomato;
+            border-radius: 100%;
+          }
+        }
+      }
+    }
+  }
+}
+
+@media screen and (max-width: 768px) {
+  #section-three {
+    height: calc(100vh);
+    width: 100%;
+
+    .main-container {
+      height: 100%;
+      width: 100%;
+      display: flex;
+      flex-direction: column-reverse;
+      align-items: flex-start;
+      justify-content: flex-end;
+
+      .maya {
+        position: absolute;
+        padding-bottom: 0px;
+        margin-top: 90px;
+        height: 145px;
+        transform: rotateZ(-90deg);
+        
+
+        @media screen and (max-width: 390px) {
+          height: 115px;
+        }
+      }
+
+      .styled-character-position {
+        left: -30px;
+        top: 50px;
+      }
+
+      .left {
+        height: 100%;
+        width: 100%;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        padding-left: 30px;
+        padding-right: 30px;
+
+        position: relative;
+
+        .div-box {
+          height: 115px;
+          width: 95px;
+          position: absolute;
+          bottom: -150px; //150px
+          left: 0px;
+          display: flex;
+          align-items: center;
+          justify-content: center;
+
+          .box-left {
+            position: absolute;
+            left: 30px;
+          }
+
+          .box-right {
+            position: absolute;
+            left: 290px;
+            .arrow {
+              font-size: 2.8rem;
+              padding: 8px;
+              border: 0.15rem solid tomato;
+              border-radius: 100%;
+            }
+          }
+        }
+      }
+
+      .right {
+        height: 100%;
+        width: 100%;
+        position: relative;
+        padding-right: 0px;
+
+        .block {
+          width: 100%;
+          position: absolute;
+          height: 50px;
+        }
+
+        .info-box {
+          height: 115px;
+          width: 175px;
+          position: absolute;
+          top: -150px;
+          right: 0px;
+
+          .box-right {
+            position: absolute;
+            right: 30px;
+            .arrow {
+              font-size: 2.8rem;
+              padding: 8px;
+
+              border: 0.15rem solid tomato;
+              border-radius: 100%;
+            }
+          }
+        }
+      }
+    }
+  }
+}

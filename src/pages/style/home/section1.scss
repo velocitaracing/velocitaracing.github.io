@@ -1,0 +1,209 @@
+// Section One/1 | Landing Page | Home Page
+
+#section-one {
+  height: 850px;
+  // background-color: #ffffff;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+
+  @media screen and (max-width:1920px) {
+    height: 100vh;
+  }
+
+  .main-container {
+    height: 100%;
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-color: var(--primaryColorDarkGrey);
+
+    .sub-container {
+      height: 100%;
+      width: 50%;
+    }
+
+    .left {
+      position: relative;
+      display: flex;
+      flex-direction: column;
+      align-items: flex-start;
+      justify-content: center;
+      padding: 0px 60px;
+      color: var(--offWhiteColor);
+
+      @media screen and (max-width: 420px) {
+        padding: 0 30px;
+      }
+
+      .div-box-two {
+        height: 300px;
+        width: 5px;
+        background-color: tomato;
+
+        position: absolute;
+        left: 0;
+      }
+
+      .main-heading {
+        text-transform: capitalize;
+      }
+
+      .sub-heading {
+        margin: 15px 0 0 0;
+      }
+
+      .styled-character-position {
+        top: 35px;
+        right: 0px;
+      }
+
+      .info-box {
+        bottom: 35px;
+        left: 0px;
+        height: 115px;
+        width: 95px;
+        position: absolute;
+        background-color: var(--secondaryColor);
+
+        .box-left {
+          left: 60px;
+          width: 225px;
+        }
+
+        .box-right {
+          right: -250px;
+        }
+
+        .arrow {
+          font-size: 2.8rem;
+          padding: 8px;
+          border: 0.15rem solid tomato;
+          border-radius: 100%;
+        }
+      }
+    }
+
+    .right {
+
+      background-color: var(--secondaryColor);
+      position: relative;
+      display: flex;
+      align-items: center;
+      justify-content: flex-start;
+
+      .vrf-image {
+        position: absolute;
+
+        @media screen and (max-width: 810px) {
+          height: 180px;
+        }
+
+        @media screen and (max-width: 420px) {
+          height: 180px;
+        }
+        @media screen and (max-width: 390px) {
+          height: 160px;
+        }
+
+        @media screen and (max-width: 360px) {
+          height: 140px;
+        }
+      }
+
+      .info-box {
+        width: 300px;
+        height: 115px;
+        background-color: var(--primaryColorDarkGrey);
+        bottom: 35px;
+        right: 0px;
+        position: absolute;
+
+        @media screen and (max-width: 390px) {
+          width: 260px;
+        }
+        @media screen and (max-width: 360px) {
+          width: 250px;
+        }
+
+        .box-left {
+          left: -85px;
+          width: 225px;
+
+          @media screen and (max-width: 768px) {
+            // left: -30px;
+          }
+          @media screen and (max-width: 420px) {
+            left: -60px;
+          }
+          @media screen and (max-width: 390px) {
+            left: -75px;
+            // width: 200px;
+          }
+          @media screen and (max-width: 360px) {
+            left: -45px;
+            width: 200px;
+          }
+        }
+
+        .box-right {
+          right: 60px;
+
+          @media screen and (max-width: 768px) {
+            right: 60px;
+          }
+          @media screen and (max-width: 420px) {
+            right: 30px;
+          }
+          @media screen and (max-width: 390px) {
+            right: 30px;
+          }
+          @media screen and (max-width: 360px) {
+            right: 30px;
+          }
+        }
+
+        .arrow {
+          font-size: 2.8rem;
+          padding: 8px;
+          border: 0.15rem solid tomato;
+          border-radius: 100%;
+          color: var(--fontprimarycoloroffWhite);
+        }
+
+        .no-display {
+          display: none;
+        }
+      }
+
+      .styled-character-position {
+        right: 30px;
+        bottom: 50%;
+        transform: rotateZ(-90deg);
+      }
+    }
+  }
+}
+
+// 768 Breakpoint
+
+@media screen and (max-width: 768px) {
+  #section-one {
+    height: unset;
+
+    .main-container {
+      height: 100%;
+      width: 100%;
+      display: flex;
+      flex-direction: column;
+      align-items: center;
+      justify-content: center;
+
+      .sub-container {
+        height: 100vh;
+        width: 100%;
+      }
+    }
+  }
+}

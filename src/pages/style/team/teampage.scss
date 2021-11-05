@@ -1,0 +1,55 @@
+#section-one-teampage {
+
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  
+  .main-container {
+    // height: 300px;
+    width: 100%;
+    background-color: #1a1a1a;
+    color: rgb(180, 180, 180);
+
+    padding: 175px 60px 30px 60px;
+
+    .underline {
+      height: 0.15rem;
+      background-color: tomato;
+      width: 60px;
+      margin-top: 10px;
+    }
+
+    .underline-small {
+      height: 0.12rem;
+      background-color: tomato;
+      width: 30px;
+      margin-top: 5px;
+    }
+
+    .section-subtitle {
+      margin-top: 10px;
+    }
+
+    .more-links {
+      margin-top: 30px;
+
+      .button-group {
+        margin-top: 10px;
+
+        .link-button {
+          // color: rgb(180,180,180);
+          // border-color: rgb(180,180,180)
+
+          .page-link {
+            text-decoration: none;
+            color: rgb(146, 146, 143);
+          }
+
+          .is-active {
+            color: saddlebrown;
+          }
+        }
+      }
+    }
+  }
+}

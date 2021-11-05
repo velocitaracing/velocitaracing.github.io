@@ -1,0 +1,119 @@
+#section-one-development{
+    .main-container{
+        min-height: 100vh;
+        background-color: #1a1a1a;
+        display: flex;
+        flex-direction: column;
+        align-items: flex-start;
+        justify-content: flex-start;
+        padding: 175px 60px 60px 60px;
+        color: rgb(180,180,180);
+
+        .section-title{
+            color: rgb(180,180,180);
+            font-weight: 700;
+        }
+
+        .underline{
+            height: .15rem;
+            width: 60px;
+            background-color: tomato;
+            margin: 5px 0;
+        }
+
+        .underline-small{
+            height: .12rem;
+            width: 30px;
+            background-color: tomato;
+            margin: 5px 0;
+        }
+
+        .section-subtitle{
+            margin-top: 30px;
+        }
+
+        .paragraph-top{
+            margin-top: 10px;
+        }
+
+        .section-info{
+            margin-top: 15px;
+
+            // width: 80%;
+            text-align: justify;
+        }
+
+        p{
+            font-size: .95rem;
+            line-height: 1.6rem;
+            @media screen and (max-width:420px) {
+                font-size: .9rem;
+                line-height: 1.4rem;
+            }
+
+            @media screen and (max-width:390px) {
+                font-size: .85rem;
+                line-height: 1.4rem;
+            }
+
+            @media screen and (max-width:360px) {
+                font-size: .75rem;
+                line-height: 1.2rem;
+            }
+        }
+
+        ul{
+            li{
+                display: flex;
+                align-items: center;
+                justify-content: flex-start;
+
+                font-size: .95rem;
+                line-height: 1.6rem;
+                @media screen and (max-width:420px) {
+                    font-size: .9rem;
+                    line-height: 1.4rem;
+                }
+    
+                @media screen and (max-width:390px) {
+                    font-size: .85rem;
+                    line-height: 1.4rem;
+                }
+    
+                @media screen and (max-width:360px) {
+                    font-size: .75rem;
+                    line-height: 1.2rem;
+                }
+
+                .arrow{
+                    color: tomato;
+                    margin-left: 10px;
+                    font-size: 1.2rem;
+                    @media screen and (max-width:420px) {
+                        font-size: 1.2rem;
+                    }
+        
+                    @media screen and (max-width:390px) {
+                        font-size: 1.1rem;
+                    }
+        
+                    @media screen and (max-width:360px) {
+                        font-size: .95rem;
+                    }
+                }
+                a{
+                    // text-decoration: none;
+                    color: rgb(180,180,180);
+                }
+            }
+        }
+    }
+}
+
+@media screen and (max-width:420px) {
+    #section-one-development{
+        .main-container{
+            padding: 175px 30px 60px 30px;
+        }
+    }    
+}

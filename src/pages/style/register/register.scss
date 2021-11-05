@@ -1,0 +1,21 @@
+#section-one-register {
+  .main-container {
+    width: 100%;
+    // display: flex;
+    // align-items: center;
+    // justify-content: center;
+    // padding: 150px 60px 150px 60px;
+    .form-container {
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      padding: 150px 60px 100px 60px;
+      width: 70%;
+
+      @media screen and (max-width:420px){
+        width: 100%;
+        padding: 150px 30px;
+      }
+    }
+  }
+}

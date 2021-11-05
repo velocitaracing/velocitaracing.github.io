@@ -1,0 +1,260 @@
+// Section 9/Nine | Home Page
+
+#section-nine {
+
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  width: 100%;
+
+ 
+
+  .main-container {
+    background-color: #1a1a1a;
+    padding: 100px 0;
+    width: 100%;
+    display: flex;
+    flex-direction: row-reverse;
+    align-items: center;
+    justify-content: center;
+
+    .left {
+      width: 50%;
+      padding: 0 60px;
+      display: flex;
+      flex-direction: column;
+      align-items: flex-start;
+      justify-content: center;
+      position: relative;
+      color: rgb(180, 180, 180);
+
+      .explore-title {
+        margin-bottom: 10px;
+        font-size: 1.4rem;
+        text-transform: capitalize;
+        letter-spacing: 0.4rem;
+        color: tomato;
+      }
+
+      .block {
+        position: absolute;
+        height: 250px;
+        width: 5px;
+        background-color: tomato;
+        right: 0;
+      }
+      .section-title {
+        z-index: 1;
+        margin-top: 10px;
+        font-size: 3.4rem;
+        @media screen and (max-width: 420px) {
+          padding-right: 30px;
+          font-size: 2.8rem;
+        }
+        @media screen and (max-width: 390px) {
+          font-size: 2.4rem;
+        }
+        @media screen and (max-width: 360px) {
+          font-size: 2rem;
+        }
+      }
+
+      .section-subtitle {
+        margin-top: 10px;
+       }
+
+      .sub-title {
+        margin-top: 10px;
+        font-size: 1rem;
+        padding-right: 60px;
+        line-height: 1.4rem;
+      }
+    
+
+      .sub-title-info {
+        margin-top: 10px;
+        font-size: 1rem;
+        line-height: 1.4rem;
+        padding-right: 60px;
+
+        @media screen and (max-width: 420px) {
+          padding-right: 30px;
+          font-size: 0.95rem;
+          margin-top: 30px;
+        }
+        @media screen and (max-width: 390px) {
+          font-size: 0.85rem;
+        }
+        @media screen and (max-width: 360px) {
+          font-size: 0.75rem;
+        }
+      }
+
+      .sub-info {
+        z-index: 1;
+        margin-top: 20px;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        text-transform: capitalize;
+        color: rgb(180, 180, 180);
+
+        .arrow {
+          color: tomato;
+          margin-left: 10px;
+        }
+      }
+    }
+    .right {
+      width: 50%;
+      display: flex;
+      flex-direction: column;
+      align-items: center;
+      justify-content: center;
+
+      padding: 0 60px;
+
+      .link-card{
+        padding: 10px;
+        margin-top: 20px;
+        width: 400px;
+        background-color: #2a2a2a;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+
+        // height: 50px;
+
+        Button{
+          border-color: #2a2a2a;
+        }
+
+        .podcast-logo{
+          height: 30px;
+          @media screen and (max-width: 420px) {
+            height: 20px;
+          }
+          @media screen and (max-width: 390px) {
+            
+          }
+          @media screen and (max-width: 360px) {
+            height: 15px;
+          }
+        }
+
+        @media screen and (max-width: 420px) {
+          width: 100%;
+        }
+        @media screen and (max-width: 390px) {
+          
+        }
+        @media screen and (max-width: 360px) {
+          
+        }
+      }
+
+      .podcast-card{
+        background-color: #282828;
+        width: 400px;
+
+        @media screen and (max-width: 420px) {
+          width: 100%;
+        }
+      }
+
+      .podcast-spotify {
+       width: 400px;
+
+
+        @media screen and (max-width: 420px) {
+          width: 100%;
+        }
+        @media screen and (max-width: 390px) {
+          
+        }
+        @media screen and (max-width: 360px) {
+          
+        }
+      }
+    }
+  }
+}
+
+@media screen and (max-width: 768px) {
+  #section-nine {
+    .main-container {
+      padding: 50px 0;
+      width: 100%;
+      display: flex;
+      flex-direction: column;
+      align-items: center;
+      justify-content: center;
+
+      .left {
+        width: 100%;
+        padding-left: 30px;
+        display: flex;
+        flex-direction: column;
+        align-items: flex-start;
+        justify-content: center;
+        position: relative;
+
+
+        .explore-title {
+          margin-bottom: 10px;
+          font-size: 1.4rem;
+          text-transform: capitalize;
+          letter-spacing: 0.4rem;
+          color: tomato;
+        }
+
+        .block {
+          position: absolute;
+          height: 250px;
+          width: 5px;
+          background-color: tomato;
+          right: 0;
+        }
+        .title {
+          font-size: 3.4rem;
+          z-index: 1;
+        }
+
+        .sub-title {
+          margin-top: 10px;
+          font-size: 1rem;
+          padding-right: 60px;
+          line-height: 1.4rem;
+        }
+
+        .sub-info {
+          z-index: 1;
+          margin-top: 20px;
+          display: flex;
+          align-items: center;
+          justify-content: center;
+          text-transform: capitalize;
+
+          .arrow {
+            color: tomato;
+            margin-left: 10px;
+          }
+        }
+      }
+      .right {
+        width: 100%;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+
+        @media screen and (max-width:420px) {
+          padding: 75px 30px;
+        }
+
+        .podcast {
+          margin: 70px 0;
+        }
+      }
+    }
+  }
+}

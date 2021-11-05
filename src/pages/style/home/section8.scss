@@ -1,0 +1,304 @@
+// Home Page |  Section Eight
+
+#section-eight {
+
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  width: 100%;
+
+ 
+    .main-container {
+      width: 100%;
+      background-color: #1a1a1a;
+
+      padding: 100px 0;
+      display: flex;
+      align-items: center;
+      justify-content: center;
+  
+      .left {
+        width: 50%;
+        padding-left: 60px;
+        display: flex;
+        flex-direction: column;
+        align-items: flex-start;
+        justify-content: center;
+        position: relative;
+  
+        color: rgb(180, 180, 180);
+  
+        .block {
+          position: absolute;
+          height: 250px;
+          width: 5px;
+          background-color: tomato;
+          left: 0;
+        }
+        .section-title {
+          margin-top: 10px;
+          font-size: 3.4rem;
+          @media screen and (max-width:420px) {
+            padding-right: 30px;
+            font-size: 2.8rem;
+          }
+          @media screen and (max-width:390px) {
+            font-size: 2.4rem;
+          }
+          @media screen and (max-width:360px) {
+            font-size: 2rem;
+          }
+        }
+  
+        .sub-title {
+          margin-top: 10px;
+          font-size: 1.2rem;
+        }
+  
+        .sub-title-info {
+          margin-top: 20px;
+          font-size: 1rem;
+          line-height: 1.4rem;
+          padding-right: 60px;
+  
+          @media screen and (max-width:420px) {
+            padding-right: 30px;
+            font-size: .95rem;
+            margin-top: 30px;
+            padding-right: 30px;
+          }
+  
+          @media screen and (max-width:390px) {
+            font-size: .85rem;
+          }
+  
+          @media screen and (max-width:360px) {
+            font-size: .75rem;
+          }
+        }
+        .sub-info {
+          z-index: 1;
+          margin-top: 20px;
+  
+          display: flex;
+          align-items: center;
+          justify-content: center;
+  
+          text-transform: capitalize;
+          color: rgb(180,180,180);
+  
+          .arrow {
+            color: tomato;
+            margin-left: 10px;
+          }
+        }
+      }
+      .right {
+        width: 50%;
+        padding-right: 60px;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+  
+        .clothes {
+          height: 400px;
+          left: 0;
+          opacity: 1;
+  
+          @media screen and (max-width:420px) {
+            height: 320px;
+            margin-top: 70px;
+          }
+          @media screen and (max-width:390px) {
+            height: 300px;
+          }
+          @media screen and (max-width:360px) {
+            height: 270px;
+          }
+        }
+
+        .sub-container{
+          display: flex;
+          flex-direction: column;
+          align-items: center;
+          justify-content: center;
+          .link-block {
+            position: relative;
+            margin: 15px 0;
+            width: 345px;
+            background-color: #1a1a1a00;
+            display: flex;
+            align-items: center;
+            justify-content: space-between;
+  
+            .in-page-link{
+              display: flex;
+              align-items: center;
+              justify-content: space-between;
+              text-decoration: none;
+              color: rgb(180,180,180);
+              width: 100%;
+            }
+    
+            .block {
+              position: absolute;
+              left: 0;
+              height: 100%;
+              width: 2px;
+              background-color: tomato;
+    
+              @media screen and (max-width: 420px) {
+                left: 15px;
+              }
+            }
+    
+            .block-info {
+              padding-left: 30px;
+    
+              display: flex;
+              flex-direction: column;
+              align-items: flex-start;
+              justify-content: center;
+    
+              .link-title {
+                letter-spacing: 0.1rem;
+                
+              }
+    
+              .sub-title {
+                padding-bottom: 3px;
+              }
+            }
+    
+            .arrow {
+              margin-left: 15px;
+              border-radius: 100%;
+              padding: 8px;
+              font-size: 2.2rem;
+              border: 0.15rem solid tomato;
+            }
+            @media screen and (max-width: 420px) {
+              padding: 0 15px;
+              width: 100%;
+            }
+            @media screen and (max-width: 390px) {
+              // width: 275px;
+            }
+          }
+        }
+  
+        .title {
+          font-size: 4rem;
+        }
+      }
+  
+      .sub-container{
+        height: 100%;
+        width: 100%;
+        position: relative;
+  
+        display: flex;
+        align-items: center;
+        justify-content: center;
+  
+        .box{
+          position: absolute;
+          height: 250px;
+          width: 300px;
+          border-radius: 20px;
+          background: #ffffff;
+          box-shadow:  20px 20px 60px #d9d9d9,
+                      -20px -20px 60px #ffffff;
+        }
+  
+        .box-one{
+          left: 0px;
+          top: -175px;
+        }
+  
+        .box-two{
+          left: 120px;
+          top: -20px;
+        }
+  
+        .box-three{
+          left: 280px;
+          top: -100px;
+        }
+      }
+    }
+  }
+  
+  @media screen and (max-width: 768px) {
+    #section-eight {
+
+
+      .main-container {
+        width: 100%;
+        // height: 100vh;  
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
+  
+        .left {
+          width: 100%;  
+          padding-left: 30px;  
+          display: flex;
+          flex-direction: column;
+          align-items: flex-start;
+          justify-content: center;
+          position: relative;
+    
+          .explore-title {
+            margin-bottom: 10px;
+            font-size: 1.4rem;
+            text-transform: capitalize;
+            letter-spacing: 0.4rem;
+            color: tomato;
+          }
+  
+          .block {
+            position: absolute;
+            height: 250px;
+            width: 5px;
+            background-color: tomato;
+            left: 0;
+          }
+          .title {
+            font-size: 3.4rem;
+            z-index: 1;
+          }
+  
+          .sub-title {
+            margin-top: 10px;
+            font-size: 1.2rem;
+          }
+  
+          .sub-info {
+            z-index: 1;
+            margin-top: 20px;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            text-transform: capitalize;
+            color: rgb(180,180,180);
+  
+            .arrow {
+              color: tomato;
+              margin-left: 10px;
+            }
+          }
+        }
+        .right {
+          width: 100%;
+          padding-right: 0px;
+          display: flex;
+          align-items: center;
+          justify-content: center;
+  
+        }
+      }
+    }
+  }

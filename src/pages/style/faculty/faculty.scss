@@ -1,0 +1,202 @@
+#section-one-faculty {
+  min-height: 100vh;
+  .main-container {
+    height: 100%;
+    background-color: #1a1a1a;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding: 250px 60px 60px 60px;
+    // padding: 0 60px;
+
+    .styled-character-position {
+        top: 35px;
+        right: 50%;
+      }
+
+    .left {
+      height: 100%;
+      display: flex;
+      flex-direction: column;
+      align-items: flex-start;
+      justify-content: center;
+      width: 50%;
+
+      color: rgb(180, 180, 180);
+
+      .external-link{
+        //   text-decoration: none;
+        //   display: inline-block;
+        color: rgb(180, 180, 180);
+
+        .arrow{
+            padding: auto 0;
+            font-size: 1.2rem;
+            color: tomato;
+        }
+      }
+
+      .section-title {
+      }
+
+      .underline {
+        height: 0.15rem;
+        width: 60px;
+        background-color: tomato;
+        margin: 5px 0;
+      }
+
+      .underline-small {
+        height: 0.12rem;
+        width: 30px;
+        background-color: tomato;
+        margin: 5px 0;
+      }
+
+      .section-subtitle {
+        margin-top: 30px;
+      }
+
+      .paragraph-top {
+        margin-top: 10px;
+      }
+
+      .section-info {
+        margin-top: 15px;
+
+        // width: 80%;
+        text-align: justify;
+      }
+
+      .education-info {
+        margin-top: 50px;
+        .paper {
+          background-color: #2a2a2a;
+        }
+        .table {
+          width: 475px;
+
+          @media screen and (max-width: 530px) {
+            width: 380px;
+          }
+          @media screen and (max-width: 420px) {
+            width: 350px;
+          }
+
+          @media screen and (max-width: 390px) {
+            width: 310px;
+          }
+
+          @media screen and (max-width: 360px) {
+            width: 260px;
+          }
+
+          .table-head {
+            color: rgb(180, 180, 180);
+          }
+
+          .table-body {
+            color: rgb(128, 128, 128);
+          }
+
+          .cell {
+            border-color: #1a1a1a;
+            color: unset;
+          }
+        }
+      }
+    }
+
+    .right {
+      width: 50%;
+    }
+  }
+}
+
+@media screen and (max-width: 768px) {
+  #section-one-faculty {
+    height: 100vh;
+    .main-container {
+      height: 100%;
+      background-color: #1a1a1a;
+      display: flex;
+      flex-direction: column;
+      align-items: center;
+      justify-content: center;
+
+      padding: 0 30px;
+
+      .left {
+        width: 100%;
+        // padding: 0 30px;
+        padding: 250px 0px 60px 0px;
+      }
+      .right {
+      }
+    }
+  }
+}
+
+#section-two-faculty {
+  .main-container {
+    height: 100%;
+    background-color: #1a1a1a;
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    justify-content: center;
+    // padding: 250px 60px 60px 60px;
+    color: rgb(180, 180, 180);
+    padding: 0 60px 60px 60px;
+
+    .section-title {
+    }
+
+    .underline {
+      height: 0.15rem;
+      width: 60px;
+      background-color: tomato;
+      margin: 5px 0;
+    }
+
+    .underline-small {
+      height: 0.12rem;
+      width: 30px;
+      background-color: tomato;
+      margin: 5px 0;
+    }
+
+    .section-subtitle {
+      margin-top: 30px;
+    }
+
+    .paragraph-top {
+      margin-top: 10px;
+    }
+
+    .section-info {
+      margin-top: 15px;
+
+      // width: 80%;
+      text-align: justify;
+    }
+    p {
+      font-size: 0.9rem;
+      line-height: 1.4rem;
+      text-align: justify;
+      width: 75%;
+      margin-top: 10px;
+    }
+  }
+}
+
+@media screen and (max-width: 768px) {
+  #section-two-faculty {
+    .main-container {
+      padding: 60px 30px;
+      p {
+        width: 100%;
+      }
+    }
+  }
+}

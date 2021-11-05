@@ -1,0 +1,287 @@
+.register-form {
+    position: relative;
+    height: 100%;
+    width: 100%;
+  
+    display: flex;
+    
+    align-items: center;
+    justify-content: center;
+
+    .circular-progress{
+      min-height: 250px;
+      width: 100%;
+      display: flex;
+      align-items: center;
+      justify-content: center;
+    }
+
+    .form-stepper{
+      .step-label{
+        // label-
+      }
+    
+    }
+  
+    .form-control {
+      position: relative;
+      height: 100%;
+      width: 100%;
+
+    //   display: flex;
+    //   flex-direction: row;
+    //   align-items: flex-start;
+    //   justify-content: center;
+
+      @media screen and (max-width:420px) {
+        flex-direction: column;
+        align-items: center;
+      }
+
+      .form-stepper-wrapper{
+          min-height: 250px;
+      }
+
+      .step-form-box{
+          min-height: 250px;
+          display: flex;
+          align-items: flex-start;
+          justify-content: center;
+      }
+
+      .finish-box{
+          // min-height: 250px;
+          // display: flex;
+          // align-items: flex-end;
+          // justify-content: space-between;
+      }
+
+      .basic-details{
+          display: flex;
+          flex-direction: column;
+          width: 100%;
+          .name-wrapper{
+            width: 100%;
+            .text-field{
+                width: 350px;
+                margin-right: 30px;
+            }
+
+            @media screen and (max-width:420px) {
+              flex-direction: column;
+              align-items: center;
+
+              .text-field{
+                width: 100%;
+                margin-right: 0px;
+            
+              }
+            }
+          }
+
+          .email-wrapper{
+            width: 100%;
+            // display: flex;
+            // flex-direction: column;
+            .text-field{
+                width: 350px;
+                margin-right: 30px;
+            }
+
+            @media screen and (max-width:420px) {
+              flex-direction: column;
+              align-items: center;
+
+              .text-field{
+                width: 100%;
+                margin-right: 0px;
+              }
+            }
+          }
+
+          .study-wrapper{
+            width: 100%;
+            display: flex;
+            flex-direction: row;
+            .text-field{
+                width: 200px;
+                margin-right: 30px;
+            }
+
+            .ext-long{
+                width: 375px;
+            }
+
+            .form-control-select{
+                margin-top: 16px;
+                margin-bottom: 8px;
+            }
+            
+            @media screen and (max-width:420px) {
+              flex-direction: column;
+              align-items: center;
+
+              .text-field{
+                width: 100%;
+                margin-right: 0px;
+            }
+
+            .ext-long{
+                width: 100%;
+            }
+            }
+          }
+      }
+
+      .aoi-select{
+        display: flex;
+          flex-direction: column;
+          width: 100%;
+
+          .sub-title{
+            margin-bottom: 20px;
+          }
+          .aoi-wrapper{
+            width: 100%;
+            .text-field{
+                width: 400px;
+                margin-right: 30px;
+                margin-top: 25px;
+            }
+          }
+
+          @media screen and (max-width:420px) {
+            flex-direction: column;
+            align-items: center;
+            .aoi-wrapper{
+              width: 100%;
+            .text-field{
+              width: 100%;
+              margin-right: 0px;
+              margin-top: 25px;
+              }
+            }
+          }
+      }
+
+      .verify-details{
+        display: flex;
+          flex-direction: column;
+          width: 100%;
+          min-height: 250px;
+          align-items: center;
+          justify-content: center;
+          overflow: hidden;
+          position: relative;
+          .sub-title{
+            margin-bottom: 20px;
+          }
+          .verify-wrapper{
+            width: 100%;
+            position: absolute;
+          
+            transform: translateX(100%);
+            .text-field{
+                width: 350px;
+                margin-right: 30px;
+                margin-top: 25px;
+            }
+          }
+
+          @media screen and (max-width:420px) {
+            .verify-wrapper{
+              width: 100%;
+              position: absolute;
+              transform: translateX(100%);
+              .text-field{
+                  width: 100%;
+                  margin-right: 0px;
+                  margin-top: 25px;
+              }
+            }
+          }
+      }
+    }
+  
+    .text-field {
+    //   width: 350px;
+    // width: 100%;
+
+    @media screen and (max-width:420px) {
+      width: 70%;
+    }
+      // background-color: #f3f1f1;
+      
+  
+      @media screen and (max-width:420px) {
+          width: 100%;
+      }
+  
+      label {
+        color: #505050;
+      }
+  
+      input {
+        color: #505050;
+      }
+  
+      textarea {
+        color: #505050;
+        
+      }
+    }
+  
+    .action{
+      display: flex;
+      align-items: center;
+      justify-content: space-between;
+      width: 100%;
+
+      margin-top: 15px;
+      .send-button {
+        // position: absolute;
+        // bottom: 0;
+        // right: 0;
+        color: #505050;
+        // height: 56px;
+        // margin-left: 10px;
+        // border-color: #505050;
+    
+        .arrow {
+          margin-left: 10px;
+          color: tomato;
+        }
+  
+             }
+    
+      .reset-button {
+        // position: absolute;
+        // left: 0;
+        // bottom: 0;
+        // color: #505050;
+      }
+    }
+  }
+  
+  
+  #success-register-form{
+      display: flex;
+      flex-direction: column;
+      align-items: center;
+      justify-content: center;
+      position: relative;
+      height: 100%;
+      width: 100%;
+  
+      .form-reset-button{
+        margin-top: 10px;
+          // position: absolute;
+          // bottom: 0;
+          // right: 0;
+          // color: #505050;
+          @media screen and (max-width:420px) {
+            margin-top: 20px;
+          }
+   
+      }
+  }

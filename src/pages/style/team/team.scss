@@ -1,0 +1,310 @@
+#section-one-team{
+    height: 850px;
+
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    
+    @media screen and (max-width:1920px) {
+      height: 100vh;
+    }
+  
+    .main-container{
+        height: 100%;
+        width: 100%;
+        background-color: #1a1a1a;
+        display: flex;
+        align-items: center;
+        justify-content: flex-start;
+
+        .left {
+            width: 50%;
+            height: 100%;
+            position: relative;
+            display: flex;
+            flex-direction: column;
+            align-items: flex-start;
+            justify-content: center;
+            padding: 0px 60px;
+            color: var(--offWhiteColor);
+      
+            @media screen and (max-width: 420px) {
+              padding: 0 30px;
+            }
+      
+            .div-box-two {
+              height: 300px;
+              width: 5px;
+              background-color: tomato;
+      
+              position: absolute;
+              left: 0;
+            }
+      
+            .main-heading {
+              text-transform: capitalize;
+            }
+      
+            .sub-heading {
+              margin: 15px 0 0 0;
+            }
+      
+            .styled-character-position {
+              top: 35px;
+              right: 0px;
+            }
+      
+            .info-box {
+              bottom: 35px;
+              left: 0px;
+              height: 115px;
+              width: 95px;
+              position: absolute;
+              background-color: var(--secondaryColor);
+      
+              .box-left {
+                left: 60px;
+                width: 225px;
+              }
+      
+              .box-right {
+                right: -250px;
+              }
+      
+              .arrow {
+                font-size: 2.8rem;
+                padding: 8px;
+                border: 0.15rem solid tomato;
+                border-radius: 100%;
+              }
+            }
+
+            .neo-block {
+              position: absolute;
+              z-index: 2;
+              display: flex;
+              align-items: center;
+              justify-content: center;
+              left: 60px;
+              bottom: 30px;
+              height: 150px;
+              width: 150px;
+              border-radius: 15px;
+              background: #1a1a1a;
+              box-shadow: 20px 20px 44px #151515, -20px -20px 44px #1f1f1f;
+      
+              @media screen and (max-width: 768px) {
+                bottom: 60px;
+                left: unset;
+                right: 60px;
+              }
+      
+              @media screen and (max-width: 420px) {
+                height: 100px;
+                width: 100px;
+      
+                .arrow-large {
+                  height: 75px;
+                  width: 75px;
+                }
+              }
+            }
+          }
+
+          .right{
+              width: 50%;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            position: relative;
+
+            .styled-character-position {
+              right: 30px;
+              bottom: 50%;
+              transform: rotateZ(-90deg);
+            }
+
+            .team-image{
+              position: absolute;
+              opacity: .06;
+              @media screen and (max-width: 1120px) {
+                height: 400px;
+              }
+              @media screen and (max-width: 900px) {
+                height: 340px;
+              }
+              @media screen and (max-width: 768px) {
+                height: 340px;
+              }
+              @media screen and (max-width: 420px) {
+                height: 320px;
+              }
+              @media screen and (max-width: 390px) {
+                height: 280px;
+              }
+              @media screen and (max-width: 360px) {
+                height: 260px;
+              }
+            }
+            .sub-container{
+
+              display: flex;
+              flex-direction: column;
+              align-items: center;
+              justify-content: center;
+
+              .link-button{
+                text-decoration: none;
+              }
+              .link-block {
+                color: rgb(180, 180, 180);
+                position: relative;
+                margin: 15px 0;
+                width: 345px;
+                background-color: #1a1a1a00;
+                display: flex;
+                align-items: center;
+                justify-content: space-between;
+        
+                .in-page-link{
+                  display: flex;
+                  align-items: center;
+                  justify-content: space-between;
+                  text-decoration: none;
+                  color: rgb(180,180,180);
+                  width: 100%;
+                }
+        
+                .block {
+                  position: absolute;
+                  left: 0;
+                  height: 100%;
+                  width: 2px;
+                  background-color: tomato;
+        
+                  @media screen and (max-width: 420px) {
+                    left: 15px;
+                  }
+                }
+        
+                .block-info {
+                  padding-left: 30px;
+        
+                  display: flex;
+                  flex-direction: column;
+                  align-items: flex-start;
+                  justify-content: center;
+        
+                  .title {
+                    letter-spacing: 0.1rem;
+                  }
+        
+                  .sub-title {
+                    padding-bottom: 3px;
+                  }
+                }
+        
+                .arrow {
+                  margin-left: 15px;
+                  border-radius: 100%;
+                  padding: 8px;
+                  font-size: 2.2rem;
+                  border: 0.15rem solid tomato;
+                }
+                @media screen and (max-width: 420px) {
+                  padding: 0 15px;
+                  width: 295px;
+                }
+                @media screen and (max-width: 390px) {
+                  width: 275px;
+                }
+              }
+        
+            }
+          }
+    }
+  
+}
+
+
+@media screen and (max-width:768px) {
+
+  #section-one-team{
+    height: unset;
+  .main-container{
+      height: 100%;
+      background-color: #1a1a1a;
+      display: flex;
+      flex-direction: column;
+      align-items: center;
+      justify-content: flex-start;
+
+      .left {
+          width: 100%;
+          height: 100vh;
+          position: relative;
+          display: flex;
+          flex-direction: column;
+          align-items: flex-start;
+          justify-content: center;
+            
+      }
+      .right{
+        height: 350px;
+        width: 100%;
+        display: flex;
+        align-items: flex-start;
+        justify-content: center;
+        padding: 50px 30px;
+
+        .sub-container{
+          width: 100%;
+          display: flex;
+          flex-direction: column;
+          align-items: flex-start;
+          justify-content: center;
+        }
+      }
+    }
+  }
+}
+
+
+#section-two-team{
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+  
+
+    .main-container{
+      // background-color: #1a1a1a;
+        padding: 50px 45px;
+        width: 100%;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+
+        @media screen and (max-width:420px) {
+          padding: 50px 30px;
+        }
+
+        .card-container{
+            width: 100%;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+
+            .card-wrapper{
+                width: 100%;
+                display: flex;
+                align-items: center;
+                flex-wrap: wrap;
+                justify-content: space-between;
+            }
+        }
+    }
+}
+
