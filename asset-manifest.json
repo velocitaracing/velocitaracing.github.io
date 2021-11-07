@@ -1,17 +1,17 @@
 {
   "files": {
     "main.css": "/static/css/main.341c6631.chunk.css",
-    "main.js": "/static/js/main.60b1e7d6.chunk.js",
-    "main.js.map": "/static/js/main.60b1e7d6.chunk.js.map",
+    "main.js": "/static/js/main.38d55779.chunk.js",
+    "main.js.map": "/static/js/main.38d55779.chunk.js.map",
     "runtime-main.js": "/static/js/runtime-main.d29a724b.js",
     "runtime-main.js.map": "/static/js/runtime-main.d29a724b.js.map",
-    "static/js/2.1730be6b.chunk.js": "/static/js/2.1730be6b.chunk.js",
-    "static/js/2.1730be6b.chunk.js.map": "/static/js/2.1730be6b.chunk.js.map",
+    "static/js/2.3fb774ce.chunk.js": "/static/js/2.3fb774ce.chunk.js",
+    "static/js/2.3fb774ce.chunk.js.map": "/static/js/2.3fb774ce.chunk.js.map",
     "static/js/3.d4970354.chunk.js": "/static/js/3.d4970354.chunk.js",
     "static/js/3.d4970354.chunk.js.map": "/static/js/3.d4970354.chunk.js.map",
     "index.html": "/index.html",
     "static/css/main.341c6631.chunk.css.map": "/static/css/main.341c6631.chunk.css.map",
-    "static/js/2.1730be6b.chunk.js.LICENSE.txt": "/static/js/2.1730be6b.chunk.js.LICENSE.txt",
+    "static/js/2.3fb774ce.chunk.js.LICENSE.txt": "/static/js/2.3fb774ce.chunk.js.LICENSE.txt",
     "static/media/AnilLogo.826c5ff1.webp": "/static/media/AnilLogo.826c5ff1.webp",
     "static/media/Decofix-Logo.5f49a0eb.webp": "/static/media/Decofix-Logo.5f49a0eb.webp",
     "static/media/Display-mart.84c0f8e6.webp": "/static/media/Display-mart.84c0f8e6.webp",
@@ -116,8 +116,8 @@
   },
   "entrypoints": [
     "static/js/runtime-main.d29a724b.js",
-    "static/js/2.1730be6b.chunk.js",
+    "static/js/2.3fb774ce.chunk.js",
     "static/css/main.341c6631.chunk.css",
-    "static/js/main.60b1e7d6.chunk.js"
+    "static/js/main.38d55779.chunk.js"
   ]
 }
