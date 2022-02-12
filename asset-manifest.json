@@ -1,17 +1,18 @@
 {
   "files": {
-    "main.css": "/static/css/main.13a079ee.chunk.css",
-    "main.js": "/static/js/main.ddae3a7d.chunk.js",
-    "main.js.map": "/static/js/main.ddae3a7d.chunk.js.map",
-    "runtime-main.js": "/static/js/runtime-main.063b1cdd.js",
-    "runtime-main.js.map": "/static/js/runtime-main.063b1cdd.js.map",
-    "static/js/2.7160bd34.chunk.js": "/static/js/2.7160bd34.chunk.js",
-    "static/js/2.7160bd34.chunk.js.map": "/static/js/2.7160bd34.chunk.js.map",
-    "static/js/3.0f4b7bb9.chunk.js": "/static/js/3.0f4b7bb9.chunk.js",
-    "static/js/3.0f4b7bb9.chunk.js.map": "/static/js/3.0f4b7bb9.chunk.js.map",
+    "main.css": "/static/css/main.0a2802a7.chunk.css",
+    "main.js": "/static/js/main.aea04a6f.chunk.js",
+    "main.js.map": "/static/js/main.aea04a6f.chunk.js.map",
+    "runtime-main.js": "/static/js/runtime-main.03a8dba3.js",
+    "runtime-main.js.map": "/static/js/runtime-main.03a8dba3.js.map",
+    "static/js/2.c07914d8.chunk.js": "/static/js/2.c07914d8.chunk.js",
+    "static/js/2.c07914d8.chunk.js.map": "/static/js/2.c07914d8.chunk.js.map",
+    "static/js/3.d5b1cc25.chunk.js": "/static/js/3.d5b1cc25.chunk.js",
+    "static/js/3.d5b1cc25.chunk.js.map": "/static/js/3.d5b1cc25.chunk.js.map",
     "index.html": "/index.html",
-    "static/css/main.13a079ee.chunk.css.map": "/static/css/main.13a079ee.chunk.css.map",
-    "static/js/2.7160bd34.chunk.js.LICENSE.txt": "/static/js/2.7160bd34.chunk.js.LICENSE.txt",
+    "static/css/main.0a2802a7.chunk.css.map": "/static/css/main.0a2802a7.chunk.css.map",
+    "static/js/2.c07914d8.chunk.js.LICENSE.txt": "/static/js/2.c07914d8.chunk.js.LICENSE.txt",
+    "static/media/3d-cad.a32dde7a.png": "/static/media/3d-cad.a32dde7a.png",
     "static/media/AnilLogo.826c5ff1.webp": "/static/media/AnilLogo.826c5ff1.webp",
     "static/media/Decofix-Logo.5f49a0eb.webp": "/static/media/Decofix-Logo.5f49a0eb.webp",
     "static/media/Display-mart.84c0f8e6.webp": "/static/media/Display-mart.84c0f8e6.webp",
@@ -65,6 +66,8 @@
     "static/media/eastern-rubber.b63ac6e9.webp": "/static/media/eastern-rubber.b63ac6e9.webp",
     "static/media/electrical.bc456c2f.svg": "/static/media/electrical.bc456c2f.svg",
     "static/media/erubber.21a0bfed.png": "/static/media/erubber.21a0bfed.png",
+    "static/media/event-one.687eb751.png": "/static/media/event-one.687eb751.png",
+    "static/media/events-banner.43c0071e.png": "/static/media/events-banner.43c0071e.png",
     "static/media/fb.b7efcc81.jpg": "/static/media/fb.b7efcc81.jpg",
     "static/media/four.d28aee01.png": "/static/media/four.d28aee01.png",
     "static/media/fseries.2d35775c.png": "/static/media/fseries.2d35775c.png",
@@ -114,6 +117,7 @@
     "static/media/smartlink.d5e80ae9.webp": "/static/media/smartlink.d5e80ae9.webp",
     "static/media/social.3c983749.svg": "/static/media/social.3c983749.svg",
     "static/media/social.d4ca468a.webp": "/static/media/social.d4ca468a.webp",
+    "static/media/solid-works.55c9ac8c.png": "/static/media/solid-works.55c9ac8c.png",
     "static/media/solidworks.f2be369a.png": "/static/media/solidworks.f2be369a.png",
     "static/media/soumyadeep.ee4538ad.jpg": "/static/media/soumyadeep.ee4538ad.jpg",
     "static/media/sponsorship.8d63b431.svg": "/static/media/sponsorship.8d63b431.svg",
@@ -137,9 +141,9 @@
     "static/media/writer.281b9a13.webp": "/static/media/writer.281b9a13.webp"
   },
   "entrypoints": [
-    "static/js/runtime-main.063b1cdd.js",
-    "static/js/2.7160bd34.chunk.js",
-    "static/css/main.13a079ee.chunk.css",
-    "static/js/main.ddae3a7d.chunk.js"
+    "static/js/runtime-main.03a8dba3.js",
+    "static/js/2.c07914d8.chunk.js",
+    "static/css/main.0a2802a7.chunk.css",
+    "static/js/main.aea04a6f.chunk.js"
   ]
 }
