@@ -1,17 +1,17 @@
 {
   "files": {
-    "main.css": "/static/css/main.7a585b62.chunk.css",
-    "main.js": "/static/js/main.18ed627e.chunk.js",
-    "main.js.map": "/static/js/main.18ed627e.chunk.js.map",
-    "runtime-main.js": "/static/js/runtime-main.03a8dba3.js",
-    "runtime-main.js.map": "/static/js/runtime-main.03a8dba3.js.map",
-    "static/js/2.1a39b1ab.chunk.js": "/static/js/2.1a39b1ab.chunk.js",
-    "static/js/2.1a39b1ab.chunk.js.map": "/static/js/2.1a39b1ab.chunk.js.map",
-    "static/js/3.d5b1cc25.chunk.js": "/static/js/3.d5b1cc25.chunk.js",
-    "static/js/3.d5b1cc25.chunk.js.map": "/static/js/3.d5b1cc25.chunk.js.map",
+    "main.css": "/static/css/main.57f31dd7.chunk.css",
+    "main.js": "/static/js/main.0f752802.chunk.js",
+    "main.js.map": "/static/js/main.0f752802.chunk.js.map",
+    "runtime-main.js": "/static/js/runtime-main.f19d53bf.js",
+    "runtime-main.js.map": "/static/js/runtime-main.f19d53bf.js.map",
+    "static/js/2.ac10e53b.chunk.js": "/static/js/2.ac10e53b.chunk.js",
+    "static/js/2.ac10e53b.chunk.js.map": "/static/js/2.ac10e53b.chunk.js.map",
+    "static/js/3.cec98528.chunk.js": "/static/js/3.cec98528.chunk.js",
+    "static/js/3.cec98528.chunk.js.map": "/static/js/3.cec98528.chunk.js.map",
     "index.html": "/index.html",
-    "static/css/main.7a585b62.chunk.css.map": "/static/css/main.7a585b62.chunk.css.map",
-    "static/js/2.1a39b1ab.chunk.js.LICENSE.txt": "/static/js/2.1a39b1ab.chunk.js.LICENSE.txt",
+    "static/css/main.57f31dd7.chunk.css.map": "/static/css/main.57f31dd7.chunk.css.map",
+    "static/js/2.ac10e53b.chunk.js.LICENSE.txt": "/static/js/2.ac10e53b.chunk.js.LICENSE.txt",
     "static/media/3d-cad.a32dde7a.png": "/static/media/3d-cad.a32dde7a.png",
     "static/media/AnilLogo.826c5ff1.webp": "/static/media/AnilLogo.826c5ff1.webp",
     "static/media/Decofix-Logo.5f49a0eb.webp": "/static/media/Decofix-Logo.5f49a0eb.webp",
@@ -72,6 +72,7 @@
     "static/media/four.d28aee01.png": "/static/media/four.d28aee01.png",
     "static/media/fseries.2d35775c.png": "/static/media/fseries.2d35775c.png",
     "static/media/garett.018347d0.webp": "/static/media/garett.018347d0.webp",
+    "static/media/garrett-full.8896f729.png": "/static/media/garrett-full.8896f729.png",
     "static/media/gear.d3c7c77a.png": "/static/media/gear.d3c7c77a.png",
     "static/media/google.9c3d0b28.svg": "/static/media/google.9c3d0b28.svg",
     "static/media/googlepay.b17e4be1.svg": "/static/media/googlepay.b17e4be1.svg",
@@ -142,9 +143,9 @@
     "static/media/writer.281b9a13.webp": "/static/media/writer.281b9a13.webp"
   },
   "entrypoints": [
-    "static/js/runtime-main.03a8dba3.js",
-    "static/js/2.1a39b1ab.chunk.js",
-    "static/css/main.7a585b62.chunk.css",
-    "static/js/main.18ed627e.chunk.js"
+    "static/js/runtime-main.f19d53bf.js",
+    "static/js/2.ac10e53b.chunk.js",
+    "static/css/main.57f31dd7.chunk.css",
+    "static/js/main.0f752802.chunk.js"
   ]
 }
