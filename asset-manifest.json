@@ -1,8 +1,8 @@
 {
   "files": {
     "main.css": "/static/css/main.7abaa11a.chunk.css",
-    "main.js": "/static/js/main.8d207beb.chunk.js",
-    "main.js.map": "/static/js/main.8d207beb.chunk.js.map",
+    "main.js": "/static/js/main.d5a5a1a1.chunk.js",
+    "main.js.map": "/static/js/main.d5a5a1a1.chunk.js.map",
     "runtime-main.js": "/static/js/runtime-main.fa890c3c.js",
     "runtime-main.js.map": "/static/js/runtime-main.fa890c3c.js.map",
     "static/js/2.6d629f34.chunk.js": "/static/js/2.6d629f34.chunk.js",
@@ -107,6 +107,7 @@
     "static/media/pocketcast.74f23145.webp": "/static/media/pocketcast.74f23145.webp",
     "static/media/podcast.67fe32a4.webp": "/static/media/podcast.67fe32a4.webp",
     "static/media/powertrain.c9030ccd.svg": "/static/media/powertrain.c9030ccd.svg",
+    "static/media/pranjal.42d5ba66.webp": "/static/media/pranjal.42d5ba66.webp",
     "static/media/radiopublic.d5886e53.webp": "/static/media/radiopublic.d5886e53.webp",
     "static/media/rakesh.c3076d6b.jpeg": "/static/media/rakesh.c3076d6b.jpeg",
     "static/media/razorpay.3373ea00.webp": "/static/media/razorpay.3373ea00.webp",
@@ -155,6 +156,6 @@
     "static/js/runtime-main.fa890c3c.js",
     "static/js/2.6d629f34.chunk.js",
     "static/css/main.7abaa11a.chunk.css",
-    "static/js/main.8d207beb.chunk.js"
+    "static/js/main.d5a5a1a1.chunk.js"
   ]
 }
