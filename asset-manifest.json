@@ -1,8 +1,8 @@
 {
   "files": {
     "main.css": "/static/css/main.7abaa11a.chunk.css",
-    "main.js": "/static/js/main.d5a5a1a1.chunk.js",
-    "main.js.map": "/static/js/main.d5a5a1a1.chunk.js.map",
+    "main.js": "/static/js/main.d6390b9e.chunk.js",
+    "main.js.map": "/static/js/main.d6390b9e.chunk.js.map",
     "runtime-main.js": "/static/js/runtime-main.fa890c3c.js",
     "runtime-main.js.map": "/static/js/runtime-main.fa890c3c.js.map",
     "static/js/2.6d629f34.chunk.js": "/static/js/2.6d629f34.chunk.js",
@@ -113,11 +113,11 @@
     "static/media/razorpay.3373ea00.webp": "/static/media/razorpay.3373ea00.webp",
     "static/media/rijul.83191d68.png": "/static/media/rijul.83191d68.png",
     "static/media/robot.d1c114bb.png": "/static/media/robot.d1c114bb.png",
-    "static/media/saikrishna.aeb22f62.jpeg": "/static/media/saikrishna.aeb22f62.jpeg",
+    "static/media/saikrishna.cfc5b0b9.jpg": "/static/media/saikrishna.cfc5b0b9.jpg",
     "static/media/sandesh.9be6df0c.jpeg": "/static/media/sandesh.9be6df0c.jpeg",
     "static/media/sanskar.4d95d175.jpg": "/static/media/sanskar.4d95d175.jpg",
     "static/media/satvik.96d26c20.png": "/static/media/satvik.96d26c20.png",
-    "static/media/shreyas.4b0456c2.JPG": "/static/media/shreyas.4b0456c2.JPG",
+    "static/media/shreyas.d6216661.jpeg": "/static/media/shreyas.d6216661.jpeg",
     "static/media/smaash.06d02ee9.png": "/static/media/smaash.06d02ee9.png",
     "static/media/smartlink.d5e80ae9.webp": "/static/media/smartlink.d5e80ae9.webp",
     "static/media/social.3c983749.svg": "/static/media/social.3c983749.svg",
@@ -156,6 +156,6 @@
     "static/js/runtime-main.fa890c3c.js",
     "static/js/2.6d629f34.chunk.js",
     "static/css/main.7abaa11a.chunk.css",
-    "static/js/main.d5a5a1a1.chunk.js"
+    "static/js/main.d6390b9e.chunk.js"
   ]
 }
