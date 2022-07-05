@@ -1,17 +1,17 @@
 {
   "files": {
-    "main.css": "/static/css/main.7abaa11a.chunk.css",
-    "main.js": "/static/js/main.d6390b9e.chunk.js",
-    "main.js.map": "/static/js/main.d6390b9e.chunk.js.map",
-    "runtime-main.js": "/static/js/runtime-main.fa890c3c.js",
-    "runtime-main.js.map": "/static/js/runtime-main.fa890c3c.js.map",
-    "static/js/2.6d629f34.chunk.js": "/static/js/2.6d629f34.chunk.js",
-    "static/js/2.6d629f34.chunk.js.map": "/static/js/2.6d629f34.chunk.js.map",
-    "static/js/3.7eb8b6a2.chunk.js": "/static/js/3.7eb8b6a2.chunk.js",
-    "static/js/3.7eb8b6a2.chunk.js.map": "/static/js/3.7eb8b6a2.chunk.js.map",
+    "main.css": "/static/css/main.b9652afd.chunk.css",
+    "main.js": "/static/js/main.f4577e2d.chunk.js",
+    "main.js.map": "/static/js/main.f4577e2d.chunk.js.map",
+    "runtime-main.js": "/static/js/runtime-main.048d7d9d.js",
+    "runtime-main.js.map": "/static/js/runtime-main.048d7d9d.js.map",
+    "static/js/2.2acc4276.chunk.js": "/static/js/2.2acc4276.chunk.js",
+    "static/js/2.2acc4276.chunk.js.map": "/static/js/2.2acc4276.chunk.js.map",
+    "static/js/3.2ac468f4.chunk.js": "/static/js/3.2ac468f4.chunk.js",
+    "static/js/3.2ac468f4.chunk.js.map": "/static/js/3.2ac468f4.chunk.js.map",
     "index.html": "/index.html",
-    "static/css/main.7abaa11a.chunk.css.map": "/static/css/main.7abaa11a.chunk.css.map",
-    "static/js/2.6d629f34.chunk.js.LICENSE.txt": "/static/js/2.6d629f34.chunk.js.LICENSE.txt",
+    "static/css/main.b9652afd.chunk.css.map": "/static/css/main.b9652afd.chunk.css.map",
+    "static/js/2.2acc4276.chunk.js.LICENSE.txt": "/static/js/2.2acc4276.chunk.js.LICENSE.txt",
     "static/media/3d-cad.a32dde7a.png": "/static/media/3d-cad.a32dde7a.png",
     "static/media/AnilLogo.826c5ff1.webp": "/static/media/AnilLogo.826c5ff1.webp",
     "static/media/Decofix-Logo.5f49a0eb.webp": "/static/media/Decofix-Logo.5f49a0eb.webp",
@@ -73,7 +73,6 @@
     "static/media/fb.b7efcc81.jpg": "/static/media/fb.b7efcc81.jpg",
     "static/media/four.d28aee01.png": "/static/media/four.d28aee01.png",
     "static/media/fseries.2d35775c.png": "/static/media/fseries.2d35775c.png",
-    "static/media/garett.018347d0.webp": "/static/media/garett.018347d0.webp",
     "static/media/garrett-full.8896f729.png": "/static/media/garrett-full.8896f729.png",
     "static/media/gear.d3c7c77a.png": "/static/media/gear.d3c7c77a.png",
     "static/media/google.9c3d0b28.svg": "/static/media/google.9c3d0b28.svg",
@@ -153,9 +152,9 @@
     "static/media/writer.281b9a13.webp": "/static/media/writer.281b9a13.webp"
   },
   "entrypoints": [
-    "static/js/runtime-main.fa890c3c.js",
-    "static/js/2.6d629f34.chunk.js",
-    "static/css/main.7abaa11a.chunk.css",
-    "static/js/main.d6390b9e.chunk.js"
+    "static/js/runtime-main.048d7d9d.js",
+    "static/js/2.2acc4276.chunk.js",
+    "static/css/main.b9652afd.chunk.css",
+    "static/js/main.f4577e2d.chunk.js"
   ]
 }
