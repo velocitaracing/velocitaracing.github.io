@@ -7,13 +7,13 @@ This is the repo to our official website.
 
 ## Reach us on
 
-[![alt text][1.1]][1]
+<!-- [![alt text][1.1]][1] -->
 [![alt text][2.1]][2]
 [![alt text][3.1]][3]
 [![alt text][4.1]][4]
 [![alt text][5.1]][5]
 [![alt text][6.1]][6]
-[![alt text][7.1]][7]
+<!-- [![alt text][7.1]][7] -->
 
 <!-- [1.1]: https://www.freepnglogos.com/uploads/logo-internet-png/logo-internet-icon-website-image-pixabay-10.png -->
 [2.1]: https://socialvelocita.github.io/imagesaug/instagram2x.png
