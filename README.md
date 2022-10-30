@@ -15,13 +15,13 @@ This is the repo to our official website.
 [![alt text][6.1]][6]
 [![alt text][7.1]][7]
 
-[1.1]: http://velocitaracing.github.io/readme/icons8-internet-48.png
+[1.1]: https://www.freepnglogos.com/uploads/logo-internet-png/logo-internet-icon-website-image-pixabay-10.png
 [2.1]: https://socialvelocita.github.io/imagesaug/instagram2x.png
-[3.1]: http://velocitaracing.github.io/readme/icons8-facebook-circled-48.png
-[4.1]: http://velocitaracing.github.io/readme/icons8-twitter-48.png
-[5.1]: http://velocitaracing.github.io/readme/icons8-play-button-48.png
-[6.1]: http://velocitaracing.github.io/readme/icons8-linkedin-48.png
-[7.1]: http://velocitaracing.github.io/readme/icons8-google-maps-48.png
+[3.1]: https://socialvelocita.github.io/imagesaug/facebook2x.png
+[4.1]: https://socialvelocita.github.io/imagesaug/twitter2x.png
+[5.1]: https://socialvelocita.github.io/imagesaug/youtube2x.png
+[6.1]: https://socialvelocita.github.io/imagesaug/linkedin2x.png
+[7.1]: https://lh3.googleusercontent.com/9tLfTpdILdHDAvGrRm7GdbjWdpbWSMOa0csoQ8pUba9tLP8tq7M4Quks1xuMQAVnAxVfryiDXRzZ-KDnkPv8Sm4g_YFom1ltQHjQ6Q
 
 [1]: https://velocitaracing.github.io/
 [2]: http://www.instagram.com/officialvelocitaracing
