@@ -16,7 +16,7 @@ This is the repo to our official website.
 [![alt text][7.1]][7]
 
 [1.1]: http://velocitaracing.github.io/readme/icons8-internet-48.png
-[2.1]: http://velocitaracing.github.io/readme/icons8-instagram-48.png
+[2.1]: https://socialvelocita.github.io/imagesaug/instagram2x.png
 [3.1]: http://velocitaracing.github.io/readme/icons8-facebook-circled-48.png
 [4.1]: http://velocitaracing.github.io/readme/icons8-twitter-48.png
 [5.1]: http://velocitaracing.github.io/readme/icons8-play-button-48.png
