@@ -1,8 +1,8 @@
 {
   "files": {
     "main.css": "/static/css/main.d3a9ebb0.chunk.css",
-    "main.js": "/static/js/main.7d9bc26b.chunk.js",
-    "main.js.map": "/static/js/main.7d9bc26b.chunk.js.map",
+    "main.js": "/static/js/main.7b5f20df.chunk.js",
+    "main.js.map": "/static/js/main.7b5f20df.chunk.js.map",
     "runtime-main.js": "/static/js/runtime-main.cca76dba.js",
     "runtime-main.js.map": "/static/js/runtime-main.cca76dba.js.map",
     "static/js/2.c15ce098.chunk.js": "/static/js/2.c15ce098.chunk.js",
@@ -84,6 +84,7 @@
     "static/media/brakes.b811f73b.svg": "/static/media/brakes.b811f73b.svg",
     "static/media/brand.15d8be7e.png": "/static/media/brand.15d8be7e.png",
     "static/media/cadd-centre.a896cae0.webp": "/static/media/cadd-centre.a896cae0.webp",
+    "static/media/capstone.7f4c7257.png": "/static/media/capstone.7f4c7257.png",
     "static/media/car.67ea398c.png": "/static/media/car.67ea398c.png",
     "static/media/carone.f5e1196a.webp": "/static/media/carone.f5e1196a.webp",
     "static/media/cartwo.7c151669.png": "/static/media/cartwo.7c151669.png",
@@ -127,6 +128,7 @@
     "static/media/kb.d1f25184.png": "/static/media/kb.d1f25184.png",
     "static/media/kishore.5ce94ddd.jpg": "/static/media/kishore.5ce94ddd.jpg",
     "static/media/knorr-brense-parekh-agencies.3ec73f31.webp": "/static/media/knorr-brense-parekh-agencies.3ec73f31.webp",
+    "static/media/magod.0bbc29bd.webp": "/static/media/magod.0bbc29bd.webp",
     "static/media/manjunath-metal-finishers.1f807de9.webp": "/static/media/manjunath-metal-finishers.1f807de9.webp",
     "static/media/mipox-abrasives.ab259646.webp": "/static/media/mipox-abrasives.ab259646.webp",
     "static/media/money.981e2093.png": "/static/media/money.981e2093.png",
@@ -200,12 +202,13 @@
     "static/media/vrf5-banner.62849842.png": "/static/media/vrf5-banner.62849842.png",
     "static/media/vrf5.666fc70a.jpg": "/static/media/vrf5.666fc70a.jpg",
     "static/media/wall.4f89e318.png": "/static/media/wall.4f89e318.png",
-    "static/media/writer.281b9a13.webp": "/static/media/writer.281b9a13.webp"
+    "static/media/writer.281b9a13.webp": "/static/media/writer.281b9a13.webp",
+    "static/media/yantra.5917b8ff.jpg": "/static/media/yantra.5917b8ff.jpg"
   },
   "entrypoints": [
     "static/js/runtime-main.cca76dba.js",
     "static/js/2.c15ce098.chunk.js",
     "static/css/main.d3a9ebb0.chunk.css",
-    "static/js/main.7d9bc26b.chunk.js"
+    "static/js/main.7b5f20df.chunk.js"
   ]
 }
