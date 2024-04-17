@@ -1,17 +1,17 @@
 {
   "files": {
     "main.css": "/static/css/main.d3a9ebb0.chunk.css",
-    "main.js": "/static/js/main.7b5f20df.chunk.js",
-    "main.js.map": "/static/js/main.7b5f20df.chunk.js.map",
-    "runtime-main.js": "/static/js/runtime-main.cca76dba.js",
-    "runtime-main.js.map": "/static/js/runtime-main.cca76dba.js.map",
-    "static/js/2.c15ce098.chunk.js": "/static/js/2.c15ce098.chunk.js",
-    "static/js/2.c15ce098.chunk.js.map": "/static/js/2.c15ce098.chunk.js.map",
-    "static/js/3.4646f111.chunk.js": "/static/js/3.4646f111.chunk.js",
-    "static/js/3.4646f111.chunk.js.map": "/static/js/3.4646f111.chunk.js.map",
+    "main.js": "/static/js/main.a2a112aa.chunk.js",
+    "main.js.map": "/static/js/main.a2a112aa.chunk.js.map",
+    "runtime-main.js": "/static/js/runtime-main.f33e8bf3.js",
+    "runtime-main.js.map": "/static/js/runtime-main.f33e8bf3.js.map",
+    "static/js/2.4f56ca11.chunk.js": "/static/js/2.4f56ca11.chunk.js",
+    "static/js/2.4f56ca11.chunk.js.map": "/static/js/2.4f56ca11.chunk.js.map",
+    "static/js/3.2ce25b43.chunk.js": "/static/js/3.2ce25b43.chunk.js",
+    "static/js/3.2ce25b43.chunk.js.map": "/static/js/3.2ce25b43.chunk.js.map",
     "index.html": "/index.html",
     "static/css/main.d3a9ebb0.chunk.css.map": "/static/css/main.d3a9ebb0.chunk.css.map",
-    "static/js/2.c15ce098.chunk.js.LICENSE.txt": "/static/js/2.c15ce098.chunk.js.LICENSE.txt",
+    "static/js/2.4f56ca11.chunk.js.LICENSE.txt": "/static/js/2.4f56ca11.chunk.js.LICENSE.txt",
     "static/media/3d-cad.a32dde7a.png": "/static/media/3d-cad.a32dde7a.png",
     "static/media/Anil.82143b79.png": "/static/media/Anil.82143b79.png",
     "static/media/AnilLogo.826c5ff1.webp": "/static/media/AnilLogo.826c5ff1.webp",
@@ -198,17 +198,21 @@
     "static/media/vaibhav.4b547c54.jpg": "/static/media/vaibhav.4b547c54.jpg",
     "static/media/vaman-plastics.8e4e8937.webp": "/static/media/vaman-plastics.8e4e8937.webp",
     "static/media/vasthav.4313ba68.jpg": "/static/media/vasthav.4313ba68.jpg",
+    "static/media/velocita-full-logo.184bc53b.webp": "/static/media/velocita-full-logo.184bc53b.webp",
     "static/media/vr-new-logo-white.184bc53b.webp": "/static/media/vr-new-logo-white.184bc53b.webp",
+    "static/media/vrf3.e1942ea2.jpg": "/static/media/vrf3.e1942ea2.jpg",
+    "static/media/vrf4.06efce77.png": "/static/media/vrf4.06efce77.png",
     "static/media/vrf5-banner.62849842.png": "/static/media/vrf5-banner.62849842.png",
     "static/media/vrf5.666fc70a.jpg": "/static/media/vrf5.666fc70a.jpg",
+    "static/media/vrf5.8b67aef2.jpg": "/static/media/vrf5.8b67aef2.jpg",
     "static/media/wall.4f89e318.png": "/static/media/wall.4f89e318.png",
     "static/media/writer.281b9a13.webp": "/static/media/writer.281b9a13.webp",
     "static/media/yantra.5917b8ff.jpg": "/static/media/yantra.5917b8ff.jpg"
   },
   "entrypoints": [
-    "static/js/runtime-main.cca76dba.js",
-    "static/js/2.c15ce098.chunk.js",
+    "static/js/runtime-main.f33e8bf3.js",
+    "static/js/2.4f56ca11.chunk.js",
     "static/css/main.d3a9ebb0.chunk.css",
-    "static/js/main.7b5f20df.chunk.js"
+    "static/js/main.a2a112aa.chunk.js"
   ]
 }
