@@ -1,17 +1,17 @@
 {
   "files": {
     "main.css": "/static/css/main.d8f8c8c3.chunk.css",
-    "main.js": "/static/js/main.bf05e3c9.chunk.js",
-    "main.js.map": "/static/js/main.bf05e3c9.chunk.js.map",
+    "main.js": "/static/js/main.275650c6.chunk.js",
+    "main.js.map": "/static/js/main.275650c6.chunk.js.map",
     "runtime-main.js": "/static/js/runtime-main.f67a4d41.js",
     "runtime-main.js.map": "/static/js/runtime-main.f67a4d41.js.map",
-    "static/js/2.cafe0be3.chunk.js": "/static/js/2.cafe0be3.chunk.js",
-    "static/js/2.cafe0be3.chunk.js.map": "/static/js/2.cafe0be3.chunk.js.map",
+    "static/js/2.7830932d.chunk.js": "/static/js/2.7830932d.chunk.js",
+    "static/js/2.7830932d.chunk.js.map": "/static/js/2.7830932d.chunk.js.map",
     "static/js/3.f3795a21.chunk.js": "/static/js/3.f3795a21.chunk.js",
     "static/js/3.f3795a21.chunk.js.map": "/static/js/3.f3795a21.chunk.js.map",
     "index.html": "/index.html",
     "static/css/main.d8f8c8c3.chunk.css.map": "/static/css/main.d8f8c8c3.chunk.css.map",
-    "static/js/2.cafe0be3.chunk.js.LICENSE.txt": "/static/js/2.cafe0be3.chunk.js.LICENSE.txt",
+    "static/js/2.7830932d.chunk.js.LICENSE.txt": "/static/js/2.7830932d.chunk.js.LICENSE.txt",
     "static/media/3d-cad.a32dde7a.png": "/static/media/3d-cad.a32dde7a.png",
     "static/media/Anil.82143b79.png": "/static/media/Anil.82143b79.png",
     "static/media/AnilLogo.826c5ff1.webp": "/static/media/AnilLogo.826c5ff1.webp",
@@ -201,6 +201,8 @@
     "static/media/vaman-plastics.8e4e8937.webp": "/static/media/vaman-plastics.8e4e8937.webp",
     "static/media/vasthav.4313ba68.jpg": "/static/media/vasthav.4313ba68.jpg",
     "static/media/vr-new-logo-white.184bc53b.webp": "/static/media/vr-new-logo-white.184bc53b.webp",
+    "static/media/vrf1.d8fe0101.jpg": "/static/media/vrf1.d8fe0101.jpg",
+    "static/media/vrf2.9d738b0f.jpg": "/static/media/vrf2.9d738b0f.jpg",
     "static/media/vrf3.e1942ea2.jpg": "/static/media/vrf3.e1942ea2.jpg",
     "static/media/vrf4.06efce77.png": "/static/media/vrf4.06efce77.png",
     "static/media/vrf5-banner.62849842.png": "/static/media/vrf5-banner.62849842.png",
@@ -212,8 +214,8 @@
   },
   "entrypoints": [
     "static/js/runtime-main.f67a4d41.js",
-    "static/js/2.cafe0be3.chunk.js",
+    "static/js/2.7830932d.chunk.js",
     "static/css/main.d8f8c8c3.chunk.css",
-    "static/js/main.bf05e3c9.chunk.js"
+    "static/js/main.275650c6.chunk.js"
   ]
 }
