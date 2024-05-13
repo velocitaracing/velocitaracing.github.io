@@ -1,17 +1,17 @@
 {
   "files": {
-    "main.css": "/static/css/main.d8f8c8c3.chunk.css",
-    "main.js": "/static/js/main.7e554b1f.chunk.js",
-    "main.js.map": "/static/js/main.7e554b1f.chunk.js.map",
-    "runtime-main.js": "/static/js/runtime-main.f67a4d41.js",
-    "runtime-main.js.map": "/static/js/runtime-main.f67a4d41.js.map",
-    "static/js/2.7830932d.chunk.js": "/static/js/2.7830932d.chunk.js",
-    "static/js/2.7830932d.chunk.js.map": "/static/js/2.7830932d.chunk.js.map",
-    "static/js/3.f3795a21.chunk.js": "/static/js/3.f3795a21.chunk.js",
-    "static/js/3.f3795a21.chunk.js.map": "/static/js/3.f3795a21.chunk.js.map",
+    "main.css": "/static/css/main.119596dc.chunk.css",
+    "main.js": "/static/js/main.aa26b74e.chunk.js",
+    "main.js.map": "/static/js/main.aa26b74e.chunk.js.map",
+    "runtime-main.js": "/static/js/runtime-main.1b8a9252.js",
+    "runtime-main.js.map": "/static/js/runtime-main.1b8a9252.js.map",
+    "static/js/2.f3af4356.chunk.js": "/static/js/2.f3af4356.chunk.js",
+    "static/js/2.f3af4356.chunk.js.map": "/static/js/2.f3af4356.chunk.js.map",
+    "static/js/3.65d8ba4f.chunk.js": "/static/js/3.65d8ba4f.chunk.js",
+    "static/js/3.65d8ba4f.chunk.js.map": "/static/js/3.65d8ba4f.chunk.js.map",
     "index.html": "/index.html",
-    "static/css/main.d8f8c8c3.chunk.css.map": "/static/css/main.d8f8c8c3.chunk.css.map",
-    "static/js/2.7830932d.chunk.js.LICENSE.txt": "/static/js/2.7830932d.chunk.js.LICENSE.txt",
+    "static/css/main.119596dc.chunk.css.map": "/static/css/main.119596dc.chunk.css.map",
+    "static/js/2.f3af4356.chunk.js.LICENSE.txt": "/static/js/2.f3af4356.chunk.js.LICENSE.txt",
     "static/media/3d-cad.a32dde7a.png": "/static/media/3d-cad.a32dde7a.png",
     "static/media/Anil.82143b79.png": "/static/media/Anil.82143b79.png",
     "static/media/AnilLogo.826c5ff1.webp": "/static/media/AnilLogo.826c5ff1.webp",
@@ -84,6 +84,7 @@
     "static/media/brakes.b811f73b.svg": "/static/media/brakes.b811f73b.svg",
     "static/media/brand.15d8be7e.png": "/static/media/brand.15d8be7e.png",
     "static/media/budget(1).8d47421a.png": "/static/media/budget(1).8d47421a.png",
+    "static/media/c02.19e4aba0.gif": "/static/media/c02.19e4aba0.gif",
     "static/media/cadd-centre.a896cae0.webp": "/static/media/cadd-centre.a896cae0.webp",
     "static/media/capstone.7f4c7257.png": "/static/media/capstone.7f4c7257.png",
     "static/media/car.67ea398c.png": "/static/media/car.67ea398c.png",
@@ -213,9 +214,9 @@
     "static/media/yantra.5917b8ff.jpg": "/static/media/yantra.5917b8ff.jpg"
   },
   "entrypoints": [
-    "static/js/runtime-main.f67a4d41.js",
-    "static/js/2.7830932d.chunk.js",
-    "static/css/main.d8f8c8c3.chunk.css",
-    "static/js/main.7e554b1f.chunk.js"
+    "static/js/runtime-main.1b8a9252.js",
+    "static/js/2.f3af4356.chunk.js",
+    "static/css/main.119596dc.chunk.css",
+    "static/js/main.aa26b74e.chunk.js"
   ]
 }
