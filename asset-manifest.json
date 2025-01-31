@@ -1,8 +1,8 @@
 {
   "files": {
     "main.css": "/static/css/main.119596dc.chunk.css",
-    "main.js": "/static/js/main.dded8047.chunk.js",
-    "main.js.map": "/static/js/main.dded8047.chunk.js.map",
+    "main.js": "/static/js/main.5047f47f.chunk.js",
+    "main.js.map": "/static/js/main.5047f47f.chunk.js.map",
     "runtime-main.js": "/static/js/runtime-main.1b8a9252.js",
     "runtime-main.js.map": "/static/js/runtime-main.1b8a9252.js.map",
     "static/js/2.f3af4356.chunk.js": "/static/js/2.f3af4356.chunk.js",
@@ -139,6 +139,7 @@
     "static/media/kb.d1f25184.png": "/static/media/kb.d1f25184.png",
     "static/media/kishore.5ce94ddd.jpg": "/static/media/kishore.5ce94ddd.jpg",
     "static/media/knorr-brense-parekh-agencies.3ec73f31.webp": "/static/media/knorr-brense-parekh-agencies.3ec73f31.webp",
+    "static/media/krishnaket.3bf9bd7a.jpg": "/static/media/krishnaket.3bf9bd7a.jpg",
     "static/media/magod.0bbc29bd.webp": "/static/media/magod.0bbc29bd.webp",
     "static/media/manjesh.3c53d0a0.jpg": "/static/media/manjesh.3c53d0a0.jpg",
     "static/media/manjunath-metal-finishers.1f807de9.webp": "/static/media/manjunath-metal-finishers.1f807de9.webp",
@@ -230,6 +231,6 @@
     "static/js/runtime-main.1b8a9252.js",
     "static/js/2.f3af4356.chunk.js",
     "static/css/main.119596dc.chunk.css",
-    "static/js/main.dded8047.chunk.js"
+    "static/js/main.5047f47f.chunk.js"
   ]
 }
