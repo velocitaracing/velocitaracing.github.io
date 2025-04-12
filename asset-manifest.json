@@ -1,8 +1,8 @@
 {
   "files": {
     "main.css": "/static/css/main.119596dc.chunk.css",
-    "main.js": "/static/js/main.5047f47f.chunk.js",
-    "main.js.map": "/static/js/main.5047f47f.chunk.js.map",
+    "main.js": "/static/js/main.35fc7483.chunk.js",
+    "main.js.map": "/static/js/main.35fc7483.chunk.js.map",
     "runtime-main.js": "/static/js/runtime-main.1b8a9252.js",
     "runtime-main.js.map": "/static/js/runtime-main.1b8a9252.js.map",
     "static/js/2.f3af4356.chunk.js": "/static/js/2.f3af4356.chunk.js",
@@ -150,6 +150,7 @@
     "static/media/nagarjun.555080ac.jpg": "/static/media/nagarjun.555080ac.jpg",
     "static/media/narkha.16cd6dea.png": "/static/media/narkha.16cd6dea.png",
     "static/media/neela.4ced0fe9.jpg": "/static/media/neela.4ced0fe9.jpg",
+    "static/media/new-qr-code.04768ec4.png": "/static/media/new-qr-code.04768ec4.png",
     "static/media/nikhil.19f52d36.JPG": "/static/media/nikhil.19f52d36.JPG",
     "static/media/nikhita.1eb62573.jpeg": "/static/media/nikhita.1eb62573.jpeg",
     "static/media/panther.0175a926.png": "/static/media/panther.0175a926.png",
@@ -231,6 +232,6 @@
     "static/js/runtime-main.1b8a9252.js",
     "static/js/2.f3af4356.chunk.js",
     "static/css/main.119596dc.chunk.css",
-    "static/js/main.5047f47f.chunk.js"
+    "static/js/main.35fc7483.chunk.js"
   ]
 }
